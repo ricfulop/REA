@@ -1,0 +1,258 @@
+{
+  "query": "evaluation OR limitations OR benchmark",
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2602.05366",
+      "title": "Multi-Field Tool Retrieval",
+      "authors": [
+        {
+          "authorName": "Yichen Tang"
+        },
+        {
+          "authorName": "Weihang Su"
+        },
+        {
+          "authorName": "Qingyao Ai"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Integrating external tools enables Large Language Models (LLMs) to interact with real-world environments and solve complex tasks. Given the growing scale of available tools, effective tool retrieval is essential to mitigate constraints of LLMs' context windows and ensure computational efficiency. Ex...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.05366",
+          "targetDoi": "10.1145/3744746",
+          "snippet": "Large language models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation [4,7,22]. Nevertheless, directly deploying standalone LLMs in real-world applications still faces substantial challenges, among which two are particularly critical: the lack of grounding to interact with realworld environments [1,2], and the lack of efficient capabilities for continuous learning and long-term accumulation of functional skills [34,42].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.05366",
+          "targetDoi": "10.18653/v1/2020.emnlp-main.703",
+          "snippet": "Large language models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation [4,7,22]. Nevertheless, directly deploying standalone LLMs in real-world applications still faces substantial challenges, among which two are particularly critical: the lack of grounding to interact with realworld environments [1,2], and the lack of efficient capabilities for continuous learning and long-term accumulation of functional skills [34,42]. Drawing inspiration from human evolution and cognitive development, a natural and effective solution to these challenges is to extend the capabilities of LLMs through the use and management of external tools [27,32].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.05366",
+          "targetDoi": "10.1145/3704435",
+          "snippet": "Nevertheless, directly deploying standalone LLMs in real-world applications still faces substantial challenges, among which two are particularly critical: the lack of grounding to interact with realworld environments [1,2], and the lack of efficient capabilities for continuous learning and long-term accumulation of functional skills [34,42]. Drawing inspiration from human evolution and cognitive development, a natural and effective solution to these challenges is to extend the capabilities of LLMs through the use and management of external tools [27,32]. By integrating tools, LLMs can actively interact with the real world [21]; by managing tools externally outside the parameters of LLMs, LLMs can adapt to dynamic and evolving environments in a scalable way without the need of frequent re-training and the risk of catastrophic forgetting [18,28].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "We evaluate both our proposed method and SOTA baselines on five representative tool retrieval datasets separately, and also construct a new benchmark by mixing these datasets together to simulate a more realistic, large-scale, heterogeneous tool retrieval collection. Experimental results show that MFTR consistently improves the performance of retrievers and outperforms existing baselines in both single-dataset and mixed-dataset settings.",
+        "Experimental Setup 4.1 Datasets and Evaluation Metrics\n\nTo evaluate the effectiveness of our framework, we conduct experiments on five widely used tool retrieval datasets. These datasets are originally developed for tool learning and later adapted into retrieval benchmarks by Shi et al. [35]. Specifically, we include the following datasets:\n\n• ToolBench [28] matches LLM-synthesized instructions with a vast array of real-world REST APIs from RapidAPI.",
+        "To further simulate real-world deployment scenarios, we also construct a Mixed benchmark by merging all five datasets. This mixed setting comprises diverse queries and a large-scale heterogeneous tool pool, evaluating the robustness and generalization of tool retrieval frameworks. There are other similar tool retrieval benchmarks with large numbers of tools, such as ToolRet [35]."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1002/aidi.202500174",
+      "title": "ChatCFD: A Large Language Model‐Driven Agent for End‐to‐End Computational Fluid Dynamics Automation with Structured Knowledge and Reasoning",
+      "authors": [
+        {
+          "authorName": "Enguo Fan"
+        },
+        {
+          "authorName": "Kang Hu"
+        },
+        {
+          "authorName": "Zhuowen Wu"
+        }
+      ],
+      "journal": "advanced intelligent discovery",
+      "publisher": "Wiley",
+      "abstract": "Computational fluid dynamics (CFD) is essential for advancing scientific and engineering fields, but is hindered by operational complexity, high expertise requirements, and limited accessibility. This article introduces ChatCFD, a large language model (LLM)‐driven agent system for end‐to‐end CFD aut...",
+      "year": 2026,
+      "date": "2026-01-19",
+      "volume": "2",
+      "issue": "3",
+      "tally": {
+        "total": 14,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 14,
+        "citingPublications": 6
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1002/aidi.202500174",
+          "targetDoi": "10.48550/arxiv.2407.21320",
+          "snippet": "OpenFOAM [29], a leading open-source CFD platform, supports this trend due to its flexibility and community backing. Notable efforts include MetaOpenFOAM [30], which automates simulations from natural language using RAG and MetaGPT, though limited to tutorial-level cases and struggling with complex geometries; OpenFOAMGPT [31], evaluating RAG-augmented LLMs for zero-shot setup and boundary adjustments, but facing difficulties in turbulence model modifications; foam-agent [32], introducing hierarchical retrieval for dependency-aware generation, yet constrained in handling unseen configurations; and NL2FOAM [33], fine-tuning LLMs for natural language-to-CFD translation using LoRA [34], but reliant on domain-specific datasets and less effective for diverse physical models. Despite these advances, existing systems often fall short in end-to-end automation for complex cases without human oversight, particularly due to a fundamental challenge: LLMs lack sufficient training on niche scientific tasks like OpenFOAM setup, necessitating expert-designed architectures to bridge this gap through structured reasoning, reflection, and knowledge integration.",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/aidi.202500174",
+          "targetDoi": "10.48550/arxiv.2308.00352",
+          "snippet": "Recent progress in artificial intelligence (AI) has transformed the automation of sophisticated scientific processes. Large language models (LLMs), such as GPT [19], Gemini [20], and DeepSeek [21], alongside multiagent frameworks like MetaGPT [22] and AutoGen [23], excel in natural language processing, code generation, and reasoning via chain-of-thought techniques [24]. Frameworks like ReAct [25] synergize reasoning and acting in LLMs, while Reflexion [26] uses verbal reinforcement learning to improve agent performance through self-reflection.",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/aidi.202500174",
+          "targetDoi": "10.48550/arxiv.2303.11366",
+          "snippet": "Large language models (LLMs), such as GPT [19], Gemini [20], and DeepSeek [21], alongside multiagent frameworks like MetaGPT [22] and AutoGen [23], excel in natural language processing, code generation, and reasoning via chain-of-thought techniques [24]. Frameworks like ReAct [25] synergize reasoning and acting in LLMs, while Reflexion [26] uses verbal reinforcement learning to improve agent performance through self-reflection. Toolformer [27] teaches LLMs to self-learn tool usage.",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "All token consumption and cost metrics reported in Section 3 are based on this pricing, enabling precise evaluation of ChatCFD's computational efficiency across benchmark tutorial cases, perturbed variant cases, and literature‐derived cases.",
+        "Results and Discussion\n\nThe performance of ChatCFD was rigorously evaluated through a series of validation experiments encompassing three distinct categories of CFD cases: (i) 205 benchmark tutorial cases drawn from OpenFOAM tutorials and the OpenFOAM wiki, serving as standardized references for foundational validation; (ii) 110 perturbed variants, derived by systematically altering key parameters (e.g., boundary conditions, solver settings, or physical properties) in the benchmark cases to assess",
+        "The performance of ChatCFD, MetaOpenFOAM, and Foam‐Agent was evaluated through detailed metrics on 205 benchmark tutorial cases from OpenFOAM, focusing on token consumption, reflection iterations, and computational cost. Figure 5 presents a comparative analysis of these metrics, highlighting ChatCFD's efficiency and robustness in automated CFD workflows."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1038/s44172-025-00517-z",
+      "title": "MechRAG: a multimodal large language model for mechanical engineering",
+      "authors": [
+        {
+          "authorName": "Jonathan Corney"
+        }
+      ],
+      "journal": "communications engineering",
+      "publisher": "Springer Science and Business Media LLC",
+      "abstract": "Abstract\n                  Engineering design and manufacture are inherently multimodal activities in which engineers consult and produce diverse data and representations across various engineering disciplines and product lifecycle stages. Although well-established digital formats exist for these re...",
+      "year": 2025,
+      "date": "2025-11-11",
+      "volume": "4",
+      "issue": "1",
+      "tally": {
+        "total": 5,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 5,
+        "citingPublications": 5
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1038/s44172-025-00517-z",
+          "targetDoi": "10.1038/s42256-025-01005-x",
+          "snippet": "Bran et al proposed ChemCrow, a RAG-based agent to adapt and execute standardized synthesis procedures autonomously 14 . RAG has also been applied to enable robots to complete long-horizon tasks in unpredictable settings  15  . Dai et al employs a dynamic retrieval mechanism to access external databases to enhance the safety and trustworthiness of autonomous driving systems under complex traffic scenarios 16 .",
+          "section": "related work",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "The benchmark setup includes CLIP as the embedding model, a multi-modal embedding strategy, 10% of the full dataset used for training, and simple prompting in GPT. Among the tested variations, only increasing the training data ratio and incorporating the chain-of-thought (CoT) prompting strategy resulted in improved performance over the benchmark.",
+        "This figure illustrates how the token limit of large language models (LLMs) affects MechRAG’s ability to access complete information during generation. In scenarios where the dataset size is within the token limit, performance improves with more retrievals, reaching over 90% accuracy for Level 1 tasks. However, when the dataset exceeds the token limit, additional retrievals yield only marginal gains due to limited access to relevant data.",
+        "While context window token limits are expected to continue expanding, it remains essential to develop more efficient methods for preparing and representing CAE data that minimize computational resource requirements. As the scope of MechRAG increases its benchmarking against classical approaches to traditional engineering tasks will become possible so, assessment will also become an important part of future research in this area."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2512.24601",
+      "title": "Recursive Language Models",
+      "authors": [
+        {
+          "authorName": "Alex Zhang"
+        },
+        {
+          "authorName": "Tim Kraska"
+        },
+        {
+          "authorName": "Omar Khattab"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "We study allowing large language models (LLMs) to process arbitrarily long prompts through the lens of inference-time scaling. We propose Recursive Language Models (RLMs), a general inference paradigm that treats long prompts as part of an external environment and allows the LLM to programmatically ...",
+      "year": 2025,
+      "date": "2025-01-01",
+      "tally": {
+        "total": 73,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 73,
+        "citingPublications": 33
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2512.24601",
+          "targetDoi": "10.1561/1500000019",
+          "snippet": "Unlike an RLM, CodeAct does not offload the user prompt to the code environment, and instead provides it directly to the LM. Furthermore, following Jimenez et al (2024); Chen et al (2025), we equip this agent with a BM25 (Robertson &amp; Zaragoza, 2009) retriever that indexes the input context for tasks where a retriever is appropriate.",
+          "section": "methods and baselines",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.24601",
+          "targetDoi": "10.48550/arxiv.2504.07081",
+          "snippet": "Many LMbased agents (Guo et al, 2024;Anthropic, 2025) use multiple, well-placed LM calls to solve a problem; however, many of these calls are placed based on human-engineered workflows. Several methods like ViperGPT (Surís et al, 2023), THREAD (Schroeder et al, 2025), DisCIPL (Grand et al, 2025), ReDel (Zhu et al, 2024), Context Folding (Sun et al, 2025), and AgentFold (Ye et al, 2025) have explored deferring the choice of sub-LM calls to the LM. These techniques emphasize task decomposition through recursive LM calls, but are unable to handle long context inputs beyond the length of the base LM.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.24601",
+          "targetDoi": "10.48550/arxiv.2504.07081",
+          "snippet": "Many LM-based agents (Guo et al, 2024;Anthropic, 2025) use multiple, well-placed LM calls to solve a problem, however many of these calls are placed based on human-engineered workflows. Several methods like ViperGPT Surís et al (2023), THREAD (Schroeder et al, 2025), DisCIPL (Grand et al, 2025), ReDel Zhu et al (2024), Context",
+          "section": "related work",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Additional experiments across other models, methods, and benchmarks are in §2.\n\nDespite rapid progress in reasoning and tool use, modern language models still have limited context lengths and, even within these limits, appear to inevitably exhibit context rot (Hong et al., 2025), the phenomenon illustrated in the left-hand side of Figure 1 where the quality of even frontier models like GPT-5 degrades quickly as context gets longer.",
+        "A multi-hop question-answering benchmark for DeepResearch (OpenAI, 2025) questions that requires reasoning over multiple different documents. The benchmark provides a verified offline corpus of 100K documents that is guaranteed to contain gold, evidence, and hard negative documents for each task.",
+        "In addition to evaluating the base model on all tasks, we also evaluate the following methods and baselines: RLM with REPL. We implement an RLM that loads its context as a string in the memory of a Python REPL environment. The REPL environment also loads in a module that allows it to query a sub-LM inside the environment. The system prompt is fixed across all experiments (see Appendix D)."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.3390/electronics15112301",
+      "title": "Efficient Similarity-Based Datasheet Retrieval and Analysis Using Retrieval-Augmented Generation for Electronic Component Selection",
+      "authors": [
+        {
+          "authorName": "Dan Curavale"
+        },
+        {
+          "authorName": "Georgian Nicolae"
+        },
+        {
+          "authorName": "Alexandru Caranica"
+        }
+      ],
+      "journal": "electronics",
+      "publisher": "MDPI AG",
+      "abstract": "Component obsolescence and supply-chain disruptions increasingly force engineers to spend significant time manually searching and comparing PDF datasheets to identify compatible replacement parts. We propose an AI-powered datasheet assistant based on a Retrieval-Augmented Generation (RAG) pipeline t...",
+      "year": 2026,
+      "date": "2026-05-26",
+      "volume": "15",
+      "issue": "11",
+      "page": "2301",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2603.02615",
+      "title": "Think, But Don't Overthink: Reproducing Recursive Language Models",
+      "authors": [
+        {
+          "authorName": "Daren Wang"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "isOa": true,
+      "contentDenied": false
+    }
+  ]
+}

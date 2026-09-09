@@ -1,0 +1,276 @@
+{
+  "answer_id": "scientific-skills-rlm-scoping-20260909",
+  "truncated": false,
+  "summary": {
+    "retrieved": null,
+    "screened": 31,
+    "included": 24,
+    "excluded": 7
+  },
+  "excluded_by_reason": {
+    "off_topic": 7
+  },
+  "by_stage": {
+    "title_abstract": 31
+  },
+  "by_source": {
+    "scite_mcp": 31
+  },
+  "checks": {
+    "excluded_without_reason": 0,
+    "included_without_reason": 0,
+    "retrieval_unlinked": false
+  },
+  "included": [
+    {
+      "source_ref": "10.48550/arxiv.2609.00065",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2512.24601",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2603.02615",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2310.08560",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2502.12110",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2305.16291",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2307.16789",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2602.05366",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.1063/5.0257555",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.1002/aidi.202500174",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.1038/s44172-025-00517-z",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.3390/electronics15112301",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2602.02849",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2602.23761",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2510.11004",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2606.20146",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2502.15182",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.26434/chemrxiv-2025-zkn81-v2",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2603.21011",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.1016/j.eml.2024.102131",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.1115/1.4063843",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.1109/cvpr.2019.00983",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.1109/iccv48922.2021.00670",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2604.24594",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "relevant",
+      "reason": "Priority reading entry in the scoping report; inclusion is not full-text quality validation.",
+      "stage": "title_abstract"
+    }
+  ],
+  "excluded": [
+    {
+      "source_ref": "10.1299/kikaic.60.715",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "off_topic",
+      "reason": "Title does not address the selected scientific/engineering agent memory and workflow scope.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2510.18121",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "off_topic",
+      "reason": "Title does not address the selected scientific/engineering agent memory and workflow scope.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2606.01806",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "off_topic",
+      "reason": "Title does not address the selected scientific/engineering agent memory and workflow scope.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2604.14602",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "off_topic",
+      "reason": "Title does not address the selected scientific/engineering agent memory and workflow scope.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2606.05194",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "off_topic",
+      "reason": "Title does not address the selected scientific/engineering agent memory and workflow scope.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.48550/arxiv.2112.08346",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "off_topic",
+      "reason": "Title does not address the selected scientific/engineering agent memory and workflow scope.",
+      "stage": "title_abstract"
+    },
+    {
+      "source_ref": "10.18653/v1/2023.blackboxnlp-1.29",
+      "source": "scite_mcp",
+      "source_detail": null,
+      "reason_code": "off_topic",
+      "reason": "Title does not address the selected scientific/engineering agent memory and workflow scope.",
+      "stage": "title_abstract"
+    }
+  ]
+}

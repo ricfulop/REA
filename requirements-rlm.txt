@@ -1,0 +1,2 @@
+# Optional runtime; SQLite indexing requires only the standard library.
+rlms==0.1.3

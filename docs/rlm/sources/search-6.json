@@ -1,0 +1,307 @@
+{
+  "query": "(\"language model\") AND (\"dataset discovery\" OR \"data discovery\" OR \"scientific workflow\")",
+  "total": 1193,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.13016/m29g6o-ctfm",
+      "title": "TABERTA: A Language Model for Dataset Discovery",
+      "publisher": "Open Proceedings",
+      "year": 2026,
+      "date": "2026-01-01",
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1109/ic2pct60090.2024.10486799",
+      "title": "Spatial Data Discovery Using Small Language Model",
+      "authors": [
+        {
+          "authorName": "Sujit Kumar Thakur"
+        },
+        {
+          "authorName": "Neha Tyagi"
+        }
+      ],
+      "publisher": "IEEE",
+      "year": 2024,
+      "date": "2024-02-09",
+      "page": "899-905",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 1
+      },
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1093/gigascience/giae030",
+      "title": "A qualitative assessment of using ChatGPT as large language model for scientific workflow development",
+      "authors": [
+        {
+          "authorName": "Mario Sänger"
+        },
+        {
+          "authorName": "Ninon De Mecquenem"
+        },
+        {
+          "authorName": "Katarzyna Ewa Lewińska"
+        }
+      ],
+      "journal": "gigascience",
+      "publisher": "Oxford University Press (OUP)",
+      "abstract": "Abstract\n               \n                  Background\n                  Scientific workflow systems are increasingly popular for expressing and executing complex data analysis pipelines over large datasets, as they offer reproducibility, dependability, and scalability of analyses by automatic parall...",
+      "year": 2024,
+      "date": "2024-01-01",
+      "volume": "13",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 8
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1093/gigascience/giae030",
+          "targetDoi": "10.1145/1376616.1376772",
+          "snippet": "Large-scale data analysis pipelines (also known as scientific workflows) are crucial in driving research advances for natural sciences [  1  ]. They are pivotal in accelerating large and complex data analysis on distributed infrastructures and offer essential features, such as reproducibility and dependability [  2  ].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1093/gigascience/giae030",
+          "targetDoi": "10.1186/s13059-019-1772-6",
+          "snippet": "Bioinformatics workflows typically include many individual computational steps, such as data preprocessing, extensive quality control, aggregation of raw sequencing data into consensus sequences, machine learning–based tasks for classification and clustering, statistical assessments, and result visualization. Each step is carried out by a specific program, typically not written by the workflow developer but exchanged within a worldwide community of researchers [  4  ]. Execution of a workflow on a distributed infrastructure, in principle, is taken care of by a workflow engine; however, the idiosyncrasies of the different infrastructures (e.g., file system, number and features of compute nodes, applied resource manager, and scheduler) often require workflow users to tune their scripts individually for every new system [  5  ].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1093/gigascience/giae030",
+          "targetDoi": "10.1109/works54523.2021.00016",
+          "snippet": "Each step is carried out by a specific program, typically not written by the workflow developer but exchanged within a worldwide community of researchers [  4  ]. Execution of a workflow on a distributed infrastructure, in principle, is taken care of by a workflow engine; however, the idiosyncrasies of the different infrastructures (e.g., file system, number and features of compute nodes, applied resource manager, and scheduler) often require workflow users to tune their scripts individually for every new system [  5  ].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "In contrast to programming, where applications use a single programming language and are often executed on a single system, scientific workflows combine multiple software artifacts on distributed stacks for advanced data processing. We ground the reader by providing a literature review about scientific workflows and introducing large language models, including their utility to facilitate the creation of software artifacts.",
+        "The increasing importance of scientific workflows for scientific progress has led to a growing interest in developing more user-friendly tools and methods through the research community. Scientific workflow management systems, like Apache Airflow [ 38 ], Galaxy [ 39 ], Nextflow [ 40 ], Pegasus [ 41 ], and Snakemake [ 42 ], are specifically developed to support users in designing and executing scientific workflows in various aspects.",
+        "Scientific workflows are often reused and adopted for complex data analysis [ 6 ]. Most of the time, users of scientific workflows are unaware of the workflow’s internal functionality and technical details. Instead, users of scientific workflows represent domain experts, such as mathematicians, physicians, or bioinformatics, who are experts in their respective domains but not necessarily in programming and interpreting scientific workflows."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1002/pra2.1242",
+      "title": "Leveraging Large Language Models for Dataset Discovery",
+      "authors": [
+        {
+          "authorName": "Tianying Chen"
+        },
+        {
+          "authorName": "Kevin Schott"
+        },
+        {
+          "authorName": "Brigitte Mathiak"
+        }
+      ],
+      "journal": "proceedings of the association for information science and technology",
+      "publisher": "Wiley",
+      "abstract": "ABSTRACTThe exponential growth of data across diverse domains highlights the need for efficient methods in discovering relevant datasets. Traditional search engines such as Google have served as the go‐to tools for this purpose. Recent advancements in large language models (LLMs) such as ChatGPT and...",
+      "year": 2025,
+      "date": "2025-10-01",
+      "volume": "62",
+      "issue": "1",
+      "page": "127-137",
+      "citations": [
+        {
+          "sourceDoi": "10.1002/pra2.1242",
+          "targetDoi": "10.3389/fpsyg.2016.01272",
+          "section": "designing for the sense of agency",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/pra2.1242",
+          "targetDoi": "10.1145/3555152",
+          "section": "designing for the sense of agency",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/pra2.1242",
+          "targetDoi": "10.1007/11590361_14",
+          "section": "designing for the sense of agency",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2502.15182",
+      "title": "LEDD: Large Language Model-Empowered Data Discovery in Data Lakes",
+      "authors": [
+        {
+          "authorName": "Qi An"
+        },
+        {
+          "authorName": "Chihua Ying"
+        },
+        {
+          "authorName": "Yuqing Zhu"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2025,
+      "date": "2025-01-01",
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1098/rsta.2024.0606",
+      "title": "Scientific workflow in experimental economics",
+      "authors": [
+        {
+          "authorName": "Anna Dreber"
+        },
+        {
+          "authorName": "Séverine Toussaert"
+        }
+      ],
+      "journal": "philosophical transactions of the royal society a mathematical physical and engineering sciences",
+      "publisher": "The Royal Society",
+      "abstract": "Abstract\n                  Lab and online experiments are widely used tools in economics, as well as in other areas of the social sciences. They are typically designed either to test treatment effects or to elicit parameter values for concepts such as economic preferences. While the role of pre-regi...",
+      "year": 2026,
+      "date": "2026-05-21",
+      "volume": "384",
+      "issue": "2321",
+      "citations": [
+        {
+          "sourceDoi": "10.1098/rsta.2024.0606",
+          "targetDoi": "10.1257/app.20150044",
+          "snippet": "As with many other methodological approaches (e.g. [4,5]), there is growing evidence that a substantial share of experimental results in the social sciences, including economics, is selectively reported and fails to replicate [6][7][8][9][10]. This has led to increasing interest in how researchers generate hypotheses, design studies and conduct analyses in ways that yield more or less credible, replicable and generalizable results.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1098/rsta.2024.0606",
+          "targetDoi": "10.1146/annurev-economics-081621-124424",
+          "snippet": "Experiments are now used to test and refine theories, isolate specific mechanisms and generate new insights that require a controlled environment such as the lab (e.g. [3]).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1098/rsta.2024.0606",
+          "targetDoi": "10.1257/jep.25.3.3",
+          "snippet": "Until not so long ago, it was widely believed that experiments had no place in the economist's toolbox. For example, Nobel laureates Paul Samuelson and William Nordhaus [1] wrote in their introductory textbook (cited in [2]): 'Economists have no such luxury when testing economic laws. They cannot perform the controlled experiments of chemists or biologists because they cannot easily control other important factors.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Decomposing the scientific workflow in experimental economics\n\nThe workflow of an experimental economics project involves a series of interconnected steps.",
+        "Other approaches, including the use of simulations or large language models to select experimental parameters, remain relatively uncommon and are left for future work.\n\nDespite growing norms around open science, only a limited number of workflow elements can typically be inferred from published papers. The connections between different stages of the research process are often unclear.",
+        "If studies were pre-registered with detailed pre-analysis plans and papers clearly indicated when they followed or deviated from those plans, many of the current gaps in the reported scientific workflow could be avoided. For example, it would become more transparent whether the research question or hypotheses evolved over time. We have already highlighted some benefits of pre-analysis plans in previous sections. However, they are not always used in a way that maximizes these benefits."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1109/icecet65726.2026.11633082",
+      "title": "GNN: Graph Neural Network and Large Language Model for Data Discovery",
+      "authors": [
+        {
+          "authorName": "Thomas Hoang"
+        }
+      ],
+      "publisher": "IEEE",
+      "year": 2026,
+      "date": "2026-07-01",
+      "page": "1-8",
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2408.13609",
+      "title": "GNN: Graph Neural Network and Large Language Model for Data Discovery",
+      "authors": [
+        {
+          "authorName": "Thomas K. Hoang"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2024,
+      "date": "2024-01-01",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2607.02387",
+      "title": "Bringing Agentic Search to Earth Observation Data Discovery",
+      "authors": [
+        {
+          "authorName": "Minghan Yu"
+        },
+        {
+          "authorName": "Youran Sun"
+        },
+        {
+          "authorName": "Chugang Yi"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "NASA and its data centers hold thousands of geoscience datasets and tools like Worldview, Giovanni, the Science Discovery Engine, and Harmony. Finding the right one is hard even for domain experts. We present an agentic search system, deployed as a public service for the geoscience community, that t...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2607.02387",
+          "targetDoi": "10.22541/essoar.176894821.13120988/v1",
+          "snippet": "Geoscience LLM agents and multi-agent systems. LLMs have shown strong gains on individual downstream geoscience tasks Yi et al [2025], Li et al [2026], Yan et al [2026], Liu and Wen [2025], and autonomous multi-agent systems have demonstrated scalable scientific workflows across disciplines Ren et al [2026], Sun et al [2026a], Du et al [2026]. A recent line of work brings LLMs and multi-agent frameworks together into the geoscience and climate domain.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.02387",
+          "targetDoi": "10.1145/3477495.3531729",
+          "snippet": "Dataset retrieval benchmarks in information retrieval. The IR community has built up a line of benchmarks and test collections for dataset retrieval, with representative works including NTCIR-15 Data Search Kato et al [2020], ACORDAR Lin et al [2022], bioCADDIE Cohen et al [2017], a test collection [Kolyada et al, 2025], and DSEBench Shi et al [2025]. Most of these target general Web data, RDF data, or biomedical datasets; their queries are either hand-written or keyword-based, and evaluation scale ranges from tens to thousands of queries.",
+          "section": "related work",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "A large language model (LLM) offers researchers a natural interface for expressing dataset-retrieval intent in natural language. In a highly domain-specific setting such as geoscience dataset retrieval, however, using an LLM directly for queries faces two cumulative challenges.",
+        "LLMs have shown strong gains on individual downstream geoscience tasks Yi et al. [2025], Li et al. [2026], Yan et al. [2026], Liu and Wen [2025], and autonomous multi-agent systems have demonstrated scalable scientific workflows across disciplines Ren et al. [2026], Sun et al. [2026a], Du et al. [2026]. A recent line of work brings LLMs and multi-agent frameworks together into the geoscience and climate domain.",
+        "This line of work, together with longer-running geoscience data-discovery research (geographic information retrieval, ontology-driven dataset discovery, and operational systems such as NASA Earthdata Search and CMR), forms the domain context for this paper. The above work differs from ours in two key respects."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.2139/ssrn.4935670",
+      "title": "GNN: Graph Neural Network and Large Language Model Based for Data Discovery",
+      "authors": [
+        {
+          "authorName": "Thomas K. Hoang"
+        }
+      ],
+      "publisher": "Elsevier BV",
+      "year": 2024,
+      "date": "2024-01-01",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 1
+      },
+      "isOa": true,
+      "contentDenied": false
+    }
+  ]
+}

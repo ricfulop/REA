@@ -1,0 +1,156 @@
+{
+  "query": "Exact foundational titles and seed paper",
+  "total": 6,
+  "count": 6,
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2502.12110",
+      "title": "A-MEM: Agentic Memory for LLM Agents",
+      "authors": [
+        {
+          "authorName": "Wujiang Xu"
+        },
+        {
+          "authorName": "Zujie Liang"
+        },
+        {
+          "authorName": "Kai Mei"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2025,
+      "date": "2025-01-01",
+      "tally": {
+        "total": 637,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 637,
+        "citingPublications": 334
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2307.16789",
+      "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "authors": [
+        {
+          "authorName": "Shihao Liang"
+        },
+        {
+          "authorName": "Yining Ye"
+        },
+        {
+          "authorName": "Kunlun Zhu"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2023,
+      "date": "2023-01-01",
+      "tally": {
+        "total": 425,
+        "supporting": 2,
+        "contrasting": 0,
+        "mentioning": 423,
+        "citingPublications": 327
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2305.16291",
+      "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "authors": [
+        {
+          "authorName": "Guanzhi Wang"
+        },
+        {
+          "authorName": "Yuqi Xie"
+        },
+        {
+          "authorName": "Yunfan Jiang"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2023,
+      "date": "2023-01-01",
+      "tally": {
+        "total": 715,
+        "supporting": 3,
+        "contrasting": 0,
+        "mentioning": 712,
+        "citingPublications": 678
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2609.00065",
+      "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+      "authors": [
+        {
+          "authorName": "Timothy Kassis"
+        },
+        {
+          "authorName": "Vinayak Agarwal"
+        },
+        {
+          "authorName": "Yuhuan He"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2026,
+      "date": "2026-01-01",
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2310.08560",
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "authors": [
+        {
+          "authorName": "Charles Packer"
+        },
+        {
+          "authorName": "Sarah Wooders"
+        },
+        {
+          "authorName": "Kevin Lin"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2023,
+      "date": "2023-01-01",
+      "tally": {
+        "total": 701,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 701,
+        "citingPublications": 453
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.52202/085713-0593",
+      "title": "A-Mem: Agentic Memory for LLM Agents",
+      "authors": [
+        {
+          "authorName": "Wujiang Xu"
+        },
+        {
+          "authorName": "Zujie Liang"
+        },
+        {
+          "authorName": "Kai Mei"
+        }
+      ],
+      "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+      "year": 2025,
+      "date": "2025-01-01",
+      "page": "20004-20031",
+      "isOa": false,
+      "contentDenied": true
+    }
+  ]
+}

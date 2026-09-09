@@ -1,0 +1,1673 @@
+{
+  "seeds": [
+    "10.48550/arxiv.2512.24601",
+    "10.48550/arxiv.2602.05366",
+    "10.1063/5.0257555",
+    "10.1038/s44172-025-00517-z",
+    "10.48550/arxiv.2501.06327"
+  ],
+  "direction": "both",
+  "depth": 1,
+  "edge_count": 150,
+  "node_count": 154,
+  "truncated": true,
+  "seed_coverage": {
+    "10.48550/arxiv.2512.24601": 33,
+    "10.48550/arxiv.2602.05366": 1,
+    "10.1063/5.0257555": 82,
+    "10.1038/s44172-025-00517-z": 34,
+    "10.48550/arxiv.2501.06327": 0
+  },
+  "low_coverage_seeds": [
+    "10.48550/arxiv.2602.05366",
+    "10.48550/arxiv.2501.06327"
+  ],
+  "edges": [
+    {
+      "s": "10.21203/rs.3.rs-9528170/v1",
+      "t": "10.1038/s44172-025-00517-z",
+      "d": 1
+    },
+    {
+      "s": "10.1007/s10845-026-02927-y",
+      "t": "10.1038/s44172-025-00517-z",
+      "d": 1
+    },
+    {
+      "s": "10.3390/electronics15153485",
+      "t": "10.1038/s44172-025-00517-z",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "discussion",
+        "introduction"
+      ]
+    },
+    {
+      "s": "10.1080/09544828.2026.2617799",
+      "t": "10.1038/s44172-025-00517-z",
+      "d": 1
+    },
+    {
+      "s": "10.3390/electronics15040720",
+      "t": "10.1038/s44172-025-00517-z",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "multi-stage question routing mechanism",
+        "related work"
+      ]
+    },
+    {
+      "s": "10.1109/e-cargo70110.2026.11670797",
+      "t": "10.1038/s44172-025-00517-z",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.cma.2025.118591",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.cja.2026.104321",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.48550/arxiv.2607.20346",
+      "t": "10.1063/5.0257555",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "dual-mode retrieval routing",
+        "introduction",
+        "results",
+        "reviewer-loop fatal-error probes",
+        "system"
+      ]
+    },
+    {
+      "s": "10.1063/5.0330986",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1002/aic.70488",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.ijheatfluidflow.2026.110399",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.taml.2025.100594",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.taml.2025.100597",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.21203/rs.3.rs-6566994/v1",
+      "t": "10.1063/5.0257555",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "state of the art"
+      ]
+    },
+    {
+      "s": "10.1016/j.enbuild.2026.118128",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.neucom.2025.132030",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.coche.2026.101293",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.2139/ssrn.7358525",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1017/flo.2025.10032",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1109/iisec69317.2026.11418428",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.cma.2026.118985",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1360/csb-2025-5792",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.2139/ssrn.7371092",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.2139/ssrn.7162224",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.48550/arxiv.2606.09774",
+      "t": "10.1063/5.0257555",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction",
+        "related work"
+      ]
+    },
+    {
+      "s": "10.1145/3770855.3818987",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1145/3770855.3819007",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.cma.2026.119271",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.enbuild.2026.117694",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1007/s44379-025-00022-2",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0273363",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0275677",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.taml.2025.100620",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.taml.2025.100623",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1021/acselectrochem.5c00377",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1002/aidi.202500174",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.2514/6.2026-0291",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.cej.2026.173311",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.buildenv.2026.114260",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.2139/ssrn.6172101",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1080/15732479.2026.2630123",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.2139/ssrn.6298861",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.2139/ssrn.6103826",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.3390/app16115300",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.taml.2026.100734",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.3390/aerospace13090790",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.scib.2026.07.036",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0294696",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.compfluid.2026.107163",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1115/1.4071865",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.48550/arxiv.2602.07083",
+      "t": "10.1063/5.0257555",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2602.11689",
+      "t": "10.1063/5.0257555",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.00214",
+      "t": "10.1063/5.0257555",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.21011",
+      "t": "10.1063/5.0257555",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction"
+      ]
+    },
+    {
+      "s": "10.1016/j.ress.2026.112560",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1007/s44379-026-00073-z",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1007/s11044-026-10164-7",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1109/eecr69522.2026.11548842",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.1016/j.egyai.2026.100805",
+      "t": "10.1063/5.0257555",
+      "d": 1
+    },
+    {
+      "s": "10.48550/arxiv.2607.12385",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction",
+        "long-term memory for llm agents"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.01533",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.04071",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.05009",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "b2 recursive language models"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.06923",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction",
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.10662",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "combining delm with rlm",
+        "introduction",
+        "methods",
+        "programmatic agentic systems"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.13643",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "code and data availability",
+        "experiments 41 experimental setup",
+        "introduction",
+        "methods",
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.20164",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "a long-context reasoning and recursive language models",
+        "introduction",
+        "methods"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2606.28370",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work",
+        "retrieval",
+        "system architecture"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2607.08938",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "b agent harness adaptations"
+      ]
+    },
+    {
+      "s": "10.1145/3770855.3817839",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1
+    },
+    {
+      "s": "10.5281/zenodo.18161330",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1
+    },
+    {
+      "s": "10.5281/zenodo.18161329",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1
+    },
+    {
+      "s": "10.48550/arxiv.2601.14553",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "granting models access to their own apis"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2602.01848",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2602.06418",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "i1 negative results and minutiae"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2602.08276",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "fig"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2602.15241",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.00991",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.15653",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "a details on datasets",
+        "baselines",
+        "datasets",
+        "introduction",
+        "is recursion the primary driver of performance in rlms?",
+        "methods",
+        "problem formulation",
+        "related work",
+        "results"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.17948",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction",
+        "related work",
+        "video-rlm: master-worker architecture"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.24768",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "co-regulation design agentic loop (crdal) creates better des..."
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.28119",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2603.29322",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2604.05114",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "c4 comparison with recursive language models",
+        "long-context reasoning with llms"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2604.13860",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "limitations"
+      ]
+    },
+    {
+      "s": "10.64898/2026.01.24.26344761",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2605.04050",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "baselines",
+        "introduction"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2605.04304",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction",
+        "related work"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2605.06690",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "dynamics",
+        "recursive reasoning as adaptive inference",
+        "the long-context problem and recursive approaches"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2605.09968",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work",
+        "the problem: long-context reasoning under attention diffusion",
+        "three control applications"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2605.09998",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "reset-free training in-context learning and process rewards"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2605.11388",
+      "t": "10.48550/arxiv.2512.24601",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "introduction",
+        "namespace: formal"
+      ]
+    },
+    {
+      "s": "10.48550/arxiv.2604.24594",
+      "t": "10.48550/arxiv.2602.05366",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "retrieval augmented generation and tool use"
+      ]
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1007/s00170-016-8514-7",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1016/0378-3804(86)90059-8",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1016/j.compind.2007.09.001",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1016/j.compind.2022.103736",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1016/j.compind.2023.103993",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1016/j.jmsy.2014.10.004",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1016/s0166-3615(99)00051-2",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1016/s0952-1976(00)00060-9",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1038/s42256-024-00832-8",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1038/s42256-024-00953-0",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1038/s42256-025-01005-x",
+      "d": 1,
+      "type": [
+        "mentioning"
+      ],
+      "section": [
+        "related work"
+      ]
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/83.641413",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/cvpr.2019.00983",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/cvpr46437.2021.01258",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/cvpr52688.2022.00683",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/iccv.2015.114",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/iccv.2015.279",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/iccv48922.2021.00670",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/tii.2020.3030620",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1109/tiv.2024.3396450",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1145/3450626.3459818",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1145/3605943",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1162/tacl_a_00530",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.1243/09544050260174201",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.18653/v1/2023.findings-emnlp.793",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.18653/v1/d19-1410",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.21428/e4baedd9.e39b392d",
+      "d": 1
+    },
+    {
+      "s": "10.1038/s44172-025-00517-z",
+      "t": "10.2172/2431848",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1002/adfm.202409531",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1016/j.applthermaleng.2017.12.063",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1016/j.compgeo.2024.106237",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1016/j.eml.2024.102131",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1016/j.ijheatfluidflow.2024.109662",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1016/j.ijheatmasstransfer.2018.02.115",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1016/j.ijheatmasstransfer.2024.126149",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1016/j.jcp.2019.108910",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1017/jfm.2016.615",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1017/jfm.2021.445",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1017/jfm.2022.770",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1021/acsenvironau.4c00042",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1038/s42254-023-00622-y",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1038/s43588-022-00264-7",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1039/d4sc03921a",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1063/1.168744",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1063/5.0159886",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1063/5.0176223",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1063/5.0189632",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1063/5.0224297",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1080/14685248.2020.1757685",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1101/2024.04.25.591003",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1103/physrevfluids.3.074602",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1103/physrevfluids.4.034602",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1115/1.4063843",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1145/3605943",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.1146/annurev-fluid-010518-040547",
+      "d": 1
+    },
+    {
+      "s": "10.1063/5.0257555",
+      "t": "10.21203/rs.3.rs-3853112/v1",
+      "d": 1
+    }
+  ],
+  "papers": {
+    "10.1002/adfm.202409531": {
+      "title": "Cephalo: Multi‐Modal Vision‐Language Models for Bio‐Inspired Materials Analysis and Design",
+      "year": 2024
+    },
+    "10.1002/aic.70488": {
+      "title": "Context is all you need: Toward autonomous model‐based process design using agentic AI in flowsheet simulations",
+      "year": 2026
+    },
+    "10.1002/aidi.202500174": {
+      "title": "ChatCFD: A Large Language Model‐Driven Agent for End‐to‐End Computational Fluid Dynamics Automation with Structured Knowledge and Reasoning",
+      "year": 2026
+    },
+    "10.1007/s00170-016-8514-7": {
+      "title": "A decision support methodology for embodiment design and process chain selection for hybrid manufacturing platforms",
+      "year": 2016
+    },
+    "10.1007/s10845-026-02927-y": {
+      "title": "Large language models in intelligent manufacturing and mechanical engineering: a review of robotics, fault diagnosis, design, and engineering knowledge workflows",
+      "year": 2026
+    },
+    "10.1007/s11044-026-10164-7": {
+      "title": "Experiments with large language models on retrieval-augmented generation for closed-source simulation software",
+      "year": 2026
+    },
+    "10.1007/s44379-025-00022-2": {
+      "title": "Constitutive scientific generative agent (CSGA): Leveraging large language models for automated constitutive model discovery",
+      "year": 2025
+    },
+    "10.1007/s44379-026-00073-z": {
+      "title": "LLMs as designers of physics-constrained neural networks for constitutive modeling: a demonstration on hyperelastic solids",
+      "year": 2026
+    },
+    "10.1016/0378-3804(86)90059-8": {
+      "title": "Rule based modeling for planning axisymmetrical deep-drawing",
+      "year": 1986
+    },
+    "10.1016/j.applthermaleng.2017.12.063": {
+      "title": "Heat transfer prediction of supercritical water with artificial neural networks",
+      "year": 2018
+    },
+    "10.1016/j.buildenv.2026.114260": {
+      "title": "Ten questions concerning Large Language Models (LLMs) for building applications",
+      "year": 2026
+    },
+    "10.1016/j.cej.2026.173311": {
+      "title": "Integrating data and physics: A review of data-driven methods for computational multiphase flow",
+      "year": 2026
+    },
+    "10.1016/j.cja.2026.104321": {
+      "title": "CFD-copilot: Leveraging domain-adapted large language model and model context protocol to enhance simulation automation",
+      "year": 2026
+    },
+    "10.1016/j.cma.2025.118591": {
+      "title": "Large language model-empowered next-generation computer-aided engineering",
+      "year": 2026
+    },
+    "10.1016/j.cma.2026.118985": {
+      "title": "ALL-FEM: Agentic Large Language Models fine-tuned for finite element methods",
+      "year": 2026
+    },
+    "10.1016/j.cma.2026.119271": {
+      "title": "Foam-Agent: A large language model-based multi-agent framework for automating computational fluid dynamics workflows",
+      "year": 2026
+    },
+    "10.1016/j.coche.2026.101293": {
+      "title": "Artificial intelligence in fluidisation technology: promise, progress and pitfalls",
+      "year": 2026
+    },
+    "10.1016/j.compfluid.2026.107163": {
+      "title": "Automation of the CFD-based design process for turbomachinery blades using deep reinforcement learning",
+      "year": 2026
+    },
+    "10.1016/j.compgeo.2024.106237": {
+      "title": "A ChatGPT-MATLAB framework for numerical modeling in geotechnical engineering applications",
+      "year": 2024
+    },
+    "10.1016/j.compind.2007.09.001": {
+      "title": "A review of automated feature recognition with rule-based pattern recognition",
+      "year": 2008
+    },
+    "10.1016/j.compind.2022.103736": {
+      "title": "Automatic machining feature recognition based on MBD and process semantics",
+      "year": 2022
+    },
+    "10.1016/j.compind.2023.103993": {
+      "title": "Multi-view expressive graph neural networks for 3D CAD model classification",
+      "year": 2023
+    },
+    "10.1016/j.egyai.2026.100805": {
+      "title": "Exploring a multi-agent framework with large language models for nuclear design automation",
+      "year": 2026
+    },
+    "10.1016/j.eml.2024.102131": {
+      "title": "MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge",
+      "year": 2024
+    },
+    "10.1016/j.enbuild.2026.117694": {
+      "title": "A large language model-driven automated workflow for CFD simulations of urban street canyons",
+      "year": 2026
+    },
+    "10.1016/j.enbuild.2026.118128": {
+      "title": "From perception to governance: Knowledge-enhanced intelligence for smart sustainable buildings",
+      "year": 2026
+    },
+    "10.1016/j.ijheatfluidflow.2024.109662": {
+      "title": "Additive-feature-attribution methods: A review on explainable artificial intelligence for fluid dynamics and heat transfer",
+      "year": 2025
+    },
+    "10.1016/j.ijheatfluidflow.2026.110399": {
+      "title": "OpenFOAMGPT 2.0: End-to-end, trustworthy automation for computational fluid dynamics",
+      "year": 2026
+    },
+    "10.1016/j.ijheatmasstransfer.2018.02.115": {
+      "title": "A computationally light data-driven approach for heat transfer and hydraulic characteristics modeling of supercritical fluids: From DNS to DNN",
+      "year": 2018
+    },
+    "10.1016/j.ijheatmasstransfer.2024.126149": {
+      "title": "Data-driven methods for flow and transport in porous media: A review",
+      "year": 2024
+    },
+    "10.1016/j.jcp.2019.108910": {
+      "title": "Deep neural networks for data-driven LES closure models",
+      "year": 2019
+    },
+    "10.1016/j.jmsy.2014.10.004": {
+      "title": "Knowledge-based model for constructing master assembly sequence",
+      "year": 2015
+    },
+    "10.1016/j.neucom.2025.132030": {
+      "title": "Creation, evaluation and self-validation of simulation models with large language models",
+      "year": 2026
+    },
+    "10.1016/j.ress.2026.112560": {
+      "title": "Towards intelligent safety assessment under blast loading: A large language model-powered multi-agent framework",
+      "year": 2026
+    },
+    "10.1016/j.scib.2026.07.036": {
+      "title": "Closing the loop with generative AI and automated experimentation in electrochemical energy innovation",
+      "year": 2026
+    },
+    "10.1016/j.taml.2025.100594": {
+      "title": "Fine-tuning a large language model for automating computational fluid dynamics simulations",
+      "year": 2025
+    },
+    "10.1016/j.taml.2025.100597": {
+      "title": "Evaluations of large language models in computational fluid dynamics: Leveraging, learning and creating knowledge",
+      "year": 2025
+    },
+    "10.1016/j.taml.2025.100620": {
+      "title": "Turbulence.ai: an end-to-end AI scientist for fluid mechanics",
+      "year": 2026
+    },
+    "10.1016/j.taml.2025.100623": {
+      "title": "A status quo investigation of large-language models for cost-effective computational fluid dynamics automation with OpenFOAMGPT",
+      "year": 2025
+    },
+    "10.1016/j.taml.2026.100734": {
+      "title": "CFDAgent with a general kinematics module: driving biological flapping flight simulation",
+      "year": 2026
+    },
+    "10.1016/s0166-3615(99)00051-2": {
+      "title": "Selection of cutting tools and conditions of machining operations using an expert system",
+      "year": 2000
+    },
+    "10.1016/s0952-1976(00)00060-9": {
+      "title": "Knowledge-based approach and system for assembly oriented design, Part I: the approach",
+      "year": 2001
+    },
+    "10.1017/flo.2025.10032": {
+      "title": "Large language model driven development of turbulence models",
+      "year": 2025
+    },
+    "10.1017/jfm.2016.615": {
+      "title": "Reynolds averaged turbulence modelling using deep neural networks with embedded invariance",
+      "year": 2016
+    },
+    "10.1017/jfm.2021.445": {
+      "title": "Information transfer between turbulent boundary layers and porous media",
+      "year": 2021
+    },
+    "10.1017/jfm.2022.770": {
+      "title": "Spatial and spectral characteristics of information flux between turbulent boundary layers and porous media",
+      "year": 2022
+    },
+    "10.1021/acselectrochem.5c00377": {
+      "title": "Opportunities of Large Language Models in the Development of Organic Electrosynthesis",
+      "year": 2025
+    },
+    "10.1021/acsenvironau.4c00042": {
+      "title": "Evaluating GPT Models for Automated Literature Screening in Wastewater-Based Epidemiology",
+      "year": 2024
+    },
+    "10.1038/s42254-023-00622-y": {
+      "title": "The transformative potential of machine learning for experiments in fluid mechanics",
+      "year": 2023
+    },
+    "10.1038/s42256-024-00832-8": {
+      "title": "Augmenting large language models with chemistry tools",
+      "year": 2024
+    },
+    "10.1038/s42256-024-00953-0": {
+      "title": "Towards a personalized AI assistant to learn machine learning",
+      "year": 2024
+    },
+    "10.1038/s42256-025-01005-x": {
+      "title": "Embodied large language models enable robots to complete complex tasks in unpredictable environments",
+      "year": 2025
+    },
+    "10.1038/s43588-022-00264-7": {
+      "title": "Enhancing computational fluid dynamics with machine learning",
+      "year": 2022
+    },
+    "10.1038/s44172-025-00517-z": {
+      "title": "MechRAG: a multimodal large language model for mechanical engineering",
+      "year": 2025
+    },
+    "10.1039/d4sc03921a": {
+      "title": "A review of large language models and autonomous agents in chemistry",
+      "year": 2025
+    },
+    "10.1063/1.168744": {
+      "title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+      "year": 1998
+    },
+    "10.1063/5.0159886": {
+      "title": "The interfacial modes and modal causality in a dispersed bubbly turbulent flow",
+      "year": 2023
+    },
+    "10.1063/5.0176223": {
+      "title": "Toward discretization-consistent closure schemes for large eddy simulation using reinforcement learning",
+      "year": 2023
+    },
+    "10.1063/5.0189632": {
+      "title": "Non-intrusive, transferable model for coupled turbulent channel-porous media flow based upon neural networks",
+      "year": 2024
+    },
+    "10.1063/5.0224297": {
+      "title": "Large language models for automatic equation discovery of nonlinear dynamics",
+      "year": 2024
+    },
+    "10.1063/5.0257555": {
+      "title": "OpenFOAMGPT: A retrieval-augmented large language model (LLM) agent for OpenFOAM-based computational fluid dynamics",
+      "year": 2025
+    },
+    "10.1063/5.0273363": {
+      "title": "Using large language models for parametric shape optimization",
+      "year": 2025
+    },
+    "10.1063/5.0275677": {
+      "title": "Assessing DeepSeek in hypersonic applications: Fundamental knowledge, formula invocation and automated programing",
+      "year": 2025
+    },
+    "10.1063/5.0294696": {
+      "title": "CFDAgent: A language-guided, zero-shot multi-agent system for complex flow simulation",
+      "year": 2025
+    },
+    "10.1063/5.0330986": {
+      "title": "Vortex state transitions in deep street canyons enabled by an automated large language model workflow",
+      "year": 2026
+    },
+    "10.1080/09544828.2026.2617799": {
+      "title": "Cognitive 3D CAD model retrieval: a multi-agent system for intent-driven, cross-modal search",
+      "year": 2026
+    },
+    "10.1080/14685248.2020.1757685": {
+      "title": "A perspective on machine learning in turbulent flows",
+      "year": 2020
+    },
+    "10.1080/15732479.2026.2630123": {
+      "title": "A large language model-empowered agent for reliable and robust structural analysis",
+      "year": 2026
+    },
+    "10.1101/2024.04.25.591003": {
+      "title": "CRISPR-GPT for Agentic Automation of Gene Editing Experiments",
+      "year": 2024
+    },
+    "10.1103/physrevfluids.3.074602": {
+      "title": "Physics-informed machine learning approach for augmenting turbulence models: A comprehensive framework",
+      "year": 2018
+    },
+    "10.1103/physrevfluids.4.034602": {
+      "title": "Predictive large-eddy-simulation wall modeling via physics-informed neural networks",
+      "year": 2019
+    },
+    "10.1109/83.641413": {
+      "title": "Automatic watershed segmentation of randomly textured color images",
+      "year": 1997
+    },
+    "10.1109/cvpr.2019.00983": {
+      "title": "ABC: A Big CAD Model Dataset for Geometric Deep Learning",
+      "year": 2019
+    },
+    "10.1109/cvpr46437.2021.01258": {
+      "title": "BRepNet: A topological message passing system for solid models",
+      "year": 2021
+    },
+    "10.1109/cvpr52688.2022.00683": {
+      "title": "Retrieval Augmented Classification for Long-Tail Visual Recognition",
+      "year": 2022
+    },
+    "10.1109/e-cargo70110.2026.11670797": {
+      "title": "Agent4CAPP: A LLMs-Based Agent Framework for CAPP",
+      "year": 2026
+    },
+    "10.1109/eecr69522.2026.11548842": {
+      "title": "An LLM-Based Agent Framework for Intelligent Power Module Design",
+      "year": 2026
+    },
+    "10.1109/iccv.2015.114": {
+      "title": "Multi-view Convolutional Neural Networks for 3D Shape Recognition",
+      "year": 2015
+    },
+    "10.1109/iccv.2015.279": {
+      "title": "VQA: Visual Question Answering",
+      "year": 2015
+    },
+    "10.1109/iccv48922.2021.00670": {
+      "title": "DeepCAD: A Deep Generative Network for Computer-Aided Design Models",
+      "year": 2021
+    },
+    "10.1109/iisec69317.2026.11418428": {
+      "title": "LLM integration into Physics Informed Neural Networks",
+      "year": 2026
+    },
+    "10.1109/tii.2020.3030620": {
+      "title": "Intersecting Machining Feature Localization and Recognition via Single Shot Multibox Detector",
+      "year": 2021
+    },
+    "10.1109/tiv.2024.3396450": {
+      "title": "VistaRAG: Toward Safe and Trustworthy Autonomous Driving Through Retrieval-Augmented Generation",
+      "year": 2024
+    },
+    "10.1115/1.4063843": {
+      "title": "MechGPT, a Language-Based Strategy for Mechanics and Materials Modeling That Connects Knowledge Across Scales, Disciplines, and Modalities",
+      "year": 2024
+    },
+    "10.1115/1.4071865": {
+      "title": "VizArQA: A Foundation for Visual Question Answering in Architectural Simulation",
+      "year": 2026
+    },
+    "10.1145/3450626.3459818": {
+      "title": "Fusion 360 gallery",
+      "year": 2021
+    },
+    "10.1145/3605943": {
+      "title": "Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey",
+      "year": 2023
+    },
+    "10.1145/3770855.3817839": {
+      "title": "AMOS: Active Mining with Observable Steps for Agenda-Driven Review Knowledge Discovery",
+      "year": 2026
+    },
+    "10.1145/3770855.3818987": {
+      "title": "Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation",
+      "year": 2026
+    },
+    "10.1145/3770855.3819007": {
+      "title": "From Compression to Exploration: Active Querying Agent for 3D Physical Field Understanding",
+      "year": 2026
+    },
+    "10.1146/annurev-fluid-010518-040547": {
+      "title": "Turbulence Modeling in the Age of Data",
+      "year": 2019
+    },
+    "10.1162/tacl_a_00530": {
+      "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+      "year": 2023
+    },
+    "10.1243/09544050260174201": {
+      "title": "A design to cost system for innovative product development",
+      "year": 2002
+    },
+    "10.1360/csb-2025-5792": {
+      "title": "Ontology engineering&amp;ndash;based large language model revolution in chemical research paradigms",
+      "year": 2025
+    },
+    "10.18653/v1/2023.findings-emnlp.793": {
+      "title": "Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning",
+      "year": 2023
+    },
+    "10.18653/v1/d19-1410": {
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "year": 2019
+    },
+    "10.21203/rs.3.rs-3853112/v1": {
+      "title": "Training microrobots to swim by a large language model",
+      "year": 2024
+    },
+    "10.21203/rs.3.rs-6566994/v1": {
+      "title": "Creation, Evaluation and Self-Validation of Simulation Models with Large Language Models",
+      "year": 2025
+    },
+    "10.21203/rs.3.rs-9528170/v1": {
+      "title": "Vision Foundation Models for Engineering Document Intelligence and ManufacturingInspection: A Survey",
+      "year": 2026
+    },
+    "10.2139/ssrn.6103826": {
+      "title": "ALL-FEM: Agentic Large Language models Fine-tuned for Finite Element Methods",
+      "year": 2026
+    },
+    "10.2139/ssrn.6172101": {
+      "title": "AutoCoSim: An LLM-RAG-based Multi-agent Framework for Automating Building Energy and CFD Co-simulation",
+      "year": 2026
+    },
+    "10.2139/ssrn.6298861": {
+      "title": "PrincipiaBlastFoam: A Knowledge-Driven Multi-Agent Framework for Physically Consistent Reasoning in Explosive Flow Field Simulations",
+      "year": 2026
+    },
+    "10.2139/ssrn.7162224": {
+      "title": "Self-Refining Topology Optimization via an LLM-Based Multi-Agent Framework",
+      "year": 2026
+    },
+    "10.2139/ssrn.7358525": {
+      "title": "Large Language Model Automated Construction of Continuous-Adjoint Topology Optimization Solvers",
+      "year": 2026
+    },
+    "10.2139/ssrn.7371092": {
+      "title": "Execution-Verified Scientific Reasoning for Autonomous Finite-Element Solver Synthesis with Domain-Adapted Large Language Models",
+      "year": 2026
+    },
+    "10.21428/e4baedd9.e39b392d": {
+      "title": "From Automation to Augmentation: Redefining Engineering Design and Manufacturing in the Age of NextGen-AI",
+      "year": 2024
+    },
+    "10.2172/2431848": {
+      "title": "Machine Learning Classification and Reduction of CAD Parts for Rapid Design-to-Simulation",
+      "year": 2023
+    },
+    "10.2514/6.2026-0291": {
+      "title": "Large Language Model Driven Development of Turbulence Models",
+      "year": 2026
+    },
+    "10.3390/aerospace13090790": {
+      "title": "G-Agent: A Large Language Model-Driven Multi-Agent Framework for Automated Configuration Optimization of Scramjet Cavity Combustors",
+      "year": 2026
+    },
+    "10.3390/app16115300": {
+      "title": "Exploring the Capabilities of an LLM from CFD Simulations of Turbulent Flow in a Manifold",
+      "year": 2026
+    },
+    "10.3390/electronics15040720": {
+      "title": "STAR: Steelmaking Task-Aware Routing for Multi-Agent LLM Expert Systems",
+      "year": 2026
+    },
+    "10.3390/electronics15153485": {
+      "title": "Generative AI in Manufacturing and Industrial Contexts: A Systematic Review of Applications, Challenges, and Future Directions",
+      "year": 2026
+    },
+    "10.48550/arxiv.2501.06327": {
+      "title": "OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics",
+      "year": 2025
+    },
+    "10.48550/arxiv.2512.24601": {
+      "title": "Recursive Language Models",
+      "year": 2025
+    },
+    "10.48550/arxiv.2601.14553": {
+      "title": "Self-Blinding and Counterfactual Self-Simulation Mitigate Biases and Sycophancy in Large Language Models",
+      "year": 2026
+    },
+    "10.48550/arxiv.2602.01848": {
+      "title": "ROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems",
+      "year": 2026
+    },
+    "10.48550/arxiv.2602.05366": {
+      "title": "Multi-Field Tool Retrieval",
+      "year": 2026
+    },
+    "10.48550/arxiv.2602.06418": {
+      "title": "Adaptive Protein Tokenization",
+      "year": 2026
+    },
+    "10.48550/arxiv.2602.07083": {
+      "title": "Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation",
+      "year": 2026
+    },
+    "10.48550/arxiv.2602.08276": {
+      "title": "Toward Formalizing LLM-Based Agent Designs through Structural Context Modeling and Semantic Dynamics Analysis",
+      "year": 2026
+    },
+    "10.48550/arxiv.2602.11689": {
+      "title": "A Preliminary Assessment of Coding Agents for CFD Workflows",
+      "year": 2026
+    },
+    "10.48550/arxiv.2602.15241": {
+      "title": "GenAI for Systems: Recurring Challenges and Design Principles from Software to Silicon",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.00214": {
+      "title": "Agentic Scientific Simulation: Execution-Grounded Model Construction and Reconstruction",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.00991": {
+      "title": "Tracking Capabilities for Safer Agents",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.15653": {
+      "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.17948": {
+      "title": "VideoAtlas: Navigating Long-Form Video in Logarithmic Compute",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.21011": {
+      "title": "ALL-FEM: Agentic Large Language models Fine-tuned for Finite Element Methods",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.24768": {
+      "title": "Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.28119": {
+      "title": "Compressing Code Context for LLM-based Issue Resolution",
+      "year": 2026
+    },
+    "10.48550/arxiv.2603.29322": {
+      "title": "VACP: Visual Analytics Context Protocol",
+      "year": 2026
+    },
+    "10.48550/arxiv.2604.05114": {
+      "title": "$π^2$: Structure-Originated Reasoning Data Improves Long-Context Reasoning Ability of Large Language Models",
+      "year": 2026
+    },
+    "10.48550/arxiv.2604.13860": {
+      "title": "\"AI Psychosis\" in Context: How Conversation History Shapes LLM Responses to Delusional Beliefs",
+      "year": 2026
+    },
+    "10.48550/arxiv.2604.24594": {
+      "title": "Skill Retrieval Augmentation for Agentic AI",
+      "year": 2026
+    },
+    "10.48550/arxiv.2605.04050": {
+      "title": "LCM: Lossless Context Management",
+      "year": 2026
+    },
+    "10.48550/arxiv.2605.04304": {
+      "title": "Hierarchical Visual Agent: Managing Contexts in Joint Image-Text Space for Advanced Chart Reasoning",
+      "year": 2026
+    },
+    "10.48550/arxiv.2605.06690": {
+      "title": "State Representation and Termination for Recursive Reasoning Systems",
+      "year": 2026
+    },
+    "10.48550/arxiv.2605.09968": {
+      "title": "Consolidation-Expansion Operator Mechanics:A Unified Framework for Adaptive Learning",
+      "year": 2026
+    },
+    "10.48550/arxiv.2605.09998": {
+      "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+      "year": 2026
+    },
+    "10.48550/arxiv.2605.11388": {
+      "title": "Deep Reasoning in General Purpose Agents via Structured Meta-Cognition",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.01533": {
+      "title": "Multi-Agent Computer Use",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.04071": {
+      "title": "Covert Influence Between Language Models",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.05009": {
+      "title": "DAR: Deontic Reasoning with Agentic Harnesses",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.06923": {
+      "title": "Declarative Skills for AI Agents in Knowledge-Grounded Tool-Use Workflows",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.09774": {
+      "title": "Auto-Configuring Scientific Simulators with Lightweight Coding-Agent Adapters",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.10662": {
+      "title": "Decentralized Multi-Agent Systems with Shared Context",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.13643": {
+      "title": "Recursive Agent Harnesses",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.20164": {
+      "title": "MedRLM: Recursive Multimodal Health Intelligence for Long-Context Clinical Reasoning, Sensor-Guided Screening, Evidence-Grounded Decision Support, and Community-to-Tertiary Referral Optimization",
+      "year": 2026
+    },
+    "10.48550/arxiv.2606.28370": {
+      "title": "Conversational Query Engine for Mixed-Modality Heterogeneous Enterprise Data Sources",
+      "year": 2026
+    },
+    "10.48550/arxiv.2607.08938": {
+      "title": "Better Harnesses, Smaller Models: Building 90% Cheaper Agents via Automated Harness Adaptation",
+      "year": 2026
+    },
+    "10.48550/arxiv.2607.12385": {
+      "title": "PM-Bench: Evaluating Prospective Memory in LLM Agents",
+      "year": 2026
+    },
+    "10.48550/arxiv.2607.20346": {
+      "title": "IteraSim RAG: A Multi-Stage Retrieval-Augmented Agentic Back-End for OpenFOAM-Based Computational Fluid Dynamics",
+      "year": 2026
+    },
+    "10.5281/zenodo.18161329": {
+      "title": "THE HUMAN-AUTOMATED RECURSIVE LOGIC LOOP (HARL)",
+      "year": 2026
+    },
+    "10.5281/zenodo.18161330": {
+      "title": "THE HUMAN-AUTOMATED RECURSIVE LOGIC LOOP (HARL)",
+      "year": 2026
+    },
+    "10.64898/2026.01.24.26344761": {
+      "title": "C-RLM: Schema-Enforced Recursive Synthesis for Auditable, Long-Context Clinical Documentation",
+      "year": 2026
+    }
+  }
+}

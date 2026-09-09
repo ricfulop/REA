@@ -1,0 +1,458 @@
+{
+  "query": "(\"language model\") AND (\"circuit design\" OR \"electronic design automation\" OR \"robotics\")",
+  "total": 21178,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2601.14098",
+      "title": "A flexible language model-assisted electronic design automation framework",
+      "authors": [
+        {
+          "authorName": "Cristian Sestito"
+        },
+        {
+          "authorName": "Panagiota I. Kontou"
+        },
+        {
+          "authorName": "Pratibha Verma"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large language models (LLMs) are transforming electronic design automation (EDA) by enhancing design stages such as schematic design, simulation, netlist synthesis, and place-and-route. Existing methods primarily focus these optimisations within isolated open-source EDA tools and often lack the flex...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14098",
+          "targetDoi": "10.1145/3715324",
+          "snippet": "Generative AI, particularly large language models (LLMs), is transforming this iterative design process from a purely human-EDA interaction to a collaborative human-LLM-EDA approach [4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21] , with expectations of a tenfold increase in productivity within the electronics industry 22 . LLMs effectively assist in various design stages, such as register-transfer-level code generation [23][24][25] , testbench generation 26,27 , Spice netlist generation 28 , transistor sizing 29,30 , floorplanning and placement 31 , static timing analysis 32 , bonding pad insertion 33 , design verification [34][35][36] , design code fix [37][38][39] , end-to-end high level synthesis 40 .",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14098",
+          "targetDoi": "10.36227/techrxiv.174741927.75152825/v1",
+          "snippet": "Electronic design automation (EDA) is crucial for designing circuits, such as analogue amplifiers, digital architectures, and radio-frequency (RF) modules [1][2][3] . Indeed, EDA tools provide automation support from the early schematic stages to the physical implementation, as well as assistance with design simulation and analysis.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14098",
+          "targetDoi": "10.1145/3728179.3728192",
+          "snippet": "To evaluate the LaMDA framework on the FPGA design flow, we considered the ResBench dataset 41 . It consists of 56 problems across 12 categories (Supplementary Table S1).",
+          "section": "fpga design flow application",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nElectronic design automation (EDA) is crucial for designing circuits, such as analogue amplifiers, digital architectures, and radio-frequency (RF) modules [1][2][3] . Indeed, EDA tools provide automation support from the early schematic stages to the physical implementation, as well as assistance with design simulation and analysis.",
+        "In this article we propose LaMDA: a flexible framwework for LAnguage Model-assisted electronic Design Automation. LaMDA leverages commercial LLMs across three common circuit design flows: analogue design, RF design, and field-programmable gate array (FPGA) design. These flows were selected because they represent widely used domains in modern electronic systems and capture the key challenges encountered in practical design workflows.",
+        "For RF circuit design, Figure 1: A block diagram of the LaMDA framework. a, The framework processes either a custom user prompt or a predefined prompt from a dataset. The custom user prompt includes design description and design objectives, such as area, delay, power constraints."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.67535/tsp.000001.041",
+      "title": "A Specialized Large Language Model for Electronic Design Automation",
+      "authors": [
+        {
+          "authorName": "Iraj Shahzad"
+        },
+        {
+          "authorName": "Muhammad Ali Raza"
+        },
+        {
+          "authorName": "Asjad Amin"
+        }
+      ],
+      "publisher": "TechShield Publications",
+      "abstract": "Integrating complex sets of Electronic Design Automation (EDA) tools for seamless information exchange has become a critical challenge for designers and engineers. Recent advancements in Large Language Models (LLMs) have driven significant progress in Natural Language Processing (NLP), enabling impr...",
+      "year": 2025,
+      "date": "2025-06-02",
+      "page": "228-233",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2605.06936",
+      "title": "Bridging the Last Mile of Circuit Design: PostEDA-Bench, a Hierarchical Benchmark for PPA Convergence and DRC Fixing",
+      "authors": [
+        {
+          "authorName": "Pengju Liu"
+        },
+        {
+          "authorName": "Nuo Xu"
+        },
+        {
+          "authorName": "Jinwei Tang"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "LLM-based agents are increasingly applied to the \"last mile\" of Electronic Design Automation (EDA): repairing residual sign-off Design Rule Check (DRC) violations and converging Power-Performance-Area (PPA) targets after tool runs. Existing EDA-LLM benchmarks, however, omit DRC fixing entirely and r...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 3,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 3,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2605.06936",
+          "targetDoi": "10.1109/iccad57390.2023.10323953",
+          "snippet": "Large language model (LLM)-based agentic systems have demonstrated strong performance in code generation [7,22,1], robotics and embodied AI [21,3], and mathematical reasoning [15,5]. These advances have motivated recent work on LLM-driven agents for automating power-performance-area (PPA) convergence in electronic design automation (EDA) flows [18,19,17,12,8,4,10,6,12], where engineers often spend significant time iterating after tool runs to meet PPA targets. Despite this progress, existing EDA-agent benchmarks still fall short of what is needed to evaluate practical post-EDA closure.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2605.06936",
+          "targetDoi": "10.18653/v1/2024.acl-long.737",
+          "snippet": "Large language model (LLM)-based agentic systems have demonstrated strong performance in code generation [7,22,1], robotics and embodied AI [21,3], and mathematical reasoning [15,5]. These advances have motivated recent work on LLM-driven agents for automating power-performance-area (PPA) convergence in electronic design automation (EDA) flows [18,19,17,12,8,4,10,6,12], where engineers often spend significant time iterating after tool runs to meet PPA targets.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2605.06936",
+          "targetDoi": "10.1016/j.mejo.2016.04.006",
+          "snippet": "• PDK: ASAP7 [2], the predictive 7 nm process design kit; the bundled DRC deck is used as-is for sign-off. • Sign-off DRC: KLAYOUT v0.30.3 driven by the ASAP7 DRC deck.",
+          "section": "b benchmark construction documentation",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge language model (LLM)-based agentic systems have demonstrated strong performance in code generation [7,22,1], robotics and embodied AI [21,3], and mathematical reasoning [15,5]. These advances have motivated recent work on LLM-driven agents for automating power-performance-area (PPA) convergence in electronic design automation (EDA) flows [18,19,17,12,8,4,10,6,12], where engineers often spend significant time iterating after tool runs to meet PPA targets.",
+        "The image is converted to RGB JPEG, thumbnail-resized to fit within 1024×1024 at quality 85, Base64-encoded, and returned as a data URI for direct ingestion by vision-language models.\n\n• add_shape(...), change_shape(...), move_cell(...): editing primitives that operate on the working GDS in place; they validate layer membership and shape primitives and reject illegal edits with structured error messages.",
+        "In general. releasing code and data is often one good way to accomplish this, but reproducibility can also be provided via detailed instructions for how to replicate the results, access to a hosted model (e.g., in the case of a large language model), releasing of a model checkpoint, or other means that are appropriate to the research performed. • While NeurIPS does not require releasing code, the conference does require all submissions to provide some reasonable avenue for reproducibility, which"
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2512.11611",
+      "title": "Using GUI Agent for Electronic Design Automation",
+      "authors": [
+        {
+          "authorName": "Chunyi Li"
+        },
+        {
+          "authorName": "Longfei Li"
+        },
+        {
+          "authorName": "Zicheng Zhang"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Graphical User Interface (GUI) agents adopt an end-to-end paradigm that maps a screenshot to an action sequence, thereby automating repetitive tasks in virtual environments. However, existing GUI agents are evaluated almost exclusively on commodity software such as Microsoft Word and Excel. Professi...",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2512.11611",
+          "targetDoi": "10.23919/date56975.2023.10137086",
+          "snippet": "Natural-language: Recent Large-Language-Model (LLM) works let users describe a circuit in free English and then generate Verilog code or instruction directly. ChipNeMo, RTLLM, VerilogEval, ChipGPT and VeriGen [19]- [23] show that fine-tuned LLMs can reach 90% syntax correctness, but still suffer from 75% functional errors even on small HDLBits benchmarks. Because language is ambiguous with respect to clocking, reset, power intent, etc., the resulting Register Transfer Level (RTL) almost always needs manual repair.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.11611",
+          "targetDoi": "10.1073/pnas.1918249117",
+          "snippet": "Figure 1 summarizes the prospective return of mainstream GUI Agents across various applications. Success rates are drawn from ScreenSpot-Pro [8], and labor costs are taken from the U.S. occupational wage [9] medians. The results indicate that current GUI Agents perform well on common software, yet the corresponding human labor is inexpensive.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.11611",
+          "targetDoi": "10.18653/v1/2022.acl-long.26",
+          "snippet": "Settings GUI-EDA uses both general MLLM and specialized GUI Agent for testing, with 27 strong candidate models in total. We exclude old model (before July 2023) such as VisualGLM [35] and InstructBLIP [36], to ensure all chosen MLLMs show excellent performance in past comprehension benchmarks [37]- [43], and all chosen GUI Agents demonstrate high accuracy in past non-EDA [16]- [18] tasks. Specifically, the MLLM open-source candidates have a size from 7B to 70B, and the closed-source candidates call the latest API interface (as of July 2025).",
+          "section": "methods",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "INTRODUCTION\n\nThe rapid evolution of Multimodal Large Language Models (MLLMs) now spans Text-to-Text (e.g., DeepSeek [1], In-ternLM [2]), Image-to-Text (e.g., Qwen-VL [3], InternVL [4]), Text-to-Image (e.g., SDXL [5], DALL-E [6]), and Text-to-Video (e.g., Sora [7]). While these models are widely deployed for creative tasks such as poetry generation and film synthesis, users frequently voice the concern: 'I want AI to do my laundry and dishes so that I can do art and writing, not vice versa.'",
+        "Electronic Design Automation (EDA) engineers have the highest cost, and the current Agent performs the worst, highlighting the significance of an EDA-specific GUI Agent.\n\nSuch agents translate the decisions of an MLLM into concrete actions and interact with external tools-APIs, databases, or physical devices.",
+        "Guided by these principles, Electronic Design Automation (EDA) should be a separate branch beyond general GUI Agent tasks. For utility, a Computer-Aided Design (CAD) engineer costs roughly ten times more than an Office user, implying a strong demand for an automatic paradigm. However, for usability, GUI Agents achieve only a 4% success rate on CAD workflows. Multiple GUI-Agent benchmarks corroborate II. RELATED WORKS A."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2602.02849",
+      "title": "AutoSizer: Automatic Sizing of Analog and Mixed-Signal Circuits via Large Language Model (LLM) Agents",
+      "authors": [
+        {
+          "authorName": "Xi Yu"
+        },
+        {
+          "authorName": "Dmitrii Torbunov"
+        },
+        {
+          "authorName": "Soumyajit Mandal"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "The design of Analog and Mixed-Signal (AMS) integrated circuits remains heavily reliant on expert knowledge, with transistor sizing a major bottleneck due to nonlinear behavior, highdimensional design spaces, and strict performance constraints. Existing Electronic Design Automation (EDA) methods typ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.02849",
+          "targetDoi": "10.48550/arxiv.2310.06770",
+          "snippet": "Many frameworks incorporate memory mechanisms and self-reflective reasoning to accumulate experience and adapt strategies over time. They have been successfully applied across diverse domains including software engineering (Jimenez et al, 2023;Wang et al, 2024), robotics (Brohan et al, 2023;Black et al, 2024), data science (Guo et al, 2024;Hong et al, 2025), and scientific research (Yamada et al, 2025;Baek et al, 2025). In electronic design automation, recent works explore LLM-based approaches for analog circuit design: AnalogXpert (Lai et al, 2025) automates topology synthesis, EEschematic (Liu &amp; Chitnis, 2025a) generates schematics via multimodal agents, AnalogCoder-Pro (Lai et al, 2025) unifies circuit generation and optimization, and SimuGen (Ren et al, 2025) constructs block diagram-based simulation models through multi-modal agents.",
+          "section": "llm agents",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.02849",
+          "targetDoi": "10.1145/3195970.3196078",
+          "snippet": "Traditional methods formulate the circuit sizing as an optimization problem, such as Bayesian Optimization (BO) (Touloupas et al, 2021;Lyu et al, 2018), Reinforcement Learning (Wang et al, 2020), and genetic algorithms (Cohen et al, 2015). However, these approaches treat the circuit design space as a static black box, ignoring domain-specific analog design expertise and often yielding suboptimal solutions.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.02849",
+          "targetDoi": "10.1109/dac56929.2023.10247909",
+          "snippet": "Bayesian optimization (BO) improves sample efficiency using surrogate models (Lyu et al, 2018;Liu et al, 2014;Shahriari et al, 2015), but still relies on fixed parameter spaces and predefined acquisition strategies, and struggles as dimensionality increases. More recently, reinforcement learning (RL) methods (Wang et al, 2018;Settaluri et al, 2020;Yang et al, 2021) demonstrate improved scalability and transfer learning (Zhang et al, 2023;Ahmadzadeh et al, 2025b), yet still require hundreds of computationally expensive simulations and yield opaque, task-specific policies, limiting interpretability and hindering industrial adoption.",
+          "section": "traditional circuit sizing methods",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "As a result, automatic circuit sizing has emerged as a crucial problem in electronic design automation (EDA) and has attracted increasing research attention.\n\nTraditional methods formulate the circuit sizing as an optimization problem, such as Bayesian Optimization (BO) (Touloupas et al., 2021;Lyu et al., 2018), Reinforcement Learning (Wang et al., 2020), and genetic algorithms (Cohen et al., 2015).",
+        "However, these approaches treat the circuit design space as a static black box, ignoring domain-specific analog design expertise and often yielding suboptimal solutions. Recently, LLM-based agents have shown promise in symbolic reasoning and scientific problem solving. Several studies have explored LLMs for automated analog circuit design, focusing on circuit knowledge representation and sizing optimization.",
+        "In electronic design automation, recent works explore LLM-based approaches for analog circuit design: AnalogXpert (Lai et al., 2025) automates topology synthesis, EEschematic (Liu & Chitnis, 2025a) generates schematics via multimodal agents, AnalogCoder-Pro (Lai et al., 2025) unifies circuit generation and optimization, and SimuGen (Ren et al., 2025) constructs block diagram-based simulation models through multi-modal agents."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2601.14541",
+      "title": "Report for NSF Workshop on AI for Electronic Design Automation",
+      "authors": [
+        {
+          "authorName": "Deming Chen"
+        },
+        {
+          "authorName": "Vijay Ganesh"
+        },
+        {
+          "authorName": "Weikai Li"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "This report distills the discussions and recommendations from the NSF Workshop on AI for Electronic Design Automation (EDA), held on December 10, 2024 in Vancouver alongside NeurIPS 2024. Bringing together experts across machine learning and EDA, the workshop examined how AI-spanning large language ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14541",
+          "targetDoi": "10.1109/dac56929.2023.10247903",
+          "snippet": "A combination of AI-driven design techniques and recent advances in a new formal verification approach (G-QED [40]) provides a promising path as presented in [50] and explained in Sec. V-C.",
+          "section": "b summary of existing efforts and showstoppers",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14541",
+          "targetDoi": "10.1109/fpl.2019.00069",
+          "snippet": "1) Accurate estimation of design metrics with ML: High-Level Synthesis (HLS) often encounters discrepancies between estimated and post-implementation metrics. To address this, Pyramid [18] introduces an ensemble ML model trained on diverse benchmarks that predicts timing and resource usage with over 95% accuracy. Thus, it reduces the need for exhaustive implementation and enables early assessment of design trade-offs.",
+          "section": "b summary of existing efforts and showstoppers",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14541",
+          "targetDoi": "10.1109/asp-dac47756.2020.9045559",
+          "snippet": "• DRiLLS [20] This scalability positions it as a powerful solution for various circuit benchmarks. 6) Symbolic reasoning for functional understanding:",
+          "section": "b summary of existing efforts and showstoppers",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Summary of Existing Efforts and Showstoppers\n\nExisting efforts:\n\n1) Reinforcement Learning (RL): Used for macro placement tasks, RL has shown success in reducing wirelength and improving placement quality.\n\n2) Surrogate models for design analysis: Faster and approximate models replace traditional analytical analysis for key design metrics such as timing, power, routability, etc, accelerating optimizations. 3) LLM for rule creation: Large language models (LLMs) are being applied to automate DRC code",
+        "Initially validated in the context of CNN accelerators, this method illustrates how advanced language models can potentially simplify and automate complex design tasks.\n\nMotivated by the effectiveness of merely providing a demonstration examples in GPT4AIGChip, MG-Verilog [14] introduces an approach to enhancing LLM-assisted Verilog generation by providing a dataset of 11k that includes multigrained, detailed descriptions of hardware functions alongside their corresponding Verilog code.",
+        "This dataset aims to improve the training and operational efficacy of language models in hardware design by offering diverse levels of description detail, from high-level summaries to intricate, line-by-line annotations.\n\nLLM4SVA [under review] presented a further development in this direction, targeting the automated generation of SystemVerilog Assertions (SVAs) from high-level natural language descriptions."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.36227/techrxiv.170473941.10097233/v1",
+      "title": "LADAC: Large Language Model-driven Auto-Designer for Analog Circuits",
+      "authors": [
+        {
+          "authorName": "Chengjie Liu"
+        },
+        {
+          "authorName": "Yijiang Liu"
+        },
+        {
+          "authorName": "Yuan Du"
+        }
+      ],
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "abstract": "e-Prints posted on TechRxiv are preliminary reports that are not peer reviewed. They should not b...",
+      "year": 2024,
+      "date": "2024-01-08",
+      "tally": {
+        "total": 3,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 3,
+        "citingPublications": 13
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.36227/techrxiv.170473941.10097233/v1",
+          "targetDoi": "10.1109/sp46214.2022.9833571",
+          "section": "a llms on hardware description language (hdl)",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.36227/techrxiv.170473941.10097233/v1",
+          "targetDoi": "10.1109/mssc.2019.2939771",
+          "section": "ring oscillator",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.36227/techrxiv.170473941.10097233/v1",
+          "targetDoi": "10.1109/mssc.2019.2939771",
+          "section": "ring oscillator",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1038/s44172-025-00511-5",
+      "title": "Toward an ion-based large-scale integrated circuit: design, simulation, and integration",
+      "authors": [
+        {
+          "authorName": "Noa Edri Fraiman"
+        },
+        {
+          "authorName": "Barak Sabbagh"
+        },
+        {
+          "authorName": "Gilad Yossifon"
+        }
+      ],
+      "journal": "communications engineering",
+      "publisher": "Springer Science and Business Media LLC",
+      "abstract": "Iontronics combines ions as information carriers with electronic-like operations, enabling the creation of ion-based integrated circuits that offer unique signal processing, chemical regulation, and enhanced bio-integrability. Existing simulation tools encounter difficulties in effectively modeling ...",
+      "year": 2025,
+      "date": "2025-10-22",
+      "volume": "4",
+      "issue": "1",
+      "tally": {
+        "total": 2,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 2,
+        "citingPublications": 5
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1038/s44172-025-00511-5",
+          "targetDoi": "10.1021/acsami.1c12324",
+          "section": "results",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1038/s44172-025-00511-5",
+          "targetDoi": "10.1021/acsami.3c00062",
+          "section": "methods",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1038/s44172-025-00511-5",
+          "targetDoi": "10.1126/sciadv.1601340",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2403.15834",
+      "title": "ARO: Large Language Model Supervised Robotics Text2Skill Autonomous Learning",
+      "authors": [
+        {
+          "authorName": "Yiwen Chen"
+        },
+        {
+          "authorName": "Yuyao Ye"
+        },
+        {
+          "authorName": "Ziyi Chen"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2024,
+      "date": "2024-01-01",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2601.19439",
+      "title": "OSIRIS: Bridging Analog Circuit Design and Machine Learning with Scalable Dataset Generation",
+      "authors": [
+        {
+          "authorName": "Giuseppe Chiari"
+        },
+        {
+          "authorName": "Michele Piccoli"
+        },
+        {
+          "authorName": "Davide Zoni"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "The automation of analog integrated circuit (IC) design remains a longstanding challenge, primarily due to the intricate interdependencies among physical layout, parasitic effects, and circuit-level performance. These interactions impose complex constraints that are difficult to accurately capture a...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.19439",
+          "targetDoi": "10.48550/arxiv.2509.14169",
+          "snippet": "These challenges motivate datasets and frameworks that expose physically accurate, parasitic-aware layout information suitable for ML-based methods. At present, the research effort mainly targets front-end optimizations encompassing the optimization of the topologies of analog circuits leveraging graph neural networks (GNNs), e.g., CktGNN (Dong et al, 2023), large language model (LLM) solutions, e.g., AnalogCoder (Lai et al, 2025a;b), LaMAGIC (Chang et al, 2024), and TopoSizing (Wei et al, 2025) reinforcement learning (RL) e.g., AutoCircuit-RL (Vijayaraghavan et al) or decoderonly transformers, e.g., EVA (Gao et al, 2025c). Notably, AnalogCoder employs domain-specific prompt engineering and a feedback optimization loop to produce PySpice code, which can be translated into SPICE netlists.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.19439",
+          "targetDoi": "10.1145/3400302.3415624",
+          "snippet": "The inherent complexity (Noori Zadeh &amp; Elamien, 2025) of the analog layout design phase, which is highly sensitive to parasitic effects, tightly bound to specific technology nodes, and constrained by intricate manufacturability requirements, hinders back-end automation. Few seminal works employ GNNs to predict placement performance and guide its optimization (Li et al, 2020) or to increase the accuracy of front-end simulation (Ren et al, 2020). At the same time, variational autoencoders have been applied to analog routing by learning expert-like strategies from manually crafted layouts (Zhu et al, 2019).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.19439",
+          "targetDoi": "10.48550/arxiv.2507.15104",
+          "snippet": "More recently, AnalogGenie (Gao et al, 2025b) introduced a domain-specific GPT-based decoder model that represents each device pin as an individual graph node, enabling fine-grained modeling of circuit connectivity. AnalogFed (Li et al, 2025), an advanced version of AnalogGenie, targets analog topology discovery within a federated learning framework, allowing the integration of multiple private datasets while preserving confidentiality. The inherent complexity (Noori Zadeh &amp; Elamien, 2025) of the analog layout design phase, which is highly sensitive to parasitic effects, tightly bound to specific technology nodes, and constrained by intricate manufacturability requirements, hinders back-end automation.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "However, unlike digital ICs, which benefit from highly automated and increasingly ML-driven design flows (Razavi, 2005;Carusone et al., 2011;Allen & Holberg, 2011;Cui et al., 2024;Fang et al., 2025;Liu et al., 2025a;Zhao et al., 2025;Liu et al., 2025b), analog circuit design remains largely manual due to (i) complexity, unlike digital design based on simple logic gates, analog circuits use diverse components (MOSFETs, resistors, capacitors) with intricate interconnections, (ii) sensitivity, small",
+        "At present, the research effort mainly targets front-end optimizations encompassing the optimization of the topologies of analog circuits leveraging graph neural networks (GNNs), e.g., CktGNN (Dong et al., 2023), large language model (LLM) solutions, e.g., AnalogCoder (Lai et al., 2025a;b), LaMAGIC (Chang et al., 2024), and TopoSizing (Wei et al., 2025) reinforcement learning (RL) e.g., AutoCircuit-RL (Vijayaraghavan et al.) or decoderonly transformers, e.g., EVA (Gao et al., 2025c).",
+        "Modern ML methods require large-scale datasets that comprehensively represent the analog circuit design space to learn and identify optimal solutions effectively.\n\nDESIGN SPACE DIMENSIONS IN DATASET GENERATION\n\nIn analog physical layout design, estimating the impact of parasitic elements is critical. These elements arise from layout geometries and the proximity of components, often degrading circuit performance."
+      ],
+      "contentDenied": false
+    }
+  ]
+}

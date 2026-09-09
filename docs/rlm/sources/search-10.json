@@ -1,0 +1,484 @@
+{
+  "query": "\"language model\" AND (\"component selection\" OR \"part retrieval\" OR \"engineering knowledge graph\")",
+  "total": 464,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.3390/electronics15112301",
+      "title": "Efficient Similarity-Based Datasheet Retrieval and Analysis Using Retrieval-Augmented Generation for Electronic Component Selection",
+      "authors": [
+        {
+          "authorName": "Dan Curavale"
+        },
+        {
+          "authorName": "Georgian Nicolae"
+        },
+        {
+          "authorName": "Alexandru Caranica"
+        }
+      ],
+      "journal": "electronics",
+      "publisher": "MDPI AG",
+      "abstract": "Component obsolescence and supply-chain disruptions increasingly force engineers to spend significant time manually searching and comparing PDF datasheets to identify compatible replacement parts. We propose an AI-powered datasheet assistant based on a Retrieval-Augmented Generation (RAG) pipeline t...",
+      "year": 2026,
+      "date": "2026-05-26",
+      "volume": "15",
+      "issue": "11",
+      "page": "2301",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2601.14098",
+      "title": "A flexible language model-assisted electronic design automation framework",
+      "authors": [
+        {
+          "authorName": "Cristian Sestito"
+        },
+        {
+          "authorName": "Panagiota I. Kontou"
+        },
+        {
+          "authorName": "Pratibha Verma"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large language models (LLMs) are transforming electronic design automation (EDA) by enhancing design stages such as schematic design, simulation, netlist synthesis, and place-and-route. Existing methods primarily focus these optimisations within isolated open-source EDA tools and often lack the flex...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14098",
+          "targetDoi": "10.1145/3715324",
+          "snippet": "Generative AI, particularly large language models (LLMs), is transforming this iterative design process from a purely human-EDA interaction to a collaborative human-LLM-EDA approach [4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21] , with expectations of a tenfold increase in productivity within the electronics industry 22 . LLMs effectively assist in various design stages, such as register-transfer-level code generation [23][24][25] , testbench generation 26,27 , Spice netlist generation 28 , transistor sizing 29,30 , floorplanning and placement 31 , static timing analysis 32 , bonding pad insertion 33 , design verification [34][35][36] , design code fix [37][38][39] , end-to-end high level synthesis 40 .",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14098",
+          "targetDoi": "10.1145/3728179.3728192",
+          "snippet": "To evaluate the LaMDA framework on the FPGA design flow, we considered the ResBench dataset 41 . It consists of 56 problems across 12 categories (Supplementary Table S1).",
+          "section": "fpga design flow application",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.14098",
+          "targetDoi": "10.36227/techrxiv.174741927.75152825/v1",
+          "snippet": "Electronic design automation (EDA) is crucial for designing circuits, such as analogue amplifiers, digital architectures, and radio-frequency (RF) modules [1][2][3] . Indeed, EDA tools provide automation support from the early schematic stages to the physical implementation, as well as assistance with design simulation and analysis.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Generative AI, particularly large language models (LLMs), is transforming this iterative design process from a purely human-EDA interaction to a collaborative human-LLM-EDA approach [4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21] , with expectations of a tenfold increase in productivity within the electronics industry 22 .",
+        "In this article we propose LaMDA: a flexible framwework for LAnguage Model-assisted electronic Design Automation. LaMDA leverages commercial LLMs across three common circuit design flows: analogue design, RF design, and field-programmable gate array (FPGA) design. These flows were selected because they represent widely used domains in modern electronic systems and capture the key challenges encountered in practical design workflows.",
+        "Specifically, a structured list of available Keysight ADS libraries and their corresponding components was extracted from Keysight ADS and included in the prompt to guide valid component selection. In addition, representative examples of Keysight ADS netlists were incorporated to provide syntactic and semantic reference patterns for netlist generation."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.01806",
+      "title": "ProbeScale: Probing Analysis to Optimize Neural Scaling Laws for Efficient Small Language Model Inference",
+      "authors": [
+        {
+          "authorName": "Sourav Das"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Small Language Models (SLMs) offer a balance between capability and computational feasibility. Neural scaling laws inform their optimal training, suggesting that they possess rich internal representations that scale with their size. However, deploying even these SLMs can be challenging under strict ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.01806",
+          "targetDoi": "10.18653/v1/2021.naacl-main.185",
+          "snippet": "The advent of Large Language Models (LLMs) has been driven by Neural Scaling Laws (Kaplan et al, 2020;Hoffmann et al, 2022), which empirically demonstrate predictable performance gains with scale (parameters N , data D, compute C). While state-of-the-art models exceed hundreds of billions to even trillions of parameters, some previous works have focused on SLMs (Schick and Schütze, 2021;Lester et al, 2021) in the range of a few hundred million parameters. These SLMs, often trained following similar scaling principles to optimize performance for their compute budget, represent a potent compromise between capability and deployability.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.01806",
+          "targetDoi": "10.48550/arxiv.2001.08361",
+          "snippet": "The advent of Large Language Models (LLMs) has been driven by Neural Scaling Laws (Kaplan et al, 2020;Hoffmann et al, 2022), which empirically demonstrate predictable performance gains with scale (parameters N , data D, compute C). While state-of-the-art models exceed hundreds of billions to even trillions of parameters, some previous works have focused on SLMs (Schick and Schütze, 2021;Lester et al, 2021) in the range of a few hundred million parameters.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.01806",
+          "targetDoi": "10.18653/v1/2022.naacl-main.341",
+          "snippet": "Model Compression. Techniques like pruning (Frankle and Carbin, 2018), quantization (Xiao et al, 2023), and knowledge distillation (West et al, 2022;Yang et al, 2024) reduce model size. Structured pruning (Ma et al, 2023;Ling et al, 2024) removes components like layers or heads.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nThe advent of Large Language Models (LLMs) has been driven by Neural Scaling Laws (Kaplan et al., 2020;Hoffmann et al., 2022), which empirically demonstrate predictable performance gains with scale (parameters N , data D, compute C). While state-of-the-art models exceed hundreds of billions to even trillions of parameters, some previous works have focused on SLMs (Schick and Schütze, 2021;Lester et al., 2021) in the range of a few hundred million parameters.",
+        "Concurrently, Language Model Probing (Belinkov, 2022;Hewitt and Manning, 2019) provides tools to analyze where and how linguistic information (syntax, semantics, etc.) is encoded within a model's representations, typically revealing layer specialization (Jawahar et al., 2019).\n\nWe propose ProbeScale, a robust framework that synergistically combines insights from Scaling Laws and Probing for efficient SLM inference.",
+        "We repurpose probe performance V p,l from an analytical metric to a prescriptive score for component selection. Model Compression. Techniques like pruning (Frankle and Carbin, 2018), quantization (Xiao et al., 2023), and knowledge distillation (West et al., 2022;Yang et al., 2024) reduce model size. Structured pruning (Ma et al., 2023;Ling et al., 2024) removes components like layers or heads."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2604.14602",
+      "title": "CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification",
+      "authors": [
+        {
+          "authorName": "Yian Wang"
+        },
+        {
+          "authorName": "Yuen Chen"
+        },
+        {
+          "authorName": "Agam Goyal"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large language models (LLMs) frequently generate toxic content, posing significant risks for safe deployment. Current mitigation strategies often degrade generation quality or require costly human annotation. We propose CAUSALDETOX, a framework that identifies and intervenes on the specific attentio...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2604.14602",
+          "targetDoi": "10.48550/arxiv.2109.07445",
+          "snippet": "Large language models (LLMs) have significantly advanced natural language generation, achieving state-of-the-art performance across a wide range of tasks. Despite their advancements, LLMs continue to pose serious safety concerns due to their propensity for generating toxic, biased, or otherwise harmful content (Gehman et al, 2020;Welbl et al, 2021). Addressing these issues is crucial for the responsible and ethical deployment of LLMs in real-world applications.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.14602",
+          "targetDoi": "10.48550/arxiv.2203.09509",
+          "snippet": "We construct PARATOX using the annotated subset of the ToxiGen (Hartvigsen et al, 2022) and ImplicitHate (ElSherief et al, 2021b) 2 . comprising 6,514 (3,747 non-toxic and 2,767 toxic), and 14,200 (7,100 toxic and 7,100 non-toxic) samples respectively.",
+          "section": "a dataset",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.14602",
+          "targetDoi": "10.48550/arxiv.2109.07445",
+          "snippet": "While these methods achieve varying degrees of success, each presents notable limitations. Lexical filtering often disrupts semantic coherence and can fail to account for subtle, contextdependent toxicity (Welbl et al, 2021). Methods based on RLHF or supervised fine-tuning require extensive human annotation, which is costly, can lead to the inadvertent suppression of nuanced language or subtle concepts (Xu et al, 2021), and may raise concerns about annotator well-being due to the repetitive or potentially harmful nature of the content being reviewed.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Large Language Models\n\nConsider a transformer-based language model M with L layers, each containing H attention heads.\n\nGiven an input token sequence x = [x 1 , . . . , x t ], the model computes hidden states through a series of self-attention mechanisms. Within layer ℓ, the output of the h-th attention head is a vector z (ℓ,h) ∈ R d . The model autoregressively generates the next token y t based on the conditional distribution P (y t |x, y <t ).",
+        "Note that we do not claim full structural-equation causal identification of the language model; rather, PNS provides a principled component-selection criterion under the multicause latent factor assumption, with empirical support provided via incremental head masking in Section H.\n\nInference-Time Intervention\n\nInference-Time Intervention (Li et al., 2023a) steers model behavior by shifting activations during the forward pass.",
+        "Conclusions\n\nIn this work, we proposed CAUSALDETOX, a framework for language model detoxification that transitions from correlation-based heuristics to causal mechanism identification. By leveraging the Probability of Necessity and Sufficiency (PNS), we isolated a minimal set of attention heads responsible for toxic generation."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.05194",
+      "title": "Temporal Preference Concepts and their Functions in a Large Language Model",
+      "authors": [
+        {
+          "authorName": "Ian Rios-Sialer"
+        },
+        {
+          "authorName": "Shantanu Darveshi"
+        },
+        {
+          "authorName": "Shuai Jiang"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large Language Models (LLMs) are increasingly being deployed to make decisions that require trading off near-term gains against long-term consequences, yet little is known about how they internally represent or resolve these tradeoffs.In this work, we causally localize an underlying subgraph for tem...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.05194",
+          "targetDoi": "10.48550/arxiv.2505.11615",
+          "snippet": "Previous work has investigated the existence of temporal representations [38], characterized the economic behavior of LLMs [16,48], and even shown that risk preference can be steered [116]. Yet no work has identified where temporal preference lives inside an LLM, how it is geometrically organized, or how to control it through targeted intervention.",
+          "section": "louise glück landscape",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.05194",
+          "targetDoi": "10.1257/mic.20200195",
+          "snippet": "When choosing among alternatives, the decision often depends on the temporal scope used to evaluate the consequences [20,98,32]. Temporal preference is indeed fundamental for planning [1], but also for cooperation [103,55] and trust [27], where agents must bear present costs for future collective benefit [83]. These intertemporal tradeoffs grow even more consequential in the context of Artificial General Intelligence (AGI).",
+          "section": "louise glück landscape",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.05194",
+          "targetDoi": "10.1257/002205102320161311",
+          "snippet": "Then, the temporal scope is the bounded interval of time over which an agent weighs the results according to its preference 3 . The empirical handle on temporal preference is intertemporal choice: a decision between options that differ in both reward and delay [29,36]. Each option i is a tuple (r i , t i ) of reward r i ∈ R + and delay t i ∈ R + .",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Louise Glück, Landscape\n\nLarge Language Models (LLMs) appear to hold preferences mediated by abstract concepts such as time. Impatience and paralysis both push humans into bad decisions. LLMs risk failing in similar ways. For now, the consequences have been limited. No coding agent cutting corners [7] has caused a catastrophe yet. But the stakes are rising quickly. In early 2026, the U.S.",
+        "C.5 Overview of the extended methodologies\n\nFull protocol-level details for each pipeline, including dataset construction, sample sizes, prompt formats, component-selection thresholds, and analysis procedures, are in Part 4 of the appendices. A reader looking for one specific experiment's full methodology can jump directly to the corresponding appendix below; the four-part organization mirrors the localize/characterize/intervene pipeline:\n\nLocalize (four pipelines).",
+        "Figure H. 4 Figure H.4 complements the top-k count analysis by showing mean attribution scores per layer.The mean score profile confirms that the layers 21-35 concentration is not merely a consequence of having more components selected; these layers also carry higher per-component attribution mass on average.\n\nFigure H. 3 : Figure H.3: Heatmap of top-k component counts per layer, broken down by component type."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.3390/drones9110803",
+      "title": "Automated UAV Object Detector Design Using Large Language Model-Guided Architecture Search",
+      "authors": [
+        {
+          "authorName": "Fei Kong"
+        },
+        {
+          "authorName": "Xiaohan Shan"
+        },
+        {
+          "authorName": "Yan‐Wei Hu"
+        }
+      ],
+      "journal": "drones",
+      "publisher": "MDPI AG",
+      "abstract": "Neural Architecture Search (NAS) is critical for developing efficient and robust perception models for UAV and drone-based applications, where real-time small object detection and computational constraints are major challenges. Existing NAS methods, including recent approaches leveraging large langu...",
+      "year": 2025,
+      "date": "2025-11-18",
+      "volume": "9",
+      "issue": "11",
+      "page": "803",
+      "tally": {
+        "total": 2,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 2,
+        "citingPublications": 2
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.3390/drones9110803",
+          "targetDoi": "10.48550/arxiv.1806.09055",
+          "snippet": "Neural Architecture Search (NAS) automates the discovery of high-performing model architectures, offering a promising path toward tailored, deployment-ready detection networks [13,14]. Yet, traditional NAS methods-whether based on evolutionary algorithms [15], reinforcement learning [16], or gradient-based optimization [17]-are often prohibitively expensive for UAV platforms, and are rarely adapted for small object detection or edge scenarios.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.3390/drones9110803",
+          "targetDoi": "10.48550/arxiv.2302.14838",
+          "snippet": "Recent works start to employ LLMs to (i) propose architecture blueprints from naturallanguage constraints, (ii) synthesize runnable code, and (iii) iterate with scoring feedback [18][19][20][21][22]. However, most studies still focus on classification spaces and use a fixed LLM capacity throughout search, which can be inefficient during early exploration and insufficiently expressive in late refinement.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.3390/drones9110803",
+          "targetDoi": "10.3390/app15179803",
+          "snippet": "Beyond model design, real UAV deployments must consider UTM/airspace safety assessment workflows, communication reliability, and cyber-physical threats [24]. Task-level coordination with ground assets and low-altitude economy constraints further shape perception requirements and real-time budgets [25]. At swarm scale, communication, occlusion, and synchronization amplify robustness demands on onboard detection [26].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Early exploration benefits from rapid, broad sampling across the search space-a task that smaller language models can handle efficiently. Later refinement requires sophisticated reasoning about architectural tradeoffs and subtle optimizations-demanding the advanced capabilities that only larger models possess.\n\nThis observation leads to our core design principle: dynamically match computational resources to search phase complexity.",
+        "As illustrated in Figure 1, the algorithm's core innovation lies in its dynamic model scaling strategy, where the exploration phase utilizes a smaller, cost-efficient language model for broad and rapid architectural discovery, significantly reducing search cost. Once promising candidate architectures emerge, the refinement phase transitions to a larger, more capable language model, which further optimizes and diversifies these candidates with advanced reasoning and creativity.",
+        "Dynamic Search Process\n\nThe search process operates within a constrained space S defined by three fundamental design principles:\n\nModular Component Selection: All architectural components must be selected from predefined functional groups G k (e.g., convolutional layers, residual blocks).\n\n2.\n\nDimensional Compatibility: Adjacent modules must preserve dimensional consistency through strict channel matching, ensuring seamless integration.\n\n3."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2604.16359",
+      "title": "LLM4Log: A Systematic Review of Large Language Model-based Log Analysis",
+      "authors": [
+        {
+          "authorName": "Zeyang Ma"
+        },
+        {
+          "authorName": "Jinqiu Yang"
+        },
+        {
+          "authorName": "Tse-Hsun Chen"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "TSE-HSUN (PETER) CHEN, Software PErformance, Analysis, and Reliability (SPEAR) lab, Concordia University, Canada Software systems generate massive, evolving, semi-structured logs that are central to reliability engineering and AIOps, yet difficult to analyze at scale under drift and limited labels. ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2604.16359",
+          "targetDoi": "10.18653/v1/p17-1099",
+          "snippet": "Representative families include T5 [134] and BART [78], which are typically trained with denoising or text-to-text objectives [78,134,171]. For logs, this paradigm is most relevant when the task transforms one textual form into another: incident summarization, noisy-message normalization, structured extraction, or template-like rewriting conditioned on surrounding context [78,134,142].",
+          "section": "evolution of llms: architectures and training stages",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.16359",
+          "targetDoi": "10.48550/arxiv.2206.07682",
+          "snippet": "Representative examples include the GPT family [11] and open-weight decoder models such as LLaMA-style backbones [167]. For log analysis, they are attractive when workflows require open-ended reasoning, hypothesis generation, retrieval-augmented triage, remediation suggestions, or multi-turn operator interaction, especially when labeled data is scarce [120,180]. The trade-off is higher inference cost and latency, which motivates selective escalation and hybrid designs discussed later [149].",
+          "section": "evolution of llms: architectures and training stages",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.16359",
+          "targetDoi": "10.18653/v1/2020.acl-main.740",
+          "snippet": "Domain-tailored LLMs adapt a backbone to a specific operational domain (e.g., AIOps for cloud platforms, network diagnostics, ICS security) via continued pretraining, instruction tuning, or explicit knowledge integration [43,120]. They are most valuable when logs contain specialized vocabularies, recurring incident patterns, and internal operational procedures that general-purpose models cannot infer reliably [43].",
+          "section": "llm capability and specialization taxonomy for log analytics",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "In recent years, there has been a rapid methodological transition: pretrained Transformer language models, including modern LLMs, are increasingly used as the backbone for log analysis.",
+        "In this paper, we present LLM4Log, a systematic review of large-language-model-based log analysis. We focus on software runtime logs as the central evidence source, while also covering multimodal studies in which logs remain an important part of the operational evidence. We conducted a structured literature collection and manual screening process, with the corpus collection completed in November 2025.",
+        "The log-related keywords include terms such as \"log\", \"system log\", \"runtime log\", \"log analysis\", \"log parsing\", \"log anomaly detection\", \"failure prediction\", \"root cause analysis\", \"incident diagnosis\", \"log summarization\", the LLM-related keywords include terms such as \"large language model\", \"LLM\", \"Transformer\", \"BERT\", \"GPT\", \"ChatGPT\", \"in-context learning\", \"prompting\", \"retrievalaugmented generation\", and \"agent\"."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1038/s41598-026-42705-7",
+      "title": "When collaboration fails: persuasion driven adversarial influence in multi agent large language model debate",
+      "authors": [
+        {
+          "authorName": "Insaf Kraidia"
+        },
+        {
+          "authorName": "Iyas Qaddara"
+        },
+        {
+          "authorName": "Alhanof Almutairi"
+        }
+      ],
+      "journal": "scientific reports",
+      "publisher": "Springer Science and Business Media LLC",
+      "year": 2026,
+      "date": "2026-04-08",
+      "volume": "16",
+      "issue": "1",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1038/s41598-026-42705-7",
+          "targetDoi": "10.1007/978-3-031-27099-4_8",
+          "section": "threat model and attack design",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2112.08346",
+      "title": "Simple Text Detoxification by Identifying a Linear Toxic Subspace in Language Model Embeddings",
+      "authors": [
+        {
+          "authorName": "Andrew Wang"
+        },
+        {
+          "authorName": "Mohit Sudhakar"
+        },
+        {
+          "authorName": "Yangfeng Ji"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large pre-trained language models are often trained on large volumes of internet data, some of which may contain toxic or abusive language. Consequently, language models encode toxic information, which makes the realworld usage of these language models limited. Current methods aim to prevent toxic f...",
+      "year": 2021,
+      "date": "2021-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2112.08346",
+          "targetDoi": "10.1145/3278721.3278729",
+          "snippet": "We distinguish our task from other related tasks that also manipulate the latent space such as removing undesired biases in language models (Boluk-basi et al, 2016;Bordia and Bowman, 2019;Liang et al, 2020) or disassociating protected groups from toxic contexts (Dixon et al, 2018;Park et al, 2018;Zhou et al, 2021). Debiasing tasks generally involve manipulating the latent space such that bias classes such as different genders are equally represented, or they involve relabelling the dataset such that protected groups are not disproportionately present in toxic examples.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2112.08346",
+          "targetDoi": "10.1145/3278721.3278729",
+          "snippet": "We recognize the possibility that our classifier may make biased masking decisions, such as being predisposed to censor references to protected groups. To minimize the amount of biased masking decisions, we use the debiased toxicity classifier produced by (Dixon et al, 2018) as the MaskerModel in our context based masking algorithm. The model uses GloVe embeddings and is trained on debiased data based on the Wikipedia Toxicity Subtypes dataset.",
+          "section": "debiased toxicity classifier",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2112.08346",
+          "targetDoi": "10.1145/3278721.3278729",
+          "snippet": "We call to attention the difference between what we call a toxic bias and bias that occurs when performing toxicity classification. While a toxic bias is a predisposition towards toxic language due to training data, bias resulting from toxicity classification usually takes the form of incorrectly classifying as toxic a sentence mentioning protected groups (Dixon et al, 2018) or containing speech patterns associated with these groups (Sap et al, 2019) because of co-occurrence in the dataset. We highlight this distinction because the latter form of bias is often also referred to as toxic bias in other literature.",
+          "section": "methods",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nTransformer language models have recently found great success in tasks such as text classification, owing in large part to the large amounts of data used to train the model (Devlin et al., 2018). Much of this data is derived from online sources without much vetting, and a major consequence is that training data contains toxic language (Gehman et al., 2020). As a result, language models learn toxic behavior (Wallace et al., 2019).",
+        "Related Work\n\nProbings of pretrained language models such as BERT and GPT-2 find that these language models associate specific contexts with toxic language (Nozza et al., 2021;Ousidhoum et al., 2021). These probing techniques create a prompt in the format of \"a [protected group] [does a specific action] because they...\" where different protected groups and actions can be used in the prompt.",
+        "A language model such as GPT-2 must then complete the prompt, after which, the continuations are analyzed. This technique resembles the problem of toxic degeneration (Gehman et al., 2020), wherein a non-toxic prompt may still induce a language model to generate toxic text."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.18653/v1/2023.blackboxnlp-1.29",
+      "title": "Identifying and Adapting Transformer-Components Responsible for Gender Bias in an English Language Model",
+      "authors": [
+        {
+          "authorName": "Abhijith Chintam"
+        },
+        {
+          "authorName": "Rahel Beloch"
+        },
+        {
+          "authorName": "Willem Zuidema"
+        }
+      ],
+      "publisher": "Association for Computational Linguistics",
+      "abstract": "Language models (LMs) exhibit and amplify many types of undesirable biases learned from the training data, including gender bias. However, we lack tools for effectively and efficiently changing this behavior without hurting general language modeling performance. In this paper, we study three methods...",
+      "year": 2023,
+      "date": "2023-01-01",
+      "page": "379-394",
+      "tally": {
+        "total": 3,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 3,
+        "citingPublications": 3
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.18653/v1/2023.blackboxnlp-1.29",
+          "targetDoi": "10.18653/v1/2021.acl-long.416",
+          "snippet": "methods work with curated sets of sentence pairs or triplets, and measure differences in sentence probabilities or anaphora resolution probabilities (e.g. May et al, 2019;Nadeem et al, 2021;Nangia et al, 2020;Basta et al, 2019). Proposed mitigation strategies include targeted changes to the training data (e.g., CDA; Lu et al, 2020), training procedure (e.g., adversarial learning; Zhang et al, 2018), model parameters (e.g., INLP;Ravfogel et al, 2020), or language generation procedure (e.g., \"self-debiasing\"; Schick et al, 2021).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.18653/v1/2023.blackboxnlp-1.29",
+          "targetDoi": "10.18653/v1/2020.acl-main.485",
+          "snippet": "Is intervening in the model internals feasible?). Empirically, success in detecting and mitigating biases depends on many factors, including the choice of embeddings, training regimes, data sets and model choices (Blodgett et al, 2020(Blodgett et al, , 2021Talat et al, 2022;Delobelle et al, 2022;Barrett et al, 2019;Van Der Wal et al, 2022).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.18653/v1/2023.blackboxnlp-1.29",
+          "targetDoi": "10.18653/v1/n19-1002",
+          "snippet": "Many such techniques determine which representations or components are important to model processing by ablating them. Ablations can range from zeroing out neurons (Lakretz et al, 2019;Mohebbi et al, 2023), to replacing them with a baseline (De Cao et al, 2021a;Bau et al, 2018), or replacing them with another example's activation (Vig et al, 2020;Geiger et al, 2021). All of these techniques return unstructured sets of important components without specifying their interaction.",
+          "section": "locating mechanisms in language models",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nModern neural language models exhibit social biases, such as biases based on gender, religion, ethnicity and other protected attributes. These biases may lead to real harms when used in downstream applications (e.g. Hovy and Spruit, 2016;Weidinger et al., 2021). Detecting and mitigating biases in language models has therefore become an important area of research.\n\nEarly detection methods relied on lists of words to measure associations with e.g., specific genders (e.g.",
+        "We demonstrate how gender bias in LMs can be reduced with minimal effect to their language modelling performance by making targeted interventions to their components.",
+        "Further, we review previous work on targeted changes to Language models and their behavior in section 2.2\n\nLocating Mechanisms in Language Models\n\nCausal methods study model processing by intervening in (altering) model processing, and observing the changes in model behavior caused by these interventions. They aim to address the shortcomings in observational methods by ensuring a causal link between mechanisms found in model internals, and model behavior."
+      ],
+      "contentDenied": false
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "query": "\"large language model\" AND (engineering OR CAD OR \"finite element\" OR \"computational fluid dynamics\")",
+  "total": 47627,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2504.09602",
+      "title": "Fine-tuning a Large Language Model for Automating Computational Fluid Dynamics Simulations",
+      "authors": [
+        {
+          "authorName": "Zhehao Dong"
+        },
+        {
+          "authorName": "Zhen Lu"
+        },
+        {
+          "authorName": "Yue Yang"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2025,
+      "date": "2025-01-01",
+      "tally": {
+        "total": 2,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 2,
+        "citingPublications": 2
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1016/j.taml.2025.100594",
+      "title": "Fine-tuning a large language model for automating computational fluid dynamics simulations",
+      "authors": [
+        {
+          "authorName": "Zhen Lu"
+        },
+        {
+          "authorName": "Yang Yue"
+        }
+      ],
+      "journal": "theoretical and applied mechanics letters",
+      "publisher": "Elsevier BV",
+      "year": 2025,
+      "date": "2025-05-01",
+      "volume": "15",
+      "issue": "3",
+      "page": "100594",
+      "tally": {
+        "total": 8,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 8,
+        "citingPublications": 34
+      },
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1016/j.taml.2026.100660",
+      "title": "Large language model-assisted sensitivity analysis and parameter optimization in computational fluid dynamics",
+      "authors": [
+        {
+          "authorName": "Chen Yuxuan"
+        },
+        {
+          "authorName": "Long Zhang"
+        },
+        {
+          "authorName": "Zhu Xu"
+        }
+      ],
+      "journal": "theoretical and applied mechanics letters",
+      "publisher": "Elsevier BV",
+      "year": 2026,
+      "date": "2026-09-01",
+      "volume": "16",
+      "issue": "5",
+      "page": "100660",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 3
+      },
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1063/5.0257555",
+      "title": "OpenFOAMGPT: A retrieval-augmented large language model (LLM) agent for OpenFOAM-based computational fluid dynamics",
+      "authors": [
+        {
+          "authorName": "Sandeep Pandey"
+        },
+        {
+          "authorName": "Wenkang Wang"
+        },
+        {
+          "authorName": "Xu Chu"
+        }
+      ],
+      "journal": "physics of fluids",
+      "publisher": "AIP Publishing",
+      "abstract": "This work presents a large language model (LLM)-based agent OpenFOAMGPT tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations, leveraging two foundation models from OpenAI: the GPT-4o (GPT means Generative Pre-trained Transformer) and a chain-of-thought–enabled o1 preview mode...",
+      "year": 2025,
+      "date": "2025-03-01",
+      "volume": "37",
+      "issue": "3",
+      "tally": {
+        "total": 17,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 17,
+        "citingPublications": 52
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1016/j.cma.2026.119271",
+      "title": "Foam-Agent: A large language model-based multi-agent framework for automating computational fluid dynamics workflows",
+      "authors": [
+        {
+          "authorName": "Ling Yue"
+        },
+        {
+          "authorName": "Nithin Somasekharan"
+        },
+        {
+          "authorName": "Tingwen Zhang"
+        }
+      ],
+      "journal": "computer methods in applied mechanics and engineering",
+      "publisher": "Elsevier BV",
+      "year": 2026,
+      "date": "2026-11-01",
+      "volume": "461",
+      "page": "119271",
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1117/12.3103315",
+      "title": "Differential-agent: large language model-empowered multiagent for numerical analysis and simulation",
+      "authors": [
+        {
+          "authorName": "Zhangqi Zheng"
+        }
+      ],
+      "publisher": "SPIE",
+      "abstract": "Current large language models (LLMs) often lose critical information when addressing real-world scientific and engineering problems that lack explicit mathematical structure, leading to incomplete reasoning and unreliable results. To overcome these limitations, we propose differential agents, a stru...",
+      "year": 2026,
+      "date": "2026-02-24",
+      "page": "81",
+      "citations": [
+        {
+          "sourceDoi": "10.1117/12.3103315",
+          "targetDoi": "10.1115/1.1483340",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1117/12.3103315",
+          "targetDoi": "10.3390/fi15060192",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1117/12.3103315",
+          "targetDoi": "10.1080/10618569608940772",
+          "section": "methodology 21 research design",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1088/2631-7990/adea23",
+      "title": "AI-driven design: powered by large language model and intelligent computation",
+      "authors": [
+        {
+          "authorName": "Guodong Sa"
+        },
+        {
+          "authorName": "Zhinan Li"
+        },
+        {
+          "authorName": "Zhenyu Liu"
+        }
+      ],
+      "journal": "international journal of extreme manufacturing",
+      "publisher": "IOP Publishing",
+      "abstract": "Abstract\n               To meet the extreme precision requirements of nanometer-scale semiconductor manufacturing and micrometer-level aerospace component processing, the complexity of precision manufacturing equipment design has exceeded the capabilities of traditional design methodologies. Convent...",
+      "year": 2025,
+      "date": "2025-08-01",
+      "volume": "7",
+      "issue": "6",
+      "page": "063001",
+      "citations": [
+        {
+          "sourceDoi": "10.1088/2631-7990/adea23",
+          "targetDoi": "10.1117/1.jmm.20.4.044601",
+          "snippet": "Modern manufacturing industries impose stringent requirements on product design, which are redefining the boundaries and methodologies of design. Modern manufacturing precision has reached nanometer levels, such as semiconductor chip feature sizes entering the 3-nanometer process node and lithography equipment requiring sub-nanometer positioning accuracy; meanwhile, micrometer-level manufacturing has become increasingly prevalent, such as aircraft engine blade aerodynamic profile deviations needing control within micrometer ranges and precision optical components requiring surface roughness at the micrometer level [1][2][3] . To meet these extreme manufacturing requirements, precision Computer Numerical Control (CNC) machining centers, precision grinding and polishing equipment, and other key equipment must achieve corresponding high-precision machining capabilities.",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1088/2631-7990/adea23",
+          "targetDoi": "10.1007/s10033-017-0166-5",
+          "snippet": "However, machine tools inevitably face challenges including environmental disturbances, accumulation of component error propagation, and multidisciplinary coupling effects involving thermal, mechanical, and vibrational interactions. These factors lead to significant challenges in CNC machine tool design [4,5] . Currently, equipment design often relies on human experience and cognition to generate initial design schemes.",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1088/2631-7990/adea23",
+          "targetDoi": "10.1017/dsj.2024.13",
+          "snippet": "In the conceptual design stage, researchers have developed concept generation methods based on Generative Adversarial Networks (GANs) and diffusion models, which can learn design patterns from limited samples and generate innovative solutions. However, the feasibility validation of these methods under engineering constraints still faces challenges [11,12] ; in the structural design stage, deep learning-based topology optimization methods have significantly improved design efficiency. However, existing methods are mostly limited to simplified working conditions, making it difficult to conduct robust design for complex engineering problems [13][14][15] ; in the performance analysis stage, researchers have proposed various neural network-based surrogate models to accelerate simulation calculations.",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Airbus SE in France actively introduces Generative Artificial Intelligence (GenAI) and Large Language Models (LLMs), based on three-dimensional digital collaborative platforms, realizing efficient collaboration of cross-domain data in the early stages of aircraft design, significantly shortening product development cycles and improving comprehensive performance [9,10] .",
+        "Compared with traditional finite element analysis methods, they play significant roles in product design stages including concept generation, structure generation, and physical performance analysis. The academic community has also made important progress in AI-driven design theories and methods.",
+        "Traditional Computational Fluid Dynamics (CFD) and Finite Element Analysis (FEA) methods are computationally expensive and cannot meet real-time iteration needs. AI-accelerated simulation methods, though promising, still face technical bottlenecks in achieving both high efficiency and high fidelity.\n\nTherefore, there is an urgent need to develop new AI-driven design theories and methods to overcome the limitations of traditional design approaches."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2505.04997",
+      "title": "Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows",
+      "authors": [
+        {
+          "authorName": "Ling Yue"
+        },
+        {
+          "authorName": "Nithin Somasekharan"
+        },
+        {
+          "authorName": "Yadi Cao"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2025,
+      "date": "2025-01-01",
+      "tally": {
+        "total": 13,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 13,
+        "citingPublications": 11
+      },
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1002/aidi.202500174",
+      "title": "ChatCFD: A Large Language Model‐Driven Agent for End‐to‐End Computational Fluid Dynamics Automation with Structured Knowledge and Reasoning",
+      "authors": [
+        {
+          "authorName": "Enguo Fan"
+        },
+        {
+          "authorName": "Kang Hu"
+        },
+        {
+          "authorName": "Zhuowen Wu"
+        }
+      ],
+      "journal": "advanced intelligent discovery",
+      "publisher": "Wiley",
+      "abstract": "Computational fluid dynamics (CFD) is essential for advancing scientific and engineering fields, but is hindered by operational complexity, high expertise requirements, and limited accessibility. This article introduces ChatCFD, a large language model (LLM)‐driven agent system for end‐to‐end CFD aut...",
+      "year": 2026,
+      "date": "2026-01-19",
+      "volume": "2",
+      "issue": "3",
+      "tally": {
+        "total": 14,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 14,
+        "citingPublications": 6
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1002/aidi.202500174",
+          "targetDoi": "10.48550/arxiv.2303.11366",
+          "snippet": "Large language models (LLMs), such as GPT [19], Gemini [20], and DeepSeek [21], alongside multiagent frameworks like MetaGPT [22] and AutoGen [23], excel in natural language processing, code generation, and reasoning via chain-of-thought techniques [24]. Frameworks like ReAct [25] synergize reasoning and acting in LLMs, while Reflexion [26] uses verbal reinforcement learning to improve agent performance through self-reflection. Toolformer [27] teaches LLMs to self-learn tool usage.",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/aidi.202500174",
+          "targetDoi": "10.48550/arxiv.2308.00352",
+          "snippet": "Recent progress in artificial intelligence (AI) has transformed the automation of sophisticated scientific processes. Large language models (LLMs), such as GPT [19], Gemini [20], and DeepSeek [21], alongside multiagent frameworks like MetaGPT [22] and AutoGen [23], excel in natural language processing, code generation, and reasoning via chain-of-thought techniques [24]. Frameworks like ReAct [25] synergize reasoning and acting in LLMs, while Reflexion [26] uses verbal reinforcement learning to improve agent performance through self-reflection.",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/aidi.202500174",
+          "targetDoi": "10.48550/arxiv.2407.21320",
+          "snippet": "OpenFOAM [29], a leading open-source CFD platform, supports this trend due to its flexibility and community backing. Notable efforts include MetaOpenFOAM [30], which automates simulations from natural language using RAG and MetaGPT, though limited to tutorial-level cases and struggling with complex geometries; OpenFOAMGPT [31], evaluating RAG-augmented LLMs for zero-shot setup and boundary adjustments, but facing difficulties in turbulence model modifications; foam-agent [32], introducing hierarchical retrieval for dependency-aware generation, yet constrained in handling unseen configurations; and NL2FOAM [33], fine-tuning LLMs for natural language-to-CFD translation using LoRA [34], but reliant on domain-specific datasets and less effective for diverse physical models. Despite these advances, existing systems often fall short in end-to-end automation for complex cases without human oversight, particularly due to a fundamental challenge: LLMs lack sufficient training on niche scientific tasks like OpenFOAM setup, necessitating expert-designed architectures to bridge this gap through structured reasoning, reflection, and knowledge integration.",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nComputational fluid dynamics (CFD) is a cornerstone technology in diverse scientific and engineering disciplines, including aerospace [1, 2], energy systems [3–5], urban environment [6–8], combustion [9–11], astrophysics [12], and biomedical applications [13, 14]. It provides indispensable tools for simulating intricate fluid behaviors, thereby enabling design innovation and scientific discovery [15, 16].",
+        "Large language models (LLMs), such as GPT [19], Gemini [20], and DeepSeek [21], alongside multiagent frameworks like MetaGPT [22] and AutoGen [23], excel in natural language processing, code generation, and reasoning via chain‐of‐thought techniques [24]. Frameworks like ReAct [25] synergize reasoning and acting in LLMs, while Reflexion [26] uses verbal reinforcement learning to improve agent performance through self‐reflection. Toolformer [27] teaches LLMs to self‐learn tool usage."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.2139/ssrn.4972059",
+      "title": "Optimizing Collaboration of Large Language Model-Based Agents for Finite Element Analysis",
+      "authors": [
+        {
+          "authorName": "Yilei Zhang"
+        },
+        {
+          "authorName": "Chuan Tian"
+        }
+      ],
+      "publisher": "Elsevier BV",
+      "year": 2024,
+      "date": "2024-01-01",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 2
+      },
+      "isOa": true,
+      "contentDenied": false
+    }
+  ]
+}

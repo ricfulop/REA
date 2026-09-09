@@ -24,3 +24,8 @@ research/
 skills-lock.json
 
 uv.lock
+
+# RLM runtime state and local catalog snapshots
+.venv-rlm/
+.local/
+.rlm_workspace/

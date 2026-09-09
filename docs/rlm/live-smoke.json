@@ -1,0 +1,25 @@
+{
+  "response": "N = 46; record_ids = [['fixture-a', '1'], ['fixture-b', '1']].",
+  "subcalls": [
+    {
+      "depth": 1,
+      "model": "openai/gpt-5-nano"
+    },
+    {
+      "depth": 1,
+      "model": "openai/gpt-5-nano"
+    }
+  ],
+  "seconds": 269.01722437504213,
+  "usage": {
+    "model_usage_summaries": {
+      "openai/gpt-5-nano": {
+        "total_calls": 5,
+        "total_input_tokens": 13965,
+        "total_output_tokens": 13517,
+        "total_cost": 0.00573641
+      }
+    },
+    "total_cost": 0.00573641
+  }
+}

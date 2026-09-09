@@ -1,0 +1,447 @@
+{
+  "query": "(\"language model\" OR \"agent\") AND (\"materials discovery\" OR \"materials science\")",
+  "total": 100222,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2512.13930",
+      "title": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery",
+      "authors": [
+        {
+          "authorName": "Samuel Rothfarb"
+        },
+        {
+          "authorName": "Megan C. Davis"
+        },
+        {
+          "authorName": "Ivana Matanović"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Artificial intelligence is reshaping scientific exploration, but most methods automate procedural tasks without engaging in scientific reasoning, limiting autonomy in discovery. We introduce Materials Agents for Simulation and Theory in Electronic-structure Reasoning (MASTER), an active learning fra...",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2512.13930",
+          "targetDoi": "10.1038/s41586-023-06735-9",
+          "snippet": "Machine learning has introduced new paradigms for accelerating materials discovery through data-driven predictive and generative modeling. [9][10][11] However, while these models achieve high accuracy, they remain confined to their training distributions and cannot interpret results within an adaptive, iterative scientific framework. Because materials discovery is inherently a multi-stage reasoning process, from hypothesis generation to experimental validation, these models play a crucial but limited role, addressing computation rather than scientific decision-making.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.13930",
+          "targetDoi": "10.1038/s41586-020-2242-8",
+          "snippet": "5 Even with advances in automation, the process from concept to verified material can extend over years. 6 Current high-throughput atomistic simulation workflows have accelerated certain aspects of this process by enabling parallel screening of large chemical spaces, 7,8 but they offer limited adaptivity and cannot reason to select the next computation. Failed calculations still require human intervention to diagnose and repair errors, limiting true automation.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.13930",
+          "targetDoi": "10.1016/j.joi.2025.101727",
+          "snippet": "Recent advances in artificial intelligence (AI) have expanded its role in scientific research, enabling systems to analyze data, identify patterns, and even propose hypotheses. 1 Yet, most of these models operate within fixed objectives and have limited ability to deliberate about scientific questions or adapt their strategies based on outcomes. Reasoning, the process of evaluating competing hypotheses and designing informative experiments, is central to genuine scientific exploration.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Despite this potential, reasoning-driven autonomy remains challenging in materials science.",
+        "Because materials discovery is inherently a multi-stage reasoning process, from hypothesis generation to experimental validation, these models play a crucial but limited role, addressing computation rather than scientific decision-making.\n\nLarge language models (LLMs) bring reasoning capabilities to scientific research.",
+        "Similarly, structured, form-based triage is likely to become more valuable in such regimes, where standardized prompts can stabilize reasoning, enforce consistent comparison criteria, and preserve interpretability across many interacting agents.\n\nAltogether, our findings show that structured agentic collaboration transforms large language models from procedural tools into adaptive scientific reasoners."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1002/aidi.202500085",
+      "title": "Large Language Model in Materials Science: Roles, Challenges, and Strategic Outlook",
+      "authors": [
+        {
+          "authorName": "Jinglan Zhang"
+        },
+        {
+          "authorName": "Xinyi Chen"
+        },
+        {
+          "authorName": "Ye Xu"
+        }
+      ],
+      "journal": "advanced intelligent discovery",
+      "publisher": "Wiley",
+      "abstract": "Large language models (LLMs) are creating a new paradigm for materials science by transforming textual insights into experimental findings. Leveraging their strengths in natural language understanding, multimodal alignment, and few‐shot reasoning, LLMs already show potential in property prediction, ...",
+      "year": 2025,
+      "date": "2025-07-22",
+      "volume": "2",
+      "issue": "4",
+      "tally": {
+        "total": 2,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 2,
+        "citingPublications": 10
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1002/aidi.202500085",
+          "targetDoi": "10.48550/arxiv.2206.04615",
+          "snippet": "By training neural networks with billions or trillions of parameters, studies have found that LLMs have demonstrated long text generation capabilities that far exceed traditional language modeling tasks [17][18][19][20][21] and have gradually expanded to more complex task areas, as shown in Figure 1b. Specifically, LLM usually has four core capabilities: (1) cognitive capabilities, which can efficiently understand and process long contexts [26,27]; (2) cross-language capabilities, which can generalize across languages, translate text, and achieve knowledge transfer between different languages [28]; (3) multitask capabilities, which can be applied to multiple language understanding and generation tasks such as text classification, information extraction, and question-answering reasoning [29][30][31][32]; and (4) generation capabilities, which can generate high-quality, logically coherent, and creative text content [33,34]. Benefiting from these capabilities, LLMs applications have expanded far beyond simple text generation and dialogue systems.",
+          "section": "figure 1 | (a)",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/aidi.202500085",
+          "targetDoi": "10.48550/arxiv.2303.08774",
+          "snippet": "LLMs built on transformer architectures demonstrate general intelligence capabilities by leveraging massive datasets, large-scale neural networks, self-supervised learning, and powerful hardware [17]. Representative proprietary models include GPT-4 by OpenAI [18], Gemini by Google [19], and Claude 3 by Anthropic [20]; while open-source models include LLaMA 2 by Meta [21] and DeepSeek-V3 by DeepSeek [22]. These models leverage extensive knowledge acquired during pretraining and are capable of processing diverse data types, including text, images, and molecular structures.",
+          "section": "figure 1 | (a)",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/aidi.202500085",
+          "targetDoi": "10.1145/3447772",
+          "snippet": "to cutting-edge technologies including knowledge graphs [13], generative adversarial networks (GAN) [14], transformers [15], and LLMs [16]. LLMs built on transformer architectures demonstrate general intelligence capabilities by leveraging massive datasets, large-scale neural networks, self-supervised learning, and powerful hardware [17].",
+          "section": "figure 1 | (a)",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "(b) LLMs capabilities and applications in materials science: LLMs are widely used in materials science for tasks like literature review, material property prediction, cross-lingual data mining, automated experiments, and process optimization, showcasing strong language understanding, multitask learning, and cross-modal processing abilities.",
+        "LLM is a large-scale pretrained statistical language model built on neural networks [25]. It predicts and generates text by learning the human language's statistical laws of vocabulary, syntax, and semantics.",
+        "This will propel materials science toward a paradigm that is more efficient, precise, and scientifically interpretable.\n\nThe structure of this article is as follows: Section 2 discusses the theoretical mechanisms of LLMs, outlining their fundamental principles and applications in materials science. Section 3 explores methods for model adaptation and optimization, focusing on enhancing models for diverse materials science challenges."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.26434/chemrxiv-2025-zkn81",
+      "title": "Modular Large Language Model Agents for Multi-Task Computational Materials Science",
+      "authors": [
+        {
+          "authorName": "Akshat Chaudhari"
+        },
+        {
+          "authorName": "Janghoon Ock"
+        },
+        {
+          "authorName": "Amir Barati Farimani"
+        }
+      ],
+      "publisher": "American Chemical Society (ACS)",
+      "abstract": "The integration of large language models (LLMs) with domain-specific computational tools offers a promising pathway to streamline and enhance materials science workflows. This paper presents MatSciAgent, a multi-agent framework capable of performing key tasks such as materials data retrieval, contin...",
+      "year": 2025,
+      "date": "2025-04-29",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.26434/chemrxiv-2025-zkn81",
+          "targetDoi": "10.1080/01621459.1949.10483310",
+          "section": "continuum simulation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.26434/chemrxiv-2025-zkn81",
+          "targetDoi": "10.1037/t79473-000",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.26434/chemrxiv-2025-zkn81",
+          "targetDoi": "10.1038/npjcompumats.2015.10",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1039/d5sc09921h",
+      "title": "“DIVE” into hydrogen storage materials discovery with AI agents",
+      "authors": [
+        {
+          "authorName": "Tran Ba Hung"
+        },
+        {
+          "authorName": "Linda Zhang"
+        },
+        {
+          "authorName": "Ryuhei Sato"
+        }
+      ],
+      "journal": "chemical science",
+      "publisher": "Royal Society of Chemistry (RSC)",
+      "abstract": "Autonomous AI materials discovery is still at an early stage. DIVE translates literature visuals into descriptive text and structured, scored data to build DigHyd, enabling an AI agent to perform H\n                    2\n                    -storage inverse design in minutes.",
+      "year": 2026,
+      "date": "2026-01-01",
+      "volume": "17",
+      "issue": "6",
+      "page": "3031-3042",
+      "tally": {
+        "total": 8,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 8,
+        "citingPublications": 25
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1039/d5sc09921h",
+          "targetDoi": "10.48550/arxiv.2507.06261",
+          "section": "results",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1039/d5sc09921h",
+          "targetDoi": "10.1016/j.jma.2021.06.007",
+          "section": "results",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1039/d5sc09921h",
+          "targetDoi": "10.1021/jacs.4c15137",
+          "section": "results",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.26434/chemrxiv-2025-zkn81-v2",
+      "title": "Modular Large Language Model Agents for Multi-Task Computational Materials Science",
+      "authors": [
+        {
+          "authorName": "Akshat Chaudhari"
+        },
+        {
+          "authorName": "Janghoon Ock"
+        },
+        {
+          "authorName": "Amir Barati Farimani"
+        }
+      ],
+      "publisher": "American Chemical Society (ACS)",
+      "abstract": "The integration of large language models (LLMs) with domain-specific computational tools offers a promising pathway to streamline and enhance materials science workflows. This paper presents MatSciAgent, a multi-agent framework capable of performing key tasks such as materials data retrieval, contin...",
+      "year": 2025,
+      "date": "2025-05-02",
+      "tally": {
+        "total": 2,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 2,
+        "citingPublications": 5
+      },
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2604.19789",
+      "title": "From Data to Theory: Autonomous Large Language Model Agents for Materials Science",
+      "authors": [
+        {
+          "authorName": "Samuel Onimpa Alfred"
+        },
+        {
+          "authorName": "Veera Sundararaghavan"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "We present an autonomous large language model (LLM) agent for end-to-end, data-driven materials theory development. The model can choose an equation form, generate and run its own code, and test how well the theory matches the data without human intervention. The framework combines step-by-step reas...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2604.19789",
+          "targetDoi": "10.48550/arxiv.2303.03490",
+          "snippet": "3 as shown in Fig. 11 and compared it with the data from [29]. This reflects the open-ended nature of the task: with no single correct equation, the agent explores different mathematical representations of the same physical requirements.",
+          "section": "llm initialization",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.19789",
+          "targetDoi": "10.1088/0370-1301/64/9/303",
+          "snippet": "Scientific discovery has long relied on human expertise, with foundational equations such as the Hall-Petch equation [1] in metallurgy and the Arrhenius equation [2] in chemical kinetics emerging from close attention to experimental data. In 1889, Arrhenius examined published temperaturedependent reaction-rate data and showed that several datasets could be described by a common relation.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.19789",
+          "targetDoi": "10.1063/1.4950995",
+          "snippet": "For decades, researchers have hoped that artificial intelligence (AI) could help speed up the full scientific workflow, from data generation and hypothesis building to equation discovery and experimental validation. Early practical progress came through machine learning, which benefited from the rapid growth of materials data through high-throughput experiments [3], databases such as the Materials Project [4], and broader efforts such as the Materials Genome Initiative [5]. These tools have been applied to many problems, including prediction of metal fatigue properties [6] and thermodynamic stability of inorganic compounds [7].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Large language models (LLMs) introduce a different kind of capability for materials science. Because they are trained on large collections of web text, scientific papers, textbooks, and technical documents, they can draw from a wide range of scientific knowledge rather than from a single taskspecific dataset. In materials science, LLM-based agents have so far been used mainly for extracting information from the literature [12,13,14,15,16,17,18].",
+        "By evaluating OpenAI's Generative Pre-trained Transformer (GPT) models on materials science datasets of different complexity, this work provides a quantitative picture of the current strengths and limits of LLM-based scientific knowledge as a basis for autonomous scientific workflows.\n\nUsing this framework, we study several materials science datasets governed by foundational physical relationships.",
+        "Large Language Models\n\nTwo OpenAI GPT models are employed in this work: GPT-4 and GPT-5. GPT-4, a large multimodal model, demonstrated significant improvements over its predecessors in reasoning, mathematical problem-solving, and scientific knowledge retrieval [20]. For GPT-4, the temperature parameter is set to 0.1 to promote reproducible reasoning while allowing limited variability."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.20517/jmi.2025.69",
+      "title": "Accelerating materials discovery via AI-Agent integration of large language models and simulation tools",
+      "authors": [
+        {
+          "authorName": "Xian Wang"
+        },
+        {
+          "authorName": "Qun Zeng"
+        },
+        {
+          "authorName": "Dong-Hui Xu"
+        }
+      ],
+      "journal": "journal of materials informatics",
+      "publisher": "OAE Publishing Inc.",
+      "abstract": "The integration of artificial intelligence (AI) with materials science is driving a paradigm shift in how functional materials are discovered and designed. In this work, we present an AI-Agent platform that leverages large language model-driven reasoning to assist users in designing and executing co...",
+      "year": 2026,
+      "date": "2026-01-28",
+      "volume": "6",
+      "issue": "1",
+      "tally": {
+        "total": 8,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 8,
+        "citingPublications": 2
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1038/s42256-026-01214-y",
+      "title": "A multimodal large language model for materials science",
+      "authors": [
+        {
+          "authorName": "Yingheng Tang"
+        },
+        {
+          "authorName": "Wenbin Xu"
+        },
+        {
+          "authorName": "Jie Cao"
+        }
+      ],
+      "journal": "nature machine intelligence",
+      "publisher": "Springer Science and Business Media LLC",
+      "year": 2026,
+      "date": "2026-04-24",
+      "volume": "8",
+      "issue": "4",
+      "page": "588-601",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 2
+      },
+      "isOa": true,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2601.16376",
+      "title": "Polymer-Agent: Large Language Model Agent for Polymer Design",
+      "authors": [
+        {
+          "authorName": "Vani Nigam"
+        },
+        {
+          "authorName": "Achuth Chandrasekhar"
+        },
+        {
+          "authorName": "Amir Barati Farimani"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "On-demand Polymer discovery is essential for various industries, ranging from biomedical to reinforcement materials. Experiments with polymers have a long trialand-error process leading to use of extensive resources. For these processes, machine learning has accelerated scientific discovery at the p...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.16376",
+          "targetDoi": "10.1021/acs.biomac.2c00047",
+          "snippet": "Polymer materials present a wide range of tunable biodegradation, mechanical properties, porosity, and surface-to-volume ratio. 1 These materials are used in applications to increase durability in solar cells through a cross-linking strategy in three-dimensional hyperbranched polymers. 2 Polymer scaffolds are utilized in cardiovascular operations, employing multiple polymer scaffolds to mimic the human myocardium and improve hydrophilicity and biodegradability.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.16376",
+          "targetDoi": "10.1016/j.eurpolymj.2020.110249",
+          "snippet": "2 Polymer scaffolds are utilized in cardiovascular operations, employing multiple polymer scaffolds to mimic the human myocardium and improve hydrophilicity and biodegradability. 3 Conjugated polymers (CPs) are organic semiconductor materials with large pi-conjugated backbones that allow a wide light absorption range and light harvesting for antitumor therapy, differentiation, and killing of pathogenic bacteria, and intracellular imaging. 4 Polyethylene oxide (PEO)-based electrolytes are examples of polymer-based electrolytes for uniform, fast, and stable migration/diffusion behavior.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.16376",
+          "targetDoi": "10.1038/natrevmats.2016.24",
+          "snippet": "The field of polymer chemistry has seen tremendous growth in molecular precision and the synthesis of macromolecules with a range of controlled composition, chain ends, topology, molecular weight, and polymerization. 6 Polymers have a vast parameter space, exhibiting variations in molecular chains, compositional polydispersity, sequence randomness, multi-level structures. 7 Researchers work on fabricating materials by developing synthesis routes that target specific properties.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "This necessitates the exploration of more efficient methods to explore the parameters of polymer properties, thereby accelerating the research process. 10 ML-based experimental recommendations have guided material discovery in phase change memory alloys, high entropy alloys, photovoltaics, and porous membrane design. 11 . 12 The integration of Large Language Models (LLMs) in polymer design involves training or fine-tuning existing models using materials databases that require multimodal learning,",
+        "high-cost, and energy-intensive methods. 13 14 15 16 17 18 Multiple research studies, conducted in various capacities, have focused on data-driven material discovery.",
+        "MolCLR uses a self-supervised model to use a large unlabeled dataset and distinguish molecular similarities. 19 Similarly, Bayesian optimization has been experimented with, to traverse the latent space to target polymers with desired properties. 20 Property prediction tasks have also gained momentum in Large Language Model research, which treats polymer SMILES as sequences to leverage progress in natural language processing tasks. 21 22 Despite multiple steps in different directions, methods remain"
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2008.00283",
+      "title": "Crystallography companion agent for high-throughput materials discovery",
+      "authors": [
+        {
+          "authorName": "Phillip M. Maffettone"
+        },
+        {
+          "authorName": "Lars Banko"
+        },
+        {
+          "authorName": "Peng Cui"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "",
+      "year": 2020,
+      "date": "2020-01-01",
+      "tally": {
+        "total": 5,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 5,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2008.00283",
+          "targetDoi": "10.1016/j.actamat.2016.08.081",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2008.00283",
+          "targetDoi": "10.1017/s1431927620001506",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2008.00283",
+          "targetDoi": "10.1021/acs.jcim.0c00020",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": false,
+      "contentDenied": true
+    }
+  ]
+}

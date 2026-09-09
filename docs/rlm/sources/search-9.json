@@ -1,0 +1,520 @@
+{
+  "query": "(\"MemGPT\" OR \"Mem0\" OR \"A-MEM\" OR \"Voyager\" OR \"ToolLLM\") AND (\"language model\")",
+  "total": 3683,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2607.03726",
+      "title": "SelfMem: Self-Optimizing Memory for AI Agents",
+      "authors": [
+        {
+          "authorName": "Sen Yang"
+        },
+        {
+          "authorName": "Junchao Wu"
+        },
+        {
+          "authorName": "Derek F. Wong"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "While current AI agents support increasingly long context windows, tool use, and skill execution for long-horizon tasks, they still require memory systems to effectively leverage historical experience. Existing memory frameworks typically rely on fixed storage, retrieval, and summarization mechanism...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2607.03726",
+          "targetDoi": "10.1145/3586183.3606763",
+          "snippet": "Agent Memory Recent work on agent memory equips LLM agents with external memory states for long-running interaction and personalization. Generative Agents introduced a memory-stream architecture in which agents record observations, retrieve relevant experiences, and synthesize higherlevel reflections for future planning (Park et al, 2023). MemoryBank extends this direction to longterm dialogue by maintaining persistent memories and user portraits that can be recalled, updated, and reinforced over repeated interactions (Zhong et al, 2024).",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.03726",
+          "targetDoi": "10.18653/v1/2024.acl-long.747",
+          "snippet": "A parallel line of study examines how to evaluate and structure longterm conversational memory. LoCoMo introduces very long-term multi-session dialogues and evaluates agents on question answering, event summarization, and multimodal dialogue generation over extended histories (Maharana et al, 2024). Long-MemEval further decomposes long-term memory evaluation into abilities such as information extraction, multi-session reasoning, temporal reasoning, knowledge updates, and abstention (Wu et al, 2025).",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.03726",
+          "targetDoi": "10.48550/arxiv.2510.27246",
+          "snippet": "Benchmark and evaluation protocol. We evaluate on the original BEAM benchmark (Tavakoli et al, 2025), which provides long conversation histories at 100K, 500K, and 1M token scales, together with 100 conversations and 2,000 probing questions that test memory over extended interactions, covering information extraction, temporal reasoning, multi-session reasoning, and event ordering. Questions are asked sequentially, with previous model-generated question-answer turns appended to later prompts.",
+          "section": "methods",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Mem0 extracts, consolidates, and retrieves salient conversational facts, with an enhanced graph-based variant for relational memory (Chhikara et al., 2025). A-Mem takes a more agentic step by dynamically writing, indexing, linking, and evolving memories following Zettelkastenstyle organization (Xu et al., 2026).",
+        "Self-improving Agent A complementary line of work shows that language models and agents can improve their behavior through feedback, reflection, and search, often without updating the underlying model parameters. Self-Refine uses the same model to generate feedback and iteratively refine its own outputs (Madaan et al., 2023).",
+        "We also include LoCoMo, Memory-Bank, ReadAgent, MemGPT, A-Mem, and Mem0, covering persistent conversational memory, agentic reading, hierarchical memory, linked note-style memory, and production-oriented memory extraction (Maharana et al., 2024;Zhong et al., 2024;Lee et al., 2024;Packer et al., 2023;Xu et al., 2026;Chhikara et al., 2025)."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.22030",
+      "title": "When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense",
+      "authors": [
+        {
+          "authorName": "Pranav Singh"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "We study when a belief-based memory actually helps an LLM agent, and find the answer is conditional. Our vehicle is Nous, a memory that stores knowledge not as records but as a categorical probability distribution per entity-attribute pair, updated by a closed-form Bayesian posterior scored by infor...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.22030",
+          "targetDoi": "10.48550/arxiv.2502.12110",
+          "snippet": "Episodic systems such as MemGPT [Packer et al, 2023] maintain explicit core memory strings and flush older records to an archival store. More recent systems including Mem0 [Chhikara et al, 2025] and A-MEM [Xu et al, 2025] combine graph and vector representations to improve retrieval precision.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.22030",
+          "targetDoi": "10.48550/arxiv.2310.08560",
+          "snippet": "Knowledge-graph systems such as Zep [Zep AI, 2024] store subject-predicate-object triples. Episodic systems such as MemGPT [Packer et al, 2023] maintain explicit core memory strings and flush older records to an archival store. More recent systems including Mem0 [Chhikara et al, 2025] and A-MEM [Xu et al, 2025] combine graph and vector representations to improve retrieval precision.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.22030",
+          "targetDoi": "10.48550/arxiv.2605.05583",
+          "snippet": "A parallel line of recent work also represents memory probabilistically. BeliefMem [Liao et al, 2026] stores multiple candidate conclusions as independent probability-carrying entries, updated by a Noisy-OR rule as evidence accumulates, and evaluates on LoCoMo and ALFWorld; the Belief Engine [Yang et al, 2026] maintains an auditable logodds stance per proposition for multi-agent deliberation; and graph-native cognitive memory [Park, 2026] applies symbolic (AGM-style) belief revision over versioned memory. Nous differs in representation, a single closed-form categorical Bayesian posterior per entity-attribute dimension, rather than a Noisy-OR over independent hypotheses or a scalar log-odds stance, but the load-bearing difference is one of question: these systems propose a probabilistic memory and measure its accuracy, whereas our contributions are the reliability-conditional account of when such memory helps (Section 8) and the provenance-capped poisoning defense (Section 9), neither of which they address.",
+          "section": "a-mem a-mem",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nA persistent limitation of large language model (LLM) agents is the absence of a continuously evolving memory. The context window provides shortterm recall within a session, but once a session ends all conversational history is lost unless externally persisted. This has motivated a growing body of work on agent memory systems, mechanisms that store, retrieve, and reason over information accumulated across many sessions.\n\nExisting approaches treat memory as a database of facts.",
+        "Episodic systems such as MemGPT [Packer et al., 2023] maintain explicit core memory strings and flush older records to an archival store. More recent systems including Mem0 [Chhikara et al., 2025] and A-MEM [Xu et al., 2025] combine graph and vector representations to improve retrieval precision.\n\nDespite their diversity, all these systems share one assumption: memory is a collection of things that happened. This produces three structural failure modes.",
+        "Zep and Mem0. Zep [Zep AI, 2024] builds a temporal knowledge graph; Mem0 [Chhikara et al., 2025] maintains a hybrid vector and graph store. Both report strong LoCoMo scores but use GPT-4o with a lenient LLM-as-judge. An independent audit by Penfield Labs [Penfield Labs, 2026] found this judge accepts up to 63 percent of intentionally wrong answers, and that approximately 6.4 percent of LoCoMo ground-truth answers contain errors."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2601.02553",
+      "title": "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+      "authors": [
+        {
+          "authorName": "Jiaqi Liu"
+        },
+        {
+          "authorName": "Yaofeng Su"
+        },
+        {
+          "authorName": "Peng Xia"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "To support long-term interaction in complex environments, LLM agents require memory systems that manage historical experiences. Existing approaches either retain full interaction histories via passive context extension, leading to substantial redundancy, or rely on iterative reasoning to filter nois...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 79,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 79,
+        "citingPublications": 43
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.02553",
+          "targetDoi": "10.48550/arxiv.2307.03172",
+          "snippet": "Large Language Model (LLM) agents have recently demonstrated remarkable capabilities across a wide range of tasks (Xia et al, 2025;Team et al, 2025;Qiu et al, 2025). However, constrained by fixed context windows, existing agents exhibit significant limitations when engaging in longcontext and multi-turn interaction scenarios (Liu et al, 2023;Wang et al, 2024a;Liu et al, 2025;Hu et al, 2025;Tu et al, 2025). To facilitate reliable long-term interaction, LLM agents require robust memory systems to efficiently manage and utilize historical experience (Dev &amp; Taranjeet, 2024;Fang et al, 2025;Wang &amp; Chen, 2025;Tang et al, 2025;Yang et al, 2025;Ouyang et al, 2025).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.02553",
+          "targetDoi": "10.48550/arxiv.2511.16043",
+          "snippet": "Large Language Model (LLM) agents have recently demonstrated remarkable capabilities across a wide range of tasks (Xia et al, 2025;Team et al, 2025;Qiu et al, 2025). However, constrained by fixed context windows, existing agents exhibit significant limitations when engaging in longcontext and multi-turn interaction scenarios (Liu et al, 2023;Wang et al, 2024a;Liu et al, 2025;Hu et al, 2025;Tu et al, 2025).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.02553",
+          "targetDoi": "10.48550/arxiv.2507.06229",
+          "snippet": "However, constrained by fixed context windows, existing agents exhibit significant limitations when engaging in longcontext and multi-turn interaction scenarios (Liu et al, 2023;Wang et al, 2024a;Liu et al, 2025;Hu et al, 2025;Tu et al, 2025). To facilitate reliable long-term interaction, LLM agents require robust memory systems to efficiently manage and utilize historical experience (Dev &amp; Taranjeet, 2024;Fang et al, 2025;Wang &amp; Chen, 2025;Tang et al, 2025;Yang et al, 2025;Ouyang et al, 2025).",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge Language Model (LLM) agents have recently demonstrated remarkable capabilities across a wide range of tasks (Xia et al., 2025;Team et al., 2025;Qiu et al., 2025). However, constrained by fixed context windows, existing agents exhibit significant limitations when engaging in longcontext and multi-turn interaction scenarios (Liu et al., 2023;Wang et al., 2024a;Liu et al., 2025;Hu et al., 2025;Tu et al., 2025).",
+        "We compare SimpleMem with representative memory-augmented systems: LOCOMO (Maharana et al., 2024), READAGENT (Lee et al., 2024), MEMORY-BANK (Zhong et al., 2024), MEMGPT (Packer et al., 2023), A-MEM (Xu et al., 2025), LIGHTMEM (Fang et al., 2025), and Mem0 (Dev & Taranjeet, 2024).\n\nBackbone Models. To test robustness across capability scales, we instantiate each baseline and SimpleMem on multiple LLM backends: GPT-4o, GPT-4.1-mini, Qwen-Plus, Qwen2.5 (1.5B/3B), and Qwen3 (1.7B/8B).",
+        "As reported in the rightmost columns of Tables 1 and3, full-context approaches such as LOCOMO and MEMGPT consume approximately 16,900 tokens per query. In contrast, SimpleMem reduces token usage by roughly 30×, averaging 530-580 tokens per query. Furthermore, compared to optimized retrieval baselines like Mem0 (∼980 tokens) and A-Mem (∼1,200+ tokens), Sim-pleMem reduces token usage by 40-50% while delivering superior accuracy."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2604.01707",
+      "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
+      "authors": [
+        {
+          "authorName": "Yanchen Wu"
+        },
+        {
+          "authorName": "Tenghui Lin"
+        },
+        {
+          "authorName": "Yingli Zhou"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Memory emerges as the core module in the large language model (LLM)-based agents for long-horizon complex tasks (e.g., multiturn dialogue, game playing, scientific discovery), where memory can enable knowledge accumulation, iterative reasoning and selfevolution. A number of memory methods have been ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2604.01707",
+          "targetDoi": "10.48550/arxiv.2403.15586",
+          "snippet": "The development of Large Language Models (LLMs) like GPT-5 [79], Qwen3 [96], and Claude Sonnet 4.6 [3] has sparked a revolution in the field of artificial intelligence [19,29,43,51,63,86,88,102]. Building on this success, LLM-powered agents have rapidly emerged and are being deployed across a wide range of domains, from industrial automation to personal assistance.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.01707",
+          "targetDoi": "10.1145/3586183.3606763",
+          "snippet": "These agents are increasingly expected to operate autonomously, adapt to diverse environments, and support personalized interactions tailored to user needs. A key capability underlying such intelligent behavior is the memory mechanism [67,101]. As illustrated in Figure 1, memory mechanisms allow agents to move beyond naive long-context prompting by maintaining and leveraging relevant information from past interactions.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.01707",
+          "targetDoi": "10.48550/arxiv.2107.13586",
+          "snippet": "LLM Prompting. Prompting [6,12,54] specifies an LLM task by constructing an input context (prompt) that contains task instructions, the current input, and optionally demonstrations or auxiliary evidence. The model's output is then generated conditioned on this context.",
+          "section": "llm-related concepts",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "INTRODUCTION\n\nThe development of Large Language Models (LLMs) like GPT-5 [79], Qwen3 [96], and Claude Sonnet 4.6 [3] has sparked a revolution in the field of artificial intelligence [19,29,43,51,63,86,88,102]. Building on this success, LLM-powered agents have rapidly emerged and are being deployed across a wide range of domains, from industrial automation to personal assistance.",
+        "Memory methods such as A-MEM and Mem0 extract keywords and contextual tags from M, or prompt the LLM to produce an abstracted summary of the raw text. Figure 3 illustrates a representative prompt used for this extraction method.\n\n❸ Graph-based extraction. This method leverages LLMs to extract fine-grained entities and relations from M, forming subject-predicate-object triples for knowledge graph construction (e.g., Mem0 𝑔 , Zep).",
+        "For example, memory methods such as A-MEM and MemoryOS leverage associative links based on semantic similarity or continuity, enabling synchronous updates and alignment across connected memories. Separately, graph-based methods such as Zep and Mem0 𝑔 focus on connecting individual episode or entity nodes to support reasoning and retrieval across conceptually or temporally aligned memories.\n\n❷ Integrating Fragmented Memories."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2601.03785",
+      "title": "Membox: Weaving Topic Continuity into Long-Range Memory for LLM Agents",
+      "authors": [
+        {
+          "authorName": "Dehao Tao"
+        },
+        {
+          "authorName": "Guoliang Ma"
+        },
+        {
+          "authorName": "Yongfeng Huang"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Human-agent dialogues often exhibit topic continuity-a stable thematic frame that evolves through temporally adjacent exchanges-yet most large-language-model (LLM) agent memory systems fail to preserve it. Existing designs follow a fragmentation-compensation paradigm: they first break dialogue strea...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 9,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 9,
+        "citingPublications": 5
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.03785",
+          "targetDoi": "10.48550/arxiv.2402.09727",
+          "snippet": "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses in external knowledge (Wang et al, 2023;Modarressi et al, 2023). While early RAG systems rely on static document retrieval and context injection, recent work introduces adaptive mechanisms-such as query refinement, re-ranking, and learnable retrieval policies-to improve relevance and reasoning fidelity (Lee et al, 2024;Zhong et al, 2024). Notably, agent-like RAG frameworks (e.g., Self-RAG (Asai et al, 2024) and FLARE (Jiang et al, 2023)) enable LLMs to decide when and what to retrieve based on intermediate reasoning states.",
+          "section": "external knowledge integration for llms",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.03785",
+          "targetDoi": "10.48550/arxiv.2402.09727",
+          "snippet": "In our empirical evaluation, we compared Membox with six competitive baselines including Lo-CoMo (Maharana et al, 2024), ReadAgent (Lee et al, 2024), MemoryBank (Zhong et al, 2024), MemGPT (Packer et al, 2023), A-MEM (Xu et al, 2025), and Mem0 (Chhikara et al, 2025). For evaluation metrics, we employ the F1 score to measure the balance of precision and recall in answer generation, supplemented by BLEU-1 to assess the lexical overlap between the generated output and the ground-truth references.",
+          "section": "dataset and evaluation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.03785",
+          "targetDoi": "10.18653/v1/2023.nlrse-1.7",
+          "snippet": "Early approaches embed KG facts during training, whereas modern methods dynamically retrieve or traverse KGs at inference time. Retrieval-augmented KGQA systems (Linders and Tomczak, 2025;Baek et al, 2023) fetch relevant triples, while agent-based frameworks-such as ToG (Sun et al, 2024), UniKGQA (Jiang et al, 2022), PoG (Chen et al, 2024), FiSKE (Tao et al, 2025b), and GG-explore (Tao et al, 2025a)-enable iterative, multi-hop exploration of KG subgraphs for complex question answering. These advances reflect a broader shift toward active, reasoning-driven retrieval in LLM augmentationcohen.",
+          "section": "external knowledge integration for llms",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Recent research emphasizes greater adaptivity, with Mem0 (Chhikara et al., 2025) enabling incremental state evolution, ReadAgent (Lee et al., 2024) using compressed \"gist\" representations, andA-Mem (Xu et al., 2025) equipping agents with decision-driven memory operations.",
+        "In our empirical evaluation, we compared Membox with six competitive baselines including Lo-CoMo (Maharana et al., 2024), ReadAgent (Lee et al., 2024), MemoryBank (Zhong et al., 2024), MemGPT (Packer et al., 2023), A-MEM (Xu et al., 2025), and Mem0 (Chhikara et al., 2025).",
+        "For Open Domain QA, topic-based memory reduces retrieval noise from unrelated topics, yielding better results than locally reproduced Mem0 under identical settings. In Single-Hop tasks, while LoCoMo and MemGPT leverage their strong pretrained factual recall on GPT-4o, their performance drops significantly on GPT-4o-mini."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2607.06595",
+      "title": "When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents",
+      "authors": [
+        {
+          "authorName": "George Torres"
+        },
+        {
+          "authorName": "Sharad Shrestha"
+        },
+        {
+          "authorName": "Satyajayant Misra"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Personal AI agents powered by large language models can reason and act using available tools to access emails, manage calendars, and push code to remote repositories, all with minimal oversight. When augmented with long-term memory, an agent can recall specific details relevant to the current task, ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 3,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 3,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2607.06595",
+          "targetDoi": "10.1145/3586183.3606763",
+          "snippet": "RAG systems and other information stores benefit from agents saving their own examples, experiences, and acquired knowledge in them. The concept of long-term cross-session memory was introduced by works such as MemGPT [3] and Generative Agents [21], showing that improvements in agent response and recall greatly outweigh those of simple systems that rely on longer context windows, which are not scalable. Agents store knowledge/interactions in their memory stores, labeling them with descriptive tags that enable later retrieval based on semantically similar prompts.",
+          "section": "memory-based agents",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.06595",
+          "targetDoi": "10.1007/978-3-540-30115-8_22",
+          "snippet": "Protocol 2 describes our approach, in which an adversary can use a public email corpus, such as the Enron Email Corpus [28], clustering it into k topics which are stored in deadline extensions, workflow policies, etc (Line 1). The adversary can then identify the cluster (T ) most closely aligned to their target prompt t, allowing them to score (s) the similarity of their attack email to T (Lines 2-3).",
+          "section": "memory injection",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.06595",
+          "targetDoi": "10.48550/arxiv.2402.03610",
+          "snippet": "The existing literature on agents with long-term memory has primarily been split into two distinct domains: conversational agents (i.e., chatbots) [3], [5], whose primary role is to talk with a user, and action-planning agents [4], [6], which focus on improving tool use or other complex operations, such as robotic control or code execution. Practical use cases that combine aspects of both domains, such as personal assistant agents or automated coding agents [7], [8], are currently underrepresented, and these agents would clearly benefit from including both fact-based and action-planning memory for tool use.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge language model (LLM) agents can reason and act with minimal human oversight, enabling automation of complex, multi-step tasks. These agents have access to tools that improve their efficiency and agency, allowing them to access emails, reply to calendar invites, and even push code to remote repositories [1], [2]. An agent's reasoning, decision-making, and accuracy can be further improved through the integration of long-term memory [3], [4].",
+        "The concept of long-term cross-session memory was introduced by works such as MemGPT [3] and Generative Agents [21], showing that improvements in agent response and recall greatly outweigh those of simple systems that rely on longer context windows, which are not scalable. Agents store knowledge/interactions in their memory stores, labeling them with descriptive tags that enable later retrieval based on semantically similar prompts.",
+        "Agent Selection\n\nGiven the absence of long-term memory agents that are purpose-built for a personal assistant use case, we selected five state-of-the-art agent architectures and adapted them to a common evaluation setting: A-Mem [22], Mem0 [32], ExpeL [4], Letta (formerly MemGPT) [3], [33], and Memo-ryOS [5]. These agents represent a variety of memory representation, organization, and retrieval techniques, allowing us to compare against a variety of design choices."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2604.16774",
+      "title": "Retention Consequence in Lifecycle Memory Control",
+      "authors": [
+        {
+          "authorName": "Jiarui Han"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Long-horizon language model systems increasingly rely on persistent memory, yet many current designs still treat memory primarily as a static store: write an item, place it into memory, and retrieve it later if needed. We argue that this framing does not adequately capture the practical memory-contr...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2604.16774",
+          "targetDoi": "10.48550/arxiv.2310.08560",
+          "snippet": "Hierarchical memory frameworks. Hierarchical memory has appeared in multiple forms, including MemGPT, HiMem, and H-MEM-style approaches (Packer et al, 2023;Zhang et al, 2026;Sun and Zeng, 2025). These works establish the value of layering.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.16774",
+          "targetDoi": "10.48550/arxiv.2305.10250",
+          "snippet": "MemoryBank and later systems such as A-MEM, All-Mem, AtomMem, and reflective memory management approaches for personalized dialogue recognize that memory should evolve rather than remain static (Zhong et al, 2023;Xu et al, 2025;Lv et al, 2026;Huo et al, 2026;Tan et al, 2025b). StageMem shares that motivation, but frames the problem in terms of lifecycle state and staged overflow-triggered transitions rather than a larger action vocabulary or a separate evolution process.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.16774",
+          "targetDoi": "10.1162/tacl_a_00638",
+          "snippet": "Yet one of the central bottlenecks in real product usage still lies in memory. Context windows remain finite, and even explicitly long-context models do not always use relevant information robustly across long inputs (Wang et al, 2023;Liu et al, 2024).",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge language models have improved rapidly in generation, reasoning, tool use, and interaction. Yet one of the central bottlenecks in real product usage still lies in memory. Context windows remain finite, and even explicitly long-context models do not always use relevant information robustly across long inputs (Wang et al., 2023;Liu et al., 2024).\n\nUsers also have limited control over what a system will retain, and the most damaging failures are often not simple omissions.",
+        "Mem0 is a strong product-oriented memory pipeline with extraction, consolidation, retrieval, and optional graph structure (Chhikara et al., 2025). Relative to StageMem, it emphasizes write-time control more heavily, whereas Stage-Mem emphasizes shallow admission followed by later retention decisions when long-term value is not yet clear.\n\nHierarchical memory frameworks.",
+        "Hierarchical memory has appeared in multiple forms, including MemGPT, HiMem, and H-MEM-style approaches (Packer et al., 2023;Zhang et al., 2026;Sun and Zeng, 2025). These works establish the value of layering. StageMem builds on that intuition but emphasizes the joint evolution of layer and item state over time rather than hierarchy alone.\n\nGraph memory and relation structure. Graph memory is a natural choice for relation-heavy retrieval and multi-hop access, including in Mem0's graph variant."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2604.04853",
+      "title": "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
+      "authors": [
+        {
+          "authorName": "Shu Wang"
+        },
+        {
+          "authorName": "Edwin Yu"
+        },
+        {
+          "authorName": "Oscar Love"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large language model (LLM) agents require persistent memory to maintain personalization, factual continuity, and long-horizon task performance, yet standard context-window and retrieval-augmented generation (RAG) workflows remain brittle under multisession interactions. We present MemMachine, an ope...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 9,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 9,
+        "citingPublications": 5
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2604.04853",
+          "targetDoi": "10.48550/arxiv.2310.08560",
+          "snippet": "Transformer-based large language models (LLMs) have become the computational foundation for a rapidly growing class of autonomous AI applications, from conversational assistants and customer-facing agents to complex multi-agent workflows [1,2]. Despite their broad capabilities, LLMs exhibit two fundamental limitations that constrain their utility in persistent, personalized applications: 1.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.04853",
+          "targetDoi": "10.48550/arxiv.2410.10813",
+          "snippet": "LongMemEval [7] benchmarks five core long-term memory abilities-information extraction, multi-session reasoning, temporal reasoning, knowledge updates, and abstention-using scalable chat histories. EpBench [8] focuses on episodic memory evaluation through synthetic narrative corpora ranging from 100K to 1M tokens.",
+          "section": "memory benchmarks",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.04853",
+          "targetDoi": "10.1016/s0079-7421(08)60422-3",
+          "snippet": "What AI agents require is a memory system-a mechanism that goes beyond document retrieval to store, organize, recall, and reason over past experiences. Drawing on established models from cognitive science [10,11], such a system should provide: • Short-term memory (STM): An immediate workspace maintaining current context, with limited capacity. • Long-term episodic memory: A store of specific past experiences, providing ground truth about what occurred.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nTransformer-based large language models (LLMs) have become the computational foundation for a rapidly growing class of autonomous AI applications, from conversational assistants and customer-facing agents to complex multi-agent workflows [1,2]. Despite their broad capabilities, LLMs exhibit two fundamental limitations that constrain their utility in persistent, personalized applications: 1. Static Parameters.\n\nOnce trained, an LLM's weights are fixed.",
+        "MemGPT [1] explored virtual memory management for LLMs. Mem0 [4] and Zep [5] provide long-term memory layers for AI agents. However, these systems primarily rely on LLMs for data extraction, update, aggregation, and deletion-a design that introduces high operational cost, accuracy concerns from probabilistic extraction, and compounding error over time.\n\nContributions\n\nIn this paper, we present MemMachine, an opensource memory system that takes a fundamentally different approach.",
+        "MemGPT [1] introduced an operating-systeminspired virtual memory hierarchy for LLMs, managing context by paging information between a main context and external storage. While pioneering, MemGPT's approach requires complex memory management that can introduce latency and depends on LLM-driven decisions for memory operations."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2607.01071",
+      "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+      "authors": [
+        {
+          "authorName": "Zhiyi Xiang"
+        },
+        {
+          "authorName": "Zerui Chen"
+        },
+        {
+          "authorName": "Yunbo Tang"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. However, memory is not always beneficial: retrieved memories often induce a critical issue of sycophancy, causing agents to over-align with the user at t...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2607.01071",
+          "targetDoi": "10.48550/arxiv.2406.10162",
+          "snippet": "\"retrieval_top_k\": 10, \"embedding_model\": \"baai/bge-m3\", \"embedding_dims\": 1024, \"memory_llm_model\": \"DeepSeek-v4-flash\", \"memory_llm_max_tokens\": 2000, \"memory_llm_temperature\": 0.7, \"retrieval_mode\": \"profile\", \"max_memories\": 40, \"language\": \"en\" } G RELATED WORK G.1 LLM SYCOPHANCY Sycophancy has emerged as a salient failure mode of large language models (LLMs) (Sharma et al, 2024;Malmqvist, 2025). Early work characterizes it as an assistant's tendency to align with a user's stated beliefs, opinions, or expectations even at the cost of truthfulness or independent judgment (Denison et al, 2024;Chen et al, 2024). This line of research shows that models trained with human feedback may learn to produce responses that users prefer because they are agreeable, rather than because they are correct (Wang et al, 2026;Dubois et al, 2026).",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.01071",
+          "targetDoi": "10.48550/arxiv.2605.06527",
+          "snippet": "Recent benchmarks expand this direction by studying memory staleness, forgetting, persistent preference use, and agentic experience. STALE (Chao et al, 2026) studies whether agents can recognize when previous memories are no longer valid after implicit state changes. PersistBench (Pulipaka et al, 2026) asks when long-term memories should be forgotten and highlights risks such as cross-domain leakage and memory-induced sycophancy.",
+          "section": "g3 existing memory benchmarks and analysis",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.01071",
+          "targetDoi": "10.48550/arxiv.2603.16557",
+          "snippet": "This shifts the evaluation target from prompt-level agreement to post-retrieval memory use: whether an agent can decide when retrieved memory should guide the response and when it should be suppressed, updated, or constrained. Concurrent memory-oriented work studies related issues such as memory forgetting and context-aware preference selectivity (Pulipaka et al, 2026;Yoon et al, 2026); MemSyco-Bench instead evaluates whether different memory systems amplify memory-aligned errors relative to no-memory and full-context settings.",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "The confirmation instruction generally degrades performance, with average drops of 26.9, 18.6, 27.7, and 9.9% for Full Dialog, Mem0, A-Mem, and LightMem, respectively. The effect is especially large in PERSON-ALIZED MEMORY USE, where all settings drop by 22.0-46.3%, with Mem0 declining most. In VALID MEMORY SELECTION, all settings also decline. This suggests that asking \"Are you sure?\"",
+        "Due to time and computational constraints, we do not run full MemSyco-Bench evaluations for every framework listed below; our main experiments focus on Mem0, A-Mem, LightMem, MemGPT, MemoryBank, SuperMemory, and NaiveRAG (Table 1).",
+        "models (LLMs) (Sharma et al., 2024;Malmqvist, 2025)."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2601.20352",
+      "title": "AMA: Adaptive Memory via Multi-Agent Collaboration",
+      "authors": [
+        {
+          "authorName": "Weiquan Huang"
+        },
+        {
+          "authorName": "Zixuan Wang"
+        },
+        {
+          "authorName": "Hehai Lin"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "The rapid evolution of Large Language Model (LLM) agents has necessitated robust memory systems to support cohesive long-term interaction and complex reasoning. Benefiting from the strong capabilities of LLMs, recent research focus has shifted from simple context extension to the development of dedi...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 3,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 3,
+        "citingPublications": 2
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2601.20352",
+          "targetDoi": "10.48550/arxiv.2311.08719",
+          "snippet": "Large Language Model (LLM) agents have demonstrated strong capabilities in complex reasoning, tool use, and multi-turn interaction scenarios (Deng et al, 2023;Liang and Tong, 2025;Comanici et al, 2025;Mei et al, 2024). Supporting such behaviors requires long-term memory to preserve contextual coherence and consistency (Liu et al, 2023;Sumers et al, 2023). Existing approaches to longterm memory can be broadly categorized into internal and external memory paradigms (Zhang et al, 2025).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.20352",
+          "targetDoi": "10.18653/v1/2023.acl-long.546",
+          "snippet": "Existing approaches to longterm memory can be broadly categorized into internal and external memory paradigms (Zhang et al, 2025). Internal memory implicitly absorbs historical information into model parameters, but is constrained by limited capacity (Mallen et al, 2023) and incurs substantial costs for continual updates (Wang et al, 2024b;Thede et al, 2025). In contrast, external memory relies on explicit storage and retrieval, providing superior scalability and editability (Wang and Chen, 2025;Qian et al, 2025;Rezazadeh et al, 2024).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2601.20352",
+          "targetDoi": "10.48550/arxiv.2507.05257",
+          "snippet": "As illustrated in Figure 1, these approaches typically rely on static text chunking with fixed lengths or coarse-grained summaries (Zhang et al, 2025;Wu et al, 2025). Such static strategies often disrupt the inherent semantic coherence of stored information, which in turn leads to suboptimal retrieval behavior: overly coarse retrieval introduces substantial irrelevant noise, while excessively finegrained or isolated chunks fragment essential logical dependencies, ultimately leading to reasoning failures in complex tasks (Hu et al, 2025;Lee et al, 2025;Wang et al, 2024a). These limitations highlight the necessity of an adaptive memory paradigm capable of dynamically aligning memory granularity with task-specific requirements.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge Language Model (LLM) agents have demonstrated strong capabilities in complex reasoning, tool use, and multi-turn interaction scenarios (Deng et al., 2023;Liang and Tong, 2025;Comanici et al., 2025;Mei et al., 2024). Supporting such behaviors requires long-term memory to preserve contextual coherence and consistency (Liu et al., 2023;Sumers et al., 2023).",
+        "We then evaluate representative memory frameworks including: LangMem (Chase, 2024), MemGPT (Packer et al., 2023a), Zep (Rasmussen et al., 2025), A-Mem (Xu et al., 2025), Mem0 (Chhikara et al., 2025), Nemori (Nan et al., 2025). Implementation Details.",
+        "A.3 Baselines RAG (Lewis et al., 2020) As a strong and widely adopted baseline, we implement Retrieval-Augmented Generation (RAG), which enhances language models by retrieving external textual evidence and conditioning generation on the retrieved content."
+      ],
+      "contentDenied": false
+    }
+  ]
+}

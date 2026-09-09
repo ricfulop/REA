@@ -1,0 +1,517 @@
+{
+  "query": "(\"language model\" OR \"LLM\") AND (\"optical design\" OR \"photonics\" OR \"control engineering\" OR \"robotic planning\")",
+  "total": 3082,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2603.11351",
+      "title": "Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning",
+      "authors": [
+        {
+          "authorName": "Hong Lu"
+        },
+        {
+          "authorName": "Pierrick Lorang"
+        },
+        {
+          "authorName": "Timothy R. Duggan"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "In dynamic open-world environments, autonomous agents often encounter novelties that hinder their ability to find plans to achieve their goals. Specifically, traditional symbolic planners fail to generate plans when the robot's planning domain lacks the operators that enable it to interact appropria...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2603.11351",
+          "targetDoi": "10.1613/jair.1.13864",
+          "snippet": "However, planning failures can occur due to novelties when the robot cannot find an appropriate sequence of operators to achieve its goal because the solution is outside of the robot's planning domain [5], [6]. In fact, common everyday objects, when introduced into a robot's controlled environment, often disrupt the robot's ability to achieve its usual goals because the robot's predefined planning domain lacks the operators necessary for interacting with these objects.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2603.11351",
+          "targetDoi": "10.1017/cbo9781139583923",
+          "snippet": "Integration of high-level task reasoning with low-level motion planning within a Task and Motion Planning (TAMP) framework improves the ability of a robotic system to solve complex problems. Using its knowledge of the environment and task structure encoded in a planning domain language like the Planning Domain Definition Language (PDDL) [1], a high-level symbolic task planner can generate an executable sequence of operator invocations using the operator's preand post-conditions to achieve the desired goal [2] while a low-level motion planner can generate the trajectories corresponding for each operator invocation to move the robot (e.g., [3]). Alternatively, each operator could have an associated policy that was learned through Reinforcement Learning (RL) (e.g., [4]).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2603.11351",
+          "targetDoi": "10.1109/icdl53763.2022.9962230",
+          "snippet": "Using its knowledge of the environment and task structure encoded in a planning domain language like the Planning Domain Definition Language (PDDL) [1], a high-level symbolic task planner can generate an executable sequence of operator invocations using the operator's preand post-conditions to achieve the desired goal [2] while a low-level motion planner can generate the trajectories corresponding for each operator invocation to move the robot (e.g., [3]). Alternatively, each operator could have an associated policy that was learned through Reinforcement Learning (RL) (e.g., [4]).",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "However, planning failures can occur due to novelties when the robot cannot find an appropriate sequence of operators to achieve its goal because the solution is outside of the robot's planning domain [5], [6]. In fact, common everyday objects, when introduced into a robot's controlled environment, often disrupt the robot's ability to achieve its usual goals because the robot's predefined planning domain lacks the operators necessary for interacting with these objects.",
+        "Our contributions are as follows.\n\n1) We propose a method that leverages the commonsense reasoning of Large Language Models (LLMs) to solve the missing operator identification problem-a challenge that is typically intractable for traditional operator discovery methods in the hybrid planning and learning literature. 2) We augment a hybrid planning and learning architecture with LLM generated dense reward functions, thereby significantly speeding up the learning process. 3) We perform evaluations within",
+        "In this work, we explore whether the vast common sense knowledge encoded in LLMs can be utilized to structurally define the missing operators and guide the RL agents via reward shaping, thereby saving exploration time.\n\nB. LLM for Planning\n\nRecent works in robotics planning seek to leverage the semantic understanding, common sense knowledge and the code generation capability of LLMs."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2512.18619",
+      "title": "ChronoDreamer: Action-Conditioned World Model as an Online Simulator for Robotic Planning",
+      "authors": [
+        {
+          "authorName": "Zhenhao Zhou"
+        },
+        {
+          "authorName": "Dan Negruţ"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "We present ChronoDreamer, an action-conditioned world model for contact-rich robotic manipulation. Given a history of egocentric RGB frames, contact maps, actions, and joint states, ChronoDreamer predicts future video frames, contact distributions, and joint angles via a spatial-temporal transformer...",
+      "year": 2025,
+      "date": "2025-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2512.18619",
+          "targetDoi": "10.1109/cvpr42600.2020.01149",
+          "snippet": "One route to lawful dynamics is to make physically plausible motion the default attractor via architectural bias. PhyDNet and PhyLoNet introduce dual pathways that disentangle a PDE-inspired \"physics\" cell from a residual appearance branch; the former evolves smooth, conservative dynamics, while the latter handles nuisance visual factors [2]. Even though these designs predate diffusion models, the lesson transfers: inserting lightweight, physics-structured latent updates between denoising steps or constraining attention flows to respect locality regularizes temporal evolution, cuts down implausible transitions, and keeps the latent state easier to plan in-much like traditional world-model agents that rely on carefully structured transition models instead of unconstrained recurrence.",
+          "section": "background and motivation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.18619",
+          "targetDoi": "10.1109/lra.2020.2974707",
+          "snippet": "We evaluate on DreamerBench, a simulator-generated dataset targeting frictional, contact-rich tabletop dynamics [11]. It complements DMControl [12], ALE [13], D4RL [14], RLBench [15], Open X-Embodiment [16], DrivingDojo [17], and WorldPrediction [18] by exposing dense contact supervision.",
+          "section": "methods",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2512.18619",
+          "targetDoi": "10.48550/arxiv.2210.09297",
+          "snippet": "Existing work explores several alternatives. Neural Contact Fields represent contact as a continuous probability field over 3D space conditioned on tactile inputs, enabling estimation of complex extrinsic contact patches from visuotactile signals [7]. Vision-only approaches such as Im2Contact recover dense contact maps from RGB observations by learning a pixel-wise contact likelihood without explicit access to forces or tactile measurements [8].",
+          "section": "contact encoding via depth-weighted gaussian splats",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "At inference time, predicted rollouts are passed to a vision-language model that reasons about collision likelihood, enabling rejection sampling of unsafe actions before execution.\n\nContributions.\n\n• A contact encoding scheme that renders 3D contact forces as depth-weighted Gaussian splat images aligned with the robot's egocentric camera, providing dense contact supervision in an image-native format.",
+        "A complementary approach relies on multimodal language and vision-language models to supply symbolic reasoning about forces, contacts, and constraints before or during sampling.",
+        "MaskGIT: Masked Generative Image Transformer\n\nTraining Objective The model is trained using a masked language modeling objective adapted for visual tokens. During training, a subset of future frame tokens is masked, and the model predicts the original tokens.\n\nMasking Strategy Given a sequence of T frames, the first T h frames serve as context (history), and the remaining T f = T -T h frames are candidates for masking."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1088/2515-7647/ae7491",
+      "title": "OptoChat: a large language model with retrieval augmented generation for optics",
+      "authors": [
+        {
+          "authorName": "Xiaoqing Bao"
+        },
+        {
+          "authorName": "Hairuo Wang"
+        },
+        {
+          "authorName": "S Chen"
+        }
+      ],
+      "journal": "journal of physics photonics",
+      "publisher": "IOP Publishing",
+      "abstract": "Abstract\n                  Large language models (LLMs) show strong performance in general text generation and knowledge-based Question Answering (QA). However, a substantial performance gap remains in optics, a knowledge-intensive scientific field. General-purpose LLMs, trained and tuned without su...",
+      "year": 2026,
+      "date": "2026-06-01",
+      "volume": "8",
+      "issue": "2",
+      "page": "026001",
+      "citations": [
+        {
+          "sourceDoi": "10.1088/2515-7647/ae7491",
+          "targetDoi": "10.3788/col202119.051701",
+          "snippet": "RAG effectively alleviates the knowledge limitations and hallucination tendencies of general-purpose LLMs, and has demonstrated strong performance across a range of specialized application domains [10][11][12]. However, applying existing RAG methods to the optics domain poses significant challenges due to the intricate physical principles, specialized terminology, and complex scientific reasoning inherent in optics-related documents and queries [13][14][15][16].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1088/2515-7647/ae7491",
+          "targetDoi": "10.1056/aioa2300068",
+          "snippet": "The model generates a response based on both the retrieved knowledge and the user query. RAG effectively alleviates the knowledge limitations and hallucination tendencies of general-purpose LLMs, and has demonstrated strong performance across a range of specialized application domains [10][11][12]. However, applying existing RAG methods to the optics domain poses significant challenges due to the intricate physical principles, specialized terminology, and complex scientific reasoning inherent in optics-related documents and queries [13][14][15][16].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1088/2515-7647/ae7491",
+          "targetDoi": "10.48550/arxiv.2009.09941",
+          "snippet": "This layout detection is followed by secondary segmentation of text regions into structural elements such as the abstract, main body, references, and appendices. For text-containing regions, contextual content is extracted using the PaddleOCR [18] optical character recognition engine. Table contents are independently detected and parsed using a YOLOv8-based table detector [19].",
+          "section": "methods",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nThe rapid progress of artificial intelligence (AI) has enabled numerous applications in computational imaging, microscopy automation, and optical design [1][2][3][4]. Among AI approaches, large language models (LLMs) are particularly well-suited to optics-related tasks that require knowledge representation and reasoning.",
+        "LLMs have achieved notable advances in natural language processing, especially in question answering (QA) [5], and have shown broad applicability in specialized domains [6][7][8][9]. However, in the field of optics, insufficient incorporation of domain-specific knowledge during pre-training makes LLMs prone to hallucinations and inaccuracies, and the field's knowledge-intensive, scientifically rigorous nature further challenges effective pre-training and fine-tuning.",
+        "The retrieved documents are then incorporated as auxiliary context, and together with the reformulated user query, form a prompt that is fed into the LLM. The model generates a response based on both the retrieved knowledge and the user query. RAG effectively alleviates the knowledge limitations and hallucination tendencies of general-purpose LLMs, and has demonstrated strong performance across a range of specialized application domains [10][11][12]."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2602.23761",
+      "title": "OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design",
+      "authors": [
+        {
+          "authorName": "Yuyu Geng"
+        },
+        {
+          "authorName": "Lei Sun"
+        },
+        {
+          "authorName": "Yao Gao"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Optical design is the process of configuring optical elements to precisely manipulate light for high-fidelity imaging. It is inherently a highly non-convex optimization problem that relies heavily on human heuristic expertise and domainspecific knowledge. While Large Language Models (LLMs) possess e...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.23761",
+          "targetDoi": "10.1364/oe.465888",
+          "snippet": "Optical lens design is a cornerstone of modern photonics, vital for technologies from smartphone imaging to advanced lithography (Gao et al, 2022). Fundamentally, it involves the precise spatial arrangement of refractive surfaces and materials to manipulate light propagation for specific imaging or non-imaging goals (Gao et al, 2024).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.23761",
+          "targetDoi": "10.48550/arxiv.2601.03267",
+          "snippet": "Large Language Models (LLMs) have emerged as the cornerstone of Artificial General Intelligence (AGI). Beyond scaling laws, recent breakthroughs (e.g., LLaMA (Touvron et al, 2023), DeepSeek (Liu et al, 2024), Qwen3 (Yang et al, 2025) and GPT-5 (Singh et al, 2025)) underscore their potential as the cognitive engine for autonomous agents. By distilling exabytes of multi-domain knowledge into dense parameters, LLMs provide a robust prior for complex reasoning.",
+          "section": "llms and llm-agent",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.23761",
+          "targetDoi": "10.1364/oe.27.017027",
+          "snippet": "Modern optical design software, such as Zemax and CODE V, enables automated optimization workflows when provided with properly initialized configurations, significantly streamlining the lens design process. Recent advancements in computational methodologies have further reduced human intervention through diverse approaches, including heuristic search algorithms (Guo et al, 2019;Zhang et al, 2020;Gao et al, 2025a;Liu et al, 2025a;Gao et al, 2025b), Deep Neural Networks (Côté et al, 2019;2021), point-by-point optimization (Yang et al, 2017;Zhang et al, 2021), and curriculum learning frameworks (Yang et al, 2024). These approaches predominantly rely on iterative optimization algorithms (e.g., gradient-based or evolutionary methods) that demand extensive computational resources and manual parameter tuning, resulting in design cycles comparable to manual optimization.",
+          "section": "automatic optical design",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Since optical design is a daunting task, automatic optical design involving no or minimal human effort has always been the expectation of scientists, researchers, and optical engineers (Yang et al., 2017). Modern optical design software, such as Zemax and CODE V, enables automated optimization workflows when provided with properly initialized configurations, significantly streamlining the lens design process.",
+        "In contrast, LLM-driven generative framework directly synthesizes physically plausible optical architectures from high-level specifications through physics-aware neural representations. This paradigm shift bypasses the limitations of retrieval-based systems by enabling open-ended design exploration within latent spaces.\n\nLLMs and LLM-agent\n\nLarge Language Models (LLMs) have emerged as the cornerstone of Artificial General Intelligence (AGI).",
+        "Given the absence of directly comparable frameworks for LLM-based optical design, we evaluate OPTIAGENT against a selection of representative baseline language models with in-context learning (Dong et al., 2024). We exclude comparisons with optimization-based methods, such as QGSO, due to their inherent computational constraints."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1109/iros51168.2021.9636781",
+      "title": "Automated Generation of Robotic Planning Domains from Observations",
+      "authors": [
+        {
+          "authorName": "Maximilian Diehl"
+        },
+        {
+          "authorName": "Chris Paxton"
+        },
+        {
+          "authorName": "Karinne Ramírez-Amaro"
+        }
+      ],
+      "publisher": "IEEE",
+      "abstract": "Automated planning enables robots to find plans to achieve complex, long-horizon tasks, given a planning domain. This planning domain consists of a list of actions, with their associated preconditions and effects, and is usually manually defined by a human expert, which is very timeconsuming or even...",
+      "year": 2021,
+      "date": "2021-09-27",
+      "page": "6732-6738",
+      "tally": {
+        "total": 18,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 18,
+        "citingPublications": 39
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1109/iros51168.2021.9636781",
+          "targetDoi": "10.1016/j.artint.2014.11.003",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1109/iros51168.2021.9636781",
+          "targetDoi": "10.1016/j.artint.2015.08.009",
+          "section": "environment and planning problem",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1109/iros51168.2021.9636781",
+          "targetDoi": "10.1016/j.artint.2015.08.009",
+          "section": "b obtained operators",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.1609/aaai.v38i1.27822",
+      "title": "Bootstrapping Cognitive Agents with a Large Language Model",
+      "authors": [
+        {
+          "authorName": "Feiyu Zhu"
+        },
+        {
+          "authorName": "Reid Simmons"
+        }
+      ],
+      "journal": "proceedings of the aaai conference on artificial intelligence",
+      "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+      "abstract": "Large language models contain noisy general knowledge of the world, yet are hard to train or fine-tune. In contrast cognitive architectures have excellent interpretability and are flexible to update but require a lot of manual work to instantiate. In this work, we combine the best of both worlds: bo...",
+      "year": 2024,
+      "date": "2024-03-24",
+      "volume": "38",
+      "issue": "1",
+      "page": "655-663",
+      "tally": {
+        "total": 2,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 2,
+        "citingPublications": 5
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1609/aaai.v38i1.27822",
+          "targetDoi": "10.1109/icra48891.2023.10160591",
+          "snippet": "Many studies have explored using LLMs to generate code that performs robotics tasks (Liang et al 2023;Singh et al 2023;Vemprala et al 2023) and game environments , which is similar to the procedural memory in the cognitive architectures. Other works explored generating PDDL specifications (Liu et al 2023a;Xie et al 2023).",
+          "section": "large language model for embodied agents",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1609/aaai.v38i1.27822",
+          "targetDoi": "10.48550/arxiv.2210.07128",
+          "snippet": "Instead of formulating it as an informed search problem, we accelerate this process by querying LLMs for their existing knowledge. Madaan et al (2022) extract common-sense knowledge from LLMs into code form similar to how we extract productions. But they only address the general task decomposition, not applying the information to an embodied agent.",
+          "section": "related work learning through program synthesis",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1609/aaai.v38i1.27822",
+          "targetDoi": "10.1609/aaai.v36i11.21728",
+          "snippet": "Interactive Task Learning (ITL) ) aims at teaching robots new skills in a one-shot fashion. Previous work implements this in the SOAR cognitive architecture and has shown effective task and environment transferability in domains such as board games (Kirk and Laird 2019) and embodied agents (Mininger and Laird 2022). To reduce the need for extensive human input, recent research explores using LLM as the knowledge source (Lindes and Peter 2023;Kirk et al 2023), shifting human labor from specifying the goal conditions to answering yes/no questions.",
+          "section": "related work learning through program synthesis",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge language models (LLM) such as GPT-4 (OpenAI 2023), have shown emerging capabilities after training on internet-scale text data with human feedback, and have been employed in robot planning (Huang et al. 2022), animal behavior analysis (Ye et al. 2023), human proxies (Zhang and Soh 2023), and many more.",
+        "Large Language Model for Embodied Agents\n\nMany studies have explored using LLMs to generate code that performs robotics tasks (Liang et al. 2023;Singh et al. 2023;Vemprala et al. 2023) and game environments , which is similar to the procedural memory in the cognitive architectures. Other works explored generating PDDL specifications (Liu et al. 2023a;Xie et al. 2023).",
+        "The critic LLM is given the name of the task family (e.g., find a/an ), and the English descriptions, generated by the production LLM, of the existing production rules for that task. The critic LLM is instructed to first analyze all the production rules whose effect is the done action, and summarize the end condition of the given task (e.g., the robot is holding the desired object in its gripper)."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2602.04129",
+      "title": "KGLAMP: Knowledge Graph-guided Language model for Adaptive Multi-robot Planning and Replanning",
+      "authors": [
+        {
+          "authorName": "Chak Lam Shek"
+        },
+        {
+          "authorName": "Faizan M. Tariq"
+        },
+        {
+          "authorName": "Sangjae Bae"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Heterogeneous multi-robot systems are increasingly deployed in long-horizon missions that require coordination among robots with diverse capabilities. However, existing planning approaches struggle to construct accurate symbolic representations and to maintain plan consistency in dynamic environment...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.04129",
+          "targetDoi": "10.48550/arxiv.2304.11477",
+          "snippet": "Recent advances in large language models (LLMs) reduce the manual burden of domain specification [6] and enable flexible high-level reasoning for long-horizon planning [7].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.04129",
+          "targetDoi": "10.24963/ijcai.2023/611",
+          "snippet": "Heterogeneous multi-robot systems are increasingly deployed in real-world missions, including disaster response, warehouse logistics, and large-scale inspection [1]. By integrating robots with diverse capabilities and embodiments, these systems can effectively accomplish complex missions that are beyond the reach of homogeneous teams.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.04129",
+          "targetDoi": "10.1109/iros51168.2021.9636287",
+          "snippet": "By integrating robots with diverse capabilities and embodiments, these systems can effectively accomplish complex missions that are beyond the reach of homogeneous teams. The heterogeneity among robots introduces substantial challenges in long-horizon planning tasks, including task allocation and the coordination of robot actions in dynamic and uncertain environments [2]. To this end, recent work has focused on planning strategies for effectively integrating heterogeneous robots with diverse roles and capabilities.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Recent advances in large language models (LLMs) reduce the manual burden of domain specification [6] and enable flexible high-level reasoning for long-horizon planning [7].\n\nPrior work shows that LLMs can generate PDDL specifications and support symbolic planners [8], [9].",
+        "The framework translates high-level natural language instructions into executable robot plans via a sequence of specialized LLM agents. As shown in Fig. 3, the pipeline encodes user instructions in prompts and visual scene observations into structured symbolic representations using knowledge graphs. Subsequently, LLM goal , LLM relation , LLM property , and LLM reach extract goal specifications, spatial hierarchies, object states, and navigational constraints, respectively.",
+        "Accurate property assignment is therefore critical for pruning infeasible actions and ensuring goal 4) Navigation Structure: We explicitly decouple navigation reasoning from object interaction, as jointly reasoning over spatial motion and manipulation constraints substantially increases multi-robot planning complexity."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1002/rob.70120",
+      "title": "Dadu‐E\n                    : Rethinking the Role of Large Language Model in Robotic Computing Pipelines",
+      "authors": [
+        {
+          "authorName": "Wenhao Sun"
+        },
+        {
+          "authorName": "Zixuan Wang"
+        },
+        {
+          "authorName": "Yu Bo"
+        }
+      ],
+      "journal": "journal of field robotics",
+      "publisher": "Wiley",
+      "abstract": "ABSTRACT\n                  \n                    Performing complex tasks in open environments remains challenging for robots, even when using large language models (LLMs) as the core planner. Many LLM‐based planners are inefficient due to their large number of parameters and prone to inaccuracies be...",
+      "year": 2025,
+      "date": "2025-12-10",
+      "volume": "43",
+      "issue": "3",
+      "page": "2024-2047",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1002/rob.70120",
+          "targetDoi": "10.48550/arxiv.2301.13808",
+          "section": "long-horizon task planning via multimodal llms",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/rob.70120",
+          "targetDoi": "10.48550/arxiv.2405.01534",
+          "section": "closed-loop control",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1002/rob.70120",
+          "targetDoi": "10.48550/arxiv.2204.01691",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2602.15294",
+      "title": "EAA: Automating materials characterization with vision language model agents",
+      "authors": [
+        {
+          "authorName": "Ming Du"
+        },
+        {
+          "authorName": "Yanqi Luo"
+        },
+        {
+          "authorName": "Srutarshi Banerjee"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "We present Experiment Automation Agents (EAA), a vision-language-model-driven agentic system designed to automate complex experimental microscopy workflows. EAA integrates multimodal reasoning, tool-augmented action, and optional long-term memory to support both autonomous procedures and interactive...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.15294",
+          "targetDoi": "10.1088/1742-6596/2380/1/012044",
+          "snippet": "We used GPT-5 as the VLM. All experiments were performed at beamline 2-ID-D of the Advanced Photon Source using the x-ray fluorescence microscopy (XRF) setup [12]. We also invite the readers to watch the video recordings of the experiments available in the supplementary materials.",
+          "section": "results",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.15294",
+          "targetDoi": "10.1126/science.adh2586",
+          "snippet": "A report by Deloitte predicts that by 2027, about 50% of companies using generative AI will have launched pilot projects with autonomous agentic AI [3]. The productivity enhancement through the introduction of AI agents to human teams is substantial [4,5]. The growing capabilities of LLMs and VLMs are also promoting their adoption in scientific research, with experts foreseeing AI agents accelerating discoveries in biology, medicine, chemistry, and materials science [6].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "As large language models (LLMs) and particularly vision language models (VLMs) evolve towards more powerful reasoning skills, tool-using capabilities, and image comprehension, a vast potential for applying AI agents in automating interactions with real-world objects is emerging. A report by Deloitte predicts that by 2027, about 50% of companies using generative AI will have launched pilot projects with autonomous agentic AI [3].",
+        "Semantically associating language and image has been a major challenge for agents based on text-only LLMs, but the development of vision language models (VLMs) supporting multi-modal inputs, examples of which include Claude Opus, ChatGPT-5 and Gemini 3, has provided an effective solution to this problem. We recognize that the ability to comprehend images from both users and tools in line with text prompts is crucial for AI agents deployed at synchrotron beamlines.",
+        "While tools that perform data retrieval or numerical computation can be used by the LLM to make well-supported and quantitatively accurate decisions, uncertainty still exists in whether the LLM calls the right tools and passes in the right arguments, and the tool calling performance of LLMs is commonly seen to degrade when too many tools are given."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2510.23357",
+      "title": "Large language model-based task planning for service robots: A review",
+      "authors": [
+        {
+          "authorName": "Shaohan Bian"
+        },
+        {
+          "authorName": "Ying Zhang"
+        },
+        {
+          "authorName": "Guohui Tian"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "With the rapid advancement of large language models (LLMs) and robotics, service robots are increasingly becoming an integral part of daily life, offering a wide range of services in complex environments. To deliver these services intelligently and efficiently, robust and accurate task planning capa...",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2510.23357",
+          "targetDoi": "10.48550/arxiv.1904.10509",
+          "snippet": "Once pre-training is complete, an adapter layer [35] is used to fine-tune for downstream tasks. GPT-3 [32] continues the architecture of GPT-2 [30] and draws on the design of Sparse Transformers [36], combining dense and sparse attention mechanisms in the transformer layer and employing a gradient noise scale [37] during training.GPT-3 extends the model parameters to 175 billion, further validating the positive correlation between model size and performance improvement.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2510.23357",
+          "targetDoi": "10.48550/arxiv.2409.15272",
+          "snippet": "In the field of model evaluation and optimization, researchers are committed to improving the performance and efficiency of MLLMs. The OmniBench benchmark proposed by Li et al [139] aims to comprehensively evaluate the parallel processing and reasoning ability of the model for multimodal inputs such as visual, auditory, and text. By constructing a standardized evaluation system, it provides an important basis for quantifying the performance of the model.",
+          "section": "technological evolution and practical applications",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2510.23357",
+          "targetDoi": "10.48550/arxiv.2306.09782",
+          "snippet": "From the perspective of technical implementation, finetuning is mainly divided into two major directions, Full Fine-tuning (FFT) [48] and Parameter-Efficient Fine-tuning (PEFT) [49]. FFT updates all the parameters of the model, which is effective but requires a large amount of computational resources and training data, in contrast, PEFT [50,35,51] drastically reduces the resource requirements while guaranteeing the performance by adjusting only some of the parameters or by adding small adaptation modules.",
+          "section": "deepseek-v2 [41] 236b",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Ding et al. [81] developed COWP, an open-world robot planning system that ingeniously integrates a traditional knowledge-based task planning framework with a pre-trained language model, as shown in Figure 5. The latter serves as a powerful means for acquiring domain-agnostic common-sense knowledge. This synergy endows COWP with the unique ability to apply universal common-sense knowledge to specialized task-planning scenarios.",
+        "The visual language model is used as the skeleton of the language model for image description and scene understanding, which further proves that the task planning ability of the service robot in the home environment is significantly improved through the visual language model.\n\nActive Task Cognition\n\nActive task cognition necessitates that robots possess the capability to comprehend their environment and autonomously deduce task-related information.",
+        "Moreover, Rubenstein et al. [112] introduced AudioPaLM, a sophisticated large language model designed for speech understanding and generation. AudioPaLM integrates the text-based language model PaLM-2 [119] and the speechbased language model AudioLM [120] into a unified multimodal architecture."
+      ],
+      "contentDenied": false
+    }
+  ]
+}

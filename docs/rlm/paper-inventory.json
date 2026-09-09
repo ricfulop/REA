@@ -1,0 +1,2860 @@
+[
+  {
+    "doi": "10.48550/arxiv.2604.13860",
+    "title": "\"AI Psychosis\" in Context: How Conversation History Shapes LLM Responses to Delusional Beliefs",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.13860",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2604.05114",
+    "title": "$\u03c0^2$: Structure-Originated Reasoning Data Improves Long-Context Reasoning Ability of Large Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.05114",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.compgeo.2024.106237",
+    "title": "A ChatGPT-MATLAB framework for numerical modeling in geotechnical engineering applications",
+    "year": 2024,
+    "url": "https://doi.org/10.1016/j.compgeo.2024.106237",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2605.07358",
+    "title": "A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.07358",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.ijheatmasstransfer.2018.02.115",
+    "title": "A computationally light data-driven approach for heat transfer and hydraulic characteristics modeling of supercritical fluids: From DNS to DNN",
+    "year": 2018,
+    "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2018.02.115",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1007/s00170-016-8514-7",
+    "title": "A decision support methodology for embodiment design and process chain selection for hybrid manufacturing platforms",
+    "year": 2016,
+    "url": "https://doi.org/10.1007/s00170-016-8514-7",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1243/09544050260174201",
+    "title": "A design to cost system for innovative product development",
+    "year": 2002,
+    "url": "https://doi.org/10.1243/09544050260174201",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2601.14098",
+    "title": "A flexible language model-assisted electronic design automation framework",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.14098",
+    "discovered_by": [
+      "search-10.json",
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.2139/ssrn.6443038",
+    "title": "A large language model-based rule formalization framework for civil engineering standard clauses",
+    "year": 2026,
+    "url": "https://doi.org/10.2139/ssrn.6443038",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1016/j.enbuild.2026.117694",
+    "title": "A large language model-driven automated workflow for CFD simulations of urban street canyons",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.enbuild.2026.117694",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1080/15732479.2026.2630123",
+    "title": "A large language model-empowered agent for reliable and robust structural analysis",
+    "year": 2026,
+    "url": "https://doi.org/10.1080/15732479.2026.2630123",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1038/s42256-026-01214-y",
+    "title": "A multimodal large language model for materials science",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s42256-026-01214-y",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1109/access.2026.3666652",
+    "title": "A Novel LLM-Assisted Approach for Automated Mechanical Design of Regularized Geometries in CAD System",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/access.2026.3666652",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1080/14685248.2020.1757685",
+    "title": "A perspective on machine learning in turbulent flows",
+    "year": 2020,
+    "url": "https://doi.org/10.1080/14685248.2020.1757685",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.11689",
+    "title": "A Preliminary Assessment of Coding Agents for CFD Workflows",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.11689",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1093/gigascience/giae030",
+    "title": "A qualitative assessment of using ChatGPT as large language model for scientific workflow development",
+    "year": 2024,
+    "url": "https://doi.org/10.1093/gigascience/giae030",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.compind.2007.09.001",
+    "title": "A review of automated feature recognition with rule-based pattern recognition",
+    "year": 2008,
+    "url": "https://doi.org/10.1016/j.compind.2007.09.001",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1039/d4sc03921a",
+    "title": "A review of large language models and autonomous agents in chemistry",
+    "year": 2025,
+    "url": "https://doi.org/10.1039/d4sc03921a",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.67535/tsp.000001.041",
+    "title": "A Specialized Large Language Model for Electronic Design Automation",
+    "year": 2025,
+    "url": "https://doi.org/10.67535/tsp.000001.041",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1016/j.taml.2025.100623",
+    "title": "A status quo investigation of large-language models for cost-effective computational fluid dynamics automation with OpenFOAMGPT",
+    "year": 2025,
+    "url": "https://doi.org/10.1016/j.taml.2025.100623",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1063/1.168744",
+    "title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+    "year": 1998,
+    "url": "https://doi.org/10.1063/1.168744",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2502.12110",
+    "title": "A-MEM: Agentic Memory for LLM Agents",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2502.12110",
+    "discovered_by": [
+      "search-11.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.52202/085713-0593",
+    "title": "A-Mem: Agentic Memory for LLM Agents",
+    "year": 2025,
+    "url": "https://doi.org/10.52202/085713-0593",
+    "discovered_by": [
+      "search-11.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1109/cvpr.2019.00983",
+    "title": "ABC: A Big CAD Model Dataset for Geometric Deep Learning",
+    "year": 2019,
+    "url": "https://doi.org/10.1109/cvpr.2019.00983",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated"
+  },
+  {
+    "doi": "10.20517/jmi.2025.69",
+    "title": "Accelerating materials discovery via AI-Agent integration of large language models and simulation tools",
+    "year": 2026,
+    "url": "https://doi.org/10.20517/jmi.2025.69",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2602.06418",
+    "title": "Adaptive Protein Tokenization",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.06418",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.ijheatfluidflow.2024.109662",
+    "title": "Additive-feature-attribution methods: A review on explainable artificial intelligence for fluid dynamics and heat transfer",
+    "year": 2025,
+    "url": "https://doi.org/10.1016/j.ijheatfluidflow.2024.109662",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.36227/techrxiv.176857932.25697838/v1",
+    "title": "Agent Skills from the Perspective of Procedural Memory: A Survey",
+    "year": 2026,
+    "url": "https://doi.org/10.36227/techrxiv.176857932.25697838/v1",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.13140/rg.2.2.24951.07846",
+    "title": "Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality",
+    "year": 2026,
+    "url": "https://doi.org/10.13140/rg.2.2.24951.07846",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2602.08004",
+    "title": "Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.08004",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1109/e-cargo70110.2026.11670797",
+    "title": "Agent4CAPP: A LLMs-Based Agent Framework for CAPP",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/e-cargo70110.2026.11670797",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.00214",
+    "title": "Agentic Scientific Simulation: Execution-Grounded Model Construction and Reconstruction",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.00214",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1088/2631-7990/adea23",
+    "title": "AI-driven design: powered by large language model and intelligent computation",
+    "year": 2025,
+    "url": "https://doi.org/10.1088/2631-7990/adea23",
+    "discovered_by": [
+      "search-2.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.cma.2026.118985",
+    "title": "ALL-FEM: Agentic Large Language Models fine-tuned for finite element methods",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.cma.2026.118985",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2139/ssrn.6103826",
+    "title": "ALL-FEM: Agentic Large Language models Fine-tuned for Finite Element Methods",
+    "year": 2026,
+    "url": "https://doi.org/10.2139/ssrn.6103826",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.21011",
+    "title": "ALL-FEM: Agentic Large Language models Fine-tuned for Finite Element Methods",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.21011",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated"
+  },
+  {
+    "doi": "10.48550/arxiv.2601.20352",
+    "title": "AMA: Adaptive Memory via Multi-Agent Collaboration",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.20352",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1145/3770855.3817839",
+    "title": "AMOS: Active Mining with Observable Steps for Agenda-Driven Review Knowledge Discovery",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3770855.3817839",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1109/eecr69522.2026.11548842",
+    "title": "An LLM-Based Agent Framework for Intelligent Power Module Design",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/eecr69522.2026.11548842",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.09316",
+    "title": "Anything2Skill: Compiling External Knowledge into Reusable Skills for Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.09316",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1117/12.3061653",
+    "title": "Application and practice of construction project planning based on large language model (LLM)",
+    "year": 2025,
+    "url": "https://doi.org/10.1117/12.3061653",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2403.15834",
+    "title": "ARO: Large Language Model Supervised Robotics Text2Skill Autonomous Learning",
+    "year": 2024,
+    "url": "https://doi.org/10.48550/arxiv.2403.15834",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1016/j.coche.2026.101293",
+    "title": "Artificial intelligence in fluidisation technology: promise, progress and pitfalls",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.coche.2026.101293",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1063/5.0275677",
+    "title": "Assessing DeepSeek in hypersonic applications: Fundamental knowledge, formula invocation and automated programing",
+    "year": 2025,
+    "url": "https://doi.org/10.1063/5.0275677",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1038/s42256-024-00832-8",
+    "title": "Augmenting large language models with chemistry tools",
+    "year": 2024,
+    "url": "https://doi.org/10.1038/s42256-024-00832-8",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.09774",
+    "title": "Auto-Configuring Scientific Simulators with Lightweight Coding-Agent Adapters",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.09774",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2139/ssrn.6172101",
+    "title": "AutoCoSim: An LLM-RAG-based Multi-agent Framework for Automating Building Energy and CFD Co-simulation",
+    "year": 2026,
+    "url": "https://doi.org/10.2139/ssrn.6172101",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.3390/buildings14071983",
+    "title": "Automated Building Information Modeling Compliance Check through a Large Language Model Combined with Deep Learning and Ontology",
+    "year": 2024,
+    "url": "https://doi.org/10.3390/buildings14071983",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1109/iros51168.2021.9636781",
+    "title": "Automated Generation of Robotic Planning Domains from Observations",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/iros51168.2021.9636781",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.3390/drones9110803",
+    "title": "Automated UAV Object Detector Design Using Large Language Model-Guided Architecture Search",
+    "year": 2025,
+    "url": "https://doi.org/10.3390/drones9110803",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.compind.2022.103736",
+    "title": "Automatic machining feature recognition based on MBD and process semantics",
+    "year": 2022,
+    "url": "https://doi.org/10.1016/j.compind.2022.103736",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1109/83.641413",
+    "title": "Automatic watershed segmentation of randomly textured color images",
+    "year": 1997,
+    "url": "https://doi.org/10.1109/83.641413",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2510.11004",
+    "title": "Automating Structural Engineering Workflows with Large Language Model Agents",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2510.11004",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1016/j.compfluid.2026.107163",
+    "title": "Automation of the CFD-based design process for turbomachinery blades using deep reinforcement learning",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.compfluid.2026.107163",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.02849",
+    "title": "AutoSizer: Automatic Sizing of Analog and Mixed-Signal Circuits via Large Language Model (LLM) Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.02849",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2607.08938",
+    "title": "Better Harnesses, Smaller Models: Building 90% Cheaper Agents via Automated Harness Adaptation",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.08938",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.20146",
+    "title": "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.20146",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1609/aaai.v38i1.27822",
+    "title": "Bootstrapping Cognitive Agents with a Large Language Model",
+    "year": 2024,
+    "url": "https://doi.org/10.1609/aaai.v38i1.27822",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2602.22284",
+    "title": "BrepCoder: A Unified Multimodal Large Language Model for Multi-task B-rep Reasoning",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.22284",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1109/cvpr46437.2021.01258",
+    "title": "BRepNet: A topological message passing system for solid models",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/cvpr46437.2021.01258",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2605.06936",
+    "title": "Bridging the Last Mile of Circuit Design: PostEDA-Bench, a Hierarchical Benchmark for PPA Convergence and DRC Fixing",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.06936",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2607.02387",
+    "title": "Bringing Agentic Search to Earth Observation Data Discovery",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.02387",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.64898/2026.01.24.26344761",
+    "title": "C-RLM: Schema-Enforced Recursive Synthesis for Auditable, Long-Context Clinical Documentation",
+    "year": 2026,
+    "url": "https://doi.org/10.64898/2026.01.24.26344761",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1115/1.4071305",
+    "title": "CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation",
+    "year": 2026,
+    "url": "https://doi.org/10.1115/1.4071305",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2604.14602",
+    "title": "CausalDetox: Causal Head Selection and Intervention for Language Model Detoxification",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.14602",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "excluded_off_topic_title_screen",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1002/adfm.202409531",
+    "title": "Cephalo: Multi\u2010Modal Vision\u2010Language Models for Bio\u2010Inspired Materials Analysis and Design",
+    "year": 2024,
+    "url": "https://doi.org/10.1002/adfm.202409531",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.cja.2026.104321",
+    "title": "CFD-copilot: Leveraging domain-adapted large language model and model context protocol to enhance simulation automation",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.cja.2026.104321",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.taml.2026.100734",
+    "title": "CFDAgent with a general kinematics module: driving biological flapping flight simulation",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.taml.2026.100734",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1063/5.0294696",
+    "title": "CFDAgent: A language-guided, zero-shot multi-agent system for complex flow simulation",
+    "year": 2025,
+    "url": "https://doi.org/10.1063/5.0294696",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2608.05124",
+    "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2608.05124",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1002/aidi.202500174",
+    "title": "ChatCFD: A Large Language Model\u2010Driven Agent for End\u2010to\u2010End Computational Fluid Dynamics Automation with Structured Knowledge and Reasoning",
+    "year": 2026,
+    "url": "https://doi.org/10.1002/aidi.202500174",
+    "discovered_by": [
+      "search-2.json",
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2512.18619",
+    "title": "ChronoDreamer: Action-Conditioned World Model as an Online Simulator for Robotic Planning",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2512.18619",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.scib.2026.07.036",
+    "title": "Closing the loop with generative AI and automated experimentation in electrochemical energy innovation",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.scib.2026.07.036",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1080/09544828.2026.2617799",
+    "title": "Cognitive 3D CAD model retrieval: a multi-agent system for intent-driven, cross-modal search",
+    "year": 2026,
+    "url": "https://doi.org/10.1080/09544828.2026.2617799",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.28119",
+    "title": "Compressing Code Context for LLM-based Issue Resolution",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.28119",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2605.09968",
+    "title": "Consolidation-Expansion Operator Mechanics:A Unified Framework for Adaptive Learning",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.09968",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1007/s44379-025-00022-2",
+    "title": "Constitutive scientific generative agent (CSGA): Leveraging large language models for automated constitutive model discovery",
+    "year": 2025,
+    "url": "https://doi.org/10.1007/s44379-025-00022-2",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1002/aic.70488",
+    "title": "Context is all you need: Toward autonomous model\u2010based process design using agentic AI in flowsheet simulations",
+    "year": 2026,
+    "url": "https://doi.org/10.1002/aic.70488",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2605.09998",
+    "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.09998",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.28370",
+    "title": "Conversational Query Engine for Mixed-Modality Heterogeneous Enterprise Data Sources",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.28370",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.04071",
+    "title": "Covert Influence Between Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.04071",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.neucom.2025.132030",
+    "title": "Creation, evaluation and self-validation of simulation models with large language models",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.neucom.2025.132030",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-6566994/v1",
+    "title": "Creation, Evaluation and Self-Validation of Simulation Models with Large Language Models",
+    "year": 2025,
+    "url": "https://doi.org/10.21203/rs.3.rs-6566994/v1",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1101/2024.04.25.591003",
+    "title": "CRISPR-GPT for Agentic Automation of Gene Editing Experiments",
+    "year": 2024,
+    "url": "https://doi.org/10.1101/2024.04.25.591003",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2008.00283",
+    "title": "Crystallography companion agent for high-throughput materials discovery",
+    "year": 2020,
+    "url": "https://doi.org/10.48550/arxiv.2008.00283",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1002/rob.70120",
+    "title": "Dadu\u2010E\n                    : Rethinking the Role of Large Language Model in Robotic Computing Pipelines",
+    "year": 2025,
+    "url": "https://doi.org/10.1002/rob.70120",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2606.05009",
+    "title": "DAR: Deontic Reasoning with Agentic Harnesses",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.05009",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.ijheatmasstransfer.2024.126149",
+    "title": "Data-driven methods for flow and transport in porous media: A review",
+    "year": 2024,
+    "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2024.126149",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.10662",
+    "title": "Decentralized Multi-Agent Systems with Shared Context",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.10662",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.06923",
+    "title": "Declarative Skills for AI Agents in Knowledge-Grounded Tool-Use Workflows",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.06923",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.jcp.2019.108910",
+    "title": "Deep neural networks for data-driven LES closure models",
+    "year": 2019,
+    "url": "https://doi.org/10.1016/j.jcp.2019.108910",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2605.11388",
+    "title": "Deep Reasoning in General Purpose Agents via Structured Meta-Cognition",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.11388",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1109/iccv48922.2021.00670",
+    "title": "DeepCAD: A Deep Generative Network for Computer-Aided Design Models",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/iccv48922.2021.00670",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated"
+  },
+  {
+    "doi": "10.1117/12.3103315",
+    "title": "Differential-agent: large language model-empowered multiagent for numerical analysis and simulation",
+    "year": 2026,
+    "url": "https://doi.org/10.1117/12.3103315",
+    "discovered_by": [
+      "search-2.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2607.27558",
+    "title": "Drawing-Recode: Annotation Grounding for Parametric CAD Code Generation from Raster 2D CAD Drawings",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.27558",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.13140/rg.2.2.33294.52800",
+    "title": "E-RLM: Environment Recursive Language Models Typed Recursive Action Planning over Live Capability Graphs",
+    "year": 2026,
+    "url": "https://doi.org/10.13140/rg.2.2.33294.52800",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2602.15294",
+    "title": "EAA: Automating materials characterization with vision language model agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.15294",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2510.18121",
+    "title": "Efficient Long-context Language Model Training by Core Attention Disaggregation",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2510.18121",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "excluded_off_topic_title_screen",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.3390/electronics15112301",
+    "title": "Efficient Similarity-Based Datasheet Retrieval and Analysis Using Retrieval-Augmented Generation for Electronic Component Selection",
+    "year": 2026,
+    "url": "https://doi.org/10.3390/electronics15112301",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1038/s42256-025-01005-x",
+    "title": "Embodied large language models enable robots to complete complex tasks in unpredictable environments",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s42256-025-01005-x",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1038/s43588-022-00264-7",
+    "title": "Enhancing computational fluid dynamics with machine learning",
+    "year": 2022,
+    "url": "https://doi.org/10.1038/s43588-022-00264-7",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1021/acsenvironau.4c00042",
+    "title": "Evaluating GPT Models for Automated Literature Screening in Wastewater-Based Epidemiology",
+    "year": 2024,
+    "url": "https://doi.org/10.1021/acsenvironau.4c00042",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.taml.2025.100597",
+    "title": "Evaluations of large language models in computational fluid dynamics: Leveraging, learning and creating knowledge",
+    "year": 2025,
+    "url": "https://doi.org/10.1016/j.taml.2025.100597",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2139/ssrn.7371092",
+    "title": "Execution-Verified Scientific Reasoning for Autonomous Finite-Element Solver Synthesis with Domain-Adapted Large Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.2139/ssrn.7371092",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1007/s11044-026-10164-7",
+    "title": "Experiments with large language models on retrieval-augmented generation for closed-source simulation software",
+    "year": 2026,
+    "url": "https://doi.org/10.1007/s11044-026-10164-7",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.egyai.2026.100805",
+    "title": "Exploring a multi-agent framework with large language models for nuclear design automation",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.egyai.2026.100805",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.3390/app16115300",
+    "title": "Exploring the Capabilities of an LLM from CFD Simulations of Turbulent Flow in a Manifold",
+    "year": 2026,
+    "url": "https://doi.org/10.3390/app16115300",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.taml.2025.100594",
+    "title": "Fine-tuning a large language model for automating computational fluid dynamics simulations",
+    "year": 2025,
+    "url": "https://doi.org/10.1016/j.taml.2025.100594",
+    "discovered_by": [
+      "search-2.json",
+      "citation-graph.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2504.09602",
+    "title": "Fine-tuning a Large Language Model for Automating Computational Fluid Dynamics Simulations",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2504.09602",
+    "discovered_by": [
+      "search-2.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1016/j.cma.2026.119271",
+    "title": "Foam-Agent: A large language model-based multi-agent framework for automating computational fluid dynamics workflows",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.cma.2026.119271",
+    "discovered_by": [
+      "search-2.json",
+      "citation-graph.json"
+    ],
+    "status": "publication_date_after_search_cutoff_check_online_date",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2505.04997",
+    "title": "Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2505.04997",
+    "discovered_by": [
+      "search-2.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2607.05573",
+    "title": "Foundation Models for Automatic CAD Generation",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.05573",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.21428/e4baedd9.e39b392d",
+    "title": "From Automation to Augmentation: Redefining Engineering Design and Manufacturing in the Age of NextGen-AI",
+    "year": 2024,
+    "url": "https://doi.org/10.21428/e4baedd9.e39b392d",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1145/3770855.3819007",
+    "title": "From Compression to Exploration: Active Querying Agent for 3D Physical Field Understanding",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3770855.3819007",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2604.19789",
+    "title": "From Data to Theory: Autonomous Large Language Model Agents for Materials Science",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.19789",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.enbuild.2026.118128",
+    "title": "From perception to governance: Knowledge-enhanced intelligence for smart sustainable buildings",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.enbuild.2026.118128",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1145/3450626.3459818",
+    "title": "Fusion 360 gallery",
+    "year": 2021,
+    "url": "https://doi.org/10.1145/3450626.3459818",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.3390/aerospace13090790",
+    "title": "G-Agent: A Large Language Model-Driven Multi-Agent Framework for Automated Configuration Optimization of Scramjet Cavity Combustors",
+    "year": 2026,
+    "url": "https://doi.org/10.3390/aerospace13090790",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.15241",
+    "title": "GenAI for Systems: Recurring Challenges and Design Principles from Software to Silicon",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.15241",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.3390/electronics15153485",
+    "title": "Generative AI in Manufacturing and Industrial Contexts: A Systematic Review of Applications, Challenges, and Future Directions",
+    "year": 2026,
+    "url": "https://doi.org/10.3390/electronics15153485",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2139/ssrn.4935670",
+    "title": "GNN: Graph Neural Network and Large Language Model Based for Data Discovery",
+    "year": 2024,
+    "url": "https://doi.org/10.2139/ssrn.4935670",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1109/icecet65726.2026.11633082",
+    "title": "GNN: Graph Neural Network and Large Language Model for Data Discovery",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/icecet65726.2026.11633082",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2408.13609",
+    "title": "GNN: Graph Neural Network and Large Language Model for Data Discovery",
+    "year": 2024,
+    "url": "https://doi.org/10.48550/arxiv.2408.13609",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1016/j.applthermaleng.2017.12.063",
+    "title": "Heat transfer prediction of supercritical water with artificial neural networks",
+    "year": 2018,
+    "url": "https://doi.org/10.1016/j.applthermaleng.2017.12.063",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2512.13930",
+    "title": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2512.13930",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2605.04304",
+    "title": "Hierarchical Visual Agent: Managing Contexts in Joint Image-Text Space for Advanced Chart Reasoning",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.04304",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.13140/rg.2.2.20703.52647",
+    "title": "How U4 and U8 Solve Hallucinations in AI Recursive Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.13140/rg.2.2.20703.52647",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.18653/v1/2023.blackboxnlp-1.29",
+    "title": "Identifying and Adapting Transformer-Components Responsible for Gender Bias in an English Language Model",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.blackboxnlp-1.29",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "excluded_off_topic_title_screen",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1162/tacl_a_00530",
+    "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+    "year": 2023,
+    "url": "https://doi.org/10.1162/tacl_a_00530",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1017/jfm.2021.445",
+    "title": "Information transfer between turbulent boundary layers and porous media",
+    "year": 2021,
+    "url": "https://doi.org/10.1017/jfm.2021.445",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.cej.2026.173311",
+    "title": "Integrating data and physics: A review of data-driven methods for computational multiphase flow",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.cej.2026.173311",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1007/978-3-031-86039-3_10",
+    "title": "Integration of Large Language Model (LLM) and Building Information Modeling (BIM) for Enhanced Construction Project Lifecycle Management: A Review",
+    "year": 2025,
+    "url": "https://doi.org/10.1007/978-3-031-86039-3_10",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1061/9780784485231.035",
+    "title": "Interactive Design by Integrating a Large Pre-Trained Language Model and Building Information Modeling",
+    "year": 2024,
+    "url": "https://doi.org/10.1061/9780784485231.035",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2306.14165",
+    "title": "Interactive Design by Integrating a Large Pre-Trained Language Model and Building Information Modeling",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2306.14165",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1109/tii.2020.3030620",
+    "title": "Intersecting Machining Feature Localization and Recognition via Single Shot Multibox Detector",
+    "year": 2021,
+    "url": "https://doi.org/10.1109/tii.2020.3030620",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2607.20346",
+    "title": "IteraSim RAG: A Multi-Stage Retrieval-Augmented Agentic Back-End for OpenFOAM-Based Computational Fluid Dynamics",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.20346",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.04129",
+    "title": "KGLAMP: Knowledge Graph-guided Language model for Adaptive Multi-robot Planning and Replanning",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.04129",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/s0952-1976(00)00060-9",
+    "title": "Knowledge-based approach and system for assembly oriented design, Part I: the approach",
+    "year": 2001,
+    "url": "https://doi.org/10.1016/s0952-1976(00)00060-9",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.jmsy.2014.10.004",
+    "title": "Knowledge-based model for constructing master assembly sequence",
+    "year": 2015,
+    "url": "https://doi.org/10.1016/j.jmsy.2014.10.004",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.36227/techrxiv.170473941.10097233/v1",
+    "title": "LADAC: Large Language Model-driven Auto-Designer for Analog Circuits",
+    "year": 2024,
+    "url": "https://doi.org/10.36227/techrxiv.170473941.10097233/v1",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.2139/ssrn.7358525",
+    "title": "Large Language Model Automated Construction of Continuous-Adjoint Topology Optimization Solvers",
+    "year": 2026,
+    "url": "https://doi.org/10.2139/ssrn.7358525",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1017/flo.2025.10032",
+    "title": "Large language model driven development of turbulence models",
+    "year": 2025,
+    "url": "https://doi.org/10.1017/flo.2025.10032",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2514/6.2026-0291",
+    "title": "Large Language Model Driven Development of Turbulence Models",
+    "year": 2026,
+    "url": "https://doi.org/10.2514/6.2026-0291",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1002/aidi.202500085",
+    "title": "Large Language Model in Materials Science: Roles, Challenges, and Strategic Outlook",
+    "year": 2025,
+    "url": "https://doi.org/10.1002/aidi.202500085",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.taml.2026.100660",
+    "title": "Large language model-assisted sensitivity analysis and parameter optimization in computational fluid dynamics",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.taml.2026.100660",
+    "discovered_by": [
+      "search-2.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2510.23357",
+    "title": "Large language model-based task planning for service robots: A review",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2510.23357",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.3390/electronics14112146",
+    "title": "Large Language Model-Driven Code Compliance Checking in Building Information Modeling",
+    "year": 2025,
+    "url": "https://doi.org/10.3390/electronics14112146",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2506.20551",
+    "title": "Large Language Model-Driven Code Compliance Checking in Building Information Modeling",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2506.20551",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1016/j.cma.2025.118591",
+    "title": "Large language model-empowered next-generation computer-aided engineering",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.cma.2025.118591",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1063/5.0224297",
+    "title": "Large language models for automatic equation discovery of nonlinear dynamics",
+    "year": 2024,
+    "url": "https://doi.org/10.1063/5.0224297",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1007/s10845-026-02927-y",
+    "title": "Large language models in intelligent manufacturing and mechanical engineering: a review of robotics, fault diagnosis, design, and engineering knowledge workflows",
+    "year": 2026,
+    "url": "https://doi.org/10.1007/s10845-026-02927-y",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2605.04050",
+    "title": "LCM: Lossless Context Management",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.04050",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2502.15182",
+    "title": "LEDD: Large Language Model-Empowered Data Discovery in Data Lakes",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2502.15182",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1002/pra2.1242",
+    "title": "Leveraging Large Language Models for Dataset Discovery",
+    "year": 2025,
+    "url": "https://doi.org/10.1002/pra2.1242",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1109/iisec69317.2026.11418428",
+    "title": "LLM integration into Physics Informed Neural Networks",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/iisec69317.2026.11418428",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2604.16359",
+    "title": "LLM4Log: A Systematic Review of Large Language Model-based Log Analysis",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.16359",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1007/s44379-026-00073-z",
+    "title": "LLMs as designers of physics-constrained neural networks for constitutive modeling: a demonstration on hyperelastic solids",
+    "year": 2026,
+    "url": "https://doi.org/10.1007/s44379-026-00073-z",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2172/2431848",
+    "title": "Machine Learning Classification and Reduction of CAD Parts for Rapid Design-to-Simulation",
+    "year": 2023,
+    "url": "https://doi.org/10.2172/2431848",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.eml.2024.102131",
+    "title": "MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge",
+    "year": 2024,
+    "url": "https://doi.org/10.1016/j.eml.2024.102131",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated"
+  },
+  {
+    "doi": "10.1299/kikaic.60.715",
+    "title": "Mechanical-Design-Oriented Description Language: MODEL.",
+    "year": 1994,
+    "url": "https://doi.org/10.1299/kikaic.60.715",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "excluded_off_topic_title_screen",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1115/1.4063843",
+    "title": "MechGPT, a Language-Based Strategy for Mechanics and Materials Modeling That Connects Knowledge Across Scales, Disciplines, and Modalities",
+    "year": 2024,
+    "url": "https://doi.org/10.1115/1.4063843",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated"
+  },
+  {
+    "doi": "10.1038/s44172-025-00517-z",
+    "title": "MechRAG: a multimodal large language model for mechanical engineering",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s44172-025-00517-z",
+    "discovered_by": [
+      "search-3.json",
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2606.20164",
+    "title": "MedRLM: Recursive Multimodal Health Intelligence for Long-Context Clinical Reasoning, Sensor-Guided Screening, Evidence-Grounded Decision Support, and Community-to-Tertiary Referral Optimization",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.20164",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2601.03785",
+    "title": "Membox: Weaving Topic Continuity into Long-Range Memory for LLM Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.03785",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2310.08560",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2310.08560",
+    "discovered_by": [
+      "search-11.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2604.04853",
+    "title": "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.04853",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2604.01707",
+    "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.01707",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2607.01071",
+    "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.01071",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2607.23504",
+    "title": "MemVLN: Episodic and Procedural Memory for Vision-and-Language Navigation",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.23504",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.26434/chemrxiv-2025-zkn81",
+    "title": "Modular Large Language Model Agents for Multi-Task Computational Materials Science",
+    "year": 2025,
+    "url": "https://doi.org/10.26434/chemrxiv-2025-zkn81",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.26434/chemrxiv-2025-zkn81-v2",
+    "title": "Modular Large Language Model Agents for Multi-Task Computational Materials Science",
+    "year": 2025,
+    "url": "https://doi.org/10.26434/chemrxiv-2025-zkn81-v2",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2606.01533",
+    "title": "Multi-Agent Computer Use",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.01533",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.05366",
+    "title": "Multi-Field Tool Retrieval",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.05366",
+    "discovered_by": [
+      "search-1.json",
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1109/iccv.2015.114",
+    "title": "Multi-view Convolutional Neural Networks for 3D Shape Recognition",
+    "year": 2015,
+    "url": "https://doi.org/10.1109/iccv.2015.114",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.compind.2023.103993",
+    "title": "Multi-view expressive graph neural networks for 3D CAD model classification",
+    "year": 2023,
+    "url": "https://doi.org/10.1016/j.compind.2023.103993",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.29824",
+    "title": "Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.29824",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1063/5.0189632",
+    "title": "Non-intrusive, transferable model for coupled turbulent channel-porous media flow based upon neural networks",
+    "year": 2024,
+    "url": "https://doi.org/10.1063/5.0189632",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.11351",
+    "title": "Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.11351",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1360/csb-2025-5792",
+    "title": "Ontology engineering&amp;ndash;based large language model revolution in chemical research paradigms",
+    "year": 2025,
+    "url": "https://doi.org/10.1360/csb-2025-5792",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.ijheatfluidflow.2026.110399",
+    "title": "OpenFOAMGPT 2.0: End-to-end, trustworthy automation for computational fluid dynamics",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.ijheatfluidflow.2026.110399",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2501.06327",
+    "title": "OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2501.06327",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1063/5.0257555",
+    "title": "OpenFOAMGPT: A retrieval-augmented large language model (LLM) agent for OpenFOAM-based computational fluid dynamics",
+    "year": 2025,
+    "url": "https://doi.org/10.1063/5.0257555",
+    "discovered_by": [
+      "search-2.json",
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1021/acselectrochem.5c00377",
+    "title": "Opportunities of Large Language Models in the Development of Organic Electrosynthesis",
+    "year": 2025,
+    "url": "https://doi.org/10.1021/acselectrochem.5c00377",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.23761",
+    "title": "OPTIAGENT: A Physics-Driven Agentic Framework for Automated Optical Design",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.23761",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.2139/ssrn.4972059",
+    "title": "Optimizing Collaboration of Large Language Model-Based Agents for Finite Element Analysis",
+    "year": 2024,
+    "url": "https://doi.org/10.2139/ssrn.4972059",
+    "discovered_by": [
+      "search-2.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1088/2515-7647/ae7491",
+    "title": "OptoChat: a large language model with retrieval augmented generation for optics",
+    "year": 2026,
+    "url": "https://doi.org/10.1088/2515-7647/ae7491",
+    "discovered_by": [
+      "search-8.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2601.19439",
+    "title": "OSIRIS: Bridging Analog Circuit Design and Machine Learning with Scalable Dataset Generation",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.19439",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1103/physrevfluids.3.074602",
+    "title": "Physics-informed machine learning approach for augmenting turbulence models: A comprehensive framework",
+    "year": 2018,
+    "url": "https://doi.org/10.1103/physrevfluids.3.074602",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2607.12385",
+    "title": "PM-Bench: Evaluating Prospective Memory in LLM Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.12385",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2601.16376",
+    "title": "Polymer-Agent: Large Language Model Agent for Polymer Design",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.16376",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1103/physrevfluids.4.034602",
+    "title": "Predictive large-eddy-simulation wall modeling via physics-informed neural networks",
+    "year": 2019,
+    "url": "https://doi.org/10.1103/physrevfluids.4.034602",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2139/ssrn.6298861",
+    "title": "PrincipiaBlastFoam: A Knowledge-Driven Multi-Agent Framework for Physically Consistent Reasoning in Explosive Flow Field Simulations",
+    "year": 2026,
+    "url": "https://doi.org/10.2139/ssrn.6298861",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.01806",
+    "title": "ProbeScale: Probing Analysis to Optimize Neural Scaling Laws for Efficient Small Language Model Inference",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.01806",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "excluded_off_topic_title_screen",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.18653/v1/2023.findings-emnlp.793",
+    "title": "Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning",
+    "year": 2023,
+    "url": "https://doi.org/10.18653/v1/2023.findings-emnlp.793",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1145/3605943",
+    "title": "Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey",
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3605943",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.13643",
+    "title": "Recursive Agent Harnesses",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.13643",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2512.24601",
+    "title": "Recursive Language Models",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2512.24601",
+    "discovered_by": [
+      "search-0.json",
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2602.16520",
+    "title": "Recursive language models for jailbreak detection: a procedural defense for tool-augmented agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.16520",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2603.15653",
+    "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.15653",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2601.14541",
+    "title": "Report for NSF Workshop on AI for Electronic Design Automation",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.14541",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2606.29538",
+    "title": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.29538",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2604.16774",
+    "title": "Retention Consequence in Lifecycle Memory Control",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.16774",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1145/3770855.3818987",
+    "title": "Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation",
+    "year": 2026,
+    "url": "https://doi.org/10.1145/3770855.3818987",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.07083",
+    "title": "Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.07083",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1109/cvpr52688.2022.00683",
+    "title": "Retrieval Augmented Classification for Long-Tail Visual Recognition",
+    "year": 2022,
+    "url": "https://doi.org/10.1109/cvpr52688.2022.00683",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1017/jfm.2016.615",
+    "title": "Reynolds averaged turbulence modelling using deep neural networks with embedded invariance",
+    "year": 2016,
+    "url": "https://doi.org/10.1017/jfm.2016.615",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.5281/zenodo.18317149",
+    "title": "RLM-Extended: Deterministic and Local-Model Inference for Recursive Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.5281/zenodo.18317149",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.5281/zenodo.18317150",
+    "title": "RLM-Extended: Deterministic and Local-Model Inference for Recursive Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.5281/zenodo.18317150",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2608.10471",
+    "title": "RLMOpt: Adaptive Prompt Optimization via Recursive Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2608.10471",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2602.01848",
+    "title": "ROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.01848",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/0378-3804(86)90059-8",
+    "title": "Rule based modeling for planning axisymmetrical deep-drawing",
+    "year": 1986,
+    "url": "https://doi.org/10.1016/0378-3804(86)90059-8",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2609.00065",
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2609.00065",
+    "discovered_by": [
+      "search-11.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1098/rsta.2024.0606",
+    "title": "Scientific workflow in experimental economics",
+    "year": 2026,
+    "url": "https://doi.org/10.1098/rsta.2024.0606",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/s0166-3615(99)00051-2",
+    "title": "Selection of cutting tools and conditions of machining operations using an expert system",
+    "year": 2000,
+    "url": "https://doi.org/10.1016/s0166-3615(99)00051-2",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2601.14553",
+    "title": "Self-Blinding and Counterfactual Self-Simulation Mitigate Biases and Sycophancy in Large Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.14553",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.2139/ssrn.7162224",
+    "title": "Self-Refining Topology Optimization via an LLM-Based Multi-Agent Framework",
+    "year": 2026,
+    "url": "https://doi.org/10.2139/ssrn.7162224",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2607.03726",
+    "title": "SelfMem: Self-Optimizing Memory for AI Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.03726",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.18653/v1/d19-1410",
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "year": 2019,
+    "url": "https://doi.org/10.18653/v1/d19-1410",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2112.08346",
+    "title": "Simple Text Detoxification by Identifying a Linear Toxic Subspace in Language Model Embeddings",
+    "year": 2021,
+    "url": "https://doi.org/10.48550/arxiv.2112.08346",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "excluded_off_topic_title_screen",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2601.02553",
+    "title": "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2601.02553",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2604.24594",
+    "title": "Skill Retrieval Augmentation for Agentic AI",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.24594",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated"
+  },
+  {
+    "doi": "10.48550/arxiv.2606.06079",
+    "title": "SkillComposer: Learning to Evolve Agent Skills for Specification and Generalization",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.06079",
+    "discovered_by": [
+      "search-1.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1017/jfm.2022.770",
+    "title": "Spatial and spectral characteristics of information flux between turbulent boundary layers and porous media",
+    "year": 2022,
+    "url": "https://doi.org/10.1017/jfm.2022.770",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1109/ic2pct60090.2024.10486799",
+    "title": "Spatial Data Discovery Using Small Language Model",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/ic2pct60090.2024.10486799",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.3390/electronics15040720",
+    "title": "STAR: Steelmaking Task-Aware Routing for Multi-Agent LLM Expert Systems",
+    "year": 2026,
+    "url": "https://doi.org/10.3390/electronics15040720",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2605.06690",
+    "title": "State Representation and Termination for Recursive Reasoning Systems",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2605.06690",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.24768",
+    "title": "Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.24768",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.13016/m29g6o-ctfm",
+    "title": "TABERTA: A Language Model for Dataset Discovery",
+    "year": 2026,
+    "url": "https://doi.org/10.13016/m29g6o-ctfm",
+    "discovered_by": [
+      "search-6.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2606.05194",
+    "title": "Temporal Preference Concepts and their Functions in a Large Language Model",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.05194",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "excluded_off_topic_title_screen",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1016/j.buildenv.2026.114260",
+    "title": "Ten questions concerning Large Language Models (LLMs) for building applications",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.buildenv.2026.114260",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.5281/zenodo.18161329",
+    "title": "THE HUMAN-AUTOMATED RECURSIVE LOGIC LOOP (HARL)",
+    "year": 2026,
+    "url": "https://doi.org/10.5281/zenodo.18161329",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.5281/zenodo.18161330",
+    "title": "THE HUMAN-AUTOMATED RECURSIVE LOGIC LOOP (HARL)",
+    "year": 2026,
+    "url": "https://doi.org/10.5281/zenodo.18161330",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1063/5.0159886",
+    "title": "The interfacial modes and modal causality in a dispersed bubbly turbulent flow",
+    "year": 2023,
+    "url": "https://doi.org/10.1063/5.0159886",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1038/s42254-023-00622-y",
+    "title": "The transformative potential of machine learning for experiments in fluid mechanics",
+    "year": 2023,
+    "url": "https://doi.org/10.1038/s42254-023-00622-y",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.02615",
+    "title": "Think, But Don't Overthink: Reproducing Recursive Language Models",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.02615",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2608.03391",
+    "title": "TimeRLM: Recursive Language Models Enable Precise Anomaly Localization in Long-Context Time-Series",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2608.03391",
+    "discovered_by": [
+      "search-0.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2307.16789",
+    "discovered_by": [
+      "search-11.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1038/s44172-025-00511-5",
+    "title": "Toward an ion-based large-scale integrated circuit: design, simulation, and integration",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s44172-025-00511-5",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1063/5.0176223",
+    "title": "Toward discretization-consistent closure schemes for large eddy simulation using reinforcement learning",
+    "year": 2023,
+    "url": "https://doi.org/10.1063/5.0176223",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2602.08276",
+    "title": "Toward Formalizing LLM-Based Agent Designs through Structural Context Modeling and Semantic Dynamics Analysis",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2602.08276",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1038/s42256-024-00953-0",
+    "title": "Towards a personalized AI assistant to learn machine learning",
+    "year": 2024,
+    "url": "https://doi.org/10.1038/s42256-024-00953-0",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.ress.2026.112560",
+    "title": "Towards intelligent safety assessment under blast loading: A large language model-powered multi-agent framework",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.ress.2026.112560",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.00991",
+    "title": "Tracking Capabilities for Safer Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.00991",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-3853112/v1",
+    "title": "Training microrobots to swim by a large language model",
+    "year": 2024,
+    "url": "https://doi.org/10.21203/rs.3.rs-3853112/v1",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.3126/injet.v1i1.60944",
+    "title": "Transforming Structural Engineering: Examining the Opportunities and Risks of ChatGPT and Other Large Language Models",
+    "year": 2023,
+    "url": "https://doi.org/10.3126/injet.v1i1.60944",
+    "discovered_by": [
+      "search-7.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1146/annurev-fluid-010518-040547",
+    "title": "Turbulence Modeling in the Age of Data",
+    "year": 2019,
+    "url": "https://doi.org/10.1146/annurev-fluid-010518-040547",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1016/j.taml.2025.100620",
+    "title": "Turbulence.ai: an end-to-end AI scientist for fluid mechanics",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.taml.2025.100620",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2512.11611",
+    "title": "Using GUI Agent for Electronic Design Automation",
+    "year": 2025,
+    "url": "https://doi.org/10.48550/arxiv.2512.11611",
+    "discovered_by": [
+      "search-5.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1063/5.0273363",
+    "title": "Using large language models for parametric shape optimization",
+    "year": 2025,
+    "url": "https://doi.org/10.1063/5.0273363",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.29322",
+    "title": "VACP: Visual Analytics Context Protocol",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.29322",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2603.17948",
+    "title": "VideoAtlas: Navigating Long-Form Video in Logarithmic Compute",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2603.17948",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.21203/rs.3.rs-9528170/v1",
+    "title": "Vision Foundation Models for Engineering Document Intelligence and ManufacturingInspection: A Survey",
+    "year": 2026,
+    "url": "https://doi.org/10.21203/rs.3.rs-9528170/v1",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1109/tiv.2024.3396450",
+    "title": "VistaRAG: Toward Safe and Trustworthy Autonomous Driving Through Retrieval-Augmented Generation",
+    "year": 2024,
+    "url": "https://doi.org/10.1109/tiv.2024.3396450",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1115/1.4071865",
+    "title": "VizArQA: A Foundation for Visual Question Answering in Architectural Simulation",
+    "year": 2026,
+    "url": "https://doi.org/10.1115/1.4071865",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.1063/5.0330986",
+    "title": "Vortex state transitions in deep street canyons enabled by an automated large language model workflow",
+    "year": 2026,
+    "url": "https://doi.org/10.1063/5.0330986",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2305.16291",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "year": 2023,
+    "url": "https://doi.org/10.48550/arxiv.2305.16291",
+    "discovered_by": [
+      "search-11.json"
+    ],
+    "status": "priority_reading_not_fulltext_validated",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.1109/iccv.2015.279",
+    "title": "VQA: Visual Question Answering",
+    "year": 2015,
+    "url": "https://doi.org/10.1109/iccv.2015.279",
+    "discovered_by": [
+      "citation-graph.json"
+    ],
+    "status": "citation_neighbor_not_screened"
+  },
+  {
+    "doi": "10.48550/arxiv.2607.06595",
+    "title": "When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2607.06595",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1038/s41598-026-42705-7",
+    "title": "When collaboration fails: persuasion driven adversarial influence in multi agent large language model debate",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s41598-026-42705-7",
+    "discovered_by": [
+      "search-10.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": false,
+    "excerpts_available": false
+  },
+  {
+    "doi": "10.48550/arxiv.2606.22030",
+    "title": "When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2606.22030",
+    "discovered_by": [
+      "search-9.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.48550/arxiv.2604.24479",
+    "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+    "year": 2026,
+    "url": "https://doi.org/10.48550/arxiv.2604.24479",
+    "discovered_by": [
+      "search-3.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": true
+  },
+  {
+    "doi": "10.1039/d5sc09921h",
+    "title": "\u201cDIVE\u201d into hydrogen storage materials discovery with AI agents",
+    "year": 2026,
+    "url": "https://doi.org/10.1039/d5sc09921h",
+    "discovered_by": [
+      "search-4.json"
+    ],
+    "status": "candidate_not_fully_reviewed",
+    "abstract_available": true,
+    "excerpts_available": false
+  }
+]

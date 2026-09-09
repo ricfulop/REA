@@ -1,0 +1,373 @@
+{
+  "query": "(\"language model\" OR \"LLM\") AND (\"structural engineering\" OR \"civil engineering\" OR \"building information modeling\")",
+  "total": 1439,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.48550/arxiv.2510.11004",
+      "title": "Automating Structural Engineering Workflows with Large Language Model Agents",
+      "authors": [
+        {
+          "authorName": "Haoran Liang"
+        },
+        {
+          "authorName": "Yufa Zhou"
+        },
+        {
+          "authorName": "Mohammad Talebi Kalaleh"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "We introduce MASSE, the first Multi-Agent System for Structural Engineering, effectively integrating large language model (LLM)-based agents with real-world engineering workflows. Structural engineering is a fundamental yet traditionally stagnant domain, with core workflows remaining largely unchang...",
+      "year": 2025,
+      "date": "2025-01-01",
+      "tally": {
+        "total": 6,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 6,
+        "citingPublications": 6
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2510.11004",
+          "targetDoi": "10.48550/arxiv.2501.06590",
+          "section": "multi-agent systems with llms",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2510.11004",
+          "targetDoi": "10.48550/arxiv.2108.07258",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2510.11004",
+          "targetDoi": "10.1007/s00170-017-0754-7",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.3390/electronics14112146",
+      "title": "Large Language Model-Driven Code Compliance Checking in Building Information Modeling",
+      "authors": [
+        {
+          "authorName": "Soumya Madireddy"
+        },
+        {
+          "authorName": "Lu Gao"
+        },
+        {
+          "authorName": "Zia Ud Din"
+        }
+      ],
+      "journal": "electronics",
+      "publisher": "MDPI AG",
+      "abstract": "This research addresses the time-consuming and error-prone nature of manual code compliance checking in Building Information Modeling (BIM) by introducing a Large Language Model (LLM)-driven approach to semi-automate this critical process. The developed system integrates LLMs such as ChatGPT, Claude...",
+      "year": 2025,
+      "date": "2025-05-24",
+      "volume": "14",
+      "issue": "11",
+      "page": "2146",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 40
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.3390/electronics14112146",
+          "targetDoi": "10.1061/9780784482865.111",
+          "snippet": "These systems can identify potential safety issues early in the design process, allowing for timely modifications and preventing costly and potentially dangerous rework. Moreover, automated systems can check for specific safety concerns like fall hazards and spatial relationships, ensuring a safer environment for both construction workers and future building occupants [22].",
+          "section": "importance of code compliance in construction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.3390/electronics14112146",
+          "targetDoi": "10.1061/jmenea.meeng-5344",
+          "snippet": "By adhering to these codes, construction projects can avoid safety hazards that may lead to accidents, injuries, or even fatalities [22]. ACC systems play a crucial role in enhancing safety by reducing human error during the design, review, and construction planning phases [1]. These systems can identify potential safety issues early in the design process, allowing for timely modifications and preventing costly and potentially dangerous rework.",
+          "section": "importance of code compliance in construction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.3390/electronics14112146",
+          "targetDoi": "10.1109/icriis.2017.8002486",
+          "snippet": "Code compliance also significantly impacts the efficiency of construction projects [4]. Manual code checking is a time-consuming and error-prone process, often requiring extensive resources and leading to project delays and increased costs [3]. However, ACC systems offer a solution by streamlining the process, saving time, money, and labor [22].",
+          "section": "importance of code compliance in construction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "The use of Building Information Modeling (BIM) has enhanced ACC by providing a digital representation of a building, enabling better collaboration and information exchange [3].\n\nThe core of ACC involves translating building codes and regulations into a machineinterpretable format [4]. This process includes several key steps: rule interpretation, building model preparation, rule execution, and result reporting [5].",
+        "Applications of Large Language Models in AEC\n\nLLMs represent a major advancement in artificial intelligence (AI), showcasing transformative potential across various sectors, including the AEC industry [22]. These models, built on transformer architectures and trained on extensive datasets, excel at complex language-related tasks such as translation, summarization, and content generation [40].",
+        "Comparison Between Different Large Language Models\n\nEight LLMs were evaluated: ChatGPT 4.0 ($30/$60 per 1M tokens), Claude Sonnet 3.5 ($3/$15 per 1M tokens), Meta LLaMA 3.1-405B ($3.50/$3.50 per 1M tokens), Microsoft Copilot (subscription-based, API price not public), Gemini ($1.25/$10 per 1M tokens), Perplexity.AI ($3/$15 per 1M tokens), Grok ($3/$15 per 1M tokens), and Deepseek ($0.55/$2.19 per 1M tokens). Meta LLaMA 3.1-405B and Microsoft Copilot failed to generate any working scripts."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.3390/buildings14071983",
+      "title": "Automated Building Information Modeling Compliance Check through a Large Language Model Combined with Deep Learning and Ontology",
+      "authors": [
+        {
+          "authorName": "Nanting Chen"
+        },
+        {
+          "authorName": "Xuhui Lin"
+        },
+        {
+          "authorName": "Hai Jiang"
+        }
+      ],
+      "journal": "buildings",
+      "publisher": "MDPI AG",
+      "abstract": "Ensuring compliance with complex industry standards and regulations during the design and implementation phases of construction projects is a significant challenge in the building information modeling (BIM) domain. Traditional manual compliance checking methods are inefficient and error-prone, faili...",
+      "year": 2024,
+      "date": "2024-07-01",
+      "volume": "14",
+      "issue": "7",
+      "page": "1983",
+      "tally": {
+        "total": 13,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 13,
+        "citingPublications": 85
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.20146",
+      "title": "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling",
+      "authors": [
+        {
+          "authorName": "Bharathi Kannan Nithyanantham"
+        },
+        {
+          "authorName": "Clemens Kujat"
+        },
+        {
+          "authorName": "Tobias Sesterhenn"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large language models (LLMs) are increasingly applied to computer-aided design (CAD) to generate design artifacts from textual instructions. In engineering practice, this requires more than creating new geometry, models must also understand existing scenes, edit them correctly, and preserve semantic...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.20146",
+          "targetDoi": "10.48550/arxiv.2412.14203",
+          "snippet": "Recent systems can generate CAD sequences from textual descriptions [25,29,38] and from images of target models [5,14]. However, most CAD benchmarks evaluate LLMs on small synthetic examples and require models to generate geometries from scratch [10,30,46]. This setup diverges from real-world engineering practice, where CAD models are not purely geometric but also encode relationships between components and semantic properties under domain-specific constraints [2,7,36,40].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.20146",
+          "targetDoi": "10.48550/arxiv.2501.19054",
+          "snippet": "Large language models (LLMs) show strong performance on code generation [6,15,22,24], which has motivated their use in 3D and computer-aided design (CAD). Recent systems can generate CAD sequences from textual descriptions [25,29,38] and from images of target models [5,14]. However, most CAD benchmarks evaluate LLMs on small synthetic examples and require models to generate geometries from scratch [10,30,46].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.20146",
+          "targetDoi": "10.48550/arxiv.2408.16498",
+          "snippet": "Large language models (LLMs) show strong performance on code generation [6,15,22,24], which has motivated their use in 3D and computer-aided design (CAD). Recent systems can generate CAD sequences from textual descriptions [25,29,38] and from images of target models [5,14].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge language models (LLMs) show strong performance on code generation [6,15,22,24], which has motivated their use in 3D and computer-aided design (CAD). Recent systems can generate CAD sequences from textual descriptions [25,29,38] and from images of target models [5,14]. However, most CAD benchmarks evaluate LLMs on small synthetic examples and require models to generate geometries from scratch [10,30,46].",
+        "Building Information Modeling. Building Information Modeling is a life-cycle data-management paradigm that is established in civil engineering to ensure tool interoperability. It extends traditional geometry models in CAD by a semantic object-oriented model, with classes, attributes, and explicit relationships.",
+        "Across the seven evaluated LLMs, the best-performing model achieves an average score of only 49.48%, and no model fully solves more than 3.4% of tasks. The experiments show that current LLM agents can often make partial geometric progress, but rarely preserve geometry, semantics, and topology simultaneously. As a result, visually plausible edits frequently remain invalid as structured engineering artifacts."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.2139/ssrn.6443038",
+      "title": "A large language model-based rule formalization framework for civil engineering standard clauses",
+      "authors": [
+        {
+          "authorName": "Wenai Shen"
+        },
+        {
+          "authorName": "Buwen Zhang"
+        },
+        {
+          "authorName": "Zhentao Long"
+        }
+      ],
+      "publisher": "Elsevier BV",
+      "abstract": "Translating standard clauses into machine-interpretable rule representations is fundamental to intelligent structural safety assessment and design compliance checking. In this paper, we propose a large language model (LLM)-based rule formalization framework for civil engineering standard clauses, wh...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1007/978-3-031-86039-3_10",
+      "title": "Integration of Large Language Model (LLM) and Building Information Modeling (BIM) for Enhanced Construction Project Lifecycle Management: A Review",
+      "authors": [
+        {
+          "authorName": "Mallikarjuna Paramesha"
+        },
+        {
+          "authorName": "Nitin Liladhar Rane"
+        },
+        {
+          "authorName": "Jayesh Rane"
+        }
+      ],
+      "publisher": "Springer Nature Switzerland",
+      "year": 2025,
+      "date": "2025-01-01",
+      "page": "235-269",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 1
+      },
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2506.20551",
+      "title": "Large Language Model-Driven Code Compliance Checking in Building Information Modeling",
+      "authors": [
+        {
+          "authorName": "Soumya Madireddy"
+        },
+        {
+          "authorName": "Lu Gao"
+        },
+        {
+          "authorName": "Zia Ud Din"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2025,
+      "date": "2025-01-01",
+      "tally": {
+        "total": 2,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 2,
+        "citingPublications": 1
+      },
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.3126/injet.v1i1.60944",
+      "title": "Transforming Structural Engineering: Examining the Opportunities and Risks of ChatGPT and Other Large Language Models",
+      "authors": [
+        {
+          "authorName": "Rishav Pokhrel"
+        },
+        {
+          "authorName": "Sital Parajuli"
+        }
+      ],
+      "journal": "international journal on engineering technology",
+      "publisher": "Nepal Journals Online (JOL)",
+      "abstract": "The advancements in technology, particularly the development of high-performance computing (HPC) and large language models (LLMs) like ChatGPT, can potentially transform the field of Structural Engineering. Use of LLMs, such as ChatGPT, offers several opportunities in Structural Engineering, includi...",
+      "year": 2023,
+      "date": "2023-12-21",
+      "volume": "1",
+      "issue": "1",
+      "page": "204-222",
+      "citations": [
+        {
+          "sourceDoi": "10.3126/injet.v1i1.60944",
+          "targetDoi": "10.2139/ssrn.4312358",
+          "snippet": "Computational models and algorithms that exploit the unique architecture of these LLM's were investigated. Similarly, Alshater (2022) explored the role of artificial intelligence in enhancing academic performance. He explored the potential of artificial intelligence, particularly natural language processing, in enhancing academic performance in economics and finance.",
+          "section": "related literature",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.3126/injet.v1i1.60944",
+          "targetDoi": "10.36227/techrxiv.21789434",
+          "snippet": "By processing vast amounts of data and providing insights in real-time, an AI-powered tool can help engineers make more informed decisions about materials, design configurations, and innovative design solutions that help in simulation of seismic data (Yoshimura, Hori and Ohsaki, 2016). Use of ChatGPT in the field of construction planning, software engineering and overall civil engineering aspects have been discussed in previous studies (Qadir, 2023, Prieto, Mengiste and García de Soto, 2023, Choudhury and Shamszare, 2023, Aluga, 2023.This paper aims to examine the opportunities and risks of using ChatGPT and LLMs in Structural Engineering, focusing on their impact on efficiency, accuracy, and ethics. The paper will explore the limitations and potential risks of relying solely on machine-generated information as well as the legal and liability implications of using LLMs in Structural Engineering.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.3126/injet.v1i1.60944",
+          "targetDoi": "10.3390/buildings11020066",
+          "snippet": "HPC has enabled engineers to optimize large structures subjected to the complicated, implicit, and discontinuous constraints of commonly used design codes and regulations (Adeli and Soegiarso, 1998). With the development of computational and construction techniques, structural optimization has become increasingly popular and been applied to larger and more complex structures (Mei and Wang, 2021).",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nStructural Engineering is a field transformed by technological advances, including the development of highperformance computing (HPC) and, more recently, large language models (LLMs) like ChatGPT. HPC has enabled engineers to optimize large structures subjected to the complicated, implicit, and discontinuous constraints of commonly used design codes and regulations (Adeli and Soegiarso, 1998).",
+        "Opportunities in Structural Engineering\n\nThe use of large language models (LLMs) like ChatGPT in Structural Engineering has gained attention in recent years. ChatGPT can transform the way structural engineers approach the design and analysis of buildings and infrastructure by processing vast amounts of data and providing insights in real time (Frąckiewicz, 2023). It has also been used in safety analysis to address subjectivity in the analysis process (Qi, Zhao and Huang, 2023).",
+        "Source: (Anon., 2019)\n\nMitigation Strategies\n\nTo address the risks and challenges associated with the use of ChatGPT and other large language models in Structural Engineering, several mitigation strategies have been proposed.\n\nUse of Appropriate Prompts\n\nStructural engineers can avoid many risks and challenges considerably by using the suitable prompts and getting the most out of ChatGPT and other LLMs."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1061/9780784485231.035",
+      "title": "Interactive Design by Integrating a Large Pre-Trained Language Model and Building Information Modeling",
+      "authors": [
+        {
+          "authorName": "Suhyung Jang"
+        },
+        {
+          "authorName": "Ghang Lee"
+        }
+      ],
+      "publisher": "American Society of Civil Engineers",
+      "year": 2024,
+      "date": "2024-01-25",
+      "page": "291-299",
+      "tally": {
+        "total": 4,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 4,
+        "citingPublications": 20
+      },
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2306.14165",
+      "title": "Interactive Design by Integrating a Large Pre-Trained Language Model and Building Information Modeling",
+      "authors": [
+        {
+          "authorName": "Suhyung Jang"
+        },
+        {
+          "authorName": "Ghang Lee"
+        }
+      ],
+      "publisher": "arXiv",
+      "year": 2023,
+      "date": "2023-01-01",
+      "tally": {
+        "total": 0,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 0,
+        "citingPublications": 7
+      },
+      "isOa": true,
+      "contentDenied": true
+    }
+  ]
+}

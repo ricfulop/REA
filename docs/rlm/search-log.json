@@ -1,0 +1,104 @@
+{
+  "searched_at_utc": "2026-09-09",
+  "provider": "scite MCP",
+  "searches": [
+    {
+      "file": "search-0.json",
+      "query": "\"recursive language models\"",
+      "total_matches": 76,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-1.json",
+      "query": "\"language model\" AND (\"agent skills\" OR \"procedural memory\" OR \"tool retrieval\")",
+      "total_matches": 1277,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-10.json",
+      "query": "\"language model\" AND (\"component selection\" OR \"part retrieval\" OR \"engineering knowledge graph\")",
+      "total_matches": 464,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-11.json",
+      "query": "Exact foundational titles and seed paper",
+      "total_matches": 6,
+      "retrieved": 6,
+      "offset": 0
+    },
+    {
+      "file": "search-2.json",
+      "query": "\"large language model\" AND (engineering OR CAD OR \"finite element\" OR \"computational fluid dynamics\")",
+      "total_matches": 47627,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-3.json",
+      "query": "(\"language model\" OR \"LLM\") AND (\"CAD\" OR \"mechanical design\" OR \"component selection\")",
+      "total_matches": 5119,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-4.json",
+      "query": "(\"language model\" OR \"agent\") AND (\"materials discovery\" OR \"materials science\")",
+      "total_matches": 100222,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-5.json",
+      "query": "(\"language model\") AND (\"circuit design\" OR \"electronic design automation\" OR \"robotics\")",
+      "total_matches": 21178,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-6.json",
+      "query": "(\"language model\") AND (\"dataset discovery\" OR \"data discovery\" OR \"scientific workflow\")",
+      "total_matches": 1193,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-7.json",
+      "query": "(\"language model\" OR \"LLM\") AND (\"structural engineering\" OR \"civil engineering\" OR \"building information modeling\")",
+      "total_matches": 1439,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-8.json",
+      "query": "(\"language model\" OR \"LLM\") AND (\"optical design\" OR \"photonics\" OR \"control engineering\" OR \"robotic planning\")",
+      "total_matches": 3082,
+      "retrieved": 10,
+      "offset": 0
+    },
+    {
+      "file": "search-9.json",
+      "query": "(\"MemGPT\" OR \"Mem0\" OR \"A-MEM\" OR \"Voyager\" OR \"ToolLLM\") AND (\"language model\")",
+      "total_matches": 3683,
+      "retrieved": 10,
+      "offset": 0
+    }
+  ],
+  "unique_dois": 262,
+  "citation_edges": 150,
+  "graph_truncated": true,
+  "low_coverage_seeds": [
+    "10.48550/arxiv.2602.05366",
+    "10.48550/arxiv.2501.06327"
+  ],
+  "limitations": [
+    "Scoping discovery, not an exhaustive or PRISMA-complete systematic review.",
+    "Only the first page of each query was retrieved.",
+    "DOI deduplication retains preprint/published versions as separate records.",
+    "Citation neighbors are not automatically relevant or supporting evidence.",
+    "Some abstracts are truncated by the provider; full-text access varies."
+  ]
+}

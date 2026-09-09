@@ -1,5 +1,11 @@
 # Scientific Agent Skills
 
+> **RLM + engineering Memex adaptation:** This fork adds an experimental external
+> corpus and recursive runtime adapter for skills, tools, parts and datasets.
+> Start with [RLM_MEMEX.md](RLM_MEMEX.md) and the
+> [scite related-work inventory](docs/rlm/RELATED_WORK.md).
+> Engineering performance improvements have not yet been benchmarked.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![arXiv](https://img.shields.io/badge/arXiv-2609.00065-b31b1b.svg)](https://arxiv.org/abs/2609.00065)
 [![Version](https://img.shields.io/badge/Version-2.65.0-blue.svg)](pyproject.toml)

@@ -1,0 +1,467 @@
+{
+  "query": "\"language model\" AND (\"agent skills\" OR \"procedural memory\" OR \"tool retrieval\")",
+  "total": 1277,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.36227/techrxiv.176857932.25697838/v1",
+      "title": "Agent Skills from the Perspective of Procedural Memory: A Survey",
+      "authors": [
+        {
+          "authorName": "Yaxiong Wu"
+        },
+        {
+          "authorName": "Yongyue Zhang"
+        }
+      ],
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "abstract": "As large language model (LLM)-powered autonomous agents increasingly demonstrate strong capabilities in complex real-world tasks, recent research has focused on leveraging skills to endow these agents with domain-specific expertise and adaptive competence. In this survey, we present the first system...",
+      "year": 2026,
+      "date": "2026-01-16",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2602.08004",
+      "title": "Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality",
+      "authors": [
+        {
+          "authorName": "George Ling"
+        },
+        {
+          "authorName": "Shanshan Zhong"
+        },
+        {
+          "authorName": "Richard Huang"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Agent skills extend large language model (LLM) agents with reusable, program-like modules that define triggering conditions, procedural logic, and tool interactions. As these skills proliferate in public marketplaces, it is unclear what types are available, how users adopt them, and what risks they ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 52,
+        "supporting": 1,
+        "contrasting": 0,
+        "mentioning": 51,
+        "citingPublications": 26
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.08004",
+          "targetDoi": "10.48550/arxiv.2602.03695",
+          "snippet": "Without explicit abstractions, these recurring behaviors must be specified repeatedly, either through prompts or through ad hoc control logic. This repetition increases prompt overhead, makes behavior brittle under small context changes, and complicates maintenance of shared procedures (Jin et al, 2026). Agent skills address these issues by packaging reusable behaviors into modular units that capture task knowledge, procedural logic, and tool use patterns.",
+          "section": "andxpxodwlyh6wduv",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.08004",
+          "targetDoi": "10.48550/arxiv.2602.03695",
+          "snippet": "As agent-based systems scale in both complexity and deployment, new challenges arise around reliability, reuse, and maintainability (Liu et al, 2026a;Cemri et al, 2025;Raheem and Hossain, 2025). Many agent behaviors recur across tasks and users, yet are repeatedly re-specified through prompts or handcrafted control logic (Jin et al, 2026;Liu et al, 2025). This has motivated the emergence of agent skills (openclaw Community, 2026;Anthropic, 2025).",
+          "section": "andxpxodwlyh6wduv",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.08004",
+          "targetDoi": "10.48550/arxiv.2505.10468",
+          "snippet": "During the same period, the popular open-source skills application OpenClaw (openclaw Community, 2026) saw a sharp surge in GitHub stars, reaching over 25,000 stars in a single day at the end of January, followed by a gradual decline, with the total number of stars exceeding 170k. et al, 2023;Sapkota et al, 2025). This agentic execution model has enabled a growing range of applications, from software development and data analysis to personal assistance and workflow automation (Wang et al, 2024).",
+          "section": "andxpxodwlyh6wduv",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge language model (LLM) agents have emerged as a powerful paradigm for addressing complex, multi-step tasks that require reasoning, tool use, and interaction with external environments (Yao et al., 2022;Wang et al., 2024).",
+        "This has motivated the emergence of agent skills (openclaw Community, 2026;Anthropic, 2025). The ecosystem around these skills has expanded rapidly in recent months, as reflected in Figure 1. This growth motivates a closer look at what skills exist, how they are adopted, and what risks they may introduce.\n\nWhat are agent skills? Agent skills have recently emerged as an abstraction for structuring reusable and scalable agent behaviors (Anthropic, 2025;Wu and Zhang, 2026;Lee, 2025).",
+        "Taken together, these observations suggest that agent skills are growing quickly, but their functions and potential impacts vary widely. This makes it important to characterize what skills exist, how they are used, and what risks they may introduce. In this paper, we present a large-scale, data-driven measurement of the emerging agent skills ecosys-tem."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.29824",
+      "title": "Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering",
+      "authors": [
+        {
+          "authorName": "Chengfeng Zhao"
+        },
+        {
+          "authorName": "Yuqiao Tan"
+        },
+        {
+          "authorName": "Shizhu He"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "While Large Language Models (LLMs) excel as static solvers, transforming them into autonomous agents remains challenging. This transition requires continuous environmental interaction, yet current agents lack the necessary persistent procedural memory. Existing approaches predominantly employ Retrie...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.29824",
+          "targetDoi": "10.48550/arxiv.2512.13564",
+          "snippet": "Functions of Agent Memory Agent memory is typically categorized into factual (declarative) and experiential (procedural) components (Hu et al, 2025). While Retrieval-Augmented Generation (RAG) effectively maintains declarative facts (Hu et al, 2025;Park et al, 2023), it faces limitations when applied to procedural memory. Existing approaches typically approximate procedural memory by injecting textual guidelines or code snippets into the context window (Shinn et al, 2023;Wang et al, 2023).",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.29824",
+          "targetDoi": "10.48550/arxiv.2502.15851",
+          "snippet": "Relying exclusively on explicit textual descriptions to transfer procedural skills can lead to a text-action disconnect. Agents might comprehend retrieved instructions yet fail to strictly act upon them (Wen et al, 2024;Sun et al, 2025;Geng et al, 2025). As shown in Figure 1, while declarative memory successfully grounds static constraints, conveying procedural workflows through text fails to translate into sequential actions, leading agents to omit critical intermediate steps during execution.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.29824",
+          "targetDoi": "10.18653/v1/2023.emnlp-main.232",
+          "snippet": "Latent memory offers a middle ground by storing information as continuous vectors. However, existing works primarily focus on context compression (Chevalier et al, 2023;Wang et al, 2024c) or transient working memory (Zhang et al, 2025a;Yu et al, 2025b). For instance, MemGen (Zhang et al, 2025a) synthesizes latent tokens during reasoning but requires auxiliary encoders and extensive training.",
+          "section": "related work",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nAs Large Language Models (LLMs) evolve from stateless reasoners to the central controllers of autonomous agents, their operational scope has expanded to open-ended, dynamic environmentsranging from web navigation to embodied interaction (Wang et al., 2023(Wang et al., , 2024a;;Liu et al., 2025).",
+        "These findings suggest implicit activation steering as an effective path for representing procedural memory in LLM agents.\n\nOur contributions are summarized as follows:\n\n• This paper proposes Neural Procedural Memory (NPM), a training-free framework that integrates implicit activation steering into agent memory, enabling effective intrinsic behavioral modulation.",
+        "• Extensive experiments demonstrate that activation steering serves as an effective carrier for agentic skills, yielding interpretable vectors that correlate with specific task behaviors.\n\nRelated Work\n\nFunctions of Agent Memory Agent memory is typically categorized into factual (declarative) and experiential (procedural) components (Hu et al., 2025)."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2602.05366",
+      "title": "Multi-Field Tool Retrieval",
+      "authors": [
+        {
+          "authorName": "Yichen Tang"
+        },
+        {
+          "authorName": "Weihang Su"
+        },
+        {
+          "authorName": "Qingyao Ai"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Integrating external tools enables Large Language Models (LLMs) to interact with real-world environments and solve complex tasks. Given the growing scale of available tools, effective tool retrieval is essential to mitigate constraints of LLMs' context windows and ensure computational efficiency. Ex...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 1,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 1,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.05366",
+          "targetDoi": "10.18653/v1/2020.emnlp-main.703",
+          "snippet": "Large language models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation [4,7,22]. Nevertheless, directly deploying standalone LLMs in real-world applications still faces substantial challenges, among which two are particularly critical: the lack of grounding to interact with realworld environments [1,2], and the lack of efficient capabilities for continuous learning and long-term accumulation of functional skills [34,42]. Drawing inspiration from human evolution and cognitive development, a natural and effective solution to these challenges is to extend the capabilities of LLMs through the use and management of external tools [27,32].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.05366",
+          "targetDoi": "10.1145/3744746",
+          "snippet": "Large language models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation [4,7,22]. Nevertheless, directly deploying standalone LLMs in real-world applications still faces substantial challenges, among which two are particularly critical: the lack of grounding to interact with realworld environments [1,2], and the lack of efficient capabilities for continuous learning and long-term accumulation of functional skills [34,42].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.05366",
+          "targetDoi": "10.1145/3704435",
+          "snippet": "Nevertheless, directly deploying standalone LLMs in real-world applications still faces substantial challenges, among which two are particularly critical: the lack of grounding to interact with realworld environments [1,2], and the lack of efficient capabilities for continuous learning and long-term accumulation of functional skills [34,42]. Drawing inspiration from human evolution and cognitive development, a natural and effective solution to these challenges is to extend the capabilities of LLMs through the use and management of external tools [27,32]. By integrating tools, LLMs can actively interact with the real world [21]; by managing tools externally outside the parameters of LLMs, LLMs can adapt to dynamic and evolving environments in a scalable way without the need of frequent re-training and the risk of catastrophic forgetting [18,28].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nLarge language models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation [4,7,22]. Nevertheless, directly deploying standalone LLMs in real-world applications still faces substantial challenges, among which two are particularly critical: the lack of grounding to interact with realworld environments [1,2], and the lack of efficient capabilities for continuous learning and long-term accumulation of functional skills [34,42].",
+        "For instance, existing studies on tool retrieval usually first represent and index each tool as a document based on the tool's documentation, and then use ad-hoc retrieval models to retrieve tools based on the user queries to LLMs. Following this paradigm, many efforts in previous research focus on proposing tool retrieval workflows [11,17], optimizing query or document representations [6,24,48], or training specific retrieval models tailored for tool retrieval [28,29].",
+        "These findings highlight the effectiveness and robustness of finegrained, multi-field relevance modeling for tool retrieval."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.13140/rg.2.2.24951.07846",
+      "title": "Agent Skills: A Data-Driven Analysis of Claude Skills for Extending Large Language Model Functionality",
+      "authors": [
+        {
+          "authorName": "George Ling"
+        },
+        {
+          "authorName": "Shanshan Zhong"
+        },
+        {
+          "authorName": "Richard Huang"
+        }
+      ],
+      "publisher": "Unpublished",
+      "year": 2026,
+      "date": "2026-01-01",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.06079",
+      "title": "SkillComposer: Learning to Evolve Agent Skills for Specification and Generalization",
+      "authors": [
+        {
+          "authorName": "Qi Zhang"
+        },
+        {
+          "authorName": "Zhaopeng Feng"
+        },
+        {
+          "authorName": "Xiaonan Shi"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Agent skills, which consist of reusable strategies that guide agent reasoning and action, have shown strong potential for improving model capability at inference time. However, current skill construction methods treat the problem as one-shot extraction, overlooking a fundamental tension: a skill tai...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.06079",
+          "targetDoi": "10.48550/arxiv.2602.12430",
+          "snippet": "Agent skills have recently emerged as a practical abstraction for extending LLM agents at inference time. Unlike a single tool call, a skill package reusable procedural knowledge, trigger conditions, and sometimes executable resources that can be loaded on demand (Anthropic, 2025;Xu and Yan, 2026). Recent work has therefore studied how to build, organize, and reuse skill libraries.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.06079",
+          "targetDoi": "10.48550/arxiv.2602.08004",
+          "snippet": "More critically, effective skills require both generalization (abstracting across sim-ilar tasks to produce transferable strategies) and specification (tailoring skills to particular task patterns), yet existing methods provide no systematic way to achieve either. A skill that is too specific fails to transfer to other relevant tasks, while one that is too general provides insufficient guidance for other particular tasks (Ling et al, 2026;agentskills, 2025).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.06079",
+          "targetDoi": "10.48550/arxiv.2603.25158",
+          "snippet": "Despite their promise, current skill-based approaches face several fundamental limitations: they rely on high-quality human-written skills (Li et al, 2026) or on extracting procedural knowledge from successful trajectories (Fang et al, 2026), both of which are costly and difficult to scale. When models generate skills autonomously, the results often yield limited or even negative performance gains, as the models lack mechanisms for quality control, refinement, and abstraction (Ni et al, 2026;Ling et al, 2026). More critically, effective skills require both generalization (abstracting across sim-ilar tasks to produce transferable strategies) and specification (tailoring skills to particular task patterns), yet existing methods provide no systematic way to achieve either.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Related Work\n\nAgent skills and skill libraries. Agent skills have recently emerged as a practical abstraction for extending LLM agents at inference time. Unlike a single tool call, a skill package reusable procedural knowledge, trigger conditions, and sometimes executable resources that can be loaded on demand (Anthropic, 2025;Xu and Yan, 2026). Recent work has therefore studied how to build, organize, and reuse skill libraries.",
+        "Preliminary\n\nWe begin by formalizing the concept of agent skills.\n\nIn the most general form, agent skills comprise a markdown-style document SKILL.md along with optional auxiliary files such as references, scripts, and assets (Anthropic, 2025). In this work, we focus on the main body of agent skills, where each skill s is defined as a tuple of three components: a name n, a description d, and a body b.",
+        "The reusability/generalizability should be both model-level and task-level: -The skill should help current language model not only solve current question but this type of questions -The skill should help other language models not only solve current question but this type of questions [Skill Formulation] The generated skill should consist of three components including name, description and body: 1. **name**: The identifier of the skill."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2607.23504",
+      "title": "MemVLN: Episodic and Procedural Memory for Vision-and-Language Navigation",
+      "authors": [
+        {
+          "authorName": "Yuqi Liu"
+        },
+        {
+          "authorName": "Shengju Qian"
+        },
+        {
+          "authorName": "Tianyuan Qu"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "MemVLN 14 FPS Fast Action Pyramidal Resolution Instruction: Go through the door. Go down to the lower plant on the right. Wait near the air purifier. Episodic Memory Procedural Memory Time Instruction: Move forward and stop at the laptop.First View Third View (third view is only for visualization) F...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2607.23504",
+          "targetDoi": "10.1109/cvpr.2018.00387",
+          "snippet": "We train MemVLN on a diverse corpus of navigation datasets. To construct this training set, we utilize R2R [4], RxR [19], and their augmented variants generated via EnvDrop [33]. Additionally, we incorporate randomly sampled 416K pairs of ScaleVLN [42] sourced from the HM3D [29] and Gibson [44] environments.",
+          "section": "training",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.23504",
+          "targetDoi": "10.1109/cvpr46437.2021.01112",
+          "snippet": "To address the challenges of continuous navigation, prior research generally follows two trajectories. One line of work directly predicts low-level control commands [7,8,13,30,3,37] to achieve fine-grained movement. Alternatively, hierarchical approaches utilize waypoint predictors [15,16,18,42,40] to identify intermediate sub-goals, which are then reached via local controllers.",
+          "section": "vision-and-language navigation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.23504",
+          "targetDoi": "10.1109/iccv48922.2021.01488",
+          "snippet": "Unlike graph-based settings, this continuous setting (e.g., R2R-CE, RxR-CE) demands that agents ground linguistic cues directly into raw visual observations to plan low-level actions. While earlier approaches have made progress in narrowing the sim-to-real gap [5,18,15], these systems often struggle to generalize across domains due to their reliance on specific input modalities, such as depth sensors or precise odometry, which may be unreliable or unavailable.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Recently, the emergence of large vision-and-language models (LVLMs) [6,20] has driven a shift toward unified vision-and-language navigation frameworks [46,45,9,43]. By integrating visual encoding, instruction understanding, and action prediction into a single end-to-end model, VLN models offer the potential for more robust, generalized navigation.",
+        "MemVLN utilizes a visual encoder to process continuous observations and a large language model (LLM) to interpret instructions and generate actions. The core of MemVLN is the bio-inspired memory mechanism that mimics human episodic and procedural memory to optimize both observation management and inference speed. For episodic memory, we implement a pyramidal resolution strategy.",
+        "Our design features a pyramidal resolution strategy to mimic episodic memory, alongside a fast action module to mimic procedural memory. • We validate our approach on the R2R and RxR benchmarks, where MemVLN achieves SoTA results relying exclusively on monocular RGB visual inputs.\n\n2 Related Works\n\nLarge Vision-and-Language Models\n\nLarge vision-and-language models [47,6,34,1] have recently emerged as a prominent research frontier, demonstrating remarkable efficacy across a diverse range of multi-modal"
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.09316",
+      "title": "Anything2Skill: Compiling External Knowledge into Reusable Skills for Agents",
+      "authors": [
+        {
+          "authorName": "Qianjun Pan"
+        },
+        {
+          "authorName": "Yutao Yang"
+        },
+        {
+          "authorName": "Junsong Li"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Retrieval-augmented generation (RAG) enables agents to access external knowledge at inference time, but it primarily retrieves fragmented declarative evidence, leaving agents to repeatedly infer task procedures from passages, manuals, examples, logs, or trajectories. This raises a fundamental questi...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.09316",
+          "targetDoi": "10.18653/v1/2020.emnlp-main.550",
+          "snippet": "Early open-domain question answering systems combined retrieval with neural reading models, retrieving evidence from large corpora before extracting or generating answers [Chen et al, 2017, Lee et al, 2019, Seo et al, 2019]. Dense Passage Retrieval (DPR) further demonstrated that learned dense retrievers can substantially improve open-domain evidence retrieval over sparse lexical baselines [Karpukhin et al, 2020], while REALM introduced retrieval into language model pre-training by learning a latent retriever over a large textual corpus [Guu et al, 2020]. RAG formalized the integration of a parametric sequence-to-sequence generator with a non-parametric memory accessed through dense retrieval, showing strong performance on knowledge-intensive NLP tasks [Lewis et al, 2020].",
+          "section": "retrieval-augmented generation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.09316",
+          "targetDoi": "10.18653/v1/p17-1171",
+          "snippet": "Retrieval-augmented generation (RAG) has become a standard paradigm for equipping language models with external, updateable, and interpretable knowledge. Early open-domain question answering systems combined retrieval with neural reading models, retrieving evidence from large corpora before extracting or generating answers [Chen et al, 2017, Lee et al, 2019, Seo et al, 2019]. Dense Passage Retrieval (DPR) further demonstrated that learned dense retrievers can substantially improve open-domain evidence retrieval over sparse lexical baselines [Karpukhin et al, 2020], while REALM introduced retrieval into language model pre-training by learning a latent retriever over a large textual corpus [Guu et al, 2020].",
+          "section": "retrieval-augmented generation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.09316",
+          "targetDoi": "10.18653/v1/2021.eacl-main.74",
+          "snippet": "Retrieval-augmented generation (RAG) has emerged as a widely adopted solution by enabling models to access external, updateable, and interpretable knowledge at inference time [Lewis et al, 2020, Guu et al, 2020, Karpukhin et al, 2020]. By retrieving relevant documents, passages, web pages, or API descriptions, RAG substantially improves factual grounding and supports knowledge-intensive reasoning across open-domain question answering, long-form generation, and tool-use scenarios [Izacard and Grave, 2021, Borgeaud et al, 2022, Izacard et al, 2023, Asai et al, 2024].",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "REPLUG explores retrieval augmentation for black-box language models by prepending retrieved documents to the input and using the language model to supervise the retriever [Shi et al., 2024]. Other work investigates when parametric knowledge is sufficient and when non-parametric retrieval is necessary [Mallen et al., 2023], as well as benchmarks for evaluating knowledge-intensive language tasks [Petroni et al., 2021].",
+        "In this sense, our work complements RAG: retrieval provides task-time declarative evidence, while skill compilation provides reusable procedural memory.\n\nAgent Skills\n\nLarge language models are increasingly used as agents that reason, call tools, interact with environments, and execute multi-step tasks. ReAct shows that interleaving reasoning traces with actions improves both question answering and interactive decision making [Yao et al., 2023a].",
+        "Toolformer trains language models to decide when and how to call external tools using self-supervised API-use data [Schick et al., 2023]. MRKL systems propose a modular neuro-symbolic architecture in which language models route problems to external tools, knowledge sources, or symbolic modules [Karpas et al., 2022]. HuggingGPT uses an LLM as a controller to plan tasks, select models from Hugging Face, execute subtasks, and summarize results [Shen et al., 2023]."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2606.29538",
+      "title": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
+      "authors": [
+        {
+          "authorName": "Yijia Fan"
+        },
+        {
+          "authorName": "Zonglin Di"
+        },
+        {
+          "authorName": "Zimo Wen"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Skills are a useful abstraction for software agents, turning human and agent experience into reusable procedural knowledge. Yet existing skill libraries are mostly hand-written, text-centric, or derived from agent traces, leaving tutorial videos and other multimodal human resources largely underused...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2606.29538",
+          "targetDoi": "10.1109/icra48891.2023.10160591",
+          "snippet": "Recent agents combine reasoning with tool invocation, executable actions, and execution feedback [1,7,12,15,18,23,24,26,28,29,37], and are now evaluated on realistic web and software-engineering tasks [5,11,16,35,36,39]. Procedural knowledge in these systems is largely implicit in weights, prompts, or interaction history; retrieval and memory work [3,9,13,14,21,22,25] and skill-library agents [7,15,31] make it explicit, but typically rely on self-generated traces rather than external human references. Procedural knowledge from human-created resources.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.29538",
+          "targetDoi": "10.48550/arxiv.2205.00445",
+          "snippet": "LM agents and reusable memory. Recent agents combine reasoning with tool invocation, executable actions, and execution feedback [1,7,12,15,18,23,24,26,28,29,37], and are now evaluated on realistic web and software-engineering tasks [5,11,16,35,36,39]. Procedural knowledge in these systems is largely implicit in weights, prompts, or interaction history; retrieval and memory work [3,9,13,14,21,22,25] and skill-library agents [7,15,31] make it explicit, but typically rely on self-generated traces rather than external human references.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2606.29538",
+          "targetDoi": "10.1109/cvpr.2019.00130",
+          "snippet": "Procedural knowledge from human-created resources. Instructional videos [6,8,19,30,40], web pages [20], and public code with documentation [4,10] carry rich procedural supervision, but their raw form-long videos, descriptive articles, scaffolding-heavy repositories, outcome-only artifacts-is poorly matched to agent execution and is usually consumed as pretraining or retrieval context. Resource2Skill instead distills them into a validated multimodal wiki, turning source type, modality, library scale, and selection strategy into controlled design variables.",
+          "section": "related work",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "The resulting system is therefore not a fixed prompt collection, but a growing and maintainable procedural memory.\n\nWe study Resource2Skill across seven practical software-authoring domains, including slide design, web page generation, spreadsheet authoring, Blender scene creation, CAD design, UE5 scene construction, and music production.",
+        "Voyager [31], AWM [32], ASI [33], and SkillFlow [38] grow text-or code-only libraries online from a single domain's agent traces or failures and retrieve by dense similarity or repair rules; Anthropic Agent Skills [2] ships hand-authored text/code/asset bundles without automatic acquisition; SkillFoundry [27], closest in spirit, mines text/code skills offline into a top-down knowledge tree for scientific computing.",
+        "MetaBrowse uses the wiki's hierarchical organization in two stages: a lexical scorer narrows the candidate set to a topically relevant region of the taxonomy, then a language model selects a subset to compose."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2605.07358",
+      "title": "A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications",
+      "authors": [
+        {
+          "authorName": "Yingli Zhou"
+        },
+        {
+          "authorName": "Wang Shu"
+        },
+        {
+          "authorName": "Yaodong Su"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Large language model (LLM)-based agents that reason, plan, and act through tools, memory, and structured interaction are emerging as a promising paradigm for automating complex workflows. Recent systems such as OpenClaw and Claude Code exemplify a broader shift from passive response generation to ac...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 14,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 14,
+        "citingPublications": 4
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2605.07358",
+          "targetDoi": "10.48550/arxiv.2407.06567",
+          "snippet": "In robotics, skills serve as reusable control routines connecting perception, action, and reward optimization, enabling agents to compose and adapt motor behaviors across tasks [28], [44], [47], [98]. In finance, skills encode reusable decision heuristics for analysis, planning, and portfolio adjustment under changing market conditions [37]. In healthcare, skills structure diagnostic reasoning and treatment planning into consistent procedures for medical decision support [66].",
+          "section": "application scenarios",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2605.07358",
+          "targetDoi": "10.48550/arxiv.2305.17144",
+          "snippet": "In healthcare, skills structure diagnostic reasoning and treatment planning into consistent procedures for medical decision support [66]. In game environments, skills are composable behavioral units discovered through continual interaction, enabling agents to build and reuse complex action repertoires during long-horizon tasks [12], [29], [30], [54]. In social simulation, skills encode reusable social-behavior routines that coordinate planning, acting, and reflection under constraints [20], [60].",
+          "section": "application scenarios",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2605.07358",
+          "targetDoi": "10.48550/arxiv.2305.16291",
+          "snippet": "2) Code-backed skills: R consists of executable artifacts such as scripts, helper functions, notebooks, or wrappers [12], [13]. This enables repeatable subtasks and stronger operational determinism, but brings software packaging into the skill lifecycle: versioning, testing, and dependency management all become ongoing costs.",
+          "section": "a taxonomy by resource configuration",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "INTRODUCTION\n\nLarge language model (LLM)-based agents are emerging as a powerful paradigm for automating complex tasks. Fundamentally, an LLM-based agent is an autonomous system that leverages an LLM as its cognitive engine to perceive its environment, interpret task context, reason over abstract goals, and execute actions through planning, tool use, memory retrieval, and structured interaction [1]- [6].",
+        ", and skill evolution -and review representative methods within each stage. • We summarize representative agent skills platforms, application scenarios, and open challenges. • We outline promising research directions for agent skills.",
+        "LLM-Based Agents\n\nAn LLM-based agent is a system that uses a language model as its core reasoning engine to autonomously complete multi-step tasks through iterative interaction with an environment [4], [18], [20]. Its operation follows a perceptionreasoning-action loop:\n\nwhere o t is the current observation, r t is the reasoning state, and a t is the resulting action."
+      ],
+      "contentDenied": false
+    }
+  ]
+}

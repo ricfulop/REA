@@ -1,0 +1,416 @@
+{
+  "query": "(\"language model\" OR \"LLM\") AND (\"CAD\" OR \"mechanical design\" OR \"component selection\")",
+  "total": 5119,
+  "count": 10,
+  "limit": 10,
+  "offset": 0,
+  "hits": [
+    {
+      "doi": "10.1299/kikaic.60.715",
+      "title": "Mechanical-Design-Oriented Description Language: MODEL.",
+      "authors": [
+        {
+          "authorName": "Hideyuki Mori"
+        },
+        {
+          "authorName": "Hiroaki Kobayashi"
+        },
+        {
+          "authorName": "Tadao Nakamura"
+        }
+      ],
+      "journal": "transactions of the japan society of mechanical engineers series c",
+      "publisher": "Japan Society of Mechanical Engineers",
+      "year": 1994,
+      "date": "1994-01-01",
+      "volume": "60",
+      "issue": "570",
+      "page": "715-720",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1109/access.2026.3666652",
+      "title": "A Novel LLM-Assisted Approach for Automated Mechanical Design of Regularized Geometries in CAD System",
+      "authors": [
+        {
+          "authorName": "ChoongSung Lee"
+        },
+        {
+          "authorName": "JongWon Park"
+        }
+      ],
+      "journal": "ieee access",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "year": 2026,
+      "date": "2026-01-01",
+      "volume": "14",
+      "page": "28840-28851",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1115/1.4071305",
+      "title": "CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation",
+      "authors": [
+        {
+          "authorName": "Anna C. Doris"
+        },
+        {
+          "authorName": "Md Ferdous Alam"
+        },
+        {
+          "authorName": "Amin Heyrani Nobari"
+        }
+      ],
+      "journal": "journal of mechanical design",
+      "publisher": "ASME International",
+      "abstract": "Abstract\n                  Efficient creation of accurate and editable 3D CAD models is critical in engineering design, significantly impacting cost and time-to-market in product innovation. Current manual workflows remain highly time-consuming and demand extensive user expertise. While recent devel...",
+      "year": 2026,
+      "date": "2026-03-23",
+      "volume": "148",
+      "issue": "7",
+      "isOa": true,
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1038/s44172-025-00517-z",
+      "title": "MechRAG: a multimodal large language model for mechanical engineering",
+      "authors": [
+        {
+          "authorName": "Jonathan Corney"
+        }
+      ],
+      "journal": "communications engineering",
+      "publisher": "Springer Science and Business Media LLC",
+      "abstract": "Abstract\n                  Engineering design and manufacture are inherently multimodal activities in which engineers consult and produce diverse data and representations across various engineering disciplines and product lifecycle stages. Although well-established digital formats exist for these re...",
+      "year": 2025,
+      "date": "2025-11-11",
+      "volume": "4",
+      "issue": "1",
+      "tally": {
+        "total": 5,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 5,
+        "citingPublications": 5
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.1038/s44172-025-00517-z",
+          "targetDoi": "10.1038/s42256-025-01005-x",
+          "snippet": "Bran et al proposed ChemCrow, a RAG-based agent to adapt and execute standardized synthesis procedures autonomously 14 . RAG has also been applied to enable robots to complete long-horizon tasks in unpredictable settings  15  . Dai et al employs a dynamic retrieval mechanism to access external databases to enhance the safety and trustworthiness of autonomous driving systems under complex traffic scenarios 16 .",
+          "section": "related work",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "In the field of Natural Language Processing (NLP), LLMs are widely used for a variety of NLP tasks 7 such as text comprehension, automated question and machine translation, and so on.\n\nFollowing on the success of LLMs in NLP tasks the generic architecture has been extended to support Vision Language Models (VLMs) and multi-modal LLMs. VLMs have made advancements in multimodal learning by combining visual and linguistic information.",
+        "Fig. 1 Utilising and transforming computer-aided engineering (CAE) data for large language models (LLMs). This figure illustrates how original computer-aided engineering (CAE) data—such as CAD models, boundary representations (B-reps), meshes, and modeling histories—can be transformed for use with large language models (LLMs).",
+        "However, RAG systems are constrained by the context window—the maximum number of tokens a language model can process per query. A consequence of this limit is that when generating a response an LLM might only have access to the retrieved chunks from the whole dataset, rather than the whole dataset."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2510.18121",
+      "title": "Efficient Long-context Language Model Training by Core Attention Disaggregation",
+      "authors": [
+        {
+          "authorName": "Yonghao Zhuang"
+        },
+        {
+          "authorName": "Bo Pang"
+        },
+        {
+          "authorName": "Yi Gu"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "We present core attention disaggregation (CAD), a technique that improves long-context LLM training by disaggregating the core attention (CA) -the parameter-free softmax(QK ⊤ )V computation -and schedules it on an independent pool of resources. Existing systems co-locate core attention with other co...",
+      "year": 2025,
+      "date": "2025-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2510.18121",
+          "targetDoi": "10.48550/arxiv.2501.12948",
+          "snippet": "Recent large language model (LLM) applications show a steadily increasing demand for processing longer contexts. For instance, reasoning workloads must generate long chainof-thoughts to yield accurate answers (Guo et al, 2025); coding agents operate over multi-file repositories (Liu et al, 2024b). To reliably support these use cases, LLMs must operate with contexts of 100K -1M tokens at inference.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2510.18121",
+          "targetDoi": "10.48550/arxiv.2309.14509",
+          "snippet": "In the \"4×1K CA: core attention layer; Linear: FFN, qkvo-proj MISC: layer norm, dropout, ... vs. 1×4K\" example: matching the 1×4K attention FLOPs requires 12 more 1K documents on the 4×1K device, raising its activation memory by 3×. Another remedy, context parallelism (CP) (Liu et al, 2024a;Jacobs et al, 2023), shards each document along the sequence dimension and equally distributes shards across DP replicas, which balances compute and memory, but at the cost of extra communication of KV states. Unfortunately, it cannot mitigate PP stragglers: pipeline stages hold disjoint model layers and cannot jointly compute shards of the same document; straggler microbatches still generate bubbles that stall other stages.",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2510.18121",
+          "targetDoi": "10.1145/2640087.2644155",
+          "snippet": "First, CA is compute-intensive but memory-light; dedicating devices as attention servers might underutilize memory. We therefore time-share GPUs between attention servers (Li et al, 2014) and the rest of model computation to keep both compute and memory utilization high ( §4.1). Second, dispatching token-level core attention tasks adds communication overhead; we design a ping-pong execution scheme ( §4.1) to overlap communication with computation between two alternating batches.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "INTRODUCTION\n\nRecent large language model (LLM) applications show a steadily increasing demand for processing longer contexts. For instance, reasoning workloads must generate long chainof-thoughts to yield accurate answers (Guo et al., 2025); coding agents operate over multi-file repositories (Liu et al., 2024b). To reliably support these use cases, LLMs must operate with contexts of 100K -1M tokens at inference.",
+        "We compare against WLB-LLM (Wang et al., 2025c) (\"WLB-ideal\") as our primary baseline. Since no official implementation of the full WLB-LLM system is available, we reimplement its method with our system. To reproduce the adaptive CP sharding policy in WLB-LLM, we sweep the DP-CP degree and report the throughput of the best-performing configuration.",
+        "Compared to these variants of CP, CAD achieves a more precise load balance by a token granularity variable length sharding. CAD also reduces the communication at scale by not only preventing sharding short document, but sharding long documents aware of communication efficiency.\n\nIn addition to per-document CP, WLB-LLM (Wang et al., 2025c) introduces variable-size data chunk, which uses an imbalanced MLP to compensate the workload imbalance from attention."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2602.22284",
+      "title": "BrepCoder: A Unified Multimodal Large Language Model for Multi-task B-rep Reasoning",
+      "authors": [
+        {
+          "authorName": "Mingi Kim"
+        },
+        {
+          "authorName": "Yongjun Kim"
+        },
+        {
+          "authorName": "Jungwoo Kang"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Recent advancements in deep learning have actively addressed complex challenges within the Computer-Aided Design (CAD) domain. However, most existing approaches rely on task-specific models requiring structural modifications for new tasks, and they predominantly focus on point clouds or images rathe...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 4,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 4,
+        "citingPublications": 2
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2602.22284",
+          "targetDoi": "10.48550/arxiv.2507.06261",
+          "snippet": "For completion, we compare against CAD-Llama [19] using textual annotations and initial codes. Error correction is evaluated against commercial MLLMs including GPT [30] and Gemini [2,8]. For CAD-QA, we train and compare several point cloud-based MLLMs such as ShapeLLM [26], MiniGPT-3D [31], and PointLLM [39] under identical conditions.",
+          "section": "multimodal integration and training",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.22284",
+          "targetDoi": "10.48550/arxiv.2312.11805",
+          "snippet": "The advent of Multimodal Large Language Models (MLLMs) presents a promising avenue to address these challenges. Leveraging the extensive pretrained knowledge of Large Language Models (LLMs), MLLMs have demonstrated versatile reasoning and generalization capabilities [1][2][3]47]. They can integrate and process diverse modalities, such as images, point clouds, and B-reps, alongside natural language instructions [41].",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2602.22284",
+          "targetDoi": "10.24963/ijcai.2023/200",
+          "snippet": "Computer-Aided Design (CAD) is a fundamental technology in modern manufacturing and engineering, essential for defining geometric shapes and designing product prototypes. Driven by the increasing demand for maximizing design efficiency and establishing intelligent automation, recent research has actively leveraged deep learning techniques to address complex CAD challenges using multi-modal inputs such as text, images, point clouds, and Boundary Representations (B-rep) [7,21,43,48]. Notably, extensive efforts have been dedicated to solving critical industrial tasks, including reverse engineering to recover design history [20,45], completion of incomplete modeling sequences [19], automatic error correction [6], and question answering to facilitate the semantic understanding of design intent in 3D models.",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "The advent of Multimodal Large Language Models (MLLMs) presents a promising avenue to address these challenges. Leveraging the extensive pretrained knowledge of Large Language Models (LLMs), MLLMs have demonstrated versatile reasoning and generalization capabilities [1][2][3]47]. They can integrate and process diverse modalities, such as images, point clouds, and B-reps, alongside natural language instructions [41].",
+        "Furthermore, Brep2Seq [45] interpreted B-reps as graph structures to predict modeling sequences via a Transformer encoder-decoder, and CADCL [20] enhanced reconstruction fidelity by introducing a contrastive learning framework to align B-rep and CAD sequence embeddings. However, existing methods predominantly rely on rigid, task-specific architectures trained from scratch for isolated reconstruction tasks.\n\nLarge language models for CAD.",
+        "Recently, CAD design has increasingly adopted a linguistic perspective, leveraging the code generation capabilities of LLMs. [44]. Text2CAD [17] pioneered CAD generation from natural language prompts, and CAD-Llama [19] translated CAD sequences into Structured Parametric CAD Code (SPCC) to perform diverse tasks such as text-to-CAD, completion, addition, and deletion. Beyond natural language instruction, research on MLLMs that incorporate visual information is progressing."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.1117/12.3061653",
+      "title": "Application and practice of construction project planning based on large language model (LLM)",
+      "authors": [
+        {
+          "authorName": "Meng Wang"
+        },
+        {
+          "authorName": "Shu-Zhuang Lu"
+        },
+        {
+          "authorName": "Chun Li"
+        }
+      ],
+      "publisher": "SPIE",
+      "abstract": "Due to urbanization and infrastructure expansion, the scale and complexity of construction projects are increasing, requiring more efficient and high-quality project management. Traditional planning methods are inefficient and prone to errors. Advances in AI, particularly in NLP and machine learning...",
+      "year": 2025,
+      "date": "2025-04-28",
+      "page": "125",
+      "citations": [
+        {
+          "sourceDoi": "10.1117/12.3061653",
+          "targetDoi": "10.1101/2023.11.10.23298364",
+          "section": "current research status",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1117/12.3061653",
+          "targetDoi": "10.18653/v1/2022.acl-short.8",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.1117/12.3061653",
+          "targetDoi": "10.3390/buildings14082502",
+          "section": "introduction",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": false,
+      "contentDenied": true
+    },
+    {
+      "doi": "10.48550/arxiv.2607.05573",
+      "title": "Foundation Models for Automatic CAD Generation",
+      "authors": [
+        {
+          "authorName": "J de Curtò"
+        },
+        {
+          "authorName": "Victoria Guillén"
+        },
+        {
+          "authorName": "I. de Zarzà"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Recent advances in Large Language Models (LLMs) and Vision-Language Models (VLMs) have opened new pathways for the automatic generation of parametric three-dimensional designs from natural-language specifications. This chapter presents a comprehensive empirical study on the use of modern foundation ...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2607.05573",
+          "targetDoi": "10.48550/arxiv.2307.14377",
+          "snippet": "DeepCAD [19] proposed a transformer-based autoregressive model for CAD construction sequences, and SkexGen [20] improved generalisability by disentangling topology and geometry into separate codebooks. [12] demonstrated that general-purpose LLMs such as GPT-4 can assist in parametric design tasks through interactive dialogue, positioning the LLM-prompting approach as a practical complement to dedicated architectures. LLMForge extends this line by systematically comparing seven off-the-shelf instruction-tuned models under a unified, reproducible evaluation pipeline across four canonical geometry families.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.05573",
+          "targetDoi": "10.1109/iccv48922.2021.00670",
+          "snippet": "Parametric CAD generation, producing sequences of modelling operations rather than raw geometry, has attracted growing attention. DeepCAD [19] proposed a transformer-based autoregressive model for CAD construction sequences, and SkexGen [20] improved generalisability by disentangling topology and geometry into separate codebooks. [12] demonstrated that general-purpose LLMs such as GPT-4 can assist in parametric design tasks through interactive dialogue, positioning the LLM-prompting approach as a practical complement to dedicated architectures.",
+          "section": "related work",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.05573",
+          "targetDoi": "10.48550/arxiv.2107.03374",
+          "snippet": "The transformer [16] and the demonstration of few-shot generalisation in large autoregressive models [3] underpin all modern code-generating systems. Codex [5] established that models trained on code corpora can complete function bodies from natural-language docstrings, motivating subsequent work on program synthesis [2] and multi-turn generation [13]. General-purpose instructiontuned models, including GPT-4 [14] and the LLaMA family [15,9], have since narrowed the gap with specialist code models, making them practical backends for structured-output tasks such as the JSON-schema CAD scripts used in LLMForge.",
+          "section": "related work",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Introduction\n\nThe automation of mechanical design has long been a central aspiration of engineering informatics. Traditional Computer-Aided Design (CAD) workflows demand expert knowledge of constraint-based parametric modelling, scripting languages, and domain conventions that are largely inaccessible to non-specialists and difficult to integrate into automated processing chains.",
+        "Section 6 discusses model failure modes, the effect of model scale and instruction tuning, and the implications for deploying foundation models in industrial CAD pipelines. Section 7 concludes with a research outlook toward scalable, automated mechanical design.\n\nRelated Work\n\nFoundation models and code generation. The transformer [16] and the demonstration of few-shot generalisation in large autoregressive models [3] underpin all modern code-generating systems.",
+        "DeepCAD [19] proposed a transformer-based autoregressive model for CAD construction sequences, and SkexGen [20] improved generalisability by disentangling topology and geometry into separate codebooks. [12] demonstrated that general-purpose LLMs such as GPT-4 can assist in parametric design tasks through interactive dialogue, positioning the LLM-prompting approach as a practical complement to dedicated architectures."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2604.24479",
+      "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+      "authors": [
+        {
+          "authorName": "Mohammadmehdi Ataei"
+        },
+        {
+          "authorName": "Farzaneh Askari"
+        },
+        {
+          "authorName": "Kamal Rahimi Malekshan"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Zero-to-CAD uses an LLM with tool access to generate approximately one million executable CAD construction sequences with interpretable parameters. The examples show diverse mechanical parts, including brackets, housings, gears, and connectors, with fillets, chamfers, holes, and Boolean operations.",
+      "year": 2026,
+      "date": "2026-01-01",
+      "tally": {
+        "total": 6,
+        "supporting": 0,
+        "contrasting": 0,
+        "mentioning": 6,
+        "citingPublications": 1
+      },
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2604.24479",
+          "targetDoi": "10.1109/iccv48922.2021.00670",
+          "snippet": "Traditional CAD modeling relies heavily on 2D sketches lifted into 3D via extrusion or revolution. This paradigm has been adopted by recent generative models trained on datasets such as DeepCAD (Wu et al, 2021) and Fusion 360 Gallery (Willis et al, 2021). DeepCAD treats CAD generation as sequence modeling of sketch-and-extrude commands, and follow-up works have refined this approach: SkexGen (Xu et al, 2022) and HNC-CAD (Xu et al, 2023) employ hierarchical codebooks to disentangle topology from geometry, while TransCAD (Dupont et al, 2024) conditions generation on point clouds.",
+          "section": "sketch-and-extrude generation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.24479",
+          "targetDoi": "10.1109/cvpr.2019.00983",
+          "snippet": "is the first sequence-centric CAD dataset of this scale with broad operation coverage Koch et al (2019); Seff et al (2020); Willis et al (2021); Wu et al (2021); Dupont et al (2022). The dataset complements geometry-first datasets by supplying replayable timelines aligned with design intent, and it supports training and evaluation of sequence models.",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2604.24479",
+          "targetDoi": "10.1109/iccv48922.2021.00670",
+          "snippet": "The Fusion 360 Gallery (Willis et al, 2021) provides human-designed sequences but is small (8.6k models) and restricted to sketch-and-extrude operations. DeepCAD (Wu et al, 2021) scales this up synthetically but remains limited to the same narrow operation set. CC3D-Ops (Dupont et al, 2022) annotates SolidWorks models with operation types and sequence order, but provides only per-face labels rather than replayable programs.",
+          "section": "cad datasets",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "While real-world CAD timelines are often unavailable or inconsistent, large language models (LLMs) have absorbed vast amounts of knowledge about object structure and manufacturing processes from textual data. They \"know\" that a bracket needs mounting holes or that a shaft requires a keyway, even if they do not natively produce the precise syntax of a CAD kernel. The challenge is to unlock this latent design knowledge and translate it into valid, executable code.",
+        "In this synthesis regime, exact adherence to a specific prompt is less critical than validity and diversity; we essentially use the LLM to sample the space of plausible mechanical designs, relying on the execution environment to filter out failures. This allows us to cover a vast design space, from simple primitives to complex, multi-feature parts that would be difficult to enumerate manually.",
+        "By scaling this process, we convert compute into data (i.e., LLM priors about mechanical design are translated into a curated, validated dataset through compute-intensive agentic synthesis). We generate a massive dataset of fully executable, readable, editable CAD sequences from scratch-\"Zero-to-CAD\"-without relying on real-world CAD files."
+      ],
+      "contentDenied": false
+    },
+    {
+      "doi": "10.48550/arxiv.2607.27558",
+      "title": "Drawing-Recode: Annotation Grounding for Parametric CAD Code Generation from Raster 2D CAD Drawings",
+      "authors": [
+        {
+          "authorName": "Mingi Kim"
+        },
+        {
+          "authorName": "Yongjun Kim"
+        },
+        {
+          "authorName": "Hyungki Kim"
+        }
+      ],
+      "publisher": "arXiv",
+      "abstract": "Recovering Parametric CAD sequences from raster-format 2D Computer-Aided Design (CAD) drawings accumulated prior to digital transformation is important for part reproduction and manufacturing process automation. However, existing studies either process only vector drawings or are limited to specific...",
+      "year": 2026,
+      "date": "2026-01-01",
+      "citations": [
+        {
+          "sourceDoi": "10.48550/arxiv.2607.27558",
+          "targetDoi": "10.1145/3476576.3476602",
+          "snippet": "Computer-Aided Design (CAD) is a core technology underlying modern manufacturing, widely used in product design, verification, and production (Zhou and Camba 2025;Zou et al 2024;Zhang et al 2026). In particular, Parametric CAD sequences, which represent 3D geometric information as sequences of commands, have become the industry standard for design modification and model generation (Wu, Xiao, and Zheng 2021;Willis et al 2021;Zhou, Tang, and Zhou 2023;Liang et al 2025). Meanwhile, industrial settings hold vast amounts of 2D CAD drawings accumulated prior to digital transformation, stored as raster-format scanned images or PDFs, and recovering these into 3D Parametric CAD sequences is an important task for part reproduction and manufacturing process automation (Hu et al 2023;Wang et al 2025).",
+          "section": "introduction",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.27558",
+          "targetDoi": "10.48550/arxiv.2602.22284",
+          "snippet": "Meanwhile, CAD-Llama (Li et al 2025) proposed a custom Python-like format called Structured Parametric CAD Code (SPCC) to train a LLaMA-based model (Touvron et al 2023;Grattafiori et al 2024), andReCAD (Li et al 2026a) adopted the SPCC format to generate CAD code conditioned on text and images, improving performance through reinforcement learning. BrepCoder (Kim et al 2026) is a framework that takes B-rep as input to generate CAD code in the SPCC format, proposing a pipeline that learns alignment between B-rep and code. While these studies leveraging the",
+          "section": "llm-based cad code generation",
+          "type": "mentioning"
+        },
+        {
+          "sourceDoi": "10.48550/arxiv.2607.27558",
+          "targetDoi": "10.48550/arxiv.2505.22914",
+          "snippet": "CAD-Recode (Rukhovich et al 2025) combined an LLM with a point cloud projector to propose an LLM-based CAD reverse engineering model that converts point clouds into CadQuery-based Python code. cadrille (Kolodiazhnyi et al 2025) extended this by proposing a multimodal framework that jointly processes point clouds, images, and text, improving performance through reinforcement learning. For text-based input, Text-to-CadQuery (Xie and Ju 2025) and CAD-Coder (Guan et al 2025) proposed methods that leverage LLMs to generate CadQuery-based code from natural language.",
+          "section": "llm-based cad code generation",
+          "type": "mentioning"
+        }
+      ],
+      "isOa": true,
+      "fulltextExcerpts": [
+        "Second, unlike the existing approach of processing both layers with a single image encoder, we design our framework to independently extract the geometry layer and the annotation layer and explicitly ground them, enabling explicit learning of the correspondence between the two layers (Figure 1\n\nSpecifically, Drawing-Recode adopts a Large Language Model (LLM), widely used in recent CAD reverse engineering research, as its backbone to leverage pretrained coding ability, generating CAD code in the Structured",
+        "The resulting grounded features are fed into the LLM to generate Parametric CAD code.",
+        "LLM-based CAD Code Generation.\n\nRecently, active research has explored leveraging the code generation capabilities of Large Language Models (LLMs) for CAD generation."
+      ],
+      "contentDenied": false
+    }
+  ]
+}

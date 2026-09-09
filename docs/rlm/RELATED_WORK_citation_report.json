@@ -1,0 +1,95 @@
+{
+  "total_dois": 12,
+  "verified": [
+    "10.1038/s44172-025-00517-z",
+    "10.1002/aidi.202500174",
+    "10.3390/electronics15112301",
+    "10.1063/5.0257555",
+    "10.1002/aidi.202500174",
+    "10.1016/j.eml.2024.102131",
+    "10.1115/1.4063843",
+    "10.1038/s44172-025-00517-z",
+    "10.1109/cvpr.2019.00983",
+    "10.1109/iccv48922.2021.00670",
+    "10.3390/electronics15112301",
+    "10.26434/chemrxiv-2025-zkn81-v2"
+  ],
+  "failed": [],
+  "metadata": {
+    "10.1038/s44172-025-00517-z": {
+      "title": "MechRAG: a multimodal large language model for mechanical engineering",
+      "authors": "Li, S., Corney, J.",
+      "year": "2025",
+      "journal": "Communications Engineering",
+      "volume": "4",
+      "pages": "",
+      "doi": "10.1038/s44172-025-00517-z"
+    },
+    "10.1002/aidi.202500174": {
+      "title": "ChatCFD: A Large Language Model\u2010Driven Agent for End\u2010to\u2010End Computational Fluid Dynamics Automation with Structured Knowledge and Reasoning",
+      "authors": "Fan, E., Hu, K., Wu, Z., et al.",
+      "year": "2026",
+      "journal": "Advanced Intelligent Discovery",
+      "volume": "2",
+      "pages": "",
+      "doi": "10.1002/aidi.202500174"
+    },
+    "10.3390/electronics15112301": {
+      "title": "Efficient Similarity-Based Datasheet Retrieval and Analysis Using Retrieval-Augmented Generation for Electronic Component Selection",
+      "authors": "Curavale, D., Nicolae, G., Caranica, A., et al.",
+      "year": "2026",
+      "journal": "Electronics",
+      "volume": "15",
+      "pages": "2301",
+      "doi": "10.3390/electronics15112301"
+    },
+    "10.1063/5.0257555": {
+      "title": "OpenFOAMGPT: A retrieval-augmented large language model (LLM) agent for OpenFOAM-based computational fluid dynamics",
+      "authors": "Pandey, S., Xu, R., Wang, W., et al.",
+      "year": "2025",
+      "journal": "Physics of Fluids",
+      "volume": "37",
+      "pages": "",
+      "doi": "10.1063/5.0257555"
+    },
+    "10.1016/j.eml.2024.102131": {
+      "title": "MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge",
+      "authors": "Ni, B., Buehler, M.",
+      "year": "2024",
+      "journal": "Extreme Mechanics Letters",
+      "volume": "67",
+      "pages": "102131",
+      "doi": "10.1016/j.eml.2024.102131"
+    },
+    "10.1115/1.4063843": {
+      "title": "MechGPT, a Language-Based Strategy for Mechanics and Materials Modeling That Connects Knowledge Across Scales, Disciplines, and Modalities",
+      "authors": "Buehler, M.",
+      "year": "2024",
+      "journal": "Applied Mechanics Reviews",
+      "volume": "76",
+      "pages": "",
+      "doi": "10.1115/1.4063843"
+    },
+    "10.1109/cvpr.2019.00983": {
+      "title": "ABC: A Big CAD Model Dataset for Geometric Deep Learning",
+      "authors": "Koch, S., Matveev, A., Jiang, Z., et al.",
+      "year": "2019",
+      "journal": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "volume": "",
+      "pages": "9593-9603",
+      "doi": "10.1109/cvpr.2019.00983"
+    },
+    "10.1109/iccv48922.2021.00670": {
+      "title": "DeepCAD: A Deep Generative Network for Computer-Aided Design Models",
+      "authors": "Wu, R., Xiao, C., Zheng, C.",
+      "year": "2021",
+      "journal": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "volume": "",
+      "pages": "6752-6762",
+      "doi": "10.1109/iccv48922.2021.00670"
+    },
+    "10.26434/chemrxiv-2025-zkn81-v2": {
+      "error": "list index out of range"
+    }
+  }
+}
