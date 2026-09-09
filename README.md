@@ -974,3 +974,7 @@ See [LICENSE.md](LICENSE.md) for full terms.
 ### Individual Skill Licenses
 
 > ⚠️ **Important**: Each skill has its own license specified in the `license` metadata field within its `SKILL.md` file. These licenses may differ from the repository's MIT License and may include additional terms or restrictions. **Users are responsible for reviewing and adhering to the license terms of each individual skill they use.**
+
+## ICLR 2027 research draft
+
+REA now targets ICLR 2027. See [the manuscript project](paper/README.md), [evaluation protocol](paper/EXPERIMENTS.md), and [complete engineering taxonomy](docs/rlm/ENGINEERING_TAXONOMY.md). Comparative engineering results are still pending.

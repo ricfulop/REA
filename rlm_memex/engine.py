@@ -16,10 +16,22 @@ units, boundary conditions, validation checks and conflicting evidence.
 """
 
 
-def run(store, question, model, backend="openai", max_chars=250_000_000, factory=None):
+def run(store, question, model, backend="openai", max_chars=250_000_000, factory=None,
+        domain=None, subcategory=None):
     if not question.strip() or not model.strip():
         raise ValueError("Question and model are required")
     context = store.context(max_chars=max_chars)
+    from .taxonomy import load_taxonomy, specialists, scope_context
+    taxonomy = load_taxonomy()
+    if subcategory and not domain:
+        raise ValueError("A subcategory requires its parent domain")
+    if domain:
+        context = scope_context(context, domain, subcategory, taxonomy)
+    context["taxonomy"] = taxonomy
+    context["subagents"] = specialists(taxonomy)
+    import json
+    if len(json.dumps(context, ensure_ascii=False)) > max_chars:
+        raise ValueError("Corpus and taxonomy exceed external payload limit")
     if factory is None:
         from rlm import RLM
         factory = RLM
@@ -27,6 +39,13 @@ def run(store, question, model, backend="openai", max_chars=250_000_000, factory
         backend=backend, backend_kwargs={"model_name": model},
         environment="docker", max_depth=3, max_iterations=20,
         max_timeout=300, max_tokens=100000, max_errors=3, max_budget=1.0,
-        max_concurrent_subcalls=4, user_prologue=INSTRUCTIONS,
+        max_concurrent_subcalls=4, user_prologue=INSTRUCTIONS + (
+            "\nThe external context includes the complete engineering taxonomy and subagents "
+            "registry. Inspect domain and subcategory IDs before routing. For recursive "
+            "subcalls, pass the selected profile, task, relevant records and cited evidence "
+            "to rlm_query; do not send the whole corpus. If a specialist scope is present, "
+            "stay within it and explicitly request cross-domain handoffs. Registry entries "
+            "are role specifications, not already-executed or validated specialists."
+        ),
     )
     return engine.completion(context, root_prompt=question)

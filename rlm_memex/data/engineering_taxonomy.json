@@ -1,0 +1,4169 @@
+{
+  "schema_version": "1.0",
+  "version": "fdda226930e61c7f968566e1a6534571648db7b10973c24b82c95a7217434847",
+  "source_sha256": {
+    "domain_labels.json": "90a1875725fa27362ad3a28ae951230886351ba594b34cab247e5c5c33a45b54",
+    "subcategory_assignments.json": "7906f72b5bca4a05dc07782db4142f2039b96376f79a025397367f8fba1bdd13",
+    "tools.jsonl": "1255b44f1bfc952a0c7389746ea74d7eac2c06be70e303b04601106c91ae06ac"
+  },
+  "method": "Source-linked editorial browsing taxonomy. Ambiguous introductory-scope matches were individually reviewed; remaining assignments use explicit description-scope rules. Membership is not task suitability or solver qualification.",
+  "counts": {
+    "domains": 71,
+    "subcategories": 609,
+    "tool_records": 4795,
+    "memberships": 5658
+  },
+  "domains": [
+    {
+      "id": "geometry",
+      "label": "Computational Geometry and CAD Kernels",
+      "tool_records": 71,
+      "subcategories": [
+        {
+          "id": "geometry-solid-modeling-kernels-and-cad-bindings",
+          "domain": "geometry",
+          "label": "Solid Modeling Kernels and CAD Bindings",
+          "tool_memberships": 13
+        },
+        {
+          "id": "geometry-mesh-and-polygon-geometry-processing",
+          "domain": "geometry",
+          "label": "Mesh and Polygon Geometry Processing",
+          "tool_memberships": 23
+        },
+        {
+          "id": "geometry-implicit-volumetric-and-generative-geometry",
+          "domain": "geometry",
+          "label": "Implicit Volumetric and Generative Geometry",
+          "tool_memberships": 6
+        },
+        {
+          "id": "geometry-geometry-translation-and-scene-interchange",
+          "domain": "geometry",
+          "label": "Geometry Translation and Scene Interchange",
+          "tool_memberships": 26
+        },
+        {
+          "id": "geometry-spatial-and-computational-geometry",
+          "domain": "geometry",
+          "label": "Spatial and Computational Geometry",
+          "tool_memberships": 4
+        },
+        {
+          "id": "geometry-point-clouds-and-3d-reconstruction",
+          "domain": "geometry",
+          "label": "Point Clouds and 3D Reconstruction",
+          "tool_memberships": 2
+        },
+        {
+          "id": "geometry-cad-quality-validation-and-healing",
+          "domain": "geometry",
+          "label": "CAD Quality Validation and Healing",
+          "tool_memberships": 3
+        },
+        {
+          "id": "geometry-curve-and-surface-construction",
+          "domain": "geometry",
+          "label": "Curve and Surface Construction",
+          "tool_memberships": 1
+        },
+        {
+          "id": "geometry-geometric-constraints-and-parametric-solvers",
+          "domain": "geometry",
+          "label": "Geometric Constraints and Parametric Solvers",
+          "tool_memberships": 2
+        },
+        {
+          "id": "geometry-engineering-model-visualization-sdks",
+          "domain": "geometry",
+          "label": "Engineering Model Visualization SDKs",
+          "tool_memberships": 1
+        },
+        {
+          "id": "geometry-mesh-geometry-editing-and-reconstruction",
+          "domain": "geometry",
+          "label": "Mesh Geometry Editing and Reconstruction",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "cad",
+      "label": "Computer-Aided Design",
+      "tool_records": 65,
+      "subcategories": [
+        {
+          "id": "cad-mechanical",
+          "domain": "cad",
+          "label": "Mechanical and Product Engineering",
+          "tool_memberships": 25
+        },
+        {
+          "id": "cad-drafting",
+          "domain": "cad",
+          "label": "General Drafting and Technical Documentation",
+          "tool_memberships": 11
+        },
+        {
+          "id": "cad-architecture",
+          "domain": "cad",
+          "label": "Architectural and Building Design",
+          "tool_memberships": 7
+        },
+        {
+          "id": "cad-industrial",
+          "domain": "cad",
+          "label": "Industrial Design and Surface Modeling",
+          "tool_memberships": 12
+        },
+        {
+          "id": "cad-plant",
+          "domain": "cad",
+          "label": "Plant and Factory Layout Design",
+          "tool_memberships": 3
+        },
+        {
+          "id": "cad-marine",
+          "domain": "cad",
+          "label": "Naval Architecture and Ship Design",
+          "tool_memberships": 1
+        },
+        {
+          "id": "cad-aeronautical",
+          "domain": "cad",
+          "label": "Aircraft Geometry Design",
+          "tool_memberships": 1
+        },
+        {
+          "id": "cad-tooling",
+          "domain": "cad",
+          "label": "Mold, Die and Manufacturing Tooling Design",
+          "tool_memberships": 6
+        },
+        {
+          "id": "cad-computational",
+          "domain": "cad",
+          "label": "Computational and Programmatic Design",
+          "tool_memberships": 9
+        },
+        {
+          "id": "cad-preparation",
+          "domain": "cad",
+          "label": "Geometry Preparation for Simulation and Manufacturing",
+          "tool_memberships": 3
+        },
+        {
+          "id": "cad-general-3d",
+          "domain": "cad",
+          "label": "General 3D Geometric Modeling",
+          "tool_memberships": 4
+        },
+        {
+          "id": "cad-interoperability",
+          "domain": "cad",
+          "label": "CAD File Conversion and Interoperability",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "structural",
+      "label": "Structural Engineering",
+      "tool_records": 160,
+      "subcategories": [
+        {
+          "id": "structural-buildings",
+          "domain": "structural",
+          "label": "Building Structural Design",
+          "tool_memberships": 17
+        },
+        {
+          "id": "structural-bridges",
+          "domain": "structural",
+          "label": "Bridge and Transportation Structures",
+          "tool_memberships": 30
+        },
+        {
+          "id": "structural-fea",
+          "domain": "structural",
+          "label": "Structural Analysis and Finite Element Workflows",
+          "tool_memberships": 90
+        },
+        {
+          "id": "structural-nonlinear",
+          "domain": "structural",
+          "label": "Nonlinear Mechanics, Damage and Fracture",
+          "tool_memberships": 22
+        },
+        {
+          "id": "structural-dynamics",
+          "domain": "structural",
+          "label": "Structural Dynamics, Seismic and Impact Analysis",
+          "tool_memberships": 21
+        },
+        {
+          "id": "structural-components",
+          "domain": "structural",
+          "label": "Structural Connections and Component Design",
+          "tool_memberships": 6
+        },
+        {
+          "id": "structural-composites",
+          "domain": "structural",
+          "label": "Composite and Specialized Structural Materials",
+          "tool_memberships": 8
+        },
+        {
+          "id": "structural-fatigue",
+          "domain": "structural",
+          "label": "Structural Fatigue and Durability",
+          "tool_memberships": 4
+        },
+        {
+          "id": "structural-foundations",
+          "domain": "structural",
+          "label": "Structural Foundation Design",
+          "tool_memberships": 1
+        },
+        {
+          "id": "structural-materials",
+          "domain": "structural",
+          "label": "Structural Material Models and Constitutive Libraries",
+          "tool_memberships": 2
+        },
+        {
+          "id": "structural-piping",
+          "domain": "structural",
+          "label": "Piping and Equipment Structural Analysis",
+          "tool_memberships": 2
+        },
+        {
+          "id": "structural-tensile-membranes-cable-nets-and-form-finding",
+          "domain": "structural",
+          "label": "Tensile Membranes Cable Nets and Form Finding",
+          "tool_memberships": 11
+        },
+        {
+          "id": "structural-construction-stages-and-time-dependent-analysis",
+          "domain": "structural",
+          "label": "Construction Stages and Time-Dependent Analysis",
+          "tool_memberships": 1
+        },
+        {
+          "id": "structural-prestressed-and-post-tensioned-concrete",
+          "domain": "structural",
+          "label": "Prestressed and Post-Tensioned Concrete",
+          "tool_memberships": 1
+        },
+        {
+          "id": "structural-composite-modeling-and-results-automation",
+          "domain": "structural",
+          "label": "Composite Modeling and Results Automation",
+          "tool_memberships": 3
+        },
+        {
+          "id": "structural-composite-and-metallic-structural-sizing",
+          "domain": "structural",
+          "label": "Composite and Metallic Structural Sizing",
+          "tool_memberships": 1
+        },
+        {
+          "id": "structural-crash-impact-and-explicit-dynamics",
+          "domain": "structural",
+          "label": "Crash Impact and Explicit Dynamics",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "bim",
+      "label": "Building Information Modeling",
+      "tool_records": 57,
+      "subcategories": [
+        {
+          "id": "bim-bim-authoring-and-structural-detailing",
+          "domain": "bim",
+          "label": "BIM Authoring and Structural Detailing",
+          "tool_memberships": 14
+        },
+        {
+          "id": "bim-bim-coordination-and-model-checking",
+          "domain": "bim",
+          "label": "BIM Coordination and Model Checking",
+          "tool_memberships": 12
+        },
+        {
+          "id": "bim-bim-interoperability-and-developer-libraries",
+          "domain": "bim",
+          "label": "BIM Interoperability and Developer Libraries",
+          "tool_memberships": 7
+        },
+        {
+          "id": "bim-bim-collaboration-and-model-viewing",
+          "domain": "bim",
+          "label": "BIM Collaboration and Model Viewing",
+          "tool_memberships": 18
+        },
+        {
+          "id": "bim-construction-planning-and-4d-sequencing",
+          "domain": "bim",
+          "label": "Construction Planning and 4D Sequencing",
+          "tool_memberships": 1
+        },
+        {
+          "id": "bim-building-life-cycle-assessment-and-embodied-impacts",
+          "domain": "bim",
+          "label": "Building Life-Cycle Assessment and Embodied Impacts",
+          "tool_memberships": 3
+        },
+        {
+          "id": "bim-architectural-space-planning-and-design-feasibility",
+          "domain": "bim",
+          "label": "Architectural Space Planning and Design Feasibility",
+          "tool_memberships": 3
+        },
+        {
+          "id": "bim-mep-design-and-building-services-coordination",
+          "domain": "bim",
+          "label": "MEP Design and Building Services Coordination",
+          "tool_memberships": 2
+        },
+        {
+          "id": "bim-building-requirements-and-room-data-management",
+          "domain": "bim",
+          "label": "Building Requirements and Room Data Management",
+          "tool_memberships": 1
+        },
+        {
+          "id": "bim-facility-digital-twins-and-asset-information",
+          "domain": "bim",
+          "label": "Facility Digital Twins and Asset Information",
+          "tool_memberships": 1
+        },
+        {
+          "id": "bim-civil-infrastructure-conceptual-design",
+          "domain": "bim",
+          "label": "Civil Infrastructure Conceptual Design",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "geotechnical",
+      "label": "Geotechnical Engineering",
+      "tool_records": 70,
+      "subcategories": [
+        {
+          "id": "geotechnical-geotechnical-finite-element-and-continuum-analysis",
+          "domain": "geotechnical",
+          "label": "Geotechnical Finite-Element and Continuum Analysis",
+          "tool_memberships": 21
+        },
+        {
+          "id": "geotechnical-slope-stability-and-groundwater-seepage",
+          "domain": "geotechnical",
+          "label": "Slope Stability and Groundwater Seepage",
+          "tool_memberships": 24
+        },
+        {
+          "id": "geotechnical-foundations-retaining-structures-and-excavations",
+          "domain": "geotechnical",
+          "label": "Foundations Retaining Structures and Excavations",
+          "tool_memberships": 23
+        },
+        {
+          "id": "geotechnical-rock-mechanics-tunneling-and-discontinuities",
+          "domain": "geotechnical",
+          "label": "Rock Mechanics Tunneling and Discontinuities",
+          "tool_memberships": 15
+        },
+        {
+          "id": "geotechnical-geotechnical-investigation-and-ground-models",
+          "domain": "geotechnical",
+          "label": "Geotechnical Investigation and Ground Models",
+          "tool_memberships": 1
+        },
+        {
+          "id": "geotechnical-seismic-site-response-and-liquefaction",
+          "domain": "geotechnical",
+          "label": "Seismic Site Response and Liquefaction",
+          "tool_memberships": 2
+        },
+        {
+          "id": "geotechnical-discrete-element-and-granular-geomechanics",
+          "domain": "geotechnical",
+          "label": "Discrete-Element and Granular Geomechanics",
+          "tool_memberships": 1
+        },
+        {
+          "id": "geotechnical-mine-geomechanics-and-material-flow",
+          "domain": "geotechnical",
+          "label": "Mine Geomechanics and Material Flow",
+          "tool_memberships": 2
+        },
+        {
+          "id": "geotechnical-reinforced-soils-and-geosynthetic-structures",
+          "domain": "geotechnical",
+          "label": "Reinforced Soils and Geosynthetic Structures",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "cfd",
+      "label": "Computational Fluid Dynamics",
+      "tool_records": 131,
+      "subcategories": [
+        {
+          "id": "cfd-aerodynamics",
+          "domain": "cfd",
+          "label": "Aerodynamics and External Flow",
+          "tool_memberships": 10
+        },
+        {
+          "id": "cfd-multiphase",
+          "domain": "cfd",
+          "label": "Multiphase and Free-Surface Flow",
+          "tool_memberships": 19
+        },
+        {
+          "id": "cfd-combustion",
+          "domain": "cfd",
+          "label": "Combustion and Reacting Flow",
+          "tool_memberships": 20
+        },
+        {
+          "id": "cfd-compressible",
+          "domain": "cfd",
+          "label": "Compressible Flow and Gas Dynamics",
+          "tool_memberships": 13
+        },
+        {
+          "id": "cfd-particles",
+          "domain": "cfd",
+          "label": "Particle and Kinetic Flow Methods",
+          "tool_memberships": 29
+        },
+        {
+          "id": "cfd-thermal",
+          "domain": "cfd",
+          "label": "Thermal Fluids and Conjugate Heat Transfer",
+          "tool_memberships": 20
+        },
+        {
+          "id": "cfd-turbomachinery",
+          "domain": "cfd",
+          "label": "Turbomachinery and Rotating Flow",
+          "tool_memberships": 5
+        },
+        {
+          "id": "cfd-general",
+          "domain": "cfd",
+          "label": "CFD Solvers and Flow Modeling Frameworks",
+          "tool_memberships": 49
+        },
+        {
+          "id": "cfd-marine",
+          "domain": "cfd",
+          "label": "Marine and Coastal Hydrodynamics",
+          "tool_memberships": 9
+        },
+        {
+          "id": "cfd-fsi",
+          "domain": "cfd",
+          "label": "Fluid\u2013Structure Interaction",
+          "tool_memberships": 1
+        },
+        {
+          "id": "cfd-fire",
+          "domain": "cfd",
+          "label": "Fire Simulation and Evacuation Workflows",
+          "tool_memberships": 5
+        },
+        {
+          "id": "cfd-electrohydrodynamics-and-coupled-field-flows",
+          "domain": "cfd",
+          "label": "Electrohydrodynamics and Coupled Field Flows",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "rf-em",
+      "label": "Radio Frequency and Electromagnetic Engineering",
+      "tool_records": 96,
+      "subcategories": [
+        {
+          "id": "rf-em-antennas",
+          "domain": "rf-em",
+          "label": "Antenna Design and Electromagnetic Scattering",
+          "tool_memberships": 14
+        },
+        {
+          "id": "rf-em-microwave",
+          "domain": "rf-em",
+          "label": "Microwave, RF and High-Frequency Circuit Design",
+          "tool_memberships": 20
+        },
+        {
+          "id": "rf-em-compatibility",
+          "domain": "rf-em",
+          "label": "Electromagnetic Compatibility and Interference",
+          "tool_memberships": 6
+        },
+        {
+          "id": "rf-em-low-frequency",
+          "domain": "rf-em",
+          "label": "Low-Frequency Fields and Electromechanics",
+          "tool_memberships": 16
+        },
+        {
+          "id": "rf-em-fullwave",
+          "domain": "rf-em",
+          "label": "Full-Wave Electromagnetic Simulation",
+          "tool_memberships": 22
+        },
+        {
+          "id": "rf-em-interconnect",
+          "domain": "rf-em",
+          "label": "Signal Integrity and Electronic Interconnects",
+          "tool_memberships": 16
+        },
+        {
+          "id": "rf-em-quantum",
+          "domain": "rf-em",
+          "label": "Quantum Transport and Electronic Device Modeling",
+          "tool_memberships": 15
+        },
+        {
+          "id": "rf-em-superconducting",
+          "domain": "rf-em",
+          "label": "Superconducting and Josephson Circuit Modeling",
+          "tool_memberships": 7
+        },
+        {
+          "id": "rf-em-layout",
+          "domain": "rf-em",
+          "label": "Microelectronic and Photonic Layout Libraries",
+          "tool_memberships": 3
+        },
+        {
+          "id": "rf-em-photonics",
+          "domain": "rf-em",
+          "label": "Optical and Photonic Electromagnetic Modeling",
+          "tool_memberships": 2
+        },
+        {
+          "id": "rf-em-propagation",
+          "domain": "rf-em",
+          "label": "Wireless Propagation and Network Planning",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "optics",
+      "label": "Optical Engineering and Photonics",
+      "tool_records": 167,
+      "subcategories": [
+        {
+          "id": "optics-imaging",
+          "domain": "optics",
+          "label": "Optical System Design and Imaging",
+          "tool_memberships": 33
+        },
+        {
+          "id": "optics-illumination",
+          "domain": "optics",
+          "label": "Illumination and Nonimaging Optics",
+          "tool_memberships": 17
+        },
+        {
+          "id": "optics-wave",
+          "domain": "optics",
+          "label": "Wave Optics and Electromagnetic Propagation",
+          "tool_memberships": 52
+        },
+        {
+          "id": "optics-integrated",
+          "domain": "optics",
+          "label": "Integrated Photonics and Photonic Circuits",
+          "tool_memberships": 13
+        },
+        {
+          "id": "optics-laser",
+          "domain": "optics",
+          "label": "Lasers, Ultrafast and Nonlinear Optics",
+          "tool_memberships": 35
+        },
+        {
+          "id": "optics-fiber",
+          "domain": "optics",
+          "label": "Fiber Optics and Optical Communications",
+          "tool_memberships": 17
+        },
+        {
+          "id": "optics-coatings",
+          "domain": "optics",
+          "label": "Optical Coatings and Thin Films",
+          "tool_memberships": 2
+        },
+        {
+          "id": "optics-characterization",
+          "domain": "optics",
+          "label": "Optical Measurement and Characterization",
+          "tool_memberships": 5
+        },
+        {
+          "id": "optics-devices",
+          "domain": "optics",
+          "label": "Optoelectronic and Semiconductor Device Modeling",
+          "tool_memberships": 1
+        },
+        {
+          "id": "optics-inverse",
+          "domain": "optics",
+          "label": "Optical Optimization and Inverse Design",
+          "tool_memberships": 10
+        },
+        {
+          "id": "optics-adaptive",
+          "domain": "optics",
+          "label": "Adaptive Optics and Wavefront Control",
+          "tool_memberships": 10
+        },
+        {
+          "id": "optics-optomechanical-and-thermal-performance-integration",
+          "domain": "optics",
+          "label": "Optomechanical and Thermal Performance Integration",
+          "tool_memberships": 5
+        }
+      ]
+    },
+    {
+      "id": "eda-digital",
+      "label": "Integrated Circuit Design and Semiconductor Devices",
+      "tool_records": 55,
+      "subcategories": [
+        {
+          "id": "eda-digital-logic-synthesis-and-physical-implementation",
+          "domain": "eda-digital",
+          "label": "Logic Synthesis and Physical Implementation",
+          "tool_memberships": 13
+        },
+        {
+          "id": "eda-digital-timing-power-and-signoff-analysis",
+          "domain": "eda-digital",
+          "label": "Timing Power and Signoff Analysis",
+          "tool_memberships": 8
+        },
+        {
+          "id": "eda-digital-digital-simulation-and-verification",
+          "domain": "eda-digital",
+          "label": "Digital Simulation and Verification",
+          "tool_memberships": 27
+        },
+        {
+          "id": "eda-digital-test-design-and-silicon-debug",
+          "domain": "eda-digital",
+          "label": "Test Design and Silicon Debug",
+          "tool_memberships": 6
+        },
+        {
+          "id": "eda-digital-custom-layout-and-physical-verification",
+          "domain": "eda-digital",
+          "label": "Custom Layout and Physical Verification",
+          "tool_memberships": 3
+        },
+        {
+          "id": "eda-digital-eda-flow-orchestration-and-build-infrastructure",
+          "domain": "eda-digital",
+          "label": "EDA Flow Orchestration and Build Infrastructure",
+          "tool_memberships": 2
+        },
+        {
+          "id": "eda-digital-microfabrication-and-mask-layout",
+          "domain": "eda-digital",
+          "label": "Microfabrication and Mask Layout",
+          "tool_memberships": 1
+        },
+        {
+          "id": "eda-digital-semiconductor-device-simulation",
+          "domain": "eda-digital",
+          "label": "Semiconductor Device Simulation",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "fpga",
+      "label": "FPGA Design and Verification",
+      "tool_records": 34,
+      "subcategories": [
+        {
+          "id": "fpga-fpga-synthesis-and-place-and-route",
+          "domain": "fpga",
+          "label": "FPGA Synthesis and Place-and-Route",
+          "tool_memberships": 19
+        },
+        {
+          "id": "fpga-high-level-synthesis-and-embedded-software",
+          "domain": "fpga",
+          "label": "High-Level Synthesis and Embedded Software",
+          "tool_memberships": 4
+        },
+        {
+          "id": "fpga-fpga-simulation-verification-and-debug",
+          "domain": "fpga",
+          "label": "FPGA Simulation Verification and Debug",
+          "tool_memberships": 12
+        },
+        {
+          "id": "fpga-fpga-programming-and-hardware-integration",
+          "domain": "fpga",
+          "label": "FPGA Programming and Hardware Integration",
+          "tool_memberships": 12
+        }
+      ]
+    },
+    {
+      "id": "spice",
+      "label": "Electronic Circuit Simulation",
+      "tool_records": 39,
+      "subcategories": [
+        {
+          "id": "spice-spice-and-analog-circuit-simulation",
+          "domain": "spice",
+          "label": "SPICE and Analog Circuit Simulation",
+          "tool_memberships": 31
+        },
+        {
+          "id": "spice-power-electronics-and-switching-systems",
+          "domain": "spice",
+          "label": "Power Electronics and Switching Systems",
+          "tool_memberships": 3
+        },
+        {
+          "id": "spice-mixed-signal-and-behavioral-modeling",
+          "domain": "spice",
+          "label": "Mixed-Signal and Behavioral Modeling",
+          "tool_memberships": 4
+        },
+        {
+          "id": "spice-circuit-design-automation-and-schematic-interfaces",
+          "domain": "spice",
+          "label": "Circuit Design Automation and Schematic Interfaces",
+          "tool_memberships": 7
+        },
+        {
+          "id": "spice-rf-and-microwave-circuit-simulation",
+          "domain": "spice",
+          "label": "RF and Microwave Circuit Simulation",
+          "tool_memberships": 4
+        }
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing Engineering",
+      "tool_records": 203,
+      "subcategories": [
+        {
+          "id": "manufacturing-machining",
+          "domain": "manufacturing",
+          "label": "CNC Machining and CAM",
+          "tool_memberships": 62
+        },
+        {
+          "id": "manufacturing-additive",
+          "domain": "manufacturing",
+          "label": "Additive Manufacturing",
+          "tool_memberships": 23
+        },
+        {
+          "id": "manufacturing-forming",
+          "domain": "manufacturing",
+          "label": "Metal Forming and Sheet Metal Processing",
+          "tool_memberships": 22
+        },
+        {
+          "id": "manufacturing-molding",
+          "domain": "manufacturing",
+          "label": "Casting and Polymer Processing",
+          "tool_memberships": 22
+        },
+        {
+          "id": "manufacturing-joining",
+          "domain": "manufacturing",
+          "label": "Welding and Joining Processes",
+          "tool_memberships": 6
+        },
+        {
+          "id": "manufacturing-thermal",
+          "domain": "manufacturing",
+          "label": "Heat Treatment and Surface Processing",
+          "tool_memberships": 14
+        },
+        {
+          "id": "manufacturing-planning",
+          "domain": "manufacturing",
+          "label": "Manufacturing Process Planning and Operations",
+          "tool_memberships": 4
+        },
+        {
+          "id": "manufacturing-composites",
+          "domain": "manufacturing",
+          "label": "Composite Manufacturing",
+          "tool_memberships": 16
+        },
+        {
+          "id": "manufacturing-simulation",
+          "domain": "manufacturing",
+          "label": "Manufacturing Process Simulation and Optimization",
+          "tool_memberships": 13
+        },
+        {
+          "id": "manufacturing-preparation",
+          "domain": "manufacturing",
+          "label": "Manufacturing Geometry and Job Preparation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "manufacturing-response",
+          "domain": "manufacturing",
+          "label": "Materials Response and Microstructure for Manufacturing",
+          "tool_memberships": 3
+        },
+        {
+          "id": "manufacturing-fluid",
+          "domain": "manufacturing",
+          "label": "Process Fluid Simulation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "manufacturing-polymer-processing-and-extrusion-simulation",
+          "domain": "manufacturing",
+          "label": "Polymer Processing and Extrusion Simulation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "manufacturing-electronics-encapsulation-and-packaging-processes",
+          "domain": "manufacturing",
+          "label": "Electronics Encapsulation and Packaging Processes",
+          "tool_memberships": 2
+        },
+        {
+          "id": "manufacturing-composite-forming-draping-and-layup-preparation",
+          "domain": "manufacturing",
+          "label": "Composite Forming Draping and Layup Preparation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "manufacturing-metal-forming-and-process-simulation",
+          "domain": "manufacturing",
+          "label": "Metal Forming and Process Simulation",
+          "tool_memberships": 8
+        },
+        {
+          "id": "manufacturing-heat-treatment-and-microstructure-evolution",
+          "domain": "manufacturing",
+          "label": "Heat Treatment and Microstructure Evolution",
+          "tool_memberships": 2
+        },
+        {
+          "id": "manufacturing-filament-winding-and-composite-toolpaths",
+          "domain": "manufacturing",
+          "label": "Filament Winding and Composite Toolpaths",
+          "tool_memberships": 2
+        },
+        {
+          "id": "manufacturing-manufacturing-process-planning",
+          "domain": "manufacturing",
+          "label": "Manufacturing Process Planning",
+          "tool_memberships": 1
+        },
+        {
+          "id": "manufacturing-textile-architecture-weaving-and-fabric-simulation",
+          "domain": "manufacturing",
+          "label": "Textile Architecture Weaving and Fabric Simulation",
+          "tool_memberships": 10
+        },
+        {
+          "id": "manufacturing-membrane-cutting-patterns-and-fabrication",
+          "domain": "manufacturing",
+          "label": "Membrane Cutting Patterns and Fabrication",
+          "tool_memberships": 2
+        },
+        {
+          "id": "manufacturing-composite-infusion-and-permeability",
+          "domain": "manufacturing",
+          "label": "Composite Infusion and Permeability",
+          "tool_memberships": 2
+        },
+        {
+          "id": "manufacturing-casting-and-solidification",
+          "domain": "manufacturing",
+          "label": "Casting and Solidification",
+          "tool_memberships": 3
+        },
+        {
+          "id": "manufacturing-automated-fiber-placement-and-tape-laying",
+          "domain": "manufacturing",
+          "label": "Automated Fiber Placement and Tape Laying",
+          "tool_memberships": 6
+        },
+        {
+          "id": "manufacturing-composite-cure-and-process-induced-distortion",
+          "domain": "manufacturing",
+          "label": "Composite Cure and Process-Induced Distortion",
+          "tool_memberships": 1
+        },
+        {
+          "id": "manufacturing-composite-layup-design-and-manufacturing-preparation",
+          "domain": "manufacturing",
+          "label": "Composite Layup Design and Manufacturing Preparation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "manufacturing-composite-material-tracking-and-production-management",
+          "domain": "manufacturing",
+          "label": "Composite Material Tracking and Production Management",
+          "tool_memberships": 1
+        },
+        {
+          "id": "manufacturing-sheet-cutting-nesting-and-cnc-programming",
+          "domain": "manufacturing",
+          "label": "Sheet Cutting Nesting and CNC Programming",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "label": "Materials Science and Engineering",
+      "tool_records": 96,
+      "subcategories": [
+        {
+          "id": "materials-thermodynamics",
+          "domain": "materials",
+          "label": "Materials Thermodynamics and Phase Equilibria",
+          "tool_memberships": 7
+        },
+        {
+          "id": "materials-microstructure",
+          "domain": "materials",
+          "label": "Microstructure and Phase-Field Modeling",
+          "tool_memberships": 27
+        },
+        {
+          "id": "materials-constitutive",
+          "domain": "materials",
+          "label": "Constitutive Modeling and Material Response",
+          "tool_memberships": 10
+        },
+        {
+          "id": "materials-processing",
+          "domain": "materials",
+          "label": "Materials Processing and Heat Treatment",
+          "tool_memberships": 5
+        },
+        {
+          "id": "materials-crystallography",
+          "domain": "materials",
+          "label": "Crystallography, Diffraction and Scattering",
+          "tool_memberships": 27
+        },
+        {
+          "id": "materials-magnetism",
+          "domain": "materials",
+          "label": "Micromagnetics and Magnetic Materials",
+          "tool_memberships": 13
+        },
+        {
+          "id": "materials-discovery",
+          "domain": "materials",
+          "label": "Materials Discovery and Informatics",
+          "tool_memberships": 3
+        },
+        {
+          "id": "materials-composites",
+          "domain": "materials",
+          "label": "Composite and Multiscale Materials",
+          "tool_memberships": 2
+        },
+        {
+          "id": "materials-kinetics",
+          "domain": "materials",
+          "label": "Surface Chemistry and Kinetic Modeling",
+          "tool_memberships": 4
+        },
+        {
+          "id": "materials-data",
+          "domain": "materials",
+          "label": "Materials Data, Structure Preparation and Characterization",
+          "tool_memberships": 4
+        },
+        {
+          "id": "materials-potentials",
+          "domain": "materials",
+          "label": "Interatomic Potentials and Atomistic Material Models",
+          "tool_memberships": 1
+        },
+        {
+          "id": "materials-composite-micromechanics-and-homogenization",
+          "domain": "materials",
+          "label": "Composite Micromechanics and Homogenization",
+          "tool_memberships": 2
+        },
+        {
+          "id": "materials-thermal-protection-and-ablative-material-response",
+          "domain": "materials",
+          "label": "Thermal Protection and Ablative Material Response",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "label": "Robotics Engineering",
+      "tool_records": 68,
+      "subcategories": [
+        {
+          "id": "robotics-programming",
+          "domain": "robotics",
+          "label": "Industrial Robot Programming and Workcells",
+          "tool_memberships": 27
+        },
+        {
+          "id": "robotics-simulation",
+          "domain": "robotics",
+          "label": "Robot Simulation and Virtual Environments",
+          "tool_memberships": 21
+        },
+        {
+          "id": "robotics-dynamics",
+          "domain": "robotics",
+          "label": "Robot Kinematics, Dynamics and Contact Physics",
+          "tool_memberships": 16
+        },
+        {
+          "id": "robotics-planning",
+          "domain": "robotics",
+          "label": "Motion Planning and Trajectory Optimization",
+          "tool_memberships": 13
+        },
+        {
+          "id": "robotics-learning",
+          "domain": "robotics",
+          "label": "Robot Learning and Synthetic Data",
+          "tool_memberships": 2
+        },
+        {
+          "id": "robotics-middleware",
+          "domain": "robotics",
+          "label": "Robotics Middleware and Application Frameworks",
+          "tool_memberships": 4
+        },
+        {
+          "id": "robotics-commissioning",
+          "domain": "robotics",
+          "label": "Manufacturing Simulation and Virtual Commissioning",
+          "tool_memberships": 7
+        },
+        {
+          "id": "robotics-education",
+          "domain": "robotics",
+          "label": "Robotics Education and Algorithm Prototyping",
+          "tool_memberships": 1
+        },
+        {
+          "id": "robotics-small-farm",
+          "domain": "robotics",
+          "label": "Small-Farm Automation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "robotics-fleet-coordination-and-facility-integration",
+          "domain": "robotics",
+          "label": "Fleet Coordination and Facility Integration",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "label": "Electrical Power Systems Engineering",
+      "tool_records": 51,
+      "subcategories": [
+        {
+          "id": "power-power-flow-distribution-and-network-planning",
+          "domain": "power",
+          "label": "Power Flow Distribution and Network Planning",
+          "tool_memberships": 24
+        },
+        {
+          "id": "power-electromagnetic-transients-and-real-time-simulation",
+          "domain": "power",
+          "label": "Electromagnetic Transients and Real-Time Simulation",
+          "tool_memberships": 9
+        },
+        {
+          "id": "power-protection-fault-and-electrical-safety-analysis",
+          "domain": "power",
+          "label": "Protection Fault and Electrical Safety Analysis",
+          "tool_memberships": 12
+        },
+        {
+          "id": "power-grid-dynamics-stability-and-frequency-control",
+          "domain": "power",
+          "label": "Grid Dynamics Stability and Frequency Control",
+          "tool_memberships": 7
+        },
+        {
+          "id": "power-electric-machine-and-motor-design",
+          "domain": "power",
+          "label": "Electric Machine and Motor Design",
+          "tool_memberships": 1
+        },
+        {
+          "id": "power-energy-markets-resource-adequacy-and-capacity-expansion",
+          "domain": "power",
+          "label": "Energy Markets Resource Adequacy and Capacity Expansion",
+          "tool_memberships": 13
+        },
+        {
+          "id": "power-railway-traction-power-and-electrification",
+          "domain": "power",
+          "label": "Railway Traction Power and Electrification",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "sciml",
+      "label": "Scientific Machine Learning",
+      "tool_records": 49,
+      "subcategories": [
+        {
+          "id": "sciml-physics-informed-neural-networks",
+          "domain": "sciml",
+          "label": "Physics-Informed Neural Networks",
+          "tool_memberships": 6
+        },
+        {
+          "id": "sciml-neural-operators-and-learned-surrogates",
+          "domain": "sciml",
+          "label": "Neural Operators and Learned Surrogates",
+          "tool_memberships": 10
+        },
+        {
+          "id": "sciml-differentiable-simulation-and-scientific-solvers",
+          "domain": "sciml",
+          "label": "Differentiable Simulation and Scientific Solvers",
+          "tool_memberships": 26
+        },
+        {
+          "id": "sciml-machine-learning-frameworks-and-regression",
+          "domain": "sciml",
+          "label": "Machine Learning Frameworks and Regression",
+          "tool_memberships": 13
+        },
+        {
+          "id": "sciml-symbolic-regression-and-scientific-programming",
+          "domain": "sciml",
+          "label": "Symbolic Regression and Scientific Programming",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "label": "Laboratory Automation and Instrumentation",
+      "tool_records": 69,
+      "subcategories": [
+        {
+          "id": "lab-control",
+          "domain": "lab",
+          "label": "Instrument Control and Data Acquisition",
+          "tool_memberships": 52
+        },
+        {
+          "id": "lab-automation",
+          "domain": "lab",
+          "label": "Experiment Orchestration and Laboratory Automation",
+          "tool_memberships": 14
+        },
+        {
+          "id": "lab-processing",
+          "domain": "lab",
+          "label": "Experimental Data Processing and Analysis",
+          "tool_memberships": 3
+        },
+        {
+          "id": "lab-integration",
+          "domain": "lab",
+          "label": "Instrument Communication and Integration Libraries",
+          "tool_memberships": 12
+        }
+      ]
+    },
+    {
+      "id": "building-energy",
+      "label": "Building Energy and HVAC Engineering",
+      "tool_records": 56,
+      "subcategories": [
+        {
+          "id": "building-energy-whole-building-energy-simulation",
+          "domain": "building-energy",
+          "label": "Whole-Building Energy Simulation",
+          "tool_memberships": 15
+        },
+        {
+          "id": "building-energy-district-and-urban-energy-modeling",
+          "domain": "building-energy",
+          "label": "District and Urban Energy Modeling",
+          "tool_memberships": 9
+        },
+        {
+          "id": "building-energy-hvac-systems-and-building-controls",
+          "domain": "building-energy",
+          "label": "HVAC Systems and Building Controls",
+          "tool_memberships": 27
+        },
+        {
+          "id": "building-energy-envelope-moisture-and-passive-design",
+          "domain": "building-energy",
+          "label": "Envelope Moisture and Passive Design",
+          "tool_memberships": 8
+        },
+        {
+          "id": "building-energy-daylighting-and-early-design-assessment",
+          "domain": "building-energy",
+          "label": "Daylighting and Early Design Assessment",
+          "tool_memberships": 8
+        },
+        {
+          "id": "building-energy-energy-code-compliance-and-ratings",
+          "domain": "building-energy",
+          "label": "Energy Code Compliance and Ratings",
+          "tool_memberships": 3
+        },
+        {
+          "id": "building-energy-building-airflow-and-indoor-air-quality",
+          "domain": "building-energy",
+          "label": "Building Airflow and Indoor Air Quality",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "label": "Water Resources and Environmental Modeling",
+      "tool_records": 112,
+      "subcategories": [
+        {
+          "id": "water-hydrology",
+          "domain": "water",
+          "label": "Watershed Hydrology and Rainfall\u2013Runoff Modeling",
+          "tool_memberships": 29
+        },
+        {
+          "id": "water-rivers",
+          "domain": "water",
+          "label": "River Hydraulics and Flood Modeling",
+          "tool_memberships": 34
+        },
+        {
+          "id": "water-drainage",
+          "domain": "water",
+          "label": "Urban Drainage and Sewer Systems",
+          "tool_memberships": 7
+        },
+        {
+          "id": "water-distribution",
+          "domain": "water",
+          "label": "Water Distribution and Pipe Networks",
+          "tool_memberships": 10
+        },
+        {
+          "id": "water-quality",
+          "domain": "water",
+          "label": "Water Quality and Aquatic Ecosystems",
+          "tool_memberships": 11
+        },
+        {
+          "id": "water-coastal",
+          "domain": "water",
+          "label": "Coastal, Estuarine and Ocean Hydrodynamics",
+          "tool_memberships": 34
+        },
+        {
+          "id": "water-groundwater",
+          "domain": "water",
+          "label": "Groundwater and Integrated Water Resources",
+          "tool_memberships": 19
+        },
+        {
+          "id": "water-sediment",
+          "domain": "water",
+          "label": "Sediment Transport and Morphodynamics",
+          "tool_memberships": 5
+        },
+        {
+          "id": "water-hydraulic-model-preparation-and-visualization",
+          "domain": "water",
+          "label": "Hydraulic Model Preparation and Visualization",
+          "tool_memberships": 1
+        },
+        {
+          "id": "water-hydrological-model-preparation-and-gis-integration",
+          "domain": "water",
+          "label": "Hydrological Model Preparation and GIS Integration",
+          "tool_memberships": 1
+        },
+        {
+          "id": "water-hydrologic-frequency-and-dam-risk-analysis",
+          "domain": "water",
+          "label": "Hydrologic Frequency and Dam-Risk Analysis",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "electrochemistry",
+      "label": "Electrochemical Engineering",
+      "tool_records": 59,
+      "subcategories": [
+        {
+          "id": "electrochemistry-battery-cell-and-pack-modeling",
+          "domain": "electrochemistry",
+          "label": "Battery Cell and Pack Modeling",
+          "tool_memberships": 29
+        },
+        {
+          "id": "electrochemistry-fuel-cells-electrolyzers-and-hydrogen-systems",
+          "domain": "electrochemistry",
+          "label": "Fuel Cells Electrolyzers and Hydrogen Systems",
+          "tool_memberships": 15
+        },
+        {
+          "id": "electrochemistry-electrochemical-kinetics-and-transport",
+          "domain": "electrochemistry",
+          "label": "Electrochemical Kinetics and Transport",
+          "tool_memberships": 6
+        },
+        {
+          "id": "electrochemistry-electrochemical-instrument-control-and-experiment-analysis",
+          "domain": "electrochemistry",
+          "label": "Electrochemical Instrument Control and Experiment Analysis",
+          "tool_memberships": 1
+        },
+        {
+          "id": "electrochemistry-impedance-spectroscopy-and-equivalent-circuit-analysis",
+          "domain": "electrochemistry",
+          "label": "Impedance Spectroscopy and Equivalent-Circuit Analysis",
+          "tool_memberships": 3
+        },
+        {
+          "id": "electrochemistry-battery-manufacturing-and-cost-analysis",
+          "domain": "electrochemistry",
+          "label": "Battery Manufacturing and Cost Analysis",
+          "tool_memberships": 1
+        },
+        {
+          "id": "electrochemistry-hydrogen-production-delivery-and-refueling-economics",
+          "domain": "electrochemistry",
+          "label": "Hydrogen Production Delivery and Refueling Economics",
+          "tool_memberships": 6
+        },
+        {
+          "id": "electrochemistry-battery-aging-and-lifetime-prediction",
+          "domain": "electrochemistry",
+          "label": "Battery Aging and Lifetime Prediction",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "chemical",
+      "label": "Chemical and Process Engineering",
+      "tool_records": 69,
+      "subcategories": [
+        {
+          "id": "chemical-process-flowsheeting-and-plant-simulation",
+          "domain": "chemical",
+          "label": "Process Flowsheeting and Plant Simulation",
+          "tool_memberships": 34
+        },
+        {
+          "id": "chemical-reaction-kinetics-and-reactor-modeling",
+          "domain": "chemical",
+          "label": "Reaction Kinetics and Reactor Modeling",
+          "tool_memberships": 15
+        },
+        {
+          "id": "chemical-thermophysical-properties-and-transport",
+          "domain": "chemical",
+          "label": "Thermophysical Properties and Transport",
+          "tool_memberships": 16
+        },
+        {
+          "id": "chemical-separation-processes-and-unit-operations",
+          "domain": "chemical",
+          "label": "Separation Processes and Unit Operations",
+          "tool_memberships": 6
+        },
+        {
+          "id": "chemical-batch-and-particulate-process-engineering",
+          "domain": "chemical",
+          "label": "Batch and Particulate Process Engineering",
+          "tool_memberships": 7
+        },
+        {
+          "id": "chemical-chemical-structure-representation-and-cheminformatics",
+          "domain": "chemical",
+          "label": "Chemical Structure Representation and Cheminformatics",
+          "tool_memberships": 5
+        },
+        {
+          "id": "chemical-mixing-and-agitated-process-equipment",
+          "domain": "chemical",
+          "label": "Mixing and Agitated Process Equipment",
+          "tool_memberships": 1
+        },
+        {
+          "id": "chemical-chemical-kinetics-and-mechanism-reduction",
+          "domain": "chemical",
+          "label": "Chemical Kinetics and Mechanism Reduction",
+          "tool_memberships": 1
+        },
+        {
+          "id": "chemical-chemical-equilibrium-and-thermochemistry",
+          "domain": "chemical",
+          "label": "Chemical Equilibrium and Thermochemistry",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "porous-media",
+      "label": "Porous Media and Subsurface Flow",
+      "tool_records": 76,
+      "subcategories": [
+        {
+          "id": "porous-media-reservoir-and-multiphase-flow-simulation",
+          "domain": "porous-media",
+          "label": "Reservoir and Multiphase Flow Simulation",
+          "tool_memberships": 22
+        },
+        {
+          "id": "porous-media-reactive-transport-and-geochemistry",
+          "domain": "porous-media",
+          "label": "Reactive Transport and Geochemistry",
+          "tool_memberships": 12
+        },
+        {
+          "id": "porous-media-groundwater-solute-and-unsaturated-transport",
+          "domain": "porous-media",
+          "label": "Groundwater Solute and Unsaturated Transport",
+          "tool_memberships": 9
+        },
+        {
+          "id": "porous-media-pore-scale-and-porous-media-modeling",
+          "domain": "porous-media",
+          "label": "Pore-Scale and Porous-Media Modeling",
+          "tool_memberships": 1
+        },
+        {
+          "id": "porous-media-fractured-media-flow-and-geomechanics",
+          "domain": "porous-media",
+          "label": "Fractured-Media Flow and Geomechanics",
+          "tool_memberships": 1
+        },
+        {
+          "id": "porous-media-continuum-porous-media-flow-and-transport",
+          "domain": "porous-media",
+          "label": "Continuum Porous-Media Flow and Transport",
+          "tool_memberships": 3
+        },
+        {
+          "id": "porous-media-pore-scale-flow-and-multiphase-transport",
+          "domain": "porous-media",
+          "label": "Pore-Scale Flow and Multiphase Transport",
+          "tool_memberships": 2
+        },
+        {
+          "id": "porous-media-reservoir-history-matching-uncertainty-and-optimization",
+          "domain": "porous-media",
+          "label": "Reservoir History Matching Uncertainty and Optimization",
+          "tool_memberships": 1
+        },
+        {
+          "id": "porous-media-reservoir-wellbore-and-production-system-coupling",
+          "domain": "porous-media",
+          "label": "Reservoir Wellbore and Production-System Coupling",
+          "tool_memberships": 5
+        },
+        {
+          "id": "porous-media-subsurface-engineering-platforms-and-data-integration",
+          "domain": "porous-media",
+          "label": "Subsurface Engineering Platforms and Data Integration",
+          "tool_memberships": 1
+        },
+        {
+          "id": "porous-media-drilling-well-control-and-wellbore-hydraulics",
+          "domain": "porous-media",
+          "label": "Drilling Well Control and Wellbore Hydraulics",
+          "tool_memberships": 1
+        },
+        {
+          "id": "porous-media-geological-carbon-storage-assessment",
+          "domain": "porous-media",
+          "label": "Geological Carbon Storage Assessment",
+          "tool_memberships": 1
+        },
+        {
+          "id": "porous-media-hydraulic-fracturing-and-well-stimulation",
+          "domain": "porous-media",
+          "label": "Hydraulic Fracturing and Well Stimulation",
+          "tool_memberships": 5
+        },
+        {
+          "id": "porous-media-well-testing-production-diagnostics-and-surveillance",
+          "domain": "porous-media",
+          "label": "Well Testing Production Diagnostics and Surveillance",
+          "tool_memberships": 5
+        },
+        {
+          "id": "porous-media-well-design-completion-and-production-hydraulics",
+          "domain": "porous-media",
+          "label": "Well Design Completion and Production Hydraulics",
+          "tool_memberships": 3
+        },
+        {
+          "id": "porous-media-well-design-and-integrity",
+          "domain": "porous-media",
+          "label": "Well Design and Integrity",
+          "tool_memberships": 4
+        },
+        {
+          "id": "porous-media-reservoir-model-automation-and-interfaces",
+          "domain": "porous-media",
+          "label": "Reservoir Model Automation and Interfaces",
+          "tool_memberships": 1
+        },
+        {
+          "id": "porous-media-well-lifecycle-data-and-operations",
+          "domain": "porous-media",
+          "label": "Well Lifecycle Data and Operations",
+          "tool_memberships": 2
+        },
+        {
+          "id": "porous-media-reservoir-model-preparation-and-visualization",
+          "domain": "porous-media",
+          "label": "Reservoir Model Preparation and Visualization",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "multiphysics",
+      "label": "Multiphysics Modeling and Simulation",
+      "tool_records": 51,
+      "subcategories": [
+        {
+          "id": "multiphysics-pde-and-finite-element-frameworks",
+          "domain": "multiphysics",
+          "label": "PDE and Finite-Element Frameworks",
+          "tool_memberships": 28
+        },
+        {
+          "id": "multiphysics-multiphysics-simulation-suites",
+          "domain": "multiphysics",
+          "label": "Multiphysics Simulation Suites",
+          "tool_memberships": 8
+        },
+        {
+          "id": "multiphysics-coupling-and-co-simulation-infrastructure",
+          "domain": "multiphysics",
+          "label": "Coupling and Co-Simulation Infrastructure",
+          "tool_memberships": 3
+        },
+        {
+          "id": "multiphysics-multibody-and-mechanism-simulation",
+          "domain": "multiphysics",
+          "label": "Multibody and Mechanism Simulation",
+          "tool_memberships": 6
+        },
+        {
+          "id": "multiphysics-thermal-and-electromagnetic-systems",
+          "domain": "multiphysics",
+          "label": "Thermal and Electromagnetic Systems",
+          "tool_memberships": 5
+        },
+        {
+          "id": "multiphysics-flexible-rods-cables-and-slender-body-mechanics",
+          "domain": "multiphysics",
+          "label": "Flexible Rods Cables and Slender-Body Mechanics",
+          "tool_memberships": 1
+        },
+        {
+          "id": "multiphysics-discrete-element-and-granular-mechanics",
+          "domain": "multiphysics",
+          "label": "Discrete-Element and Granular Mechanics",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "acoustics",
+      "label": "Acoustics and Vibration Engineering",
+      "tool_records": 57,
+      "subcategories": [
+        {
+          "id": "acoustics-room-and-architectural-acoustics",
+          "domain": "acoustics",
+          "label": "Room and Architectural Acoustics",
+          "tool_memberships": 17
+        },
+        {
+          "id": "acoustics-environmental-noise-and-sound-propagation",
+          "domain": "acoustics",
+          "label": "Environmental Noise and Sound Propagation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "acoustics-vibroacoustics-and-structural-sound",
+          "domain": "acoustics",
+          "label": "Vibroacoustics and Structural Sound",
+          "tool_memberships": 6
+        },
+        {
+          "id": "acoustics-acoustic-wave-solvers-and-signal-analysis",
+          "domain": "acoustics",
+          "label": "Acoustic Wave Solvers and Signal Analysis",
+          "tool_memberships": 10
+        },
+        {
+          "id": "acoustics-absorbers-and-acoustic-materials",
+          "domain": "acoustics",
+          "label": "Absorbers and Acoustic Materials",
+          "tool_memberships": 3
+        },
+        {
+          "id": "acoustics-electroacoustic-systems-and-loudspeakers",
+          "domain": "acoustics",
+          "label": "Electroacoustic Systems and Loudspeakers",
+          "tool_memberships": 2
+        },
+        {
+          "id": "acoustics-underwater-acoustics-and-sonar",
+          "domain": "acoustics",
+          "label": "Underwater Acoustics and Sonar",
+          "tool_memberships": 10
+        },
+        {
+          "id": "acoustics-acoustic-measurement-and-source-localization",
+          "domain": "acoustics",
+          "label": "Acoustic Measurement and Source Localization",
+          "tool_memberships": 6
+        },
+        {
+          "id": "acoustics-thermoacoustics-and-combustion-instability",
+          "domain": "acoustics",
+          "label": "Thermoacoustics and Combustion Instability",
+          "tool_memberships": 1
+        },
+        {
+          "id": "acoustics-ultrasound-and-piezoelectric-transducers",
+          "domain": "acoustics",
+          "label": "Ultrasound and Piezoelectric Transducers",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "renewables",
+      "label": "Renewable Energy Engineering",
+      "tool_records": 50,
+      "subcategories": [
+        {
+          "id": "renewables-wind-turbine-aerodynamics-and-structural-dynamics",
+          "domain": "renewables",
+          "label": "Wind Turbine Aerodynamics and Structural Dynamics",
+          "tool_memberships": 6
+        },
+        {
+          "id": "renewables-wind-resource-assessment-and-farm-layout",
+          "domain": "renewables",
+          "label": "Wind Resource Assessment and Farm Layout",
+          "tool_memberships": 10
+        },
+        {
+          "id": "renewables-solar-photovoltaic-design-and-yield",
+          "domain": "renewables",
+          "label": "Solar Photovoltaic Design and Yield",
+          "tool_memberships": 14
+        },
+        {
+          "id": "renewables-marine-renewable-energy-systems",
+          "domain": "renewables",
+          "label": "Marine Renewable Energy Systems",
+          "tool_memberships": 8
+        },
+        {
+          "id": "renewables-energy-system-planning-and-technoeconomic-analysis",
+          "domain": "renewables",
+          "label": "Energy System Planning and Technoeconomic Analysis",
+          "tool_memberships": 10
+        },
+        {
+          "id": "renewables-energy-storage-and-distributed-energy-systems",
+          "domain": "renewables",
+          "label": "Energy Storage and Distributed Energy Systems",
+          "tool_memberships": 7
+        }
+      ]
+    },
+    {
+      "id": "aerospace",
+      "label": "Aeronautical Engineering",
+      "tool_records": 122,
+      "subcategories": [
+        {
+          "id": "aerospace-aircraft-conceptual-design-and-sizing",
+          "domain": "aerospace",
+          "label": "Aircraft Conceptual Design and Sizing",
+          "tool_memberships": 20
+        },
+        {
+          "id": "aerospace-aerodynamics-and-aeroelasticity",
+          "domain": "aerospace",
+          "label": "Aerodynamics and Aeroelasticity",
+          "tool_memberships": 25
+        },
+        {
+          "id": "aerospace-flight-dynamics-and-simulation",
+          "domain": "aerospace",
+          "label": "Flight Dynamics and Simulation",
+          "tool_memberships": 12
+        },
+        {
+          "id": "aerospace-propulsion-and-engine-performance",
+          "domain": "aerospace",
+          "label": "Propulsion and Engine Performance",
+          "tool_memberships": 50
+        },
+        {
+          "id": "aerospace-rotorcraft-and-rotor-aerodynamics",
+          "domain": "aerospace",
+          "label": "Rotorcraft and Rotor Aerodynamics",
+          "tool_memberships": 9
+        },
+        {
+          "id": "aerospace-aeroacoustics-and-propulsion-noise",
+          "domain": "aerospace",
+          "label": "Aeroacoustics and Propulsion Noise",
+          "tool_memberships": 10
+        },
+        {
+          "id": "aerospace-flight-control-and-handling-qualities",
+          "domain": "aerospace",
+          "label": "Flight Control and Handling Qualities",
+          "tool_memberships": 13
+        },
+        {
+          "id": "aerospace-rocket-design-and-flight-simulation",
+          "domain": "aerospace",
+          "label": "Rocket Design and Flight Simulation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "aerospace-aircraft-performance-and-mission-analysis",
+          "domain": "aerospace",
+          "label": "Aircraft Performance and Mission Analysis",
+          "tool_memberships": 3
+        },
+        {
+          "id": "aerospace-open-aircraft-designs",
+          "domain": "aerospace",
+          "label": "Open Aircraft Designs and Build Resources",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "label": "Space Systems and Astronautical Engineering",
+      "tool_records": 97,
+      "subcategories": [
+        {
+          "id": "space-orbital-mechanics-and-trajectory-design",
+          "domain": "space",
+          "label": "Orbital Mechanics and Trajectory Design",
+          "tool_memberships": 42
+        },
+        {
+          "id": "space-spacecraft-dynamics-guidance-and-control",
+          "domain": "space",
+          "label": "Spacecraft Dynamics Guidance and Control",
+          "tool_memberships": 9
+        },
+        {
+          "id": "space-spacecraft-thermal-and-environmental-analysis",
+          "domain": "space",
+          "label": "Spacecraft Thermal and Environmental Analysis",
+          "tool_memberships": 28
+        },
+        {
+          "id": "space-mission-systems-communications-and-coverage",
+          "domain": "space",
+          "label": "Mission Systems Communications and Coverage",
+          "tool_memberships": 9
+        },
+        {
+          "id": "space-mission-operations-and-flight-software-testing",
+          "domain": "space",
+          "label": "Mission Operations and Flight Software Testing",
+          "tool_memberships": 8
+        },
+        {
+          "id": "space-plume-interaction-and-surface-operations",
+          "domain": "space",
+          "label": "Plume Interaction and Surface Operations",
+          "tool_memberships": 1
+        },
+        {
+          "id": "space-planetary-surface-operations-and-resource-utilization",
+          "domain": "space",
+          "label": "Planetary Surface Operations and Resource Utilization",
+          "tool_memberships": 2
+        },
+        {
+          "id": "space-spacecraft-power-and-energy-systems",
+          "domain": "space",
+          "label": "Spacecraft Power and Energy Systems",
+          "tool_memberships": 3
+        },
+        {
+          "id": "space-exoplanet-mission-design-and-yield-analysis",
+          "domain": "space",
+          "label": "Exoplanet Mission Design and Yield Analysis",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "nuclear",
+      "label": "Nuclear Science and Engineering",
+      "tool_records": 117,
+      "subcategories": [
+        {
+          "id": "nuclear-transport",
+          "domain": "nuclear",
+          "label": "Radiation Transport and Shielding",
+          "tool_memberships": 29
+        },
+        {
+          "id": "nuclear-reactor",
+          "domain": "nuclear",
+          "label": "Reactor Physics and Core Analysis",
+          "tool_memberships": 44
+        },
+        {
+          "id": "nuclear-thermal",
+          "domain": "nuclear",
+          "label": "Nuclear Thermal Hydraulics and Safety Analysis",
+          "tool_memberships": 19
+        },
+        {
+          "id": "nuclear-fuel",
+          "domain": "nuclear",
+          "label": "Nuclear Fuel Performance and Fuel Cycles",
+          "tool_memberships": 30
+        },
+        {
+          "id": "nuclear-fusion",
+          "domain": "nuclear",
+          "label": "Fusion Engineering and Neutronics",
+          "tool_memberships": 2
+        },
+        {
+          "id": "nuclear-environment",
+          "domain": "nuclear",
+          "label": "Environmental Radiological Assessment and Dosimetry",
+          "tool_memberships": 7
+        },
+        {
+          "id": "nuclear-risk",
+          "domain": "nuclear",
+          "label": "Nuclear Reliability and Probabilistic Risk Assessment",
+          "tool_memberships": 1
+        },
+        {
+          "id": "nuclear-integration",
+          "domain": "nuclear",
+          "label": "Nuclear Analysis Integration and Workflow",
+          "tool_memberships": 8
+        },
+        {
+          "id": "nuclear-nuclear-data-processing-and-evaluation",
+          "domain": "nuclear",
+          "label": "Nuclear Data Processing and Evaluation",
+          "tool_memberships": 6
+        },
+        {
+          "id": "nuclear-transport-benchmarking-and-nuclear-data-validation",
+          "domain": "nuclear",
+          "label": "Transport Benchmarking and Nuclear-Data Validation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "nuclear-neutron-instrument-and-scattering-simulation",
+          "domain": "nuclear",
+          "label": "Neutron Instrument and Scattering Simulation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "nuclear-radiation-transport-geometry-and-model-preparation",
+          "domain": "nuclear",
+          "label": "Radiation Transport Geometry and Model Preparation",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "numerical",
+      "label": "Numerical Methods and Scientific Computing",
+      "tool_records": 90,
+      "subcategories": [
+        {
+          "id": "numerical-linear",
+          "domain": "numerical",
+          "label": "Linear Algebra and Matrix Computation",
+          "tool_memberships": 22
+        },
+        {
+          "id": "numerical-differential",
+          "domain": "numerical",
+          "label": "Differential Equations and Numerical Solvers",
+          "tool_memberships": 8
+        },
+        {
+          "id": "numerical-symbolic",
+          "domain": "numerical",
+          "label": "Symbolic and Computer Algebra",
+          "tool_memberships": 11
+        },
+        {
+          "id": "numerical-arrays",
+          "domain": "numerical",
+          "label": "Numerical Arrays and Scientific Computing",
+          "tool_memberships": 14
+        },
+        {
+          "id": "numerical-transforms",
+          "domain": "numerical",
+          "label": "Transforms, Approximation and Numerical Analysis",
+          "tool_memberships": 4
+        },
+        {
+          "id": "numerical-acceleration",
+          "domain": "numerical",
+          "label": "Parallel and Accelerated Numerical Computing",
+          "tool_memberships": 16
+        },
+        {
+          "id": "numerical-precision",
+          "domain": "numerical",
+          "label": "Arbitrary-Precision and Interval Arithmetic",
+          "tool_memberships": 7
+        },
+        {
+          "id": "numerical-optimization",
+          "domain": "numerical",
+          "label": "Numerical Optimization and Mathematical Programming",
+          "tool_memberships": 7
+        },
+        {
+          "id": "numerical-differentiation",
+          "domain": "numerical",
+          "label": "Automatic Differentiation",
+          "tool_memberships": 7
+        },
+        {
+          "id": "numerical-compilation",
+          "domain": "numerical",
+          "label": "Scientific Compilation and Code Acceleration",
+          "tool_memberships": 2
+        },
+        {
+          "id": "numerical-uncertainty",
+          "domain": "numerical",
+          "label": "Uncertainty Quantification and Propagation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "numerical-storage",
+          "domain": "numerical",
+          "label": "Scientific Data Storage and Interchange",
+          "tool_memberships": 1
+        },
+        {
+          "id": "numerical-units",
+          "domain": "numerical",
+          "label": "Physical Units and Dimensional Computation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "numerical-formal-mathematics-theorem-proving-and-smt",
+          "domain": "numerical",
+          "label": "Formal Mathematics Theorem Proving and SMT",
+          "tool_memberships": 7
+        }
+      ]
+    },
+    {
+      "id": "data-analysis",
+      "label": "Scientific Data Analysis and Statistics",
+      "tool_records": 71,
+      "subcategories": [
+        {
+          "id": "data-analysis-tabular-and-multidimensional-data-processing",
+          "domain": "data-analysis",
+          "label": "Tabular and Multidimensional Data Processing",
+          "tool_memberships": 23
+        },
+        {
+          "id": "data-analysis-scientific-storage-and-data-interchange",
+          "domain": "data-analysis",
+          "label": "Scientific Storage and Data Interchange",
+          "tool_memberships": 29
+        },
+        {
+          "id": "data-analysis-statistics-and-bayesian-inference",
+          "domain": "data-analysis",
+          "label": "Statistics and Bayesian Inference",
+          "tool_memberships": 22
+        },
+        {
+          "id": "data-analysis-machine-learning-and-model-interpretation",
+          "domain": "data-analysis",
+          "label": "Machine Learning and Model Interpretation",
+          "tool_memberships": 3
+        },
+        {
+          "id": "data-analysis-distributed-and-large-scale-data-computing",
+          "domain": "data-analysis",
+          "label": "Distributed and Large-Scale Data Computing",
+          "tool_memberships": 2
+        },
+        {
+          "id": "data-analysis-time-series-analysis-and-forecasting",
+          "domain": "data-analysis",
+          "label": "Time-Series Analysis and Forecasting",
+          "tool_memberships": 4
+        },
+        {
+          "id": "data-analysis-time-series-and-forecasting",
+          "domain": "data-analysis",
+          "label": "Time Series and Forecasting",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "optimization",
+      "label": "Mathematical Optimization",
+      "tool_records": 91,
+      "subcategories": [
+        {
+          "id": "optimization-mathematical-programming-and-constraint-solvers",
+          "domain": "optimization",
+          "label": "Mathematical Programming and Constraint Solvers",
+          "tool_memberships": 27
+        },
+        {
+          "id": "optimization-engineering-design-and-multidisciplinary-optimization",
+          "domain": "optimization",
+          "label": "Engineering Design and Multidisciplinary Optimization",
+          "tool_memberships": 24
+        },
+        {
+          "id": "optimization-global-evolutionary-and-black-box-optimization",
+          "domain": "optimization",
+          "label": "Global Evolutionary and Black-Box Optimization",
+          "tool_memberships": 16
+        },
+        {
+          "id": "optimization-uncertainty-sensitivity-and-experimental-design",
+          "domain": "optimization",
+          "label": "Uncertainty Sensitivity and Experimental Design",
+          "tool_memberships": 16
+        },
+        {
+          "id": "optimization-surrogate-modeling-and-parameter-fitting",
+          "domain": "optimization",
+          "label": "Surrogate Modeling and Parameter Fitting",
+          "tool_memberships": 12
+        },
+        {
+          "id": "optimization-optimal-control-and-differentiable-optimization",
+          "domain": "optimization",
+          "label": "Optimal Control and Differentiable Optimization",
+          "tool_memberships": 7
+        },
+        {
+          "id": "optimization-design-study-and-optimization-workflow-orchestration",
+          "domain": "optimization",
+          "label": "Design Study and Optimization Workflow Orchestration",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "meshing",
+      "label": "Mesh Generation and Processing",
+      "tool_records": 48,
+      "subcategories": [
+        {
+          "id": "meshing-finite-element-and-volume-mesh-generation",
+          "domain": "meshing",
+          "label": "Finite-Element and Volume Mesh Generation",
+          "tool_memberships": 37
+        },
+        {
+          "id": "meshing-mesh-adaptation-optimization-and-repair",
+          "domain": "meshing",
+          "label": "Mesh Adaptation Optimization and Repair",
+          "tool_memberships": 11
+        },
+        {
+          "id": "meshing-mesh-interchange-and-preprocessing",
+          "domain": "meshing",
+          "label": "Mesh Interchange and Preprocessing",
+          "tool_memberships": 2
+        },
+        {
+          "id": "meshing-specialized-cfd-and-boundary-layer-meshing",
+          "domain": "meshing",
+          "label": "Specialized CFD and Boundary-Layer Meshing",
+          "tool_memberships": 6
+        },
+        {
+          "id": "meshing-thermal-model-geometry-preparation",
+          "domain": "meshing",
+          "label": "Thermal Model Geometry Preparation",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "eda-pcb",
+      "label": "Printed Circuit Board Design",
+      "tool_records": 66,
+      "subcategories": [
+        {
+          "id": "eda-pcb-pcb-schematic-and-layout-design",
+          "domain": "eda-pcb",
+          "label": "PCB Schematic and Layout Design",
+          "tool_memberships": 26
+        },
+        {
+          "id": "eda-pcb-signal-power-and-electromagnetic-integrity",
+          "domain": "eda-pcb",
+          "label": "Signal Power and Electromagnetic Integrity",
+          "tool_memberships": 13
+        },
+        {
+          "id": "eda-pcb-advanced-packaging-and-heterogeneous-integration",
+          "domain": "eda-pcb",
+          "label": "Advanced Packaging and Heterogeneous Integration",
+          "tool_memberships": 8
+        },
+        {
+          "id": "eda-pcb-pcb-manufacturing-and-assembly-verification",
+          "domain": "eda-pcb",
+          "label": "PCB Manufacturing and Assembly Verification",
+          "tool_memberships": 17
+        },
+        {
+          "id": "eda-pcb-electronics-reliability-and-thermal-analysis",
+          "domain": "eda-pcb",
+          "label": "Electronics Reliability and Thermal Analysis",
+          "tool_memberships": 2
+        },
+        {
+          "id": "eda-pcb-pcb-stackup-design-and-engineering-calculators",
+          "domain": "eda-pcb",
+          "label": "PCB Stackup Design and Engineering Calculators",
+          "tool_memberships": 5
+        },
+        {
+          "id": "eda-pcb-electronics-thermal-management",
+          "domain": "eda-pcb",
+          "label": "Electronics Thermal Management",
+          "tool_memberships": 5
+        },
+        {
+          "id": "eda-pcb-behavioral-i-o-and-ibis-model-development",
+          "domain": "eda-pcb",
+          "label": "Behavioral I/O and IBIS Model Development",
+          "tool_memberships": 1
+        },
+        {
+          "id": "eda-pcb-package-thermomechanical-reliability",
+          "domain": "eda-pcb",
+          "label": "Package Thermomechanical Reliability",
+          "tool_memberships": 2
+        },
+        {
+          "id": "eda-pcb-electronic-design-governance-and-collaboration",
+          "domain": "eda-pcb",
+          "label": "Electronic Design Governance and Collaboration",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "label": "Control Systems and Dynamic Simulation",
+      "tool_records": 140,
+      "subcategories": [
+        {
+          "id": "controls-physical-system-and-modelica-simulation",
+          "domain": "controls",
+          "label": "Physical System and Modelica Simulation",
+          "tool_memberships": 25
+        },
+        {
+          "id": "controls-control-design-and-optimal-control",
+          "domain": "controls",
+          "label": "Control Design and Optimal Control",
+          "tool_memberships": 17
+        },
+        {
+          "id": "controls-co-simulation-and-model-exchange",
+          "domain": "controls",
+          "label": "Co-Simulation and Model Exchange",
+          "tool_memberships": 11
+        },
+        {
+          "id": "controls-real-time-simulation-and-hardware-in-the-loop",
+          "domain": "controls",
+          "label": "Real-Time Simulation and Hardware-in-the-Loop",
+          "tool_memberships": 20
+        },
+        {
+          "id": "controls-system-identification-and-state-estimation",
+          "domain": "controls",
+          "label": "System Identification and State Estimation",
+          "tool_memberships": 6
+        },
+        {
+          "id": "controls-state-machines-and-discrete-event-control",
+          "domain": "controls",
+          "label": "State Machines and Discrete-Event Control",
+          "tool_memberships": 2
+        },
+        {
+          "id": "controls-differential-equations-and-dynamic-system-solvers",
+          "domain": "controls",
+          "label": "Differential Equations and Dynamic System Solvers",
+          "tool_memberships": 4
+        },
+        {
+          "id": "controls-mechanical-circuit-and-educational-system-simulation",
+          "domain": "controls",
+          "label": "Mechanical Circuit and Educational System Simulation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "controls-embedded-control-software-and-code-generation",
+          "domain": "controls",
+          "label": "Embedded Control Software and Code Generation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "controls-vehicle-and-sensor-simulation",
+          "domain": "controls",
+          "label": "Vehicle and Sensor Simulation",
+          "tool_memberships": 37
+        },
+        {
+          "id": "controls-rail-vehicle-and-train-dynamics",
+          "domain": "controls",
+          "label": "Rail Vehicle and Train Dynamics",
+          "tool_memberships": 1
+        },
+        {
+          "id": "controls-multibody-dynamics-and-mechanism-simulation",
+          "domain": "controls",
+          "label": "Multibody Dynamics and Mechanism Simulation",
+          "tool_memberships": 23
+        },
+        {
+          "id": "controls-industrial-monitoring-and-supervisory-control",
+          "domain": "controls",
+          "label": "Industrial Monitoring and Supervisory Control",
+          "tool_memberships": 3
+        },
+        {
+          "id": "controls-plc-programming-and-motion-control",
+          "domain": "controls",
+          "label": "PLC Programming and Motion Control",
+          "tool_memberships": 4
+        }
+      ]
+    },
+    {
+      "id": "statistical-mechanics",
+      "label": "Statistical Mechanics",
+      "tool_records": 44,
+      "subcategories": [
+        {
+          "id": "statistical-mechanics-molecular-and-particle-dynamics",
+          "domain": "statistical-mechanics",
+          "label": "Molecular and Particle Dynamics",
+          "tool_memberships": 10
+        },
+        {
+          "id": "statistical-mechanics-monte-carlo-and-ensemble-sampling",
+          "domain": "statistical-mechanics",
+          "label": "Monte Carlo and Ensemble Sampling",
+          "tool_memberships": 17
+        },
+        {
+          "id": "statistical-mechanics-enhanced-sampling-and-free-energy",
+          "domain": "statistical-mechanics",
+          "label": "Enhanced Sampling and Free Energy",
+          "tool_memberships": 11
+        },
+        {
+          "id": "statistical-mechanics-trajectory-analysis-and-statistical-estimation",
+          "domain": "statistical-mechanics",
+          "label": "Trajectory Analysis and Statistical Estimation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "statistical-mechanics-mesoscopic-and-reaction-diffusion-simulation",
+          "domain": "statistical-mechanics",
+          "label": "Mesoscopic and Reaction-Diffusion Simulation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "statistical-mechanics-thermodynamics-and-molecular-property-prediction",
+          "domain": "statistical-mechanics",
+          "label": "Thermodynamics and Molecular Property Prediction",
+          "tool_memberships": 1
+        },
+        {
+          "id": "statistical-mechanics-magnetic-structures-and-spin-dynamics",
+          "domain": "statistical-mechanics",
+          "label": "Magnetic Structures and Spin Dynamics",
+          "tool_memberships": 4
+        }
+      ]
+    },
+    {
+      "id": "atomistic",
+      "label": "Atomistic Modeling and Quantum Chemistry",
+      "tool_records": 85,
+      "subcategories": [
+        {
+          "id": "atomistic-electronic",
+          "domain": "atomistic",
+          "label": "Electronic Structure and Density Functional Theory",
+          "tool_memberships": 42
+        },
+        {
+          "id": "atomistic-quantum-chemistry",
+          "domain": "atomistic",
+          "label": "Molecular Quantum Chemistry",
+          "tool_memberships": 20
+        },
+        {
+          "id": "atomistic-molecular-dynamics",
+          "domain": "atomistic",
+          "label": "Molecular Dynamics and Atomistic Simulation",
+          "tool_memberships": 15
+        },
+        {
+          "id": "atomistic-potentials",
+          "domain": "atomistic",
+          "label": "Interatomic Potentials and Machine Learning",
+          "tool_memberships": 9
+        },
+        {
+          "id": "atomistic-workflows",
+          "domain": "atomistic",
+          "label": "Atomistic Workflows and Structure Analysis",
+          "tool_memberships": 21
+        },
+        {
+          "id": "atomistic-transport",
+          "domain": "atomistic",
+          "label": "Electronic Transport and Mesoscopic Modeling",
+          "tool_memberships": 4
+        },
+        {
+          "id": "atomistic-excited",
+          "domain": "atomistic",
+          "label": "Excited-State and Nonadiabatic Dynamics",
+          "tool_memberships": 1
+        },
+        {
+          "id": "atomistic-vibrations",
+          "domain": "atomistic",
+          "label": "Lattice Dynamics and Phonons",
+          "tool_memberships": 1
+        },
+        {
+          "id": "atomistic-integrated",
+          "domain": "atomistic",
+          "label": "Integrated Molecular and Materials Modeling",
+          "tool_memberships": 2
+        },
+        {
+          "id": "atomistic-molecular-force-fields-and-parameterization",
+          "domain": "atomistic",
+          "label": "Molecular Force Fields and Parameterization",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "thermophysical",
+      "label": "Thermodynamics and Thermophysical Properties",
+      "tool_records": 99,
+      "subcategories": [
+        {
+          "id": "thermophysical-fluid-properties-and-equations-of-state",
+          "domain": "thermophysical",
+          "label": "Fluid Properties and Equations of State",
+          "tool_memberships": 18
+        },
+        {
+          "id": "thermophysical-thermal-hydraulic-networks-and-transients",
+          "domain": "thermophysical",
+          "label": "Thermal Hydraulic Networks and Transients",
+          "tool_memberships": 39
+        },
+        {
+          "id": "thermophysical-heat-exchangers-and-thermal-equipment",
+          "domain": "thermophysical",
+          "label": "Heat Exchangers and Thermal Equipment",
+          "tool_memberships": 7
+        },
+        {
+          "id": "thermophysical-thermodynamic-cycles-and-energy-systems",
+          "domain": "thermophysical",
+          "label": "Thermodynamic Cycles and Energy Systems",
+          "tool_memberships": 10
+        },
+        {
+          "id": "thermophysical-cryogenic-and-vacuum-systems",
+          "domain": "thermophysical",
+          "label": "Cryogenic and Vacuum Systems",
+          "tool_memberships": 20
+        },
+        {
+          "id": "thermophysical-psychrometrics-and-moist-air-properties",
+          "domain": "thermophysical",
+          "label": "Psychrometrics and Moist-Air Properties",
+          "tool_memberships": 1
+        },
+        {
+          "id": "thermophysical-heat-transfer-simulation",
+          "domain": "thermophysical",
+          "label": "Heat Transfer Simulation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "thermophysical-thermal-model-automation-and-interfaces",
+          "domain": "thermophysical",
+          "label": "Thermal Model Automation and Interfaces",
+          "tool_memberships": 1
+        },
+        {
+          "id": "thermophysical-ground-source-heat-and-geothermal-borefields",
+          "domain": "thermophysical",
+          "label": "Ground-Source Heat and Geothermal Borefields",
+          "tool_memberships": 2
+        },
+        {
+          "id": "thermophysical-cryogenic-systems-and-superconducting-magnet-thermal-analysis",
+          "domain": "thermophysical",
+          "label": "Cryogenic Systems and Superconducting Magnet Thermal Analysis",
+          "tool_memberships": 4
+        },
+        {
+          "id": "thermophysical-heat-exchanger-design-and-rating",
+          "domain": "thermophysical",
+          "label": "Heat Exchanger Design and Rating",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "visualization",
+      "label": "Scientific Visualization",
+      "tool_records": 58,
+      "subcategories": [
+        {
+          "id": "visualization-scientific-3d-visualization-and-postprocessing",
+          "domain": "visualization",
+          "label": "Scientific 3D Visualization and Postprocessing",
+          "tool_memberships": 27
+        },
+        {
+          "id": "visualization-plotting-charts-and-interactive-dashboards",
+          "domain": "visualization",
+          "label": "Plotting Charts and Interactive Dashboards",
+          "tool_memberships": 21
+        },
+        {
+          "id": "visualization-visualization-libraries-and-web-graphics",
+          "domain": "visualization",
+          "label": "Visualization Libraries and Web Graphics",
+          "tool_memberships": 5
+        },
+        {
+          "id": "visualization-specialized-scientific-data-viewers",
+          "domain": "visualization",
+          "label": "Specialized Scientific Data Viewers",
+          "tool_memberships": 13
+        }
+      ]
+    },
+    {
+      "id": "rendering",
+      "label": "Rendering and Computer Graphics",
+      "tool_records": 93,
+      "subcategories": [
+        {
+          "id": "rendering-production",
+          "domain": "rendering",
+          "label": "Production and Photorealistic Rendering",
+          "tool_memberships": 28
+        },
+        {
+          "id": "rendering-architecture",
+          "domain": "rendering",
+          "label": "Architectural Visualization",
+          "tool_memberships": 8
+        },
+        {
+          "id": "rendering-product",
+          "domain": "rendering",
+          "label": "Product and Industrial Visualization",
+          "tool_memberships": 12
+        },
+        {
+          "id": "rendering-realtime",
+          "domain": "rendering",
+          "label": "Real-Time Rendering and Interactive Graphics",
+          "tool_memberships": 20
+        },
+        {
+          "id": "rendering-scientific",
+          "domain": "rendering",
+          "label": "Scientific, Spectral and Differentiable Rendering",
+          "tool_memberships": 19
+        },
+        {
+          "id": "rendering-infrastructure",
+          "domain": "rendering",
+          "label": "Rendering Libraries and Scene Infrastructure",
+          "tool_memberships": 22
+        },
+        {
+          "id": "rendering-content",
+          "domain": "rendering",
+          "label": "3D Scene Creation and Animation",
+          "tool_memberships": 3
+        },
+        {
+          "id": "rendering-neural",
+          "domain": "rendering",
+          "label": "Neural Rendering and Synthetic Scene Generation",
+          "tool_memberships": 8
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "label": "Operations Research and Discrete-Event Simulation",
+      "tool_records": 46,
+      "subcategories": [
+        {
+          "id": "operations-discrete-event-and-queueing-simulation",
+          "domain": "operations",
+          "label": "Discrete-Event and Queueing Simulation",
+          "tool_memberships": 24
+        },
+        {
+          "id": "operations-factory-production-and-material-flow",
+          "domain": "operations",
+          "label": "Factory Production and Material Flow",
+          "tool_memberships": 7
+        },
+        {
+          "id": "operations-supply-chain-logistics-and-scheduling",
+          "domain": "operations",
+          "label": "Supply Chain Logistics and Scheduling",
+          "tool_memberships": 13
+        },
+        {
+          "id": "operations-agent-based-and-hybrid-operations-modeling",
+          "domain": "operations",
+          "label": "Agent-Based and Hybrid Operations Modeling",
+          "tool_memberships": 2
+        },
+        {
+          "id": "operations-hosted-simulation-and-experiment-execution",
+          "domain": "operations",
+          "label": "Hosted Simulation and Experiment Execution",
+          "tool_memberships": 1
+        },
+        {
+          "id": "operations-factory-layout-and-equipment-planning",
+          "domain": "operations",
+          "label": "Factory Layout and Equipment Planning",
+          "tool_memberships": 2
+        },
+        {
+          "id": "operations-workstation-ergonomics-and-human-factors",
+          "domain": "operations",
+          "label": "Workstation Ergonomics and Human Factors",
+          "tool_memberships": 2
+        },
+        {
+          "id": "operations-airport-capacity-and-air-traffic-simulation",
+          "domain": "operations",
+          "label": "Airport Capacity and Air Traffic Simulation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "operations-engineering-project-portfolio-and-cost-management",
+          "domain": "operations",
+          "label": "Engineering Project Portfolio and Cost Management",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "astronomy",
+      "label": "Astronomy and Astrophysics",
+      "tool_records": 120,
+      "subcategories": [
+        {
+          "id": "astronomy-astronomical-images-and-photometry",
+          "domain": "astronomy",
+          "label": "Astronomical Images and Photometry",
+          "tool_memberships": 11
+        },
+        {
+          "id": "astronomy-spectroscopy-and-radio-astronomy",
+          "domain": "astronomy",
+          "label": "Spectroscopy and Radio Astronomy",
+          "tool_memberships": 29
+        },
+        {
+          "id": "astronomy-observatory-control-and-observation-planning",
+          "domain": "astronomy",
+          "label": "Observatory Control and Observation Planning",
+          "tool_memberships": 17
+        },
+        {
+          "id": "astronomy-astronomical-catalogs-and-data-access",
+          "domain": "astronomy",
+          "label": "Astronomical Catalogs and Data Access",
+          "tool_memberships": 39
+        },
+        {
+          "id": "astronomy-cosmology-and-astrophysical-simulation",
+          "domain": "astronomy",
+          "label": "Cosmology and Astrophysical Simulation",
+          "tool_memberships": 17
+        },
+        {
+          "id": "astronomy-astronomical-data-reduction-and-statistical-modeling",
+          "domain": "astronomy",
+          "label": "Astronomical Data Reduction and Statistical Modeling",
+          "tool_memberships": 11
+        },
+        {
+          "id": "astronomy-astronomical-coordinates-time-and-numerical-utilities",
+          "domain": "astronomy",
+          "label": "Astronomical Coordinates Time and Numerical Utilities",
+          "tool_memberships": 1
+        },
+        {
+          "id": "astronomy-astrochemistry-and-radiative-transfer",
+          "domain": "astronomy",
+          "label": "Astrochemistry and Radiative Transfer",
+          "tool_memberships": 6
+        },
+        {
+          "id": "astronomy-telescope-instrument-and-observation-simulation",
+          "domain": "astronomy",
+          "label": "Telescope Instrument and Observation Simulation",
+          "tool_memberships": 3
+        },
+        {
+          "id": "astronomy-interstellar-chemistry-and-radiative-transfer",
+          "domain": "astronomy",
+          "label": "Interstellar Chemistry and Radiative Transfer",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "experimental-analysis",
+      "label": "Experimental Data Analysis and Characterization",
+      "tool_records": 67,
+      "subcategories": [
+        {
+          "id": "experimental-analysis-diffraction-crystallography-and-scattering",
+          "domain": "experimental-analysis",
+          "label": "Diffraction Crystallography and Scattering",
+          "tool_memberships": 23
+        },
+        {
+          "id": "experimental-analysis-spectroscopy-and-spectral-analysis",
+          "domain": "experimental-analysis",
+          "label": "Spectroscopy and Spectral Analysis",
+          "tool_memberships": 18
+        },
+        {
+          "id": "experimental-analysis-microscopy-and-hyperspectral-analysis",
+          "domain": "experimental-analysis",
+          "label": "Microscopy and Hyperspectral Analysis",
+          "tool_memberships": 10
+        },
+        {
+          "id": "experimental-analysis-modal-vibration-and-acoustic-testing",
+          "domain": "experimental-analysis",
+          "label": "Modal Vibration and Acoustic Testing",
+          "tool_memberships": 3
+        },
+        {
+          "id": "experimental-analysis-experimental-data-reduction-and-fitting",
+          "domain": "experimental-analysis",
+          "label": "Experimental Data Reduction and Fitting",
+          "tool_memberships": 3
+        },
+        {
+          "id": "experimental-analysis-optical-flow-measurement-and-particle-velocimetry",
+          "domain": "experimental-analysis",
+          "label": "Optical Flow Measurement and Particle Velocimetry",
+          "tool_memberships": 7
+        },
+        {
+          "id": "experimental-analysis-tomographic-reconstruction-and-microscopy-processing",
+          "domain": "experimental-analysis",
+          "label": "Tomographic Reconstruction and Microscopy Processing",
+          "tool_memberships": 6
+        },
+        {
+          "id": "experimental-analysis-mass-spectrometry-and-chromatography",
+          "domain": "experimental-analysis",
+          "label": "Mass Spectrometry and Chromatography",
+          "tool_memberships": 5
+        },
+        {
+          "id": "experimental-analysis-test-data-management-analysis-and-reporting",
+          "domain": "experimental-analysis",
+          "label": "Test Data Management Analysis and Reporting",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "imaging",
+      "label": "Scientific Imaging and Image Processing",
+      "tool_records": 48,
+      "subcategories": [
+        {
+          "id": "imaging-image-processing-and-computer-vision",
+          "domain": "imaging",
+          "label": "Image Processing and Computer Vision",
+          "tool_memberships": 20
+        },
+        {
+          "id": "imaging-tomography-and-inverse-reconstruction",
+          "domain": "imaging",
+          "label": "Tomography and Inverse Reconstruction",
+          "tool_memberships": 22
+        },
+        {
+          "id": "imaging-scientific-image-formats-and-acquisition",
+          "domain": "imaging",
+          "label": "Scientific Image Formats and Acquisition",
+          "tool_memberships": 9
+        },
+        {
+          "id": "imaging-3d-photogrammetry-and-image-based-metrology",
+          "domain": "imaging",
+          "label": "3D Photogrammetry and Image-Based Metrology",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "label": "Scientific Workflow and Computing Infrastructure",
+      "tool_records": 56,
+      "subcategories": [
+        {
+          "id": "workflow-scientific-workflow-orchestration",
+          "domain": "workflow",
+          "label": "Scientific Workflow Orchestration",
+          "tool_memberships": 34
+        },
+        {
+          "id": "workflow-hpc-scheduling-and-distributed-execution",
+          "domain": "workflow",
+          "label": "HPC Scheduling and Distributed Execution",
+          "tool_memberships": 21
+        },
+        {
+          "id": "workflow-reproducible-research-and-experiment-tracking",
+          "domain": "workflow",
+          "label": "Reproducible Research and Experiment Tracking",
+          "tool_memberships": 7
+        },
+        {
+          "id": "workflow-notebooks-documents-and-scientific-reporting",
+          "domain": "workflow",
+          "label": "Notebooks Documents and Scientific Reporting",
+          "tool_memberships": 9
+        }
+      ]
+    },
+    {
+      "id": "geospatial",
+      "label": "Geospatial Science and Geographic Information Systems",
+      "tool_records": 53,
+      "subcategories": [
+        {
+          "id": "geospatial-desktop-gis-and-spatial-analysis",
+          "domain": "geospatial",
+          "label": "Desktop GIS and Spatial Analysis",
+          "tool_memberships": 20
+        },
+        {
+          "id": "geospatial-geospatial-libraries-and-coordinate-systems",
+          "domain": "geospatial",
+          "label": "Geospatial Libraries and Coordinate Systems",
+          "tool_memberships": 13
+        },
+        {
+          "id": "geospatial-geospatial-databases-and-web-services",
+          "domain": "geospatial",
+          "label": "Geospatial Databases and Web Services",
+          "tool_memberships": 7
+        },
+        {
+          "id": "geospatial-terrain-lidar-and-remote-sensing",
+          "domain": "geospatial",
+          "label": "Terrain LiDAR and Remote Sensing",
+          "tool_memberships": 17
+        },
+        {
+          "id": "geospatial-geomagnetic-and-geophysical-reference-computation",
+          "domain": "geospatial",
+          "label": "Geomagnetic and Geophysical Reference Computation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "geospatial-geospatial-data-integration-and-etl",
+          "domain": "geospatial",
+          "label": "Geospatial Data Integration and ETL",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "plm",
+      "label": "Product Lifecycle Management",
+      "tool_records": 30,
+      "subcategories": [
+        {
+          "id": "plm-product-lifecycle-and-engineering-data-management",
+          "domain": "plm",
+          "label": "Product Lifecycle and Engineering Data Management",
+          "tool_memberships": 22
+        },
+        {
+          "id": "plm-cad-documents-and-design-collaboration",
+          "domain": "plm",
+          "label": "CAD Documents and Design Collaboration",
+          "tool_memberships": 19
+        },
+        {
+          "id": "plm-bom-configuration-and-product-variability",
+          "domain": "plm",
+          "label": "BOM Configuration and Product Variability",
+          "tool_memberships": 9
+        }
+      ]
+    },
+    {
+      "id": "electrical-design",
+      "label": "Electrical Systems Design",
+      "tool_records": 44,
+      "subcategories": [
+        {
+          "id": "electrical-design-electrical-schematics-and-panel-engineering",
+          "domain": "electrical-design",
+          "label": "Electrical Schematics and Panel Engineering",
+          "tool_memberships": 13
+        },
+        {
+          "id": "electrical-design-wire-harness-and-cable-design",
+          "domain": "electrical-design",
+          "label": "Wire Harness and Cable Design",
+          "tool_memberships": 10
+        },
+        {
+          "id": "electrical-design-electrical-installation-and-cable-sizing",
+          "domain": "electrical-design",
+          "label": "Electrical Installation and Cable Sizing",
+          "tool_memberships": 9
+        },
+        {
+          "id": "electrical-design-grounding-lightning-and-electromagnetic-compatibility",
+          "domain": "electrical-design",
+          "label": "Grounding Lightning and Electromagnetic Compatibility",
+          "tool_memberships": 14
+        },
+        {
+          "id": "electrical-design-electromagnetic-field-and-device-analysis",
+          "domain": "electrical-design",
+          "label": "Electromagnetic Field and Device Analysis",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "systems-engineering",
+      "label": "Systems Engineering",
+      "tool_records": 83,
+      "subcategories": [
+        {
+          "id": "systems-engineering-requirements-traceability-and-verification",
+          "domain": "systems-engineering",
+          "label": "Requirements Traceability and Verification",
+          "tool_memberships": 25
+        },
+        {
+          "id": "systems-engineering-mbse-sysml-and-system-architecture",
+          "domain": "systems-engineering",
+          "label": "MBSE SysML and System Architecture",
+          "tool_memberships": 20
+        },
+        {
+          "id": "systems-engineering-system-simulation-and-co-simulation",
+          "domain": "systems-engineering",
+          "label": "System Simulation and Co-Simulation",
+          "tool_memberships": 28
+        },
+        {
+          "id": "systems-engineering-engineering-configuration-and-lifecycle-integration",
+          "domain": "systems-engineering",
+          "label": "Engineering Configuration and Lifecycle Integration",
+          "tool_memberships": 4
+        },
+        {
+          "id": "systems-engineering-formal-requirements-and-architecture-verification",
+          "domain": "systems-engineering",
+          "label": "Formal Requirements and Architecture Verification",
+          "tool_memberships": 4
+        },
+        {
+          "id": "systems-engineering-safety-reliability-and-assurance-cases",
+          "domain": "systems-engineering",
+          "label": "Safety Reliability and Assurance Cases",
+          "tool_memberships": 7
+        },
+        {
+          "id": "systems-engineering-test-automation-and-verification-management",
+          "domain": "systems-engineering",
+          "label": "Test Automation and Verification Management",
+          "tool_memberships": 6
+        },
+        {
+          "id": "systems-engineering-embedded-software-verification-and-assurance",
+          "domain": "systems-engineering",
+          "label": "Embedded Software Verification and Assurance",
+          "tool_memberships": 2
+        },
+        {
+          "id": "systems-engineering-requirements-management-and-traceability",
+          "domain": "systems-engineering",
+          "label": "Requirements Management and Traceability",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "label": "Reliability and Safety Engineering",
+      "tool_records": 40,
+      "subcategories": [
+        {
+          "id": "reliability-fault-trees-and-system-reliability-modeling",
+          "domain": "reliability",
+          "label": "Fault Trees and System Reliability Modeling",
+          "tool_memberships": 19
+        },
+        {
+          "id": "reliability-failure-modes-safety-and-risk-assessment",
+          "domain": "reliability",
+          "label": "Failure Modes Safety and Risk Assessment",
+          "tool_memberships": 17
+        },
+        {
+          "id": "reliability-life-data-accelerated-testing-and-reliability-prediction",
+          "domain": "reliability",
+          "label": "Life Data Accelerated Testing and Reliability Prediction",
+          "tool_memberships": 8
+        },
+        {
+          "id": "reliability-maintenance-failure-reporting-and-asset-performance",
+          "domain": "reliability",
+          "label": "Maintenance Failure Reporting and Asset Performance",
+          "tool_memberships": 5
+        },
+        {
+          "id": "reliability-risk-uncertainty-and-simulation-frameworks",
+          "domain": "reliability",
+          "label": "Risk Uncertainty and Simulation Frameworks",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "metrology",
+      "label": "Metrology and Dimensional Inspection",
+      "tool_records": 137,
+      "subcategories": [
+        {
+          "id": "metrology-coordinate",
+          "domain": "metrology",
+          "label": "Coordinate Measurement and Geometric Inspection",
+          "tool_memberships": 32
+        },
+        {
+          "id": "metrology-optical",
+          "domain": "metrology",
+          "label": "Optical and Vision-Based Metrology",
+          "tool_memberships": 17
+        },
+        {
+          "id": "metrology-scanning",
+          "domain": "metrology",
+          "label": "3D Scanning and Reverse Engineering",
+          "tool_memberships": 15
+        },
+        {
+          "id": "metrology-surface",
+          "domain": "metrology",
+          "label": "Surface Texture and Topography",
+          "tool_memberships": 12
+        },
+        {
+          "id": "metrology-nde",
+          "domain": "metrology",
+          "label": "Nondestructive Testing and Inspection",
+          "tool_memberships": 45
+        },
+        {
+          "id": "metrology-quality",
+          "domain": "metrology",
+          "label": "Measurement Data, Calibration and Quality Analysis",
+          "tool_memberships": 8
+        },
+        {
+          "id": "metrology-virtual",
+          "domain": "metrology",
+          "label": "Virtual Sensing and Model-Based Measurement",
+          "tool_memberships": 1
+        },
+        {
+          "id": "metrology-dimensional-tolerances-gd-t-and-variation-analysis",
+          "domain": "metrology",
+          "label": "Dimensional Tolerances GD&T and Variation Analysis",
+          "tool_memberships": 5
+        },
+        {
+          "id": "metrology-calibration-procedures-and-instrument-asset-management",
+          "domain": "metrology",
+          "label": "Calibration Procedures and Instrument Asset Management",
+          "tool_memberships": 9
+        },
+        {
+          "id": "metrology-measurement-uncertainty-and-system-capability",
+          "domain": "metrology",
+          "label": "Measurement Uncertainty and System Capability",
+          "tool_memberships": 8
+        },
+        {
+          "id": "metrology-industrial-machine-vision-and-optical-inspection",
+          "domain": "metrology",
+          "label": "Industrial Machine Vision and Optical Inspection",
+          "tool_memberships": 2
+        },
+        {
+          "id": "metrology-machine-tool-and-coordinate-system-calibration",
+          "domain": "metrology",
+          "label": "Machine Tool and Coordinate System Calibration",
+          "tool_memberships": 3
+        }
+      ]
+    },
+    {
+      "id": "plant-design",
+      "label": "Industrial Plant and Piping Design",
+      "tool_records": 36,
+      "subcategories": [
+        {
+          "id": "plant-design-plant-layout-piping-and-instrumentation-design",
+          "domain": "plant-design",
+          "label": "Plant Layout Piping and Instrumentation Design",
+          "tool_memberships": 11
+        },
+        {
+          "id": "plant-design-piping-isometrics-and-fabrication-drawings",
+          "domain": "plant-design",
+          "label": "Piping Isometrics and Fabrication Drawings",
+          "tool_memberships": 5
+        },
+        {
+          "id": "plant-design-pipe-stress-and-hydraulic-network-analysis",
+          "domain": "plant-design",
+          "label": "Pipe Stress and Hydraulic Network Analysis",
+          "tool_memberships": 9
+        },
+        {
+          "id": "plant-design-pressure-vessel-and-equipment-design",
+          "domain": "plant-design",
+          "label": "Pressure Vessel and Equipment Design",
+          "tool_memberships": 11
+        }
+      ]
+    },
+    {
+      "id": "infrastructure-operations",
+      "label": "Infrastructure Operations and Asset Management",
+      "tool_records": 76,
+      "subcategories": [
+        {
+          "id": "infrastructure-operations-civil-infrastructure-and-asset-monitoring",
+          "domain": "infrastructure-operations",
+          "label": "Civil Infrastructure and Asset Monitoring",
+          "tool_memberships": 26
+        },
+        {
+          "id": "infrastructure-operations-transportation-and-traffic-simulation",
+          "domain": "infrastructure-operations",
+          "label": "Transportation and Traffic Simulation",
+          "tool_memberships": 23
+        },
+        {
+          "id": "infrastructure-operations-water-wastewater-and-stormwater-operations",
+          "domain": "infrastructure-operations",
+          "label": "Water Wastewater and Stormwater Operations",
+          "tool_memberships": 12
+        },
+        {
+          "id": "infrastructure-operations-site-design-grading-and-earthworks",
+          "domain": "infrastructure-operations",
+          "label": "Site Design Grading and Earthworks",
+          "tool_memberships": 1
+        },
+        {
+          "id": "infrastructure-operations-hydraulic-infrastructure-design",
+          "domain": "infrastructure-operations",
+          "label": "Hydraulic Infrastructure Design",
+          "tool_memberships": 3
+        },
+        {
+          "id": "infrastructure-operations-infrastructure-risk-and-incident-modeling",
+          "domain": "infrastructure-operations",
+          "label": "Infrastructure Risk and Incident Modeling",
+          "tool_memberships": 1
+        },
+        {
+          "id": "infrastructure-operations-road-rail-and-corridor-design",
+          "domain": "infrastructure-operations",
+          "label": "Road Rail and Corridor Design",
+          "tool_memberships": 7
+        },
+        {
+          "id": "infrastructure-operations-pavement-condition-and-maintenance-planning",
+          "domain": "infrastructure-operations",
+          "label": "Pavement Condition and Maintenance Planning",
+          "tool_memberships": 2
+        },
+        {
+          "id": "infrastructure-operations-construction-machine-control-and-survey-guidance",
+          "domain": "infrastructure-operations",
+          "label": "Construction Machine Control and Survey Guidance",
+          "tool_memberships": 1
+        },
+        {
+          "id": "infrastructure-operations-bridge-condition-monitoring-and-asset-management",
+          "domain": "infrastructure-operations",
+          "label": "Bridge Condition Monitoring and Asset Management",
+          "tool_memberships": 2
+        },
+        {
+          "id": "infrastructure-operations-transportation-asset-data-and-linear-referencing",
+          "domain": "infrastructure-operations",
+          "label": "Transportation Asset Data and Linear Referencing",
+          "tool_memberships": 1
+        },
+        {
+          "id": "infrastructure-operations-flood-consequences-and-evacuation-simulation",
+          "domain": "infrastructure-operations",
+          "label": "Flood Consequences and Evacuation Simulation",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-cost",
+      "label": "Manufacturing Cost Estimation",
+      "tool_records": 27,
+      "subcategories": [
+        {
+          "id": "manufacturing-cost-manufacturing-cost-estimation-and-quoting",
+          "domain": "manufacturing-cost",
+          "label": "Manufacturing Cost Estimation and Quoting",
+          "tool_memberships": 20
+        },
+        {
+          "id": "manufacturing-cost-design-for-manufacturing-and-process-assessment",
+          "domain": "manufacturing-cost",
+          "label": "Design for Manufacturing and Process Assessment",
+          "tool_memberships": 8
+        }
+      ]
+    },
+    {
+      "id": "cloud-platform",
+      "label": "Cloud Engineering and Simulation Platforms",
+      "tool_records": 35,
+      "subcategories": [
+        {
+          "id": "cloud-platform-hpc-provisioning-and-engineering-job-execution",
+          "domain": "cloud-platform",
+          "label": "HPC Provisioning and Engineering Job Execution",
+          "tool_memberships": 26
+        },
+        {
+          "id": "cloud-platform-hosted-engineering-applications-and-apis",
+          "domain": "cloud-platform",
+          "label": "Hosted Engineering Applications and APIs",
+          "tool_memberships": 6
+        },
+        {
+          "id": "cloud-platform-remote-visualization-and-engineering-desktops",
+          "domain": "cloud-platform",
+          "label": "Remote Visualization and Engineering Desktops",
+          "tool_memberships": 4
+        },
+        {
+          "id": "cloud-platform-scientific-software-builds-and-environment-management",
+          "domain": "cloud-platform",
+          "label": "Scientific Software Builds and Environment Management",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "collaboration",
+      "label": "Engineering Collaboration and Design Review",
+      "tool_records": 20,
+      "subcategories": [
+        {
+          "id": "collaboration-engineering-model-review-and-visualization",
+          "domain": "collaboration",
+          "label": "Engineering Model Review and Visualization",
+          "tool_memberships": 11
+        },
+        {
+          "id": "collaboration-engineering-information-and-project-collaboration",
+          "domain": "collaboration",
+          "label": "Engineering Information and Project Collaboration",
+          "tool_memberships": 9
+        },
+        {
+          "id": "collaboration-technical-publishing-and-interactive-applications",
+          "domain": "collaboration",
+          "label": "Technical Publishing and Interactive Applications",
+          "tool_memberships": 5
+        }
+      ]
+    },
+    {
+      "id": "plasma",
+      "label": "Plasma Physics and Engineering",
+      "tool_records": 67,
+      "subcategories": [
+        {
+          "id": "plasma-pic",
+          "domain": "plasma",
+          "label": "Particle-in-Cell and Kinetic Plasma Simulation",
+          "tool_memberships": 23
+        },
+        {
+          "id": "plasma-gyrokinetic",
+          "domain": "plasma",
+          "label": "Gyrokinetic Turbulence and Transport",
+          "tool_memberships": 8
+        },
+        {
+          "id": "plasma-mhd",
+          "domain": "plasma",
+          "label": "Magnetohydrodynamics and Plasma Stability",
+          "tool_memberships": 8
+        },
+        {
+          "id": "plasma-equilibrium",
+          "domain": "plasma",
+          "label": "Magnetic Equilibrium and Confinement Design",
+          "tool_memberships": 12
+        },
+        {
+          "id": "plasma-edge",
+          "domain": "plasma",
+          "label": "Plasma Edge, Divertors and Neutral Transport",
+          "tool_memberships": 3
+        },
+        {
+          "id": "plasma-discharge",
+          "domain": "plasma",
+          "label": "Low-Temperature Plasmas and Industrial Discharges",
+          "tool_memberships": 11
+        },
+        {
+          "id": "plasma-integrated",
+          "domain": "plasma",
+          "label": "Integrated Fusion and Core Transport Modeling",
+          "tool_memberships": 1
+        },
+        {
+          "id": "plasma-fluid",
+          "domain": "plasma",
+          "label": "Plasma Fluid Modeling Frameworks",
+          "tool_memberships": 1
+        },
+        {
+          "id": "plasma-acceleration",
+          "domain": "plasma",
+          "label": "Plasma Acceleration and Wakefields",
+          "tool_memberships": 2
+        },
+        {
+          "id": "plasma-electric-propulsion-and-plasma-thrusters",
+          "domain": "plasma",
+          "label": "Electric Propulsion and Plasma Thrusters",
+          "tool_memberships": 1
+        },
+        {
+          "id": "plasma-energetic-particle-orbits-and-neutral-beam-injection",
+          "domain": "plasma",
+          "label": "Energetic Particle Orbits and Neutral-Beam Injection",
+          "tool_memberships": 2
+        },
+        {
+          "id": "plasma-disruptions-runaway-electrons-and-plasma-startup",
+          "domain": "plasma",
+          "label": "Disruptions Runaway Electrons and Plasma Startup",
+          "tool_memberships": 2
+        },
+        {
+          "id": "plasma-atomic-kinetics-and-plasma-spectroscopy",
+          "domain": "plasma",
+          "label": "Atomic Kinetics and Plasma Spectroscopy",
+          "tool_memberships": 3
+        },
+        {
+          "id": "plasma-laser-pulse-preparation-and-simulation-interfaces",
+          "domain": "plasma",
+          "label": "Laser Pulse Preparation and Simulation Interfaces",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "quantum-manybody",
+      "label": "Quantum Many-Body and Open-System Simulation",
+      "tool_records": 49,
+      "subcategories": [
+        {
+          "id": "quantum-manybody-tensor-networks-and-dmrg",
+          "domain": "quantum-manybody",
+          "label": "Tensor Networks and DMRG",
+          "tool_memberships": 19
+        },
+        {
+          "id": "quantum-manybody-quantum-monte-carlo-and-variational-states",
+          "domain": "quantum-manybody",
+          "label": "Quantum Monte Carlo and Variational States",
+          "tool_memberships": 7
+        },
+        {
+          "id": "quantum-manybody-exact-diagonalization-and-lattice-models",
+          "domain": "quantum-manybody",
+          "label": "Exact Diagonalization and Lattice Models",
+          "tool_memberships": 12
+        },
+        {
+          "id": "quantum-manybody-open-quantum-systems-and-quantum-dynamics",
+          "domain": "quantum-manybody",
+          "label": "Open Quantum Systems and Quantum Dynamics",
+          "tool_memberships": 5
+        },
+        {
+          "id": "quantum-manybody-strong-correlations-and-dynamical-mean-field-theory",
+          "domain": "quantum-manybody",
+          "label": "Strong Correlations and Dynamical Mean-Field Theory",
+          "tool_memberships": 8
+        },
+        {
+          "id": "quantum-manybody-superconductivity-and-mesoscopic-quantum-systems",
+          "domain": "quantum-manybody",
+          "label": "Superconductivity and Mesoscopic Quantum Systems",
+          "tool_memberships": 1
+        },
+        {
+          "id": "quantum-manybody-many-body-electronic-excitations",
+          "domain": "quantum-manybody",
+          "label": "Many-Body Electronic Excitations",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "quantum-computing",
+      "label": "Quantum Computing and Circuit Simulation",
+      "tool_records": 42,
+      "subcategories": [
+        {
+          "id": "quantum-computing-quantum-circuit-simulation-and-sdks",
+          "domain": "quantum-computing",
+          "label": "Quantum Circuit Simulation and SDKs",
+          "tool_memberships": 27
+        },
+        {
+          "id": "quantum-computing-quantum-error-correction-and-stabilizer-simulation",
+          "domain": "quantum-computing",
+          "label": "Quantum Error Correction and Stabilizer Simulation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "quantum-computing-photonic-and-continuous-variable-quantum-computing",
+          "domain": "quantum-computing",
+          "label": "Photonic and Continuous-Variable Quantum Computing",
+          "tool_memberships": 3
+        },
+        {
+          "id": "quantum-computing-quantum-algorithms-and-hybrid-optimization",
+          "domain": "quantum-computing",
+          "label": "Quantum Algorithms and Hybrid Optimization",
+          "tool_memberships": 3
+        },
+        {
+          "id": "quantum-computing-quantum-hardware-control-and-pulse-modeling",
+          "domain": "quantum-computing",
+          "label": "Quantum Hardware Control and Pulse Modeling",
+          "tool_memberships": 2
+        },
+        {
+          "id": "quantum-computing-quantum-networks-and-communication",
+          "domain": "quantum-computing",
+          "label": "Quantum Networks and Communication",
+          "tool_memberships": 4
+        },
+        {
+          "id": "quantum-computing-annealing-and-binary-optimization",
+          "domain": "quantum-computing",
+          "label": "Annealing and Binary Optimization",
+          "tool_memberships": 2
+        },
+        {
+          "id": "quantum-computing-quantum-processor-layout-and-design",
+          "domain": "quantum-computing",
+          "label": "Quantum Processor Layout and Design",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "accelerator",
+      "label": "Particle Accelerator and Beam Physics",
+      "tool_records": 40,
+      "subcategories": [
+        {
+          "id": "accelerator-beam-optics-and-lattice-design",
+          "domain": "accelerator",
+          "label": "Beam Optics and Lattice Design",
+          "tool_memberships": 13
+        },
+        {
+          "id": "accelerator-particle-tracking-and-beam-dynamics",
+          "domain": "accelerator",
+          "label": "Particle Tracking and Beam Dynamics",
+          "tool_memberships": 29
+        },
+        {
+          "id": "accelerator-accelerator-electromagnetics-and-wakefields",
+          "domain": "accelerator",
+          "label": "Accelerator Electromagnetics and Wakefields",
+          "tool_memberships": 7
+        },
+        {
+          "id": "accelerator-charged-particle-optics-and-sources",
+          "domain": "accelerator",
+          "label": "Charged-Particle Optics and Sources",
+          "tool_memberships": 4
+        },
+        {
+          "id": "accelerator-synchrotron-radiation-and-beamline-engineering",
+          "domain": "accelerator",
+          "label": "Synchrotron Radiation and Beamline Engineering",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "fire-safety",
+      "label": "Fire and Process Safety Engineering",
+      "tool_records": 27,
+      "subcategories": [
+        {
+          "id": "fire-safety-chemical-release-consequences-and-quantitative-risk",
+          "domain": "fire-safety",
+          "label": "Chemical Release Consequences and Quantitative Risk",
+          "tool_memberships": 6
+        },
+        {
+          "id": "fire-safety-wildland-fire-behavior-and-atmosphere-coupling",
+          "domain": "fire-safety",
+          "label": "Wildland Fire Behavior and Atmosphere Coupling",
+          "tool_memberships": 6
+        },
+        {
+          "id": "fire-safety-fire-protection-design-and-code-compliance",
+          "domain": "fire-safety",
+          "label": "Fire Protection Design and Code Compliance",
+          "tool_memberships": 1
+        },
+        {
+          "id": "fire-safety-fire-smoke-and-ventilation-simulation",
+          "domain": "fire-safety",
+          "label": "Fire Smoke and Ventilation Simulation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "fire-safety-pedestrian-movement-and-evacuation",
+          "domain": "fire-safety",
+          "label": "Pedestrian Movement and Evacuation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "fire-safety-structural-response-to-fire",
+          "domain": "fire-safety",
+          "label": "Structural Response to Fire",
+          "tool_memberships": 4
+        },
+        {
+          "id": "fire-safety-sprinkler-design-and-hydraulic-calculation",
+          "domain": "fire-safety",
+          "label": "Sprinkler Design and Hydraulic Calculation",
+          "tool_memberships": 3
+        },
+        {
+          "id": "fire-safety-smoke-control-and-building-airflow",
+          "domain": "fire-safety",
+          "label": "Smoke Control and Building Airflow",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "planetary-science",
+      "label": "Planetary Science",
+      "tool_records": 14,
+      "subcategories": [
+        {
+          "id": "planetary-science-planetary-atmosphere-spectra-and-retrieval",
+          "domain": "planetary-science",
+          "label": "Planetary Atmosphere Spectra and Retrieval",
+          "tool_memberships": 4
+        },
+        {
+          "id": "planetary-science-surface-chronology-and-crater-analysis",
+          "domain": "planetary-science",
+          "label": "Surface Chronology and Crater Analysis",
+          "tool_memberships": 1
+        },
+        {
+          "id": "planetary-science-planetary-climate-and-general-circulation",
+          "domain": "planetary-science",
+          "label": "Planetary Climate and General Circulation",
+          "tool_memberships": 3
+        },
+        {
+          "id": "planetary-science-planetary-imaging-mapping-and-mission-data",
+          "domain": "planetary-science",
+          "label": "Planetary Imaging Mapping and Mission Data",
+          "tool_memberships": 2
+        },
+        {
+          "id": "planetary-science-engineering-atmosphere-and-environment-models",
+          "domain": "planetary-science",
+          "label": "Engineering Atmosphere and Environment Models",
+          "tool_memberships": 2
+        },
+        {
+          "id": "planetary-science-planetary-surface-thermal-modeling",
+          "domain": "planetary-science",
+          "label": "Planetary Surface Thermal Modeling",
+          "tool_memberships": 1
+        },
+        {
+          "id": "planetary-science-impact-cratering-and-shock-physics",
+          "domain": "planetary-science",
+          "label": "Impact Cratering and Shock Physics",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "geoscience",
+      "label": "Solid Earth Sciences",
+      "tool_records": 58,
+      "subcategories": [
+        {
+          "id": "geoscience-landscape-evolution-and-sedimentary-basins",
+          "domain": "geoscience",
+          "label": "Landscape Evolution and Sedimentary Basins",
+          "tool_memberships": 4
+        },
+        {
+          "id": "geoscience-mineral-thermodynamics-and-petrology",
+          "domain": "geoscience",
+          "label": "Mineral Thermodynamics and Petrology",
+          "tool_memberships": 5
+        },
+        {
+          "id": "geoscience-crustal-deformation-and-earthquake-mechanics",
+          "domain": "geoscience",
+          "label": "Crustal Deformation and Earthquake Mechanics",
+          "tool_memberships": 2
+        },
+        {
+          "id": "geoscience-geological-modeling-and-subsurface-interpretation",
+          "domain": "geoscience",
+          "label": "Geological Modeling and Subsurface Interpretation",
+          "tool_memberships": 6
+        },
+        {
+          "id": "geoscience-geochronology-and-paleoclimate-age-models",
+          "domain": "geoscience",
+          "label": "Geochronology and Paleoclimate Age Models",
+          "tool_memberships": 5
+        },
+        {
+          "id": "geoscience-gnss-geodesy-and-tectonic-positioning",
+          "domain": "geoscience",
+          "label": "GNSS Geodesy and Tectonic Positioning",
+          "tool_memberships": 4
+        },
+        {
+          "id": "geoscience-mantle-convection-and-lithosphere-dynamics",
+          "domain": "geoscience",
+          "label": "Mantle Convection and Lithosphere Dynamics",
+          "tool_memberships": 5
+        },
+        {
+          "id": "geoscience-structural-geology-and-orientation-analysis",
+          "domain": "geoscience",
+          "label": "Structural Geology and Orientation Analysis",
+          "tool_memberships": 3
+        },
+        {
+          "id": "geoscience-plate-reconstruction-and-tectonic-evolution",
+          "domain": "geoscience",
+          "label": "Plate Reconstruction and Tectonic Evolution",
+          "tool_memberships": 3
+        },
+        {
+          "id": "geoscience-geophysical-inversion-and-potential-fields",
+          "domain": "geoscience",
+          "label": "Geophysical Inversion and Potential Fields",
+          "tool_memberships": 4
+        },
+        {
+          "id": "geoscience-seismic-data-processing-and-monitoring",
+          "domain": "geoscience",
+          "label": "Seismic Data Processing and Monitoring",
+          "tool_memberships": 6
+        },
+        {
+          "id": "geoscience-earthquake-location-hazard-and-risk",
+          "domain": "geoscience",
+          "label": "Earthquake Location Hazard and Risk",
+          "tool_memberships": 3
+        },
+        {
+          "id": "geoscience-seismic-wave-propagation-and-dynamic-rupture",
+          "domain": "geoscience",
+          "label": "Seismic Wave Propagation and Dynamic Rupture",
+          "tool_memberships": 3
+        },
+        {
+          "id": "geoscience-geodynamics-modeling-frameworks",
+          "domain": "geoscience",
+          "label": "Geodynamics Modeling Frameworks",
+          "tool_memberships": 1
+        },
+        {
+          "id": "geoscience-geostatistics-and-spatial-property-modeling",
+          "domain": "geoscience",
+          "label": "Geostatistics and Spatial Property Modeling",
+          "tool_memberships": 3
+        },
+        {
+          "id": "geoscience-geochronology-and-geochemical-data-analysis",
+          "domain": "geoscience",
+          "label": "Geochronology and Geochemical Data Analysis",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "microfluidics",
+      "label": "Microfluidic Engineering",
+      "tool_records": 7,
+      "subcategories": [
+        {
+          "id": "microfluidics-microfluidic-device-design-and-automation",
+          "domain": "microfluidics",
+          "label": "Microfluidic Device Design and Automation",
+          "tool_memberships": 5
+        },
+        {
+          "id": "microfluidics-microscale-flow-transport-and-electrokinetics",
+          "domain": "microfluidics",
+          "label": "Microscale Flow Transport and Electrokinetics",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "label": "Data Center Engineering",
+      "tool_records": 12,
+      "subcategories": [
+        {
+          "id": "data-center-cooling-airflow-and-thermal-design",
+          "domain": "data-center",
+          "label": "Cooling Airflow and Thermal Design",
+          "tool_memberships": 4
+        },
+        {
+          "id": "data-center-infrastructure-capacity-layout-and-asset-planning",
+          "domain": "data-center",
+          "label": "Infrastructure Capacity Layout and Asset Planning",
+          "tool_memberships": 6
+        },
+        {
+          "id": "data-center-operational-thermal-and-power-optimization",
+          "domain": "data-center",
+          "label": "Operational Thermal and Power Optimization",
+          "tool_memberships": 1
+        },
+        {
+          "id": "data-center-workload-scheduling-and-energy-simulation",
+          "domain": "data-center",
+          "label": "Workload Scheduling and Energy Simulation",
+          "tool_memberships": 1
+        }
+      ]
+    },
+    {
+      "id": "agricultural",
+      "label": "Agricultural Engineering",
+      "tool_records": 5,
+      "subcategories": [
+        {
+          "id": "agricultural-greenhouse-climate-and-energy-engineering",
+          "domain": "agricultural",
+          "label": "Greenhouse Climate and Energy Engineering",
+          "tool_memberships": 1
+        },
+        {
+          "id": "agricultural-agricultural-application-and-spray-engineering",
+          "domain": "agricultural",
+          "label": "Agricultural Application and Spray Engineering",
+          "tool_memberships": 1
+        },
+        {
+          "id": "agricultural-irrigation-design-and-hydraulics",
+          "domain": "agricultural",
+          "label": "Irrigation Design and Hydraulics",
+          "tool_memberships": 3
+        }
+      ]
+    },
+    {
+      "id": "marine",
+      "label": "Naval Architecture and Marine Engineering",
+      "tool_records": 73,
+      "subcategories": [
+        {
+          "id": "marine-seakeeping-wave-loads-and-potential-flow-hydrodynamics",
+          "domain": "marine",
+          "label": "Seakeeping Wave Loads and Potential-Flow Hydrodynamics",
+          "tool_memberships": 16
+        },
+        {
+          "id": "marine-mooring-risers-cables-and-offshore-dynamics",
+          "domain": "marine",
+          "label": "Mooring Risers Cables and Offshore Dynamics",
+          "tool_memberships": 6
+        },
+        {
+          "id": "marine-marine-operations-and-coupled-vessel-dynamics",
+          "domain": "marine",
+          "label": "Marine Operations and Coupled Vessel Dynamics",
+          "tool_memberships": 9
+        },
+        {
+          "id": "marine-vessel-resistance-propellers-and-propulsion",
+          "domain": "marine",
+          "label": "Vessel Resistance Propellers and Propulsion",
+          "tool_memberships": 12
+        },
+        {
+          "id": "marine-hydrodynamic-model-preparation-and-data-exchange",
+          "domain": "marine",
+          "label": "Hydrodynamic Model Preparation and Data Exchange",
+          "tool_memberships": 2
+        },
+        {
+          "id": "marine-hull-structural-design-and-classification-rules",
+          "domain": "marine",
+          "label": "Hull Structural Design and Classification Rules",
+          "tool_memberships": 8
+        },
+        {
+          "id": "marine-integrated-ship-design-and-production-engineering",
+          "domain": "marine",
+          "label": "Integrated Ship Design and Production Engineering",
+          "tool_memberships": 8
+        },
+        {
+          "id": "marine-hull-form-design-and-fairing",
+          "domain": "marine",
+          "label": "Hull Form Design and Fairing",
+          "tool_memberships": 7
+        },
+        {
+          "id": "marine-hydrostatics-stability-and-loading",
+          "domain": "marine",
+          "label": "Hydrostatics Stability and Loading",
+          "tool_memberships": 11
+        },
+        {
+          "id": "marine-viscous-flow-and-marine-cfd",
+          "domain": "marine",
+          "label": "Viscous Flow and Marine CFD",
+          "tool_memberships": 4
+        }
+      ]
+    },
+    {
+      "id": "mining",
+      "label": "Mining and Mineral Processing",
+      "tool_records": 32,
+      "subcategories": [
+        {
+          "id": "mining-drill-and-blast-design-and-analysis",
+          "domain": "mining",
+          "label": "Drill-and-Blast Design and Analysis",
+          "tool_memberships": 6
+        },
+        {
+          "id": "mining-mineral-processing-and-metallurgical-flowsheets",
+          "domain": "mining",
+          "label": "Mineral Processing and Metallurgical Flowsheets",
+          "tool_memberships": 9
+        },
+        {
+          "id": "mining-mine-design-production-planning-and-scheduling",
+          "domain": "mining",
+          "label": "Mine Design Production Planning and Scheduling",
+          "tool_memberships": 8
+        },
+        {
+          "id": "mining-geological-models-and-mineral-resource-estimation",
+          "domain": "mining",
+          "label": "Geological Models and Mineral Resource Estimation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "mining-haulage-fleet-and-mine-logistics-simulation",
+          "domain": "mining",
+          "label": "Haulage Fleet and Mine Logistics Simulation",
+          "tool_memberships": 1
+        },
+        {
+          "id": "mining-exploration-drillhole-and-assay-data-management",
+          "domain": "mining",
+          "label": "Exploration Drillhole and Assay Data Management",
+          "tool_memberships": 1
+        },
+        {
+          "id": "mining-mine-ventilation-cooling-and-environmental-control",
+          "domain": "mining",
+          "label": "Mine Ventilation Cooling and Environmental Control",
+          "tool_memberships": 3
+        }
+      ]
+    },
+    {
+      "id": "urban-planning",
+      "label": "Urban and Regional Planning",
+      "tool_records": 16,
+      "subcategories": [
+        {
+          "id": "urban-planning-urban-massing-zoning-and-site-feasibility",
+          "domain": "urban-planning",
+          "label": "Urban Massing Zoning and Site Feasibility",
+          "tool_memberships": 4
+        },
+        {
+          "id": "urban-planning-semantic-city-models-and-geospatial-integration",
+          "domain": "urban-planning",
+          "label": "Semantic City Models and Geospatial Integration",
+          "tool_memberships": 2
+        },
+        {
+          "id": "urban-planning-land-use-scenarios-and-spatial-suitability",
+          "domain": "urban-planning",
+          "label": "Land-Use Scenarios and Spatial Suitability",
+          "tool_memberships": 1
+        },
+        {
+          "id": "urban-planning-urban-microclimate-and-environmental-simulation",
+          "domain": "urban-planning",
+          "label": "Urban Microclimate and Environmental Simulation",
+          "tool_memberships": 6
+        },
+        {
+          "id": "urban-planning-urban-energy-and-infrastructure-planning",
+          "domain": "urban-planning",
+          "label": "Urban Energy and Infrastructure Planning",
+          "tool_memberships": 1
+        },
+        {
+          "id": "urban-planning-urban-land-use-and-development-microsimulation",
+          "domain": "urban-planning",
+          "label": "Urban Land-Use and Development Microsimulation",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "mechanical-systems",
+      "label": "Mechanical Systems and Machine Elements",
+      "tool_records": 70,
+      "subcategories": [
+        {
+          "id": "mechanical-systems-bearings-lubrication-and-rolling-contacts",
+          "domain": "mechanical-systems",
+          "label": "Bearings Lubrication and Rolling Contacts",
+          "tool_memberships": 16
+        },
+        {
+          "id": "mechanical-systems-powertrain-dynamics-durability-and-nvh",
+          "domain": "mechanical-systems",
+          "label": "Powertrain Dynamics Durability and NVH",
+          "tool_memberships": 7
+        },
+        {
+          "id": "mechanical-systems-contact-mechanics-friction-and-wear",
+          "domain": "mechanical-systems",
+          "label": "Contact Mechanics Friction and Wear",
+          "tool_memberships": 5
+        },
+        {
+          "id": "mechanical-systems-gears-transmissions-and-machine-element-design",
+          "domain": "mechanical-systems",
+          "label": "Gears Transmissions and Machine-Element Design",
+          "tool_memberships": 33
+        },
+        {
+          "id": "mechanical-systems-mechanical-seal-simulation",
+          "domain": "mechanical-systems",
+          "label": "Mechanical Seal Simulation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "mechanical-systems-turbomachinery-meanline-and-throughflow-design",
+          "domain": "mechanical-systems",
+          "label": "Turbomachinery Meanline and Throughflow Design",
+          "tool_memberships": 3
+        },
+        {
+          "id": "mechanical-systems-shafts-bearings-and-drivetrain-analysis",
+          "domain": "mechanical-systems",
+          "label": "Shafts Bearings and Drivetrain Analysis",
+          "tool_memberships": 6
+        },
+        {
+          "id": "mechanical-systems-gear-metrology-and-manufacturing-verification",
+          "domain": "mechanical-systems",
+          "label": "Gear Metrology and Manufacturing Verification",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "atmospheric-science",
+      "label": "Atmospheric Science and Meteorology",
+      "tool_records": 65,
+      "subcategories": [
+        {
+          "id": "water-atmosphere",
+          "domain": "atmospheric-science",
+          "label": "Atmospheric Composition and Air Quality",
+          "tool_memberships": 26
+        },
+        {
+          "id": "water-weather",
+          "domain": "atmospheric-science",
+          "label": "Weather Prediction and Climate Modeling",
+          "tool_memberships": 21
+        },
+        {
+          "id": "atmospheric-science-weather-and-climate-data-processing",
+          "domain": "atmospheric-science",
+          "label": "Weather and Climate Data Processing",
+          "tool_memberships": 4
+        },
+        {
+          "id": "atmospheric-science-atmospheric-radiative-transfer",
+          "domain": "atmospheric-science",
+          "label": "Atmospheric Radiative Transfer",
+          "tool_memberships": 7
+        },
+        {
+          "id": "atmospheric-science-earth-system-model-coupling-and-infrastructure",
+          "domain": "atmospheric-science",
+          "label": "Earth-System Model Coupling and Infrastructure",
+          "tool_memberships": 1
+        },
+        {
+          "id": "atmospheric-science-earth-system-data-assimilation",
+          "domain": "atmospheric-science",
+          "label": "Earth-System Data Assimilation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "atmospheric-science-forecast-verification-and-evaluation",
+          "domain": "atmospheric-science",
+          "label": "Forecast Verification and Evaluation",
+          "tool_memberships": 2
+        }
+      ]
+    },
+    {
+      "id": "embedded-software",
+      "label": "Embedded Software Engineering",
+      "tool_records": 68,
+      "subcategories": [
+        {
+          "id": "embedded-software-embedded-ides-and-development-toolchains",
+          "domain": "embedded-software",
+          "label": "Embedded IDEs and Development Toolchains",
+          "tool_memberships": 12
+        },
+        {
+          "id": "embedded-software-compilers-and-cross-compilation",
+          "domain": "embedded-software",
+          "label": "Compilers and Cross Compilation",
+          "tool_memberships": 4
+        },
+        {
+          "id": "embedded-software-real-time-operating-systems-and-partitioning",
+          "domain": "embedded-software",
+          "label": "Real-Time Operating Systems and Partitioning",
+          "tool_memberships": 12
+        },
+        {
+          "id": "embedded-software-autosar-architecture-and-basic-software",
+          "domain": "embedded-software",
+          "label": "AUTOSAR Architecture and Basic Software",
+          "tool_memberships": 7
+        },
+        {
+          "id": "embedded-software-virtual-ecus-and-embedded-system-simulation",
+          "domain": "embedded-software",
+          "label": "Virtual ECUs and Embedded System Simulation",
+          "tool_memberships": 7
+        },
+        {
+          "id": "embedded-software-ecu-measurement-calibration-and-diagnostics",
+          "domain": "embedded-software",
+          "label": "ECU Measurement Calibration and Diagnostics",
+          "tool_memberships": 2
+        },
+        {
+          "id": "embedded-software-model-based-embedded-code-generation",
+          "domain": "embedded-software",
+          "label": "Model-Based Embedded Code Generation",
+          "tool_memberships": 2
+        },
+        {
+          "id": "embedded-software-static-analysis-and-software-verification",
+          "domain": "embedded-software",
+          "label": "Static Analysis and Software Verification",
+          "tool_memberships": 9
+        },
+        {
+          "id": "embedded-software-embedded-debugging-trace-and-profiling",
+          "domain": "embedded-software",
+          "label": "Embedded Debugging Trace and Profiling",
+          "tool_memberships": 4
+        },
+        {
+          "id": "embedded-software-embedded-linux-distribution-and-image-builds",
+          "domain": "embedded-software",
+          "label": "Embedded Linux Distribution and Image Builds",
+          "tool_memberships": 2
+        },
+        {
+          "id": "embedded-software-embedded-unit-integration-and-regression-testing",
+          "domain": "embedded-software",
+          "label": "Embedded Unit Integration and Regression Testing",
+          "tool_memberships": 2
+        },
+        {
+          "id": "embedded-software-build-systems-and-dependency-management",
+          "domain": "embedded-software",
+          "label": "Build Systems and Dependency Management",
+          "tool_memberships": 5
+        }
+      ]
+    }
+  ]
+}

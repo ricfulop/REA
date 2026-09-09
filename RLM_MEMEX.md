@@ -112,3 +112,15 @@ unknown rights, conflicting units and tasks with irrelevant distractors. Require
 execution/physics oracles and held-out tasks before claiming a performance gain.
 Runtime enforcement of numbered leaf coverage and citation validity is still
 needed; the current adapter instructs the model but does not enforce those rules.
+
+## Engineering specialist taxonomy
+
+The runtime includes the complete pinned editorial taxonomy: 71 domains and 609 subcategories, covering 4,795 tool records and 5,658 memberships. Each domain has a specialist role specification with all of its subcategories. These profiles guide recursive calls; they are not independently trained or validated agents. Membership does not certify suitability.
+
+```sh
+python3 -m rlm_memex --db .local/memex.sqlite specialists
+python3 -m rlm_memex --db .local/memex.sqlite specialist cfd
+python3 -m rlm_memex --db .local/memex.sqlite ask --domain cfd --model MODEL "Assess the tool evidence for this task"
+```
+
+Use `--subcategory ID` with an explicit domain to narrow tool memberships further. Unknown or cross-domain IDs fail. Scoped calls preserve source evidence, expose missing evidence IDs, and retain shared skills, parts and datasets. The full definitions are in `rlm_memex/data/engineering_taxonomy.json`; generated documentation is in `docs/rlm/ENGINEERING_TAXONOMY.md`. The ICLR manuscript and evaluation protocol are under `paper/`.

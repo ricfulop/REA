@@ -27,10 +27,16 @@ def main():
     p.add_argument("--start", type=int, default=0)
     p.add_argument("--size", type=int, default=8000)
     sub.add_parser("stats")
+    sub.add_parser("specialists")
+    p = sub.add_parser("specialist")
+    p.add_argument("domain")
+    p.add_argument("--subcategory")
     p = sub.add_parser("ask")
     p.add_argument("question")
     p.add_argument("--model", required=True)
     p.add_argument("--backend", default="openai")
+    p.add_argument("--domain")
+    p.add_argument("--subcategory")
     args = parser.parse_args()
     store = MemexStore(args.db)
     try:
@@ -51,9 +57,16 @@ def main():
             result = store.read(args.namespace, args.id, args.version, args.start, args.size)
         elif args.command == "stats":
             result = store.stats()
+        elif args.command == "specialists":
+            from .taxonomy import specialists
+            result = specialists()
+        elif args.command == "specialist":
+            from .taxonomy import scope_context
+            result = scope_context(store.context(), args.domain, args.subcategory)["specialist"]
         else:
             from .engine import run
-            completion = run(store, args.question, args.model, args.backend)
+            completion = run(store, args.question, args.model, args.backend,
+                             domain=args.domain, subcategory=args.subcategory)
             result = {"answer": completion.response, "execution_time": completion.execution_time,
                       "usage": completion.usage_summary.to_dict()}
         print(json.dumps(result, indent=2, ensure_ascii=False))

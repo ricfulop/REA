@@ -1,0 +1,63 @@
+{
+  "taxonomy_version": "fdda226930e61c7f968566e1a6534571648db7b10973c24b82c95a7217434847",
+  "counts": {
+    "domains": 71,
+    "subcategories": 609,
+    "tool_records": 4795,
+    "memberships": 5658
+  },
+  "corpus": {
+    "datasets": {
+      "records": 10,
+      "chars": 6851
+    },
+    "evidence": {
+      "records": 48694,
+      "chars": 16133765
+    },
+    "parts": {
+      "records": 18,
+      "chars": 15295
+    },
+    "skills": {
+      "records": 1193,
+      "chars": 11213770
+    },
+    "tools": {
+      "records": 4795,
+      "chars": 89937872
+    }
+  },
+  "scope_checks": {
+    "cad": {
+      "tool_records": 65,
+      "evidence_records": 864,
+      "missing_evidence_ids": []
+    },
+    "optics": {
+      "tool_records": 167,
+      "evidence_records": 1746,
+      "missing_evidence_ids": []
+    },
+    "cfd": {
+      "tool_records": 131,
+      "evidence_records": 1482,
+      "missing_evidence_ids": []
+    },
+    "structural": {
+      "tool_records": 160,
+      "evidence_records": 1777,
+      "missing_evidence_ids": []
+    },
+    "eda-digital": {
+      "tool_records": 55,
+      "evidence_records": 531,
+      "missing_evidence_ids": []
+    },
+    "controls": {
+      "tool_records": 140,
+      "evidence_records": 1263,
+      "missing_evidence_ids": []
+    }
+  }
+}

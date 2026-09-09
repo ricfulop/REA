@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{iclr2027_conference,times}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref,url,booktabs,longtable,amsmath,amssymb}
+% Draft-only labels; remove these patches for an actual submission.
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@maketitle}{Under review as a conference paper at ICLR 2027}{Working draft for ICLR 2027 --- not submitted}{}{}
+\patchcmd{\@maketitle}{Paper under double-blind review}{Author details pending}{}{}
+\makeatother
+\hypersetup{hidelinks}
+\title{REA: Recursive Engineering Agents with Versioned Tool, Parts, and Dataset Memory}
+\author{Anonymous authors}
+\begin{document}
+\maketitle
+\begin{abstract}
+Engineering agents must combine procedural knowledge with evidence about tools, components, datasets, and their compatibility. This working draft presents Recursive Engineering Agents (REA), an experimental adaptation of procedural scientific skills to recursive language model execution over versioned external memory. REA separates skills, tools, parts, datasets, and supporting evidence, and provides specialist profiles covering 71 engineering domains and 609 subcategories. Explicit category membership scopes catalog access while preserving source references. The current implementation supports bounded recursive execution and immutable record addressing; it does not provide an unlimited model context window. We report implementation checks and a catalog census, and specify a comparative evaluation protocol. Engineering task accuracy, gains over retrieval baselines, and generalization across domains remain unmeasured. This draft is a research scaffold and is not ready for submission.
+\end{abstract}
+
+\section{Introduction}
+Engineering reasoning depends on more than identifying a plausible procedure. An agent may need to determine whether a solver supports a boundary condition, whether a component meets an interface constraint, or whether a dataset contains the required variables. The relevant evidence may span procedural documents, tool descriptions, component catalogs, and dataset documentation. Providing this material as a single model prompt couples the accessible evidence to the model's finite input capacity.
+
+Scientific Agent Skills organizes procedural knowledge for research agents \citep{Kassis.2026}. Recursive Language Models expose long inputs as an external environment that can be inspected programmatically and processed through recursive model calls \citep{Zhang.2025}. REA combines these mechanisms with versioned engineering catalog records. Its proposed contribution is a reproducible way to scope and trace engineering evidence across recursive investigations. Whether this combination improves engineering outcomes is the central empirical question, not an established result.
+
+The implementation contribution consists of separate memory namespaces, stable record identity, catalog provenance checks, and a complete engineering taxonomy shared between runtime specialist profiles and this appendix. The planned scientific contribution requires demonstrating that these mechanisms improve independently checked task outcomes under matched resource budgets. We do not infer capability from the number of indexed records or the number of specialist profiles.
+
+\section{Related work}
+Procedural skill libraries externalize instructions that can be loaded when relevant \citep{Kassis.2026}. Recursive Language Models instead address how a model can inspect and decompose a large external input \citep{Zhang.2025}. REA adopts the latter execution mechanism rather than introducing a new recursive model architecture. Persistent memory systems such as MemGPT address management of information beyond the immediate prompt \citep{Packer.2023}; the distinctive engineering question here concerns versioned evidence, compatibility constraints, and domain scoping.
+
+A scite-assisted discovery pass produced 262 distinct DOI candidate records from twelve queries and a capped citation-graph expansion. These are candidate literature records, not a complete systematic review. Screening and metadata reconciliation remain necessary before making novelty claims. The engineering comparison must cover domain-specific simulation agents, CAD and component retrieval, structural design, controls, and materials workflows. A catalog survey cannot substitute for direct comparisons with the most relevant systems.
+
+\section{Method}
+Let a memory record be $r=(n,i,v,b)$, where $n$ is its namespace, $i$ its identifier, $v$ its version, and $b$ its body. The store rejects changes to an existing namespace--identifier--version tuple. The five namespaces contain procedural skills, engineering tools, parts-source records, dataset-source records, and supporting evidence. The parts and dataset namespaces currently describe sources rather than complete inventories of components or datasets.
+
+\subsection{Taxonomy and specialist scope}
+The taxonomy defines domains $D$ and subcategories $C_d$ for each domain $d$. A tool record has explicit catalog memberships $M(r)$. For a requested domain, the scoped tool set is
+\begin{equation}
+T_d = \{r\in T : M(r)\cap C_d\ne\varnothing\}.
+\end{equation}
+Selecting one subcategory replaces $C_d$ with that singleton. Unknown domains and categories belonging to another domain are rejected. Membership is editorial metadata; it does not certify task suitability, numerical accuracy, or availability of a tool.
+
+Every domain receives a specialist role specification containing its complete subcategory definitions and instructions to preserve assumptions, units, versions, interfaces, uncertainty, and cited findings. These are profiles for recursive calls, not 71 independently trained or empirically qualified agents. Cross-domain work requires explicit handoffs. The runtime supplies the profiles to the recursive model; automatic optimal routing is not established.
+
+The scope operation selects supporting evidence referenced by the retained tool records and shared parts and dataset records. Missing evidence identifiers are exposed. Skills and shared parts and dataset records remain available. Consequently, domain scoping reduces tool evidence but does not promise that every retained record is relevant to the task.
+
+\subsection{Recursive execution and resource bounds}
+The experimental adapter uses the authors' RLM implementation with an external Python dictionary in a Docker environment. The model can inspect this dictionary and request recursive subcalls. The default configuration caps depth at three, iterations at twenty, elapsed execution at 300 seconds, and tokens at 100,000, with four concurrent requests. A dollar threshold is a soft budget guard rather than a guarantee against an in-flight request exceeding the threshold.
+
+The current adapter materializes the selected corpus in host memory before execution. A configurable serialized-character guard limits the exposed payload. It is therefore neither a paged storage service nor an unlimited context window. Each model call remains bounded by the underlying model context, and the system remains bounded by memory, latency, and compute. Scalability must be measured across corpus sizes and task families.
+
+\section{Current implementation evidence}
+The local snapshot contains 1,193 skill and reference documents, 4,795 tool records, 48,694 evidence records, 18 parts-source records, and 10 dataset-source records. The tool taxonomy contains 71 domains, 609 subcategories, and 5,658 tool--subcategory membership edges. Counts describe coverage of the imported snapshot, not unique engineering capabilities or validated workflows.
+
+Fourteen deterministic extension tests and ten repository metadata tests passed. The extension tests include immutable addressing, import and retrieval behavior, complete taxonomy counts, scope membership, cross-domain rejection, and missing-evidence reporting. Six local catalog scope audits, covering CAD, optics, CFD, structures, digital electronics, and controls, found no missing referenced evidence IDs in the scoped records. This establishes reference availability for those audits, not factual correctness of the evidence.
+
+A previously recorded synthetic smoke test asked the recursive runtime to combine two load records containing 17 and 29. It returned 46 with both record identifiers. The trace recorded two recursive subcalls, five total model calls, 13,965 input tokens, and 13,517 output tokens over approximately 269 seconds. This test demonstrates one successful recursive execution path. It predates the taxonomy integration and does not validate engineering performance or the specialist profiles.
+
+\section{Planned evaluation}
+The primary outcome will be independently scored engineering task correctness. The proposed task families cover CAD, CFD, structural mechanics, controls, optics, and digital electronics. Tasks must specify source artifacts, units, tolerances, compatibility constraints, and independent expected outcomes. Problem-family splits will separate related designs to reduce answer leakage. Answers and scorer artifacts must remain outside model-accessible memory.
+
+The planned conditions are the same model without external resources, progressive skill disclosure, flat retrieval over the memory stores, recursive access to skills, recursive access to all stores, and the full taxonomy-scoped configuration. Models, prompts, and resource ceilings will be matched. Leave-one-store-out and taxonomy-disabled controls will test whether apparent improvements arise from additional evidence or from the scoping mechanism.
+
+The initial planning target is twenty tasks per domain with three repeated runs per condition. A pilot will estimate variance and cost before freezing the final held-out design. Paired outcomes will be summarized with confidence intervals obtained by resampling problem families, with repeated runs aggregated within task. We will report domain-specific correctness, citation support, abstention, constraint violations, latency, token usage, recursion depth, cost, and all failed attempts. No comparative results are available in this draft.
+
+\section{Limitations}
+The current corpus is uneven across domains and includes descriptive catalog records that do not establish executable access. Lexical retrieval may miss relevant synonyms. Editorial category errors can exclude useful tools, while shared records can retain irrelevant material. Source provenance does not establish source accuracy. Recursive calls can propagate incorrect assumptions or spend substantial computation on unproductive decomposition. The observed smoke test provides no estimate of robustness, statistical uncertainty, or engineering validity.
+
+The system extends upstream procedural skills and an existing recursive runtime. Establishing novelty requires a completed comparison with adjacent engineering systems and a clear empirical distinction from simply combining retrieval with recursion. Claims about superior performance, unlimited context, autonomous design qualification, or broad domain competence are not supported by the present evidence.
+
+\section*{AI use statement}
+Generative AI assisted with the conceptual framework, implementation, literature discovery and synthesis, taxonomy integration, experimental protocol, and manuscript drafting. The synthetic recursion fixture was used for software validation rather than as a scientific dataset. Human review of the manuscript, citations, experimental design, and implementation remains pending. Before submission, the authors must verify the AI-assisted artifacts and update this statement to accurately describe completed review and their responsibility for the final work.
+
+\section*{Ethics statement}
+Engineering recommendations can fail when units, constraints, or source assumptions are wrong. Catalog records and generated recommendations require independent validation before consequential use. Redistributed artifacts must respect source licenses and exclude credentials or private catalog contents. This draft reports no human-subject study.
+
+\section*{Reproducibility statement}
+The code includes deterministic tests and a recorded synthetic recursive execution trace. The taxonomy appendix is generated from the same versioned definitions used by the runtime. The accompanying evaluation protocol specifies run metadata and artifact requirements. A fully anonymous reproducibility bundle and completed comparative experiment traces remain to be prepared before submission.
+
+\bibliography{references}
+\bibliographystyle{iclr2027_conference}
+\appendix
+\input{../taxonomy}
+\end{document}
