@@ -39,10 +39,14 @@ Keep the ICLR review PDF anonymous. This public project README contains identify
 
 ## Build
 
-From `paper/`: `python3 build_taxonomy.py`, then `make`. Requires Python 3 and TeX Live with latexmk. Output: `iclr2027/rea.pdf`. The complete 71-domain, 609-subcategory taxonomy is generated from the same JSON used by the runtime; do not edit the generated appendix independently.
+From `paper/`: `python3 build_taxonomy.py`, then `make`. Requires Python 3 with Matplotlib and TeX Live with latexmk. Output: `iclr2027/rea.pdf`. The complete 71-domain, 609-subcategory taxonomy is generated from the same JSON used by the runtime; do not edit the generated appendix independently.
 
 ## Submission gate
 
 Proceed only with completed, reproducible engineering evaluations against matched baselines, a defensible novelty comparison, verified citations, and author approval of every claim. Passing runtime tests and a synthetic recursion smoke test is not evidence of engineering superiority. Narrow the claim or use the fallback venue if evidence is insufficient.
 
 See `EXPERIMENTS.md` for the evaluation protocol. `taxonomy-verification.json` is a local corpus audit, not a benchmark. The wider scite inventory is in `../docs/rlm/`; its candidate records are not all screened and should not automatically enter the manuscript bibliography.
+
+## Capability figures
+
+The draft includes a reproducible corpus-scale scenario and a recursive workflow diagram. Vector PDF/SVG, PNG previews, source data, assumptions and build code are in [figures/](figures/README.md). The 60M-part example is a design scenario, not a measured ingestion or performance result.

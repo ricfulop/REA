@@ -2,7 +2,7 @@
 \usepackage{iclr2027_conference,times}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{hyperref,url,booktabs,longtable,amsmath,amssymb}
+\usepackage{hyperref,url,booktabs,longtable,amsmath,amssymb,graphicx}
 % Draft-only labels; remove these patches for an actual submission.
 \usepackage{etoolbox}
 \makeatletter
@@ -15,7 +15,7 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Engineering agents must combine procedural knowledge with evidence about tools, components, datasets, and their compatibility. This working draft presents Recursive Engineering Agents (REA), an experimental adaptation of procedural scientific skills to recursive language model execution over versioned external memory. REA separates skills, tools, parts, datasets, and supporting evidence, and provides specialist profiles covering 71 engineering domains and 609 subcategories. Explicit category membership scopes catalog access while preserving source references. The current implementation supports bounded recursive execution and immutable record addressing; it does not provide an unlimited model context window. We report implementation checks and a catalog census, and specify a comparative evaluation protocol. Engineering task accuracy, gains over retrieval baselines, and generalization across domains remain unmeasured. This draft is a research scaffold and is not ready for submission.
+Engineering agents must combine procedural knowledge with evidence about tools, components, datasets, and their compatibility. This working draft presents Recursive Engineering Agents (REA), an experimental adaptation of procedural scientific skills to recursive language model execution over versioned external memory. REA separates skills, tools, parts, datasets, and supporting evidence, and provides specialist profiles covering 71 engineering domains and 609 subcategories. Explicit category membership scopes catalog access while preserving source references. The current implementation supports bounded recursive execution and immutable record addressing; it supports recursive, multi-turn analysis of external corpora larger than an individual model context window, with practical capacity governed by memory and computational budgets. We report implementation checks and a catalog census, and specify a comparative evaluation protocol. Engineering task accuracy, gains over retrieval baselines, and generalization across domains remain unmeasured. This draft is a research scaffold and is not ready for submission.
 \end{abstract}
 
 \section{Introduction}
@@ -24,6 +24,18 @@ Engineering reasoning depends on more than identifying a plausible procedure. An
 Scientific Agent Skills organizes procedural knowledge for research agents \citep{Kassis.2026}. Recursive Language Models expose long inputs as an external environment that can be inspected programmatically and processed through recursive model calls \citep{Zhang.2025}. REA combines these mechanisms with versioned engineering catalog records. Its proposed contribution is a reproducible way to scope and trace engineering evidence across recursive investigations. Whether this combination improves engineering outcomes is the central empirical question, not an established result.
 
 The implementation contribution consists of separate memory namespaces, stable record identity, catalog provenance checks, and a complete engineering taxonomy shared between runtime specialist profiles and this appendix. The planned scientific contribution requires demonstrating that these mechanisms improve independently checked task outcomes under matched resource budgets. We do not infer capability from the number of indexed records or the number of specialist profiles.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../figures/corpus-capacity.pdf}
+\caption{\textbf{Analytical corpus-scale scenario, not a benchmark result.} A hypothetical 60-million-part catalog at 500 tokens per specification requires 30 billion tokens. A separate one-million-document operating-manual corpus at 10,000 tokens per document adds 10 billion. Together they represent 40,000 one-million-token prompt equivalents, or approximately 4.6 orders of magnitude. Token densities and counts are explicit assumptions; the parts sensitivity range is not a confidence interval. Prompt equivalents describe corpus size, not the number of model calls, coverage, speedup, or measured task performance.}
+\label{fig:capacity}
+\end{figure}
+
+\section{Corpus-scale motivation}
+Figure~\ref{fig:capacity} illustrates the scale difference between a fixed prompt and externally accessible engineering evidence. Under its assumptions, even allocating an entire one-million-token window to specifications would fit at most 2,000 parts, or approximately 0.0033\% of the catalog. Actual prompt capacity would be lower after instructions and other input are included. Selective external access allows an agent to investigate candidates across turns without placing the entire catalog in a single call. It does not imply that every record is read or that all relevant records are found.
+
+This capacity distinction is shared with retrieval-based systems. REA's proposed additional benefit is recursive decomposition: subcalls can inspect component specifications and operating procedures separately, return cited intermediate findings, and trigger further investigation of unresolved constraints (Figure~\ref{fig:workflow}). Demonstrating that this mechanism improves accuracy or cost requires a matched multi-turn retrieval baseline. The 60-million-part scenario has not been ingested or evaluated in the current implementation; paged access and durable execution state are required engineering work for that scale.
 
 \section{Related work}
 Procedural skill libraries externalize instructions that can be loaded when relevant \citep{Kassis.2026}. Recursive Language Models instead address how a model can inspect and decompose a large external input \citep{Zhang.2025}. REA adopts the latter execution mechanism rather than introducing a new recursive model architecture. Persistent memory systems such as MemGPT address management of information beyond the immediate prompt \citep{Packer.2023}; the distinctive engineering question here concerns versioned evidence, compatibility constraints, and domain scoping.
@@ -48,6 +60,13 @@ The scope operation selects supporting evidence referenced by the retained tool 
 The experimental adapter uses the authors' RLM implementation with an external Python dictionary in a Docker environment. The model can inspect this dictionary and request recursive subcalls. The default configuration caps depth at three, iterations at twenty, elapsed execution at 300 seconds, and tokens at 100,000, with four concurrent requests. A dollar threshold is a soft budget guard rather than a guarantee against an in-flight request exceeding the threshold.
 
 The current adapter materializes the selected corpus in host memory before execution. A configurable serialized-character guard limits the exposed payload. It is therefore neither a paged storage service nor an unlimited context window. Each model call remains bounded by the underlying model context, and the system remains bounded by memory, latency, and compute. Scalability must be measured across corpus sizes and task families.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../figures/recursive-workflow.pdf}
+\caption{\textbf{Access patterns and proposed recursive advantage.} A single model call sees only its supplied evidence. A retrieval-based agent can also access large corpora and iterate. REA supplies an external environment for inspection and recursive subcalls, enabling separate investigations of specifications and procedures followed by source-linked integration. All model calls remain bounded. The dashed paging and durable-state component is required for the target scale and is not implemented by the current RAM-materializing adapter. This schematic is not an execution trace or evidence of engineering superiority.}
+\label{fig:workflow}
+\end{figure}
 
 \section{Current implementation evidence}
 The local snapshot contains 1,193 skill and reference documents, 4,795 tool records, 48,694 evidence records, 18 parts-source records, and 10 dataset-source records. The tool taxonomy contains 71 domains, 609 subcategories, and 5,658 tool--subcategory membership edges. Counts describe coverage of the imported snapshot, not unique engineering capabilities or validated workflows.

@@ -36,3 +36,11 @@ Store one JSON record per attempt containing task_id, split, domain_id, conditio
 ## Current evidence
 
 Fourteen deterministic extension tests and ten upstream metadata tests passed on September 9, 2026. A previously recorded two-record synthetic load-summation test demonstrated recursive subcalls; it is not an engineering benchmark. Full taxonomy export contains 71 domains, 609 subcategories, 4,795 tool records and 5,658 membership edges. Six real catalog scope audits reported no missing referenced evidence IDs. No comparative task-success result has been measured yet.
+
+## Corpus-scaling experiment for Figures 1–2
+
+The capacity figures motivate a separate scaling experiment; they are not its results. Compare single-call selection, multi-turn retrieval, and recursive investigation using the same indexed corpus, model snapshot, relevant evidence, and budgets. Scale distractors from corpora fitting within 1M tokens through 10M, 100M, 1B, and the proposed 60M-part target, subject to storage and execution feasibility. Record actual tokenizer counts and distinguish real parts from synthetic distractors. Synthetic catalogs can test systems scaling but cannot establish real engineering usefulness.
+
+Use tasks requiring specification filtering, cross-part compatibility, manual procedure lookup and a dependent validation step. Plant or independently identify the required evidence; retain problem families across sizes while adding distractors. Measure task correctness, relevant-evidence recall, constraint violations, latency, cost, bytes read, calls and depth. Include absent-answer cases and adversarially similar specifications. Keep the same answer-bearing records across conditions and exclude them from training or tuning. Report unavailable scale points as not run.
+
+Before running the largest scales, implement paged index access and durable execution state; current in-RAM materialization cannot establish target-scale operation. Corpus access alone is not a differentiator from RAG: the empirical comparison must isolate recursive decomposition and integration from extra retrieval opportunities or larger budgets.

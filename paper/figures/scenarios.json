@@ -1,0 +1,10 @@
+{
+  "status": "Analytical design scenario; not measured corpus ingestion or task performance",
+  "source": "User requested a catalog exceeding 50 million parts. Counts and token densities below are explicit design assumptions, not vendor statistics.",
+  "window_tokens": 1000000,
+  "parts": {"records": 60000000, "tokens_per_record": 500, "sensitivity_tokens_per_record": [100, 500, 2000]},
+  "manuals": {"documents": 1000000, "tokens_per_document": 10000, "sensitivity_tokens_per_document": [1000, 10000, 100000]},
+  "scope": "Text only; excludes images, CAD geometry, simulation data, indexes, metadata overhead and duplicate elimination. Manuals are a separate corpus in this scenario.",
+  "normalization": "corpus_tokens / window_tokens; log10 ratio is orders of magnitude. A window equivalent is not a model call or a cost estimate.",
+  "uncertainty": "Sensitivity values are assumptions, not confidence intervals. No sampled observations."
+}

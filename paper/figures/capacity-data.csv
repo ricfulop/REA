@@ -1,0 +1,5 @@
+scenario,tokens,window_equivalents,orders_above_window
+Single prompt,1000000,1.0,0.0
+Operating manuals,10000000000,10000.0,4.0
+Part specifications,30000000000,30000.0,4.477121254719663
+Combined corpus,40000000000,40000.0,4.6020599913279625

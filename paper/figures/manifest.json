@@ -1,0 +1,31 @@
+{
+  "evidence_type": "analytical scenario and architecture diagram; no experimental outcomes",
+  "inputs": {
+    "scenarios.json": "a2b6b621de395611ba9508b48368f09d2bfe367c3ee69253cfe3c572cb9950d4"
+  },
+  "matplotlib": "3.10.6",
+  "exports": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "png_dpi": 300,
+  "dimensions_inches": {
+    "corpus-capacity": [
+      7,
+      5.4
+    ],
+    "recursive-workflow": [
+      7,
+      6.4
+    ]
+  },
+  "transforms": [
+    "tokens=count*density",
+    "window_equivalents=tokens/1000000",
+    "log10 x-axis"
+  ],
+  "missing_data": "No performance data available; none plotted",
+  "randomness": "None",
+  "intervals": "Sensitivity scenarios, not confidence intervals"
+}
