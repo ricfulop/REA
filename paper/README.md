@@ -14,7 +14,7 @@ Target: ICLR 2027. Status: research draft, not submitted; comparative experiment
 | September 24 | Human technical review, citation audit, anonymization and PDF checks |
 | September 25, 23:59 AoE | Official full paper deadline |
 
-No authors can be added after the abstract deadline. These are project milestones, not scheduled automations. Author names, affiliations, OpenReview profiles and reviewer eligibility must be supplied before submission.
+No authors can be added after the abstract deadline. These are project milestones, not scheduled automations. The author roster is recorded below. Outstanding affiliation details, OpenReview profiles and reviewer eligibility must be resolved before submission.
 
 Official sources checked September 9, 2026:
 - https://iclr.cc/Conferences/2027/CallForPapers
@@ -23,6 +23,19 @@ Official sources checked September 9, 2026:
 - https://media.iclr.cc/Conferences/ICLR2027/iclr-2027-style-files.zip
 
 The main text limit is nine pages; references and appendices are excluded. The official unmodified style and bibliography style are in `iclr2027/`. The draft includes the required AI use section. Human verification is pending, so that section must not claim it has happened. The old NeurIPS style files are retained only for provenance.
+
+## Authorship
+
+Author order supplied by Ric Fulop:
+
+| Order | Author | Affiliation |
+| --- | --- | --- |
+| 1 | Ric Fulop | Pending confirmation |
+| 2 | Neil Gershenfeld | MIT Center for Bits and Atoms (CBA) |
+
+Ric Fulop is first author. His publication affiliation and both authors' OpenReview profiles remain to be recorded. Corresponding authorship and contribution statements have not been specified. This roster records the user's authorship instruction; it does not assert that manuscript review or coauthor approval has been completed.
+
+Keep the ICLR review PDF anonymous. This public project README contains identifying information and must be excluded from an anonymous submission bundle.
 
 ## Build
 
