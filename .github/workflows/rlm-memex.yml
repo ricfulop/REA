@@ -1,4 +1,4 @@
-name: RLM Memex adapter
+name: REA runtime adapter
 on:
   push:
     paths: ['rlm_memex/**', 'tests/_rlm_memex/**', '.github/workflows/rlm-memex.yml']

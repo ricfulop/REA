@@ -1,10 +1,14 @@
-# Scientific Agent Skills
+# REA — Recursive Engineering Agents
 
-> **RLM + engineering Memex adaptation:** This fork adds an experimental external
+> **REA — Recursive Engineering Agents:** This fork adds an experimental external
 > corpus and recursive runtime adapter for skills, tools, parts and datasets.
 > Start with [RLM_MEMEX.md](RLM_MEMEX.md) and the
 > [scite related-work inventory](docs/rlm/RELATED_WORK.md).
 > Engineering performance improvements have not yet been benchmarked.
+
+REA combines recursive language models with scientific procedures and Tool, Parts,
+and Dataset Memex catalogs. It builds on K-Dense’s Scientific Agent Skills; the
+upstream documentation and citation below describe that inherited collection.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![arXiv](https://img.shields.io/badge/arXiv-2609.00065-b31b1b.svg)](https://arxiv.org/abs/2609.00065)

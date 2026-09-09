@@ -1,6 +1,6 @@
-# Scientific Agent Skills with RLM and engineering Memex
+# REA — Recursive Engineering Agents
 
-This adaptation adds a versioned external corpus and an adapter to the authors'
+REA adds a versioned external corpus and an adapter to the authors'
 Recursive Language Models implementation. The upstream portable skills remain
 available. This is an experimental runtime extension, not a validated claim of
 improved engineering performance or a literally unlimited model context window.

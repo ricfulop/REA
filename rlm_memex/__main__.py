@@ -4,7 +4,7 @@ from .store import MemexStore, import_catalog, import_skills, verify_handoff
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Scientific skills and engineering Memex for RLM")
+    parser = argparse.ArgumentParser(description="REA — Recursive Engineering Agents")
     parser.add_argument("--db", required=True)
     sub = parser.add_subparsers(dest="command", required=True)
     p = sub.add_parser("index-skills")

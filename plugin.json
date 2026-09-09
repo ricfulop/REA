@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "scientific-agent-skills",
+  "name": "rea",
   "version": "2.66.0",
-  "description": "Ready-to-use scientific and research Agent Skills for biology, chemistry, medicine, and related workflows.",
+  "description": "Recursive Engineering Agents: scientific procedures with RLM and Tool, Parts and Dataset Memex.",
   "author": {
     "name": "K-Dense Inc.",
     "url": "https://k-dense.ai"
   },
-  "homepage": "https://github.com/K-Dense-AI/scientific-agent-skills",
-  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "homepage": "https://github.com/ricfulop/REA",
+  "repository": "https://github.com/ricfulop/REA",
   "license": "MIT",
   "keywords": [
     "agent-skills",
@@ -18,6 +18,9 @@
     "cheminformatics",
     "biology",
     "chemistry",
-    "medicine"
+    "medicine",
+    "engineering",
+    "recursive-language-models",
+    "memex"
   ]
 }

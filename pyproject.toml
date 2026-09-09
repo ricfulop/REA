@@ -1,7 +1,7 @@
 [project]
-name = "scientific-agent-skills"
+name = "rea"
 version = "2.66.0"
-description = "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+description = "Recursive Engineering Agents: scientific procedures, RLM and engineering Memex."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

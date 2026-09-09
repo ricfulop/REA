@@ -1,4 +1,4 @@
-# RLM, scientific procedures and engineering Memex: related work
+# REA — Recursive Engineering Agents: related work
 
 Search date: 9 September 2026 UTC. This is a scoping discovery inventory to guide
 the implementation and benchmark design, not a completed systematic review.

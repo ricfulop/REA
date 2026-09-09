@@ -30,7 +30,7 @@ PLUGIN_MANIFEST = REPO_ROOT / "plugin.json"
 PYPROJECT = REPO_ROOT / "pyproject.toml"
 
 PLUGIN_SCHEMA = "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
-PLUGIN_NAME = "scientific-agent-skills"
+PLUGIN_NAME = "rea"
 ALLOWED_PLUGIN_KEYS = frozenset(
     {
         "$schema",
