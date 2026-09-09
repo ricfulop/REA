@@ -30,10 +30,10 @@ Author order supplied by Ric Fulop:
 
 | Order | Author | Affiliation |
 | --- | --- | --- |
-| 1 | Ric Fulop | Pending confirmation |
+| 1 | Ric Fulop | MIT Center for Bits and Atoms (CBA) |
 | 2 | Neil Gershenfeld | MIT Center for Bits and Atoms (CBA) |
 
-Ric Fulop is first author. His publication affiliation and both authors' OpenReview profiles remain to be recorded. Corresponding authorship and contribution statements have not been specified. This roster records the user's authorship instruction; it does not assert that manuscript review or coauthor approval has been completed.
+Ric Fulop is first author. Both authors are affiliated with MIT Center for Bits and Atoms (CBA), as confirmed by Ric Fulop. Both authors' OpenReview profiles remain to be recorded. Corresponding authorship and contribution statements have not been specified. This roster records the user's authorship instruction; it does not assert that manuscript review or coauthor approval has been completed.
 
 Keep the ICLR review PDF anonymous. This public project README contains identifying information and must be excluded from an anonymous submission bundle.
 
