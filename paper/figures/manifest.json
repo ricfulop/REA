@@ -12,14 +12,16 @@
   "png_dpi": 300,
   "dimensions_inches": {
     "corpus-capacity": [
-      7,
-      5.4
+      7.24,
+      4.6
     ],
     "recursive-workflow": [
-      7,
-      6.4
+      7.24,
+      6.0
     ]
   },
+  "style": "Ric Fulop science-figure-style; external canonical styles.py",
+  "style_sha256": "e5d0de3f1a72bd0c1c61ba241d9378791b20d2a77db4e971c6a44ceb02f33286",
   "transforms": [
     "tokens=count*density",
     "window_equivalents=tokens/1000000",
